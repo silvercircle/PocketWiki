@@ -1,0 +1,76 @@
+version=pmwiki-2.2.18 ordered=1 urlencoded=1
+agent=Opera/9.80 (Windows NT 6.1; U; en) Presto/2.8.131 Version/11.10
+author=admin
+charset=UTF-8
+csum=
+host=81.217.70.206
+name=Site.SideBar
+passwdattr=@lock
+passwdedit=@lock
+rev=27
+targets=Main.Sitemap,Main.HelpContents,Main.SVNRepositories,Main.ReportingBugs,Site.Contact,TabSRMM.TabSRMM,Firefox.Firefox,Eclipse.Eclipse,PmWiki.PmWiki,PmWiki.BasicEditing,PmWiki.DocumentationIndex,PmWiki.FAQ,PmWiki.PmWikiPhilosophy,PmWiki.ReleaseNotes,PmWiki.ChangeLog,PmWiki.MailingLists,Site.SideBar,Category.Templates,Main.Scratch,Main.Sitelog
+text=(:div class="sidebar_container" :)%0a%25sidehead%25 Site%0a* [[Main.Sitemap|Site map]]%0a* [[Main.HelpContents|Site help]]%0a* [[http://blog.miranda.or.at|Blog]]%0a* [[http://forum.miranda.or.at|Forum]]%0a* [[Main/SVN_Repositories|Code]]%0a* [[Main/Reporting bugs|Bugs]]%0a* [[Site/Contact|Contact form]]%0a%0a%25sidehead%25 Main categories%0a* [[TabSRMM.|TabSRMM]]%0a* [[Firefox.|Mozilla Firefox]]%0a* [[Eclipse.|Eclipse]]%0a%0a%25sidehead%25 External%0a* [[http://www.miranda-im.org|Miranda home]]%0a* [[http://forums.miranda-im.org/|Official miranda forum]]%0a* [[http://code.google.com/p/miranda/issues/list|Miranda bug tracker]]%0a* [[http://www.miranda-im.org/download/|Miranda downloads]]%0a* [[http://code.google.com/p/silvercircle/|My googlecode site]]%0a%0a%25sidehead%25 [[PmWiki/PmWiki]]%0a* [[PmWiki/BasicEditing|Editing Help]]%0a* [[PmWiki/Documentation Index]]%0a* [[PmWiki/FAQ | PmWiki FAQ ]]%0a* [[PmWiki/PmWikiPhilosophy]]%0a* [[PmWiki/Release Notes]]%0a* [[PmWiki/ChangeLog]]%0a%0a%25sidehead%25 [[http://www.pmwiki.org | pmwiki.org ]]%0a* [[Cookbook:CookbookBasics | Cookbook (addons) ]]%0a* [[Cookbook:Skins | Skins (themes) ]]%0a* [[PITS:PITS | PITS (issue tracking) ]]%0a* [[PmWiki/Mailing Lists]]%0a%0a(:if authid:)%0a%25sidehead%25 Admin%0a* [[Site.SideBar|Edit side bar]]%0a* [[Category/Templates|Templates]]%0a* [[Main/Scratch|Scratchpad]]%0a* [[Main/Sitelog|Site change log]]%0a(:if:)%0a(:divend:)
+time=1305393520
+author:1305393520=admin
+diff:1305393520:1291856914:=1d0%0a%3c (:div class="sidebar_container" :)%0a44d42%0a%3c (:divend:)%0a\ No newline at end of file%0a
+host:1305393520=81.217.70.206
+author:1291856914=admin
+diff:1291856914:1288688000:=
+host:1291856914=81.217.70.206
+author:1288688000=admin
+diff:1288688000:1288120641:=13d12%0a%3c * [[Eclipse.|Eclipse]]%0a
+host:1288688000=81.217.70.206
+author:1288120641=admin
+diff:1288120641:1287990582:=12d11%0a%3c * [[Firefox.|Mozilla Firefox]]%0a
+host:1288120641=81.217.70.206
+author:1287990582=admin
+diff:1287990582:1287973473:=38,39d37%0a%3c * [[Main/Scratch|Scratchpad]]%0a%3c * [[Main/Sitelog|Site change log]]%0a
+host:1287990582=81.217.70.206
+author:1287973473=admin
+diff:1287973473:1287854572:=8d7%0a%3c * [[Site/Contact|Contact form]]%0a
+host:1287973473=81.217.70.206
+author:1287854572=admin
+diff:1287854572:1287854528:=31a32%0a> %3c%3c%3c%3c%3c%3c%3c %0a
+host:1287854572=81.217.70.206
+author:1287854528=admin
+diff:1287854528:1287854465:=32a33,36%0a> %0a> (:if authid:)%0a> foo%0a> =======%0a
+host:1287854528=81.217.70.206
+author:1287854465=admin
+diff:1287854465:1287854434:=41a42%0a> >>>>>>> %0a
+host:1287854465=81.217.70.206
+author:1287854434=admin
+diff:1287854434:1287854367:=32,33c32%0a%3c %3c%3c%3c%3c%3c%3c%3c %0a%3c %0a---%0a> %0a35,38d33%0a%3c foo%0a%3c =======%0a%3c %0a%3c (:if authid:)%0a42d36%0a%3c >>>>>>> %0a
+host:1287854434=81.217.70.206
+author:1287854367=admin
+diff:1287854367:1287854166:=36c36%0a%3c * [[Category/Templates|Templates]]%0a---%0a> * [[Template|Templates]]%0a
+host:1287854367=81.217.70.206
+author:1287854166=admin
+diff:1287854166:1287853366:=0a1,2%0a> (:if equal {$bi_BlogIt_Enabled} 1:)(:include Site.BlogIt-SideBar:)%0a> (:else:)%0a32,36d33%0a%3c %0a%3c (:if authid:)%0a%3c %25sidehead%25 Admin%0a%3c * [[Site.SideBar|Edit side bar]]%0a%3c * [[Template|Templates]]%0a
+host:1287854166=81.217.70.206
+author:1287853366=admin
+diff:1287853366:1287852978:=1c1%0a%3c (:if equal {$bi_BlogIt_Enabled} 1:)(:include Site.BlogIt-SideBar:)%0a---%0a> (:if equal {$bi_BlogIt_Enabled} 1:)(:include Site.BlogIt-SideBar blogid=MY_BLOG_ID:)%0a
+host:1287853366=81.217.70.206
+author:1287852978=admin
+diff:1287852978:1287812817:=1,2d0%0a%3c (:if equal {$bi_BlogIt_Enabled} 1:)(:include Site.BlogIt-SideBar blogid=MY_BLOG_ID:)%0a%3c (:else:)%0a34d31%0a%3c (:if:)%0a
+host:1287852978=81.217.70.206
+author:1287812817=admin
+diff:1287812817:1287812229:=7c7%0a%3c * [[Main/Reporting bugs|Bugs]]%0a---%0a> * [[Reporting bugs|Bugs]]%0a
+host:1287812817=81.217.70.206
+author:1287812229=admin
+diff:1287812229:1287811536:=6c6%0a%3c * [[Main/SVN_Repositories|Code]]%0a---%0a> * [[SVN_Repositories|Code]]%0a
+host:1287812229=81.217.70.206
+author:1287811536=admin
+diff:1287811536:1287811526:=10c10%0a%3c * [[TabSRMM.|TabSRMM]]%0a---%0a> * [[TabSRMM.]]%0a
+host:1287811536=81.217.70.206
+author:1287811526=admin
+diff:1287811526:1287811511:=10c10%0a%3c * [[TabSRMM.]]%0a---%0a> * [[TabSRMM]]%0a
+host:1287811526=81.217.70.206
+author:1287811511=admin
+diff:1287811511:1287639770:=3d2%0a%3c * [[Main.HelpContents|Site help]]%0a8,10d6%0a%3c %0a%3c %25sidehead%25 Main categories%0a%3c * [[TabSRMM]]%0a
+host:1287811511=81.217.70.206
+author:1287639770=admin
+diff:1287639770:1287634018:=2d1%0a%3c * [[Main.Sitemap|Site map]]%0a
+host:1287639770=81.217.70.206
+author:1287634018=admin
+diff:1287634018:1287624053:=0a1,2%0a> * [[Main/HomePage]]%0a> %0a
+host:1287634018=81.217.70.206

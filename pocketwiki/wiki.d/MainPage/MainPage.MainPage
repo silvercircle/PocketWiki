@@ -1,0 +1,18 @@
+version=pmwiki-2.2.18 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:2.0b8pre) Gecko/20101020 Firefox/4.0b8pre Firefox/4.0b8pre
+author=admin
+charset=UTF-8
+csum=
+ctime=1287795047
+host=81.217.70.206
+name=MainPage.MainPage
+rev=2
+targets=
+text=(:redirect Main/HomePage:)
+time=1287839565
+author:1287839565=admin
+diff:1287839565:1287795047:=1c1%0a%3c (:redirect Main/HomePage:)%0a\ No newline at end of file%0a---%0a> (:include Main/HomePage:)%0a\ No newline at end of file%0a
+host:1287839565=81.217.70.206
+author:1287795047=admin
+diff:1287795047:1287795047:=1d0%0a%3c (:include Main/HomePage:)%0a\ No newline at end of file%0a
+host:1287795047=81.217.70.206

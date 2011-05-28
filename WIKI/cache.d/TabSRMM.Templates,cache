@@ -1,0 +1,104 @@
+a:1:{i:0;s:12433:"<div class='tabsrmm_header' > 
+<p>
+<strong>TabSRMM documentation</strong> <code class='escaped'>   </code> <span class='rsslink'><a class='wikilink' href='http://localhost/TabSRMM/RecentChanges?action=rss'>RSS</a></span> | <span class='rsslink'><a class='wikilink' href='http://localhost/TabSRMM/RecentChanges?action=atom'>ATOM</a></span>
+</p></div>
+<p><span class='wikitrail'>&lsaquo; <a class='wikilink' href='http://localhost/TabSRMM/ConfigureHistory'>Configure the history</a> | <a class='wikilink' href='http://localhost/TabSRMM/TabSRMM#reference#endreference'>Page Index</a> | <a class='wikilink' href='http://localhost/TabSRMM/EventNotifications'>Event notifications</a> &rsaquo;</span>
+</p><h1>Message log templates</h1>
+<p class='vspace'>This article describes how to use and customize the look of the message history by using the templates. Templates are strings which determine how each message will be formatted in the message history of TabSRMM. Templates give you <strong>some</strong> control over the look of your message log, however, their capabilities are basic and if you need more customization options, you should consider using <a class='wikilink' href='http://localhost/Plugins/IEView'>IEView</a>.
+</p>
+<div class='vspace'></div><h3>Some basic but important things about templates</h3>
+<p class='vspace'><a id='note'></a>
+</p>
+<table class='table_plain' style='padding:5px;border:1px solid #aaa;display:block;background:#F0E2E2;' ><tr><td style='width:20px;'  valign='top'><img src='http://localhost/uploads/Template/Note.png' alt='' title='' /> 
+</td><td style='vertical-align:top;'  valign='top'>These templates will work for the standard message log only. If you use <a class='wikilink' href='http://localhost/Plugins/IEView'>IEView</a> or <a class='wikilink' href='http://localhost/Plugins/HistoryPP'>History++</a>, then the standard message log is disabled and you must configure the layout of your message history in these plugins instead of TabSRMM. See <a class='wikilink' href='http://localhost/TabSRMM/History'>this article</a> for more information on how to configure the message history.<br />While templates are quite feature-rich, their functionality is limited by the possibilities of the Windows Rich Text control which is used to display the message history in tabSRMM.<br />Templates can be exported and imported as a part of a <a class='wikilink' href='http://localhost/TabSRMM/Theme'>theme</a>
+</td></tr></table>
+<div class='vspace'></div><h2>General information about templates</h2>
+<p class='vspace'>A template is a string with a length up to 150 characters. It mainly contains variables which tell TabSRMM how to format a single message within the message history. A <span  style='color: green;'>template set</span> is a collection of 8 templates, each with its own purpose and there are 2 template sets - one for left to right and one for right to left printed messages.
+</p>
+<p class='vspace'>TabSRMM comes with 2 default template sets (one for LTR and one for RTL) which are hardcoded into the plugin. It also contains a template set editor which allows you to change the templates in a relatively comfortable way. When you change your templates, they are saved in Mirandas database and any changed template will overwrite the default hardcoded one. You don't need to edit or change all 8 templates of a set, it is perfectly ok to change only a few and leave the others alone.
+</p>
+<p class='vspace'>You can export and import templates by using the theme export/import feature which will save your complete theme, including all fonts, colors and your currently active templates to a .INI style textfile. You can later re-import this theme and get your custom templates back (e.g. after installing a fresh copy of Miranda or after creating a new profile).
+</p>
+<p class='vspace'>The template editor can also reset your templates to the default (hardcoded) variants. This can be helpful when you have completely screwed up a template and prefer to start over from scratch rather than repairing it. The %{color:blue}Revert to default% button can be used to reset a single template, while the %{color:blue}Reset all templates% button can be used to reset the entire template set to the default hardcoded templates.
+</p>
+<div class='vspace'></div><h2>The 8 templates of a template set are</h2>
+<div class='vspace'></div><ul><li><strong>Message In</strong> - an incoming message when message grouping is not active.
+</li><li><strong>Message Out</strong> - an outgoing message when message grouping is not active.
+</li><li><strong>Group In (start)</strong> - The first message of a group of incoming messages when the message log formatting is set to grouped mode.
+</li><li><strong>Group Out (start)</strong> - The first message of a group of outgoing messages when the message log formatting is set to grouped mode.
+</li><li><strong>Group In (inner)</strong> - subsequent messages of a group of incoming messages.
+</li><li><strong>Group Out (inner)</strong> - subsequent messages of a group of outgoing messages.
+</li><li><strong>Status change</strong> - a status change event
+</li><li><strong>Error message</strong> - an error message printed to the message log (e.g. the message which appears when a message delivery has failed).<br /><br />
+</li></ul><p><strong>Templates are simple strings with embedded variables - variables must begin with a *%* character and are case sensitive.</strong>
+</p>
+<div class='vspace'></div><h2>The following variables are supported</h2>
+<p class='vspace'>
+</p>
+<table class='table_plain' style='padding:5px;border:1px solid #aaa;display:block;background:#F0E2E2;' ><tr><td style='width:20px;'  valign='top'><img src='http://localhost/uploads/Template/Note.png' alt='' title='' /> 
+</td><td style='vertical-align:top;'  valign='top'>Items in <span  style='color: red;'>red</span> color will not work in automatic bidirectional mode, because things like grid lines and selective background colors cannot work here. This is a limitation of the richedit control.
+</td></tr></table>
+<div class='vspace'></div><table border='0' cellpadding='0' cellspacing='3'><tr ><td >%!</td><td >Dummy - everything followed by this variable will be printed "as is" with the current font and color. This variable can be used to skip certain elements depending on the template mode (see modifiers below).</td></tr>
+<tr ><td >%N</td><td >Nickname</td></tr>
+<tr ><td >%S</td><td >Message symbol (from the webdings font) - displays only if "Show symbols" is checked in the message log settings menu</td></tr>
+<tr ><td >%I</td><td >Icon - again, only shown when the setting is checked</td></tr>
+<tr ><td >%M</td><td >the message string itself</td></tr>
+<tr ><td >%n</td><td >a "hard" line break (cr/lf - will break indent)</td></tr>
+<tr ><td >%l</td><td >a soft linefeed, will preserve indent</td></tr>
+<tr ><td >%h</td><td >hour (24 hour format, 0-23)</td></tr>
+<tr ><td >%a</td><td >hour (12 hour format)</td></tr>
+<tr ><td >%m</td><td >minute</td></tr>
+<tr ><td >%s</td><td >second</td></tr>
+<tr ><td >%o</td><td >month</td></tr>
+<tr ><td >%d</td><td >day of month</td></tr>
+<tr ><td >%y</td><td >year (4 digits)</td></tr>
+<tr ><td >%w</td><td >day of week (Sunday, Monday.. translateable)</td></tr>
+<tr ><td >%p</td><td >AM/PM symbol</td></tr>
+<tr ><td >%U</td><td >UIN (contextual, own uin for sent, buddys UIN for received messages)</td></tr>
+<tr ><td >%E</td><td >Date, localized, depending on your regional settings. Short format (05/03/2005..)</td></tr>
+<tr ><td >%D</td><td >Date, localized, depending on your regional settings. Long format (May, 05, 2005...)</td></tr>
+<tr ><td >%R</td><td >Date, localized, using Today and Yesterday, older dates in long format.</td></tr>
+<tr ><td >%r</td><td >Date, localized, using Today and yesterday, older dates in short format.</td></tr>
+<tr ><td >%O</td><td >Name of month, translateable</td></tr>
+<tr ><td ><span class='t or'>T</span></td><td >localized timestamp (depending on your regional settings).</td></tr>
+<tr ><td >%e</td><td >Error message (only use it in the error message template)</td></tr>
+</table>
+<div class='vspace'></div><h2>Formatting (simple):</h2>
+<div class='vspace'></div><table border='0' cellpadding='0' cellspacing='3'><tr ><td >%*</td><td >bold (works as toggle, first occurance turns bold on, next turns it off)</td></tr>
+<tr ><td >%/</td><td >italic, same</td></tr>
+<tr ><td >%_</td><td >underline, again, same way.</td></tr>
+<tr ><td >%~</td><td >font break - switches to the "default" font for the event (depending on incoming/outgoing and history status)</td></tr>
+<tr ><td >%-x</td><td >insert a horizontal grid line with the color X (x is one of the predefined colors). If x is omitted, use the grid line color.</td></tr>
+<tr ><td >%Hx</td><td >Highlight with color x (set the background color).</td></tr>
+<tr ><td >%fX</td><td >switch to one of the predefined fonts, where X is a one character code and can have the following values (case sensitive as always):</td></tr>
+</table><pre>      d: &rarr; font for date/timestamp
+      n: &rarr; font for nickname
+      m: &rarr; font for message text
+      M: &rarr; font for "misc" events (file, URL, etc.)
+</pre><p>The variable will take the current message context into account, that is, it will switch to the font which matches the state of the message (received, sent, "old" or new).
+Text following this variable will be printed using the given font. The next variable will, however, change the font again, depending on its context.
+</p><table border='0' cellpadding='0' cellspacing='3'><tr ><td >%cX</td><td >use one of the predefined colors for the following text output (X is a number from 0 to 4, referring  to the color index). Only useful together with the &amp; modifier (see below) and maybe the %fX variable. The *X* can also be one of the following characters: m, d or n where m selects the color for message text, d the color for timestamps and n the color for nick names. These modifiers respect the message context (incoming, outgoing, old or new).</td></tr>
+</table>
+<div class='vspace'></div><h2>About modifiers:</h2>
+<p class='vspace'>Currently, there are 5 different modifiers which can be used to `alter` the behaviour of most variables. Modifiers have to follow the *%* character immediatly, however, their order is not important. Multiple modifiers are possible, but please note that some combinations don't make much sense.
+</p>
+<p class='vspace'>The *#* character means that the variable does only apply to *old* events, that is, events which are loaded from the history when you open a message window. Contrary, the *$* character does the opposite - the variable will only show up in new events. You can use these modifieres to get different message formatting for old and new events.
+</p>
+<p class='vspace'>The *&amp;* modifier means %{color:blue}skip font%. If used, the variable will be printed *without* setting the font for the variables context. Effectively, the font which is currently selected remains valid.
+</p>
+<p class='vspace'>The *?* modifier means that this variable will be skipped when the template is set to simple mode while the *\* modifier allows to skip a variable when the template is in normal mode. Switching between normal and simple mode is a message log setting available from the message log menu which you can find in the menu bar or by clicking on the message log toolbar button.
+</p>
+<p class='vspace'>These 2 variables allow you to have 2 different layouts available and quickly switch between layouts.
+</p>
+<div class='vspace'></div><h2>Some examples</h2>
+<div class='vspace'></div><table border='0' cellpadding='0' cellspacing='3'><tr ><td >%&amp;N</td><td >prints the nickname, but does not use the font which is configured for nicknames.</td></tr>
+<tr ><td ><span class='fd'>&amp;N</span></td><td >prints the nickname, using the font for timestamps (selected by %fd)</td></tr>
+<tr ><td ><span class='fd'>c3%&amp;N</span></td><td >prints the nickname, using the font for timestamp, but with the text color set to color #4</td></tr>
+</table>
+<div class='vspace'></div><hr />
+<p><span  style='float: right; color: #888; font-size: 10px;'>Author: admin</span>
+<span  style='text-align: left; color: #888; font-size: 10px;'>Last modified: Saturday, October 23, 2010 at 10:46 CET</span>
+</p><hr />
+<p>Category: <a class='wikilink' href='http://localhost/TabSRMM/TabSRMM'>TabSRMM</a>
+</p>
+";}

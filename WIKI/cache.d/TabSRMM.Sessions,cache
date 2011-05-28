@@ -1,0 +1,17 @@
+a:1:{i:0;s:1897:"<div class='tabsrmm_header' > 
+<p>
+<strong>TabSRMM documentation</strong> <code class='escaped'>   </code> <span class='rsslink'><a class='wikilink' href='http://localhost/TabSRMM/RecentChanges?action=rss'>RSS</a></span> | <span class='rsslink'><a class='wikilink' href='http://localhost/TabSRMM/RecentChanges?action=atom'>ATOM</a></span>
+</p></div>
+<p><span class='wikitrail'>&lsaquo; <a class='wikilink' href='http://localhost/TabSRMM/ConfigureContainers'>Configure containers</a> | <a class='wikilink' href='http://localhost/TabSRMM/TabSRMM#reference'>Page Index</a> | <a class='wikilink' href='http://localhost/TabSRMM/MenuBar'>The menu bar</a> &rsaquo;</span>
+</p><h1>Session management in TabSRMM</h1>
+<p class='vspace'>In TabSRMM terminology, a session is a chat entity, either a standard IM chat or a <a class='createlinktext' rel='nofollow' 
+    href='http://localhost/TabSRMM/GroupChats?action=edit'>group chat</a><a rel='nofollow' 
+    class='createlink' href='http://localhost/TabSRMM/GroupChats?action=edit'>?</a> (IRC channel, Jabber room). A session is always unique, there cannot be more than one chat session for the same contact or chat room and a session exists inside a <a class='wikilink' href='http://localhost/TabSRMM/Containers'>container</a>. Each container holds at least one session and can hold any number of sessions, providing a tab- or button bar to switch between them.<br /><br />
+Internally, TabSRMM keeps track of all open sessions and provides a few methods for quickly accessing active sessions even when they are in different containers.
+</p><hr />
+<p><span  style='float: right; color: #888; font-size: 10px;'>Author: admin</span>
+<span  style='text-align: left; color: #888; font-size: 10px;'>Last modified: Saturday, November 06, 2010 at 14:37 CET</span>
+</p><hr />
+<p>Category: <a class='wikilink' href='http://localhost/TabSRMM/TabSRMM'>TabSRMM</a>
+</p>
+";}

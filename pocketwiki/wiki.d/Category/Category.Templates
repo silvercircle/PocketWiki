@@ -1,0 +1,15 @@
+version=pmwiki-2.2.18 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:2.0b8pre) Gecko/20101020 Firefox/4.0b8pre Firefox/4.0b8pre
+author=admin
+charset=UTF-8
+csum=
+ctime=1287854480
+host=81.217.70.206
+name=Category.Templates
+rev=1
+targets=
+text=All Formatting templates
+time=1287854480
+author:1287854480=admin
+diff:1287854480:1287854480:=1d0%0a%3c All Formatting templates%0a\ No newline at end of file%0a
+host:1287854480=81.217.70.206

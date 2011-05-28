@@ -1,0 +1,26 @@
+version=pmwiki-2.2.14 ordered=1 urlencoded=1
+agent=Opera/9.80 (X11; Linux i686; U; en) Presto/2.2.15 Version/10.10
+author=mkonrad
+charset=ISO-8859-1
+csum=
+ctime=1273333850
+host=127.0.0.1
+name=Mailform4.MailTemplate
+passwdedit=@_site_admin
+passwdread=@_site_admin
+rev=5
+targets=
+text=The following text has been submitted at %25DATETIME%25 by %25NAME%25 %3c%25SENDER%25> [IP: %25IP%25] via contact form:%0a%0a%25TEXT%25%0a%0a--%0aCreated by contact form software %25MAILFORM4_URL%25 @ %25WEBSITE%25
+time=1273518695
+author:1273518695=mkonrad
+diff:1273518695:1273518356:=6c6%0a%3c Created by contact form software %25MAILFORM4_URL%25 @ %25WEBSITE%25%0a\ No newline at end of file%0a---%0a> Created by contact form software %25MAILFORM4%25 @ %25WEBSITE%25%0a\ No newline at end of file%0a
+host:1273518695=127.0.0.1
+author:1273518356=mkonrad
+diff:1273518356:1273334429:=1c1%0a%3c The following text has been submitted at %25DATETIME%25 by %25NAME%25 %3c%25SENDER%25> [IP: %25IP%25] via contact form:%0a---%0a> The following text has been submitted at %25DATETIME%25 by %25SENDER%25 via contact form.%0a
+host:1273518356=127.0.0.1
+author:1273334429=mkonrad
+diff:1273334429:1273333955:=1,6c1,3%0a%3c The following text has been submitted at %25DATETIME%25 by %25SENDER%25 via contact form.%0a%3c %0a%3c %25TEXT%25%0a%3c %0a%3c --%0a%3c Created by contact form software %25MAILFORM4%25 @ %25WEBSITE%25%0a\ No newline at end of file%0a---%0a> The following text has been submitted at %25DATETIME%25 by %25SENDER%25 via the contact form on %25WEBSITE%25:%0a> %0a> %25TEXT%25%0a\ No newline at end of file%0a
+host:1273334429=127.0.0.1
+author:1273333850=mkonrad
+diff:1273333850:1273333850:=1,3d0%0a%3c The following text has been submitted at %25DATETIME%25 by %25SENDER%25 via the contact form on %25WEBSITE%25:%0a%3c %0a%3c %25TEXT%25%0a\ No newline at end of file%0a
+host:1273333850=127.0.0.1

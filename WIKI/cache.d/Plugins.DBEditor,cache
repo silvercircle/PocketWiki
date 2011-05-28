@@ -1,0 +1,45 @@
+a:1:{i:0;s:5506:"<div class='tabsrmm_header' > 
+<p><span class='rfloat' style='margin-top: -3px;'>(:quicktoc:)</span>
+Plugin documentation
+</p></div>
+<p><span class='wikitrail'>&lsaquo; <a class='wikilink' href='http://localhost/Plugins/SndVol'>Sound volume plugin</a> | <a class='wikilink' href='http://localhost/Plugins/Plugins#begin'>Plugins index</a></span>
+</p><h1>Database editor (also known as DBEditor++) plugin</h1>
+<p><a id='rimage'></a>
+</p><div  style='float: right; border: 1px solid #ccc; margin-left: 10px;' > 
+<!-- TL2-20100315 --><table class='cbox'><tr class='thumbtr'><td class='thumbtd'><div class='img'  style='padding:2px 2px;'><a href='http://localhost/uploads/Plugins/dbeditor.png' class='thumblink' title='dbeditor.png'  ><img class="thumbs" src="http://localhost/uploads/Plugins/th219---ffffff--dbeditor.png.jpg" title="dbeditor.png: 984x616, 114k (November 05, 2010, at 12:34 PM)" alt="dbeditor.png: 984x616, 114k (November 05, 2010, at 12:34 PM)" width='350' height='219' /></a> </div><span class="caption">The database editor plugin</span></td></tr></table>
+</div>
+<p>In order to change some <a class='wikilink' href='http://localhost/TabSRMM/DatabaseTweaks'>advanced settings</a> for TabSRMM, you need this plugin because these tweaks do not have entries in TabSRMM's settings dialogs. You need to realize that using these advanced tweaks is basically unsupported and might have unknown side effects. <span  style='color: red;'>If unsure, backup your profile before using this plugin to alter settings in the database</span>.<br /><br />
+</p><h2>Background</h2>
+<p>Miranda stores all core and plugin settings in its database. The database is, in some ways, comparable to the Windows registry, though it is much simpler but it basically serves the same purpose to Miranda than the registry does to Windows and most Windows applications. The advantage of the database solution is that it is portable and easy to backup - no need to collect settings from the registry or reinstall everything - your profile database holds everything, settings, contacts and messages.<br /><br />
+The dbeditor plugin can be used to view all the settings currently in the database, both global and "per contact" settings. There are 2 types of settings you can view or change:
+</p>
+<div class='vspace'></div><ul><li><strong>Global settings</strong> - in the left pane of the editor, they can all be found under the <strong>Settings</strong> node.
+</li><li><strong>Per contact settings</strong> - each contact has its own node in the left pane and you must expand it to see all settings that are stored for a particular contact.<br /><br />
+</li></ul><p><a id='hint'></a>
+</p>
+<table class='table_plain' style='padding:5px;border:1px solid #aaa;display:block;background:#f0f0e2;' ><tr><td style='width:20px;'  valign='top'><img src='http://localhost/uploads/Template/Hint.png' alt='' title='' /> 
+</td><td style='vertical-align:top;'  valign='top'>The database editor cannot be used to view or modify messages.
+</td></tr></table>
+<p><br />
+</p><h2>Using it</h2>
+<p class='vspace'>Using it is straightforward, very much like you are using registry editor. In the left pane, you see the <strong>modules</strong> and when you click a module, the right pane will show all the settings for that module. Modules are usually organized either per plugin, per protocol or per function group and unlike in the registry there are no sub-keys. The hierarchy is simpler, only one level of <span  style='color: green;'>Module&rarr;Setting</span>.<br /><br />
+<a id='note'></a>
+</p>
+<table class='table_plain' style='padding:5px;border:1px solid #aaa;display:block;background:#F0E2E2;' ><tr><td style='width:20px;'  valign='top'><img src='http://localhost/uploads/Template/Note.png' alt='' title='' /> 
+</td><td style='vertical-align:top;'  valign='top'>Always remember to use the <strong>global</strong> settings when using the database tweaks for TabSRMM and do not change any non-documented values.<br />This is as dangerous as randomly changing values in the Windows registry - a wrong change can seriously harm the functionality of Miranda.<br /><strong>So only change values you KNOW or were advised to change.</strong><br /> <br />Also, do not change per contact settings, unless you know exactly what you are doing.
+</td></tr></table>
+<div class='vspace'></div><h2>Additional functionality</h2>
+<p class='vspace'>Database editor has some additional functions which can assist with:
+</p>
+<div class='vspace'></div><ul><li>Watching a value in real time (useful for debugging when you need to see when database values are changed).
+</li><li>Exporting and importing large chunks of settings between different profiles.<br /><br />
+</li></ul><h2>Where to get</h2>
+<div class='vspace'></div><ul><li><a class='external' href='http://addons.miranda-im.org/details.php?action=viewfile&amp;id=2957' rel='nofollow'>official entry on the addons site</a> - this <span  style='color: red;'>version is OLD though and may not work with Miranda 0.9.</span>
+</li><li><a class='external' href='http://bio.ktaspb.ru/miranda/svc_dbepp.dll' rel='nofollow'>Here</a> is a more recent version (direct download, DLL only).
+</li></ul><hr />
+<p><span  style='float: right; color: #888; font-size: small;'>Author: admin</span>
+<span  style='text-align: left; color: #888; font-size: small;'>Last modified: Friday, November 05, 2010 at 13:59 CET</span>
+</p><hr />
+<p>Category: <a class='wikilink' href='http://localhost/Plugins/Plugins'>Plugins</a>
+</p>
+";}

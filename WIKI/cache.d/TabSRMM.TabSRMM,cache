@@ -1,0 +1,110 @@
+a:1:{i:0;s:8963:"<div class='tabsrmm_header' > 
+<p>
+<strong>TabSRMM documentation</strong> <code class='escaped'>   </code> <span class='rsslink'><a class='wikilink' href='http://localhost/TabSRMM/RecentChanges?action=rss'>RSS</a></span> | <span class='rsslink'><a class='wikilink' href='http://localhost/TabSRMM/RecentChanges?action=atom'>ATOM</a></span>
+</p></div>
+<h1>All pages about TabSRMM</h1>
+<p class='vspace'>All pages related to the messaging plugin for Miranda IM. Over the years, tabSRMM has evolved to a quite complex piece of software, offering many features and options. This is an attempt to document them in a fairly detailed way, but also providing easy to understand information for new users.
+</p>
+<p class='vspace'><strong>This is always under heavy construction. Pages are changing frequently and new stuff is added on a regular base.</strong>
+</p>
+<div class='vspace'></div><h2>Downloading TabSRMM</h2>
+<div class='vspace'></div><ul><li>Refer to <a class='wikilink' href='http://localhost/TabSRMM/Downloads'>this page</a>.
+</li><li>Detailed change logs are posted <a class='wikilink' href='http://localhost/TabSRMM/ChangeLogTrunk'>here</a> (trunk) and <a class='wikilink' href='http://localhost/TabSRMM/ChangeLogStable'>here</a> (stable).
+</li></ul><div class='vspace'></div><h2>Some quick links for TabSRMM</h2>
+<p class='vspace'><a id='overview'></a>
+</p><ul><li><a class='wikilink' href='http://localhost/TabSRMM/Install'>how to install the plugin</a>.
+</li><li><a class='createlinktext' rel='nofollow' 
+    href='http://localhost/TabSRMM/FirstTimeUsersTabSRMM?action=edit'>information for first time users</a><a rel='nofollow' 
+    class='createlink' href='http://localhost/TabSRMM/FirstTimeUsersTabSRMM?action=edit'>?</a>
+</li><li><a class='wikilink' href='http://localhost/TabSRMM/TabSrmmOverview'>overview</a> lists some basics and gives an overview about the features.
+</li><li><a class='wikilink' href='http://localhost/TabSRMM/Tips'>tips and tricks for advanced users</a>.
+</li></ul><p><a id='overviewend'></a>
+<br />
+</p><h2>All pages in this category</h2>
+<p class='vspace'>This is a list of all pages related to TabSRMM, divided into some sub sections of interest. This list also serves as index for the "trail" navigation you can usually find in the top right corner of a page.
+<br />
+</p><div class='twocols' >
+<h4>New and noteworthy in TabSRMM version 3</h4>
+<p><a id='version3'></a>
+</p><ul><li><a class='wikilink' href='http://localhost/TabSRMM/TabSRMM3New'>New and changed features</a>
+</li><li><a class='wikilink' href='http://localhost/TabSRMM/TabSRMM3KnownIssues'>Known issues</a> (known issues and limitations in TabSRMM 3)
+</li><li><a class='wikilink' href='http://localhost/TabSRMM/TabSRMM3Upgrading'>Tips for upgrading</a> (Tips for users who are upgrading from an earlier release)
+</li></ul><p><a id='endversion3'></a>
+<br />
+</p><h4>General topics</h4>
+<p><a id='general'></a>
+</p><ul><li><a class='wikilink' href='http://localhost/TabSRMM/Downloads'>How and where to download</a>
+</li><li><a class='wikilink' href='http://localhost/TabSRMM/Install'>Basic installation guide</a>
+</li></ul><p><a id='endgeneral'></a>
+<br />
+</p><h4>Reference articles</h4>
+<p><a id='reference'></a>
+</p><ul><li><a class='wikilink' href='http://localhost/TabSRMM/AutoKeyboard'>Keyboard layout</a> (how to use the automatic keyboard layout feature)
+</li><li><a class='wikilink' href='http://localhost/TabSRMM/GeneralSettings'>General settings</a> (how to set basic global options)
+</li><li><a class='wikilink' href='http://localhost/TabSRMM/Containers'>Containers</a> (how to use containers)
+</li><li><a class='wikilink' href='http://localhost/TabSRMM/ConfigureContainers'>Configure containers</a> (how to configure containers and set container options)
+</li><li><a class='wikilink' href='http://localhost/TabSRMM/Sessions'>Session management</a>
+</li><li><a class='wikilink' href='http://localhost/TabSRMM/MenuBar'>The menu bar</a>
+</li><li><a class='wikilink' href='http://localhost/TabSRMM/ToolBar'>The tool bar</a>
+</li><li><a class='wikilink' href='http://localhost/TabSRMM/TitleBarFormatting'>Title bar formatting</a>
+</li><li><a class='wikilink' href='http://localhost/TabSRMM/InfoPanel'>The info panel</a>
+</li><li><a class='wikilink' href='http://localhost/TabSRMM/Aero'>Using Aero</a>
+</li><li><a class='wikilink' href='http://localhost/TabSRMM/History'>Message history</a>
+</li><li><a class='wikilink' href='http://localhost/TabSRMM/ConfigureHistory'>Configure the history</a>
+</li><li><a class='wikilink' href='http://localhost/TabSRMM/Templates'>Using message templates</a>
+</li><li><a class='wikilink' href='http://localhost/TabSRMM/EventNotifications'>Event notifications</a>
+</li><li><a class='wikilink' href='http://localhost/TabSRMM/UserNotesEditing'>editing user notes</a>
+</li><li><a class='createlinktext' rel='nofollow' 
+    href='http://localhost/TabSRMM/ConfigureEventNotifications?action=edit'>Configure notifications</a><a rel='nofollow' 
+    class='createlink' href='http://localhost/TabSRMM/ConfigureEventNotifications?action=edit'>?</a> (how to configure event notifications)
+</li><li><a class='wikilink' href='http://localhost/TabSRMM/Avatars'>Avatars</a> (customize avatar handling)
+</li><li><a class='wikilink' href='http://localhost/TabSRMM/MessageLengthIndicator'>Message length</a> (description of the visual message length indicator)
+</li><li><a class='wikilink' href='http://localhost/TabSRMM/InputHistory'>The input history</a> (using the input history)
+</li><li><a class='wikilink' href='http://localhost/TabSRMM/HidingContainers'>Hidden containers</a>
+</li><li><a class='wikilink' href='http://localhost/TabSRMM/SendLater'>Send later and multisend</a>
+</li><li><a class='wikilink' href='http://localhost/TabSRMM/TypingNotifications'>Typing notifications</a>
+</li><li><a class='wikilink' href='http://localhost/TabSRMM/Tips'>Tips</a> (tips and tricks and some lesser known features)
+</li><li><a class='wikilink' href='http://localhost/TabSRMM/AdvancedTweaks'>Advanced options</a>
+</li><li><a class='wikilink' href='http://localhost/TabSRMM/DatabaseTweaks'>Database tweaks</a> (like registry tweaks for windows, set some unsupported options)
+</li></ul><p><a id='endreference'></a>
+<br />
+</p><h4>Customizing the plugin</h4>
+<p><a id='customizing'></a>
+</p><ul><li><a class='wikilink' href='http://localhost/TabSRMM/Keyboard'>Available keyboard shortcuts and customization options</a>
+</li></ul><p><a id='endcustomizing'></a>
+<br />
+</p><h4>Theming and skinning</h4>
+<p><a id='skinning'></a>
+</p><ul><li><a class='wikilink' href='http://localhost/TabSRMM/Skinning'>General info</a>
+</li><li><a class='wikilink' href='http://localhost/TabSRMM/UsingSkins'>Installing and using skins</a>
+</li><li><a class='wikilink' href='http://localhost/TabSRMM/SkinningFormat'>Description of the skin format</a>
+</li><li><a class='wikilink' href='http://localhost/TabSRMM/Theme'>Themes vs skins</a>
+</li><li><a class='wikilink' href='http://localhost/TabSRMM/ColorThemes'>Using color themes</a>
+</li><li><a class='wikilink' href='http://localhost/TabSRMM/SkinningV3'>Changes in TabSRMM3</a> (relevant changes to the skinning and theming engine in TabSRMM 3).
+</li><li><a class='wikilink' href='http://localhost/TabSRMM/CustomizeImages'>Customize the default Tab images</a>
+</li></ul><p><a id='endskinning'></a>
+<br />
+</p><h4>Frequently asked questions (FAQ)</h4>
+<p><a id='faq'></a>
+</p><ul><li><a class='wikilink' href='http://localhost/TabSRMM/FAQ'>General questsions</a>
+</li><li><a class='wikilink' href='http://localhost/TabSRMM/FAQUI'>Questions about the user interface</a>
+</li><li><a class='wikilink' href='http://localhost/TabSRMM/FAQCustomize'>Questions about customization</a>
+</li></ul><p><a id='endfaq'></a>
+<br />
+</p><h4>Future</h4>
+<ul><li><a class='wikilink' href='http://localhost/TabSRMM/Future'>Future developments and open requests</a>
+</li></ul></div>
+<p class='vspace'><a id='other'></a>
+</p><h2>Other pages</h2>
+<div class='vspace'></div><ul><li><a class='wikilink' href='http://localhost/TabSRMM/ImgList'>List of images</a> in the TabSRMM category of pages.
+</li><li><a class='wikilink' href='http://localhost/TabSRMM/ChangeLogTrunk'>change log for the trunk tree</a>
+</li><li><a class='wikilink' href='http://localhost/TabSRMM/ChangeLogStable'>change log for the stable tree</a>
+</li></ul><div class='vspace'></div><h2>RSS Feeds for the TabSRMM category</h2>
+<div class='vspace'></div><ul><li><a class='wikilink' href='http://localhost/TabSRMM/RecentChanges?action=rss'>RSS format</a> | <a class='wikilink' href='http://localhost/TabSRMM/RecentChanges?action=atom'>ATOM format</a>
+</li></ul><hr />
+<p><span  style='float: right; color: #888; font-size: 10px;'>Author: admin</span>
+<span  style='text-align: left; color: #888; font-size: 10px;'>Last modified: Sunday, May 15, 2011 at 01:23 CET</span>
+</p><hr />
+<p>Category: <a class='selflink' href='http://localhost/TabSRMM/TabSRMM'>TabSRMM</a>
+</p>
+";}

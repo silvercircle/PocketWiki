@@ -1,0 +1,15 @@
+version=pmwiki-2.2.18 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:2.0b8pre) Gecko/20101026 Firefox/4.0b8pre Firefox/4.0b8pre
+author=admin
+charset=UTF-8
+csum=
+ctime=1288204277
+host=81.217.70.206
+name=TabSRMM.TabSrmmDevelopment30KnownIssues
+rev=1
+targets=
+text=(:redirect TabSRMM/TabSRMM3KnownIssues:)
+time=1288204277
+author:1288204277=admin
+diff:1288204277:1288204277:=1d0%0a%3c (:redirect TabSRMM/TabSRMM3KnownIssues:)%0a\ No newline at end of file%0a
+host:1288204277=81.217.70.206

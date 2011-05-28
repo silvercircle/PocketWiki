@@ -1,0 +1,33 @@
+a:1:{i:0;s:3224:"<div class='tabsrmm_header' > 
+<p>
+<strong>TabSRMM documentation</strong> <code class='escaped'>   </code> <span class='rsslink'><a class='wikilink' href='http://localhost/TabSRMM/RecentChanges?action=rss'>RSS</a></span> | <span class='rsslink'><a class='wikilink' href='http://localhost/TabSRMM/RecentChanges?action=atom'>ATOM</a></span>
+</p></div>
+<p><span class='wikitrail'>&lsaquo; <a class='wikilink' href='http://localhost/TabSRMM/TitleBarFormatting'>Title bar formatting</a> | <a class='wikilink' href='http://localhost/TabSRMM/TabSRMM#reference'>Page Index</a> | <a class='wikilink' href='http://localhost/TabSRMM/Aero'>Using Aero</a> &rsaquo;</span>
+</p><h1>The info panel</h1>
+<p><a id='rimage'></a>
+</p><div  style='float: right; border: 1px solid #ccc; margin-left: 10px;' > 
+<!-- TL2-20100315 --><table class='cbox'><tr class='thumbtr'><td class='thumbtd'><div class='img'  style='padding:2px 2px;'><a href='http://localhost/uploads/TabSRMM/infopanel.png' class='thumblink' title='infopanel.png'  ><img class="thumbs" src="http://localhost/uploads/TabSRMM/th52---ffffff--infopanel.png.jpg" title="infopanel.png: 560x73, 44k (October 26, 2010, at 01:30 PM)" alt="infopanel.png: 560x73, 44k (October 26, 2010, at 01:30 PM)" width='400' height='52' /></a> </div><span class="caption">The info panel</span></td></tr></table>
+</div>
+<p class='vspace'>The info panel is a small area at the top of a message window, showing additional information about the contact you are chatting with.
+</p>
+<div class='vspace'></div><h2>What it shows</h2>
+<div class='vspace'></div><ul><li>The contact's nick name (or, for <a class='createlinktext' rel='nofollow' 
+    href='http://localhost/TabSRMM/GroupChats?action=edit'>group chats</a><a rel='nofollow' 
+    class='createlink' href='http://localhost/TabSRMM/GroupChats?action=edit'>?</a>, the channel or room name) in the first line.
+</li><li>The contact's status message in the first line (in group chats, it shows the channel modes).
+</li><li>The contact's UID in the second line. In group chats, there is no UID, so the second line shows the channel or room topic.
+</li><li>The contact's status, protocol and optionally (fingerprint plugin required) the client icon.
+</li><li>The contact's avatar.<br /><br />
+</li></ul><h2>General tasks</h2>
+<div class='vspace'></div><h4>Switch the info panel on or off</h4>
+<p class='vspace'>Use the <a class='wikilink' href='http://localhost/TabSRMM/ConfigureContainers'>container settings</a> to enable or disable the info panel for the current container.
+</p>
+<div class='vspace'></div><h4>Change the vertical size of the panel</h4>
+<p class='vspace'>Drag the bottom edge of the panel up or down. There are limits which you cannot exceed, but you can set the height to any value between about 25 and 100 pixels. The display will automatically adjust itself to the new size and may be reduced to a single line of text
+</p><hr />
+<p><span  style='float: right; color: #888; font-size: 10px;'>Author: admin</span>
+<span  style='text-align: left; color: #888; font-size: 10px;'>Last modified: Tuesday, October 26, 2010 at 13:54 CET</span>
+</p><hr />
+<p>Category: <a class='wikilink' href='http://localhost/TabSRMM/TabSRMM'>TabSRMM</a>
+</p>
+";}

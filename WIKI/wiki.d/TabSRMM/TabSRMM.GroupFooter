@@ -1,0 +1,33 @@
+version=pmwiki-2.2.18 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:2.0b8pre) Gecko/20101031 Firefox/4.0b8pre Firefox/4.0b8pre
+author=admin
+charset=UTF-8
+csum=
+ctime=1287773953
+host=81.217.70.206
+name=TabSRMM.GroupFooter
+rev=7
+targets=TabSRMM.TabSRMM
+text=----%0a%25float:right color:#888 font-size:10px%25Author: {$LastModifiedBy}%25%25%0a%25text-align:left color:#888 font-size:10px%25Last modified: {(ftime fmt="%25A, %25B %25d, %25Y at %25H:%25M" @{$LastModifiedTime})} CET%25%25%0a----%0aCategory: [[TabSRMM]]%0a
+time=1288688022
+author:1288688022=admin
+diff:1288688022:1288603978:=2,3c2,3%0a%3c %25float:right color:#888 font-size:10px%25Author: {$LastModifiedBy}%25%25%0a%3c %25text-align:left color:#888 font-size:10px%25Last modified: {(ftime fmt="%25A, %25B %25d, %25Y at %25H:%25M" @{$LastModifiedTime})} CET%25%25%0a---%0a> %25float:right color:#888 font-size:small%25Author: {$LastModifiedBy}%25%25%0a> %25text-align:left color:#888 font-size:small%25Last modified: {(ftime fmt="%25A, %25B %25d, %25Y at %25H:%25M" @{$LastModifiedTime})} CET%25%25%0a
+host:1288688022=81.217.70.206
+author:1288603978=admin
+diff:1288603978:1288603921:=3a4,9%0a> %0a> (:toggle comment init="hide" show="Submit a comment" hide="Hide this":)%0a> %0a> (:div id="comment":)%0a> (:include Mailform4/FormTemplate Mailform4Subject="Page comment: {$FullName}":)%0a> (:divend:)%0a
+host:1288603978=81.217.70.206
+author:1288603921=admin
+diff:1288603921:1288054821:=4,9d3%0a%3c %0a%3c (:toggle comment init="hide" show="Submit a comment" hide="Hide this":)%0a%3c %0a%3c (:div id="comment":)%0a%3c (:include Mailform4/FormTemplate Mailform4Subject="Page comment: {$FullName}":)%0a%3c (:divend:)%0a
+host:1288603921=81.217.70.206
+author:1288054821=admin
+diff:1288054821:1288050064:=4,5d3%0a%3c ----%0a%3c Category: [[TabSRMM]]%0a
+host:1288054821=81.217.70.206
+author:1288050064=admin
+diff:1288050064:1287954584:=3a4,5%0a> ----%0a> Category: [[!TabSRMM]]%0a\ No newline at end of file%0a
+host:1288050064=81.217.70.206
+author:1287954584=admin
+diff:1287954584:1287773953:=5c5%0a%3c Category: [[!TabSRMM]]%0a\ No newline at end of file%0a---%0a> Category: [[TabSRMM]]%0a\ No newline at end of file%0a
+host:1287954584=81.217.70.206
+author:1287773953=admin
+diff:1287773953:1287773953:=1,5d0%0a%3c ----%0a%3c %25float:right color:#888 font-size:small%25Author: {$LastModifiedBy}%25%25%0a%3c %25text-align:left color:#888 font-size:small%25Last modified: {(ftime fmt="%25A, %25B %25d, %25Y at %25H:%25M" @{$LastModifiedTime})} CET%25%25%0a%3c ----%0a%3c Category: [[TabSRMM]]%0a\ No newline at end of file%0a
+host:1287773953=81.217.70.206

@@ -1,0 +1,46 @@
+a:1:{i:0;s:5099:"<div class='tabsrmm_header' > 
+<p>
+<strong>TabSRMM documentation</strong> <code class='escaped'>   </code> <span class='rsslink'><a class='wikilink' href='http://localhost/TabSRMM/RecentChanges?action=rss'>RSS</a></span> | <span class='rsslink'><a class='wikilink' href='http://localhost/TabSRMM/RecentChanges?action=atom'>ATOM</a></span>
+</p></div>
+<p><span class='wikitrail'>&laquo;  | <a class='wikilink' href='http://localhost/TabSRMM/TabSRMM#general#endgeneral'>Page Index</a> | <a class='wikilink' href='http://localhost/TabSRMM/Install'>Basic installation guide</a> &raquo;</span>
+</p><h1>Latest downloads for TabSRMM</h1>
+<p><a id='teaser'></a>
+Beginning with Miranda 0.9, TabSRMM is part of the <strong>contrib pack</strong> which is distributed directly on the <a class='external' href='http://code.google.com/p/miranda/downloads/list' rel='nofollow'>official download page</a>. Please download from there. You need one of the <strong>contrib</strong> packs and you need to make sure to download the right one.<br /><br />
+</p><ul><li>for x86 (32bit) Unicode builds, you need <cite>miranda-im-v0.<span  style='color: red;'>x</span>.<span  style='color: green;'>yy</span>-unicode-contrib.7z</cite>
+</li><li>for x64 (64bit) Unicode builds, you need <cite>miranda-im-v0.<span  style='color: red;'>x</span>.<span  style='color: green;'>yy</span>-x64-contrib.7z</cite><br /><br />
+<ul><li><span  style='color: blue;'>Make sure, the version number matches your Miranda version.</span>. The red <span  style='color: red;'>x</span> is the major version and the green <span  style='color: green;'>y</span> the minor one. Example: <cite>miranda-im-v0.9.10-unicode-contrib.7z</cite> is the required contrib pack for Miranda 0.9.10 release.
+</li><li><span  style='color: blue;'>There is no ANSI version of TabSRMM 3, so no download if you are using a ANSI build of Miranda.<br /><br /></span>
+</li></ul></li></ul><p>Occasionally, I may post alpha or testing builds on my <a class='external' href='http://code.google.com/p/silvercircle/' rel='nofollow'>googlecode site</a>. Such builds should be considered unstable and can have issues (even major ones like crashing constantly). They are built from trunk code and you <span  style='color: red;'><strong>must not use them with a stable release of Miranda</strong></span>.
+<a id='teaserend'></a>
+</p>
+<div class='vspace'></div><h2>About the new version number system</h2>
+<p class='vspace'>The version number consists of 4 numbers and looks like a.b.c.d. The first number is the major version, currently at 3 and this number will not change for a longer period of time. 
+</p>
+<p class='vspace'>The last number (d) is the build number and is usually 0 for stable releases as it follows the Miranda versioning style (only the first three numbers are valid for releases, the 4th is a build number that is only used for alpha or beta versions).
+</p>
+<p class='vspace'>The 3rd number is the release version (for example: 3.0.6 is released with Miranda 0.9.6).
+</p>
+<p class='vspace'>The second number (b) will increase when major new features are added to the plugin. 
+</p>
+<div class='vspace'></div><h3>To find out which version you are using</h3>
+<div class='vspace'></div><ul><li>In Miranda, open the options and navigate to the <span class='option'>plugins</span> node. In the list, locate <strong>tabsrmm.dll</strong> - you'll find the version number there.
+</li><li>In windows explorer, right click <strong>tabsrmm.dll</strong> and choose Properties from the context menu. In Windows Vista and Windows 7 you need to look at the <strong>Details</strong> tab.
+</li><li>With an open message window, choose <span class='menu'>Help&rarr;About</span> from the menu bar.
+</li></ul><div class='vspace'></div><h2>Release notes and changes</h2>
+<div class='vspace'></div><h4>Release notes and change logs can be found here:</h4>
+<ul><li><a class='wikilink' href='http://localhost/TabSRMM/ChangeLogTrunk'>Trunk change log</a> for the trunk (unstable/alpha) version.
+</li><li><a class='wikilink' href='http://localhost/TabSRMM/ChangeLogStable'>The stable change log</a> for the stable version.
+</li><li><a class='external' href='http://blog.miranda.or.at' rel='nofollow'>The blog</a> may contain additional announcements about new releases and features.<br /><br />
+</li></ul><h2>Source code</h2>
+<p class='vspace'>Sources are available via anonymous SVN only, directly from the Miranda SVN repository at google code.
+</p>
+<p class='vspace'><a class='external' href='http://code.google.com/p/miranda' rel='nofollow'>http://code.google.com/p/miranda</a>
+</p>
+<p class='vspace'><a class='wikilink' href='http://localhost/Main/SVNRepositories'>SVN_Repositories</a> has more on the source code and for people who want to compile their own plugin. 
+</p><hr />
+<p><span  style='float: right; color: #888; font-size: 10px;'>Author: admin</span>
+<span  style='text-align: left; color: #888; font-size: 10px;'>Last modified: Tuesday, November 02, 2010 at 04:49 CET</span>
+</p><hr />
+<p>Category: <a class='wikilink' href='http://localhost/TabSRMM/TabSRMM'>TabSRMM</a>
+</p>
+";}

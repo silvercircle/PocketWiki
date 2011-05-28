@@ -1,0 +1,51 @@
+a:1:{i:0;s:7426:"<div class='tabsrmm_header' > 
+<p>
+<strong>TabSRMM documentation</strong> <code class='escaped'>   </code> <span class='rsslink'><a class='wikilink' href='http://localhost/TabSRMM/RecentChanges?action=rss'>RSS</a></span> | <span class='rsslink'><a class='wikilink' href='http://localhost/TabSRMM/RecentChanges?action=atom'>ATOM</a></span>
+</p></div>
+<p><span class='wikitrail'>&laquo; <a class='wikilink' href='http://localhost/TabSRMM/Aero'>Using Aero</a> | <a class='wikilink' href='http://localhost/TabSRMM/TabSRMM#reference#endreference'>Page Index</a> | <a class='wikilink' href='http://localhost/TabSRMM/ConfigureHistory'>Configure the history</a> &raquo;</span>
+</p><h1>The message history</h1>
+<p class='vspace'><strong>Quick link if you only want to learn about the configuration options, go <a class='wikilink' href='http://localhost/TabSRMM/ConfigureHistory'>here</a></strong>.
+</p><hr />
+<p class='vspace'><a id='rimage'></a>
+</p><div  style='float: right; border: 1px solid #ccc; margin-left: 10px;' > 
+<!-- TL2-20100315 --><table class='cbox'><tr class='thumbtr'><td class='thumbtd'><div class='img'  style='padding:2px 2px;'><a href='http://localhost/uploads/TabSrmm/Tabsrmm_log.png' class='thumblink' title='Tabsrmm_log.png'  ><img class="thumbs" src="http://localhost/uploads/TabSrmm/th200---ffffff--Tabsrmm_log.png.jpg" title="Tabsrmm_log.png: 584x467, 54k (April 24, 2011, at 06:18 AM)" alt="Tabsrmm_log.png: 584x467, 54k (April 24, 2011, at 06:18 AM)" width='250' height='200' /></a> </div><span class="caption">The red shaded part is usually<br /> called the message history or message log</span></td></tr></table>
+</div>
+<p class='vspace'>The message history (or message log as it is often called) is usually the biggest part of the message window. It shows the ongoing conversation of an IM- or group chat session in chronological order. TabSRMM only implements a "split style" user interface where the message history shows the entire conversation in a scrollable window with the most recent (newest) event on the bottom. This is most widely accepted as a very intuitive solution and implemented as a default in most chat clients.
+</p>
+<p class='vspace'>Customization can be an important factor here, because users tend to love features which allow them to take influence on the look of the message history. Because of this, TabSRMM supports many ways to display the history and the look of the conversation log can be customized in almost any way. Furthermore, it can even be replaced by other plugins which gives the user additional possibilities. The standard implementation of the message history is based on a Win32 Rich Edit text control, and, while powerful enough for most situations, it has some formatting limitations.
+</p>
+<div class='vspace'></div><h3>Basic concepts</h3>
+<div class='vspace'></div><h4>Basically, the message log can be displayed in 3 possible ways:</h4>
+<div class='vspace'></div><ul><li>The standard implementation. This is included in tabSRMM, no additional plugins are required.
+</li><li>The <a class='wikilink' href='http://localhost/Plugins/IEView'>IEView</a> plugin. Requires the installation of the IEView plugin.
+</li><li>The <a class='wikilink' href='http://localhost/Plugins/HistoryPP'>History++</a> plugin. This method uses the History++ plugin to display the message history.<br /><br />
+</li></ul><p>Method 1) uses a Windows RichEdit text control to implement the message log. It converts incoming and outgoing messages to formatted strings and builds a text document from these messages. This document is then sent to the text control for display. The advantages are:
+</p>
+<div class='vspace'></div><ul><li>no additional plugin is required
+</li><li>it is a relatively fast and resource friendly way of building the conversation log.<br /><br />
+</li></ul><p><strong>There are also some disadvantages, though:</strong>
+</p>
+<div class='vspace'></div><ul><li>Rich text format does not allow advanced formatting - e.g. background images or similar things.
+</li><li>Because the entire conversation is a single text document, it is not possible to select single message events once they have been sent to the log. You can only select and copy text like you can from any other text document in a Windows application.<br /><br />
+</li></ul><p>Method 2) and 3) are using additional plugins (see above for more information). IEView allows almost any possible message log layout, because it is based on HTML and CSS. History++ is using a fixed layout, but allows to manipulate single events from the message history. It also makes your message log display in the message window consistent with the message history display.
+</p>
+<div class='vspace'></div><h3>How to configure which method should be used</h3>
+<p class='vspace'>TabSRMM allows both global and local (per contact) settings for this. The global setting will apply to all IM sessions and the local setting can be used to override the global option for any specific contact.
+</p>
+<div class='vspace'></div><ul><li><strong>to set the global option</strong>, open the Miranda options dialog and navigate to <span class='option'>Message Sessions&rarr;Message log[tab]</span>. <strong>Global message log display</strong> is a combo box which gives you the ability to choose from either <strong>Default</strong> (standard, included message history), <strong>IEView</strong> or <strong>History++</strong>
+<div class='vspace'></div></li><li><strong>to set the option for a single contact only</strong>, use the contacts user menu and select <strong>Messaging settings...</strong>. The <strong>Message log view mode</strong> option can be used to either choose the global setting or override this with one of the 3 options also available in the global setting.
+</li></ul><p class='vspace'><a id='note'></a>
+</p>
+<table class='table_plain' style='padding:5px;border:1px solid #aaa;display:block;background:#F0E2E2;' ><tr><td style='width:20px;'  valign='top'><img src='http://localhost/uploads/Template/Note.png' alt='' title='' /> 
+</td><td style='vertical-align:top;'  valign='top'>In both cases, not all options may be available. The options to choose IEView or History++ are only available when these plugins are properly installed.
+</td></tr></table>
+<p><br />
+<strong>It is important to understand</strong> that whenever method 2) or 3) is used to display the history for any contact, <span  style='color: red;'>most of the message log options in tabSRMM will not work</span>. This applies to all formatting, fonts, colors, templates and other options concerning the message history display.<br /><br />
+<strong>This is a common source of problems for new users. When installing and using either IEView or History++ to show the message history in TabSRMM, the user will have to configure these plugins instead of tabSRMM. Most message log options, listed in the <a class='wikilink' href='http://localhost/TabSRMM/ConfigureHistory'>configuration guide</a> will not work, because the standard message history is disabled when IEView or History++ are enabled to render the message log.</strong><br />
+</p><hr />
+<p><span  style='float: right; color: #888; font-size: 10px;'>Author: admin</span>
+<span  style='text-align: left; color: #888; font-size: 10px;'>Last modified: Monday, May 16, 2011 at 10:20 CET</span>
+</p><hr />
+<p>Category: <a class='wikilink' href='http://localhost/TabSRMM/TabSRMM'>TabSRMM</a>
+</p>
+";}

@@ -1,0 +1,30 @@
+version=pmwiki-2.2.18 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:2.0b8pre) Gecko/20101031 Firefox/4.0b8pre Firefox/4.0b8pre
+author=admin
+charset=UTF-8
+csum=
+ctime=1287980061
+host=81.217.70.206
+name=TabSRMM.SuggestFAQ
+rev=6
+targets=
+text== Comment on the TabSRMM FAQ =%0a%0a====You can use this form to suggest a new FAQ item if you believe that it might be useful and missing from the current list of frequently asked questions.====%0a(:div style="border:1px solid #ccc;padding:5px;background-color:#eee":)%0a(:include Template/Formatting#note#endnote Text="Please note that - while I usually read all the mail - I do not always reply.":)%0a%0a=== A note to spammers ===%0a%0a->'''Don't bother abusing this. The submitted content is filtered and any kind of spam will most likely never reach its destination (read: my Inbox).'''%0a%0a(:include Mailform4/FormTemplate Mailform4Subject="comment on the FAQ":)%0a(:divend:)%0a----%0a=== Privacy note ===%0a%0aYour message will be submitted by e-mail to the '''site owner only'''. Neither the message nor your contact information (email address) will be visible anywhere on this site.%0a
+time=1288701742
+author:1288701742=admin
+diff:1288701742:1288701678:=3d2%0a%3c ====You can use this form to suggest a new FAQ item if you believe that it might be useful and missing from the current list of frequently asked questions.====%0a
+host:1288701742=81.217.70.206
+author:1288701678=admin
+diff:1288701678:1288600046:=2,3c2%0a%3c %0a%3c (:div style="border:1px solid #ccc;padding:5px;background-color:#eee":)%0a---%0a> \\%0a11d9%0a%3c (:divend:)%0a
+host:1288701678=81.217.70.206
+author:1288600046=admin
+diff:1288600046:1288599987:=3,4c3,5%0a%3c (:include Template/Formatting#note#endnote Text="Please note that - while I usually read all the mail - I do not always reply.":)%0a%3c %0a---%0a> %0a> Please note that - while I usually read all the mail - I do not always reply.%0a> %0a7c8%0a%3c ->'''Don't bother abusing this. The submitted content is filtered and any kind of spam will most likely never reach its destination (read: my Inbox).'''%0a---%0a> Don't bother abusing this. The submitted content is filtered and any kind of spam will most likely never reach its destination (read: my Inbox).%0a
+host:1288600046=81.217.70.206
+author:1288599987=admin
+diff:1288599987:1288599966:=14c14%0a%3c Your message will be submitted by e-mail to the '''site owner only'''. Neither the message nor your contact information (email address) will be visible anywhere on this site.%0a---%0a> Your message will be submitted by e-mail to the '''site owner only'''. Neither the message or your contact information (email address) will be visible anywhere on this site.%0a
+host:1288599987=81.217.70.206
+author:1288599966=admin
+diff:1288599966:1287980061:=10,14c10%0a%3c (:include Mailform4/FormTemplate Mailform4Subject="comment on the FAQ":)%0a%3c ----%0a%3c === Privacy note ===%0a%3c %0a%3c Your message will be submitted by e-mail to the '''site owner only'''. Neither the message or your contact information (email address) will be visible anywhere on this site.%0a---%0a> (:include Mailform4/FormTemplate Mailform4Subject="comment on the FAQ":)%0a\ No newline at end of file%0a
+host:1288599966=81.217.70.206
+author:1287980061=admin
+diff:1287980061:1287980061:=1,10d0%0a%3c = Comment on the TabSRMM FAQ =%0a%3c \\%0a%3c %0a%3c Please note that - while I usually read all the mail - I do not always reply.%0a%3c %0a%3c === A note to spammers ===%0a%3c %0a%3c Don't bother abusing this. The submitted content is filtered and any kind of spam will most likely never reach its destination (read: my Inbox).%0a%3c %0a%3c (:include Mailform4/FormTemplate Mailform4Subject="comment on the FAQ":)%0a\ No newline at end of file%0a
+host:1287980061=81.217.70.206

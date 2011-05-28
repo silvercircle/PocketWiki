@@ -1,0 +1,104 @@
+version=pmwiki-2.2.18 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:2.0b8pre) Gecko/20101105 Firefox/4.0b8pre Firefox/4.0b8pre
+author=admin
+charset=UTF-8
+csum=
+ctime=1220695294
+host=81.217.70.206
+name=TabSRMM.GeneralSettings
+rev=31
+targets=TabSRMM.TabSRMM,TabSRMM.GroupChats,TabSRMM.Avatars,TabSRMM.AdvancedTweaks,TabSRMM.ConfigureContainers
+text=(:title General settings dialog:)%0a%3c%3c|[[TabSRMM#reference#endreference|Page Index]]|>>%0a=General settings for tabSRMM=%0a>>float:right border="1px solid #aaa" margin-left:10px%3c%3c(:thumb Main./picture.png width=280 rel=highslide captionfmt="General settings":) %0a>>%3c%3c%0a[[#teaser]]%0aThis section covers the option page %25class=option%25Message Sessions->General[tab]%25%25 which holds generic and mostly global setting for the messaging plugin.%0a%0aMost of the options on this page are global options which means, they apply to all message windows with the exception of [[GroupChats|group chats]].%0a%0a'''Things you can customize on this page'''%0a%0a* standard behavior for the message window and sending messages.%0a* Global options for the display of [[Avatars|contact pictures]] in the lower avatar display only. The display of avatars in the info panel depends on info panel settings.%0a[[#teaserend]]%0a%0a==Detailed description of the settings==%0a%0aThese are all located in the scrollable list box in the top half of the dialog window. The following list describes the meaning of each setting in detail.%0a%0a===Message window behaviour===%0a%0a* '''Always flash contact list and tray icon for new messages'''. When enabled, the contact list and system tray icon will always show the flashing "message" icon when a new message arrives. Normally, these icons are only visible when no message window had been opened for the contact which sends you a message.%0a* '''Delete temporary contacts on close'''. Some contacts may be added temporarily on your contact list. For example, when some unauthorized contact sends you a message, you may receive it (depending on the privacy settings in your protocol configuration) and the contact will be added to the contact list as a temporary contact. The message window will show the "add permanently" button which you can use to fully add the contact. If you don't, tabSRMM can delete such a temporary contact when you close the message window. Uncheck this option, if you don't want this (Miranda will usually delete temporary contacts at shut down anyway).%0a%0a===Sending messages (these options also apply to group chat windows)===%0a%0a* '''Send on SHIFT-Enter'''. Allows you to send messages when pressing SHIFT+Enter. If unchecked, this keyboard shortcut will insert a soft newline when typing a message.%0a* '''Send message on enter'''. When enabled, a single press of the ENTER key will send. When unchecked, pressing enter will just insert a new line in the message input area.%0a* '''Send message on double enter'''. When enabled, the first press of  the ENTER key will insert a new line - a subsequent press of the same key will send the message. The allowed delay for the second press of the ENTER key is about half a second, if the delay is longer it will no longer be recognized as the command to send a message.%3cbr />'''NOTE''': This option is overriden by '''Send message on enter''' - if both are enabled, the single enter command has priority.%0a* '''Minimize the message window on send'''. When checked, the message window will be minimized to the task bar (or system tray when this option is enabled) when you send a message.%0a* '''Close the message window on send'''. When enabled, the message window will close after sending a message. This will close '''the entire container, including all other tabs'''. If you don't want this, you must also set the option '''Close current tab on send''' under [[AdvancedTweaks|advanced tweaks]].%0a* '''Allow PASTE AND SEND feature'''. When checked, you can paste and immediately send the content of your clipboard by using the %25class=key%25Ctrl-D%25%25 keyboard shortcut[^Note that keyboard shortcuts are customizable in TabSRMM 3 using %25class=option%25Customize->Hotkeys%25%25.^]%0a* '''Allow BBCode formatting in outgoing messages'''. When checked, TabSRMM will convert formatting applied to outgoing messages to BBCode. You can use standard formatting features in the message input area to apply bold, italic, underlined and color markup. When this option is UNchecked, the formatting controls in the message window tool bar will be absent and no formatting for outgoing messages will be available. Note that this applies to IM chat sessions only, group chats have their own formatting which depends on the capabilities of the protocol (for example, IRC allows formatting in channels while Jabber does not).%0a%0a===Other options===%0a%0a* '''Automatically split long messages'''. When enabled, tabSRMM will automatically send any oversized message in chunks, using the protocols maximum allowed message size. If this is checked, you can write messages up to 20.000 characters, otherwise, the message input area will not let you write messages longer than the protocols message size limitation.%0a%0a==Size and scaling for the bottom avatar display==%0a%0a* '''Maximum display height'''  - this is the maximum height a picture will ever have, no matter what the splitter position dictates. If there is more space available, the picture area will be filled with solid color and maintain the picture vertically centered. This setting will enlarge a picture when its native size is less than the max height option had been set to.%0a* '''Try to keep original size''' - enlarge the picture up to its native height, but not any further. The splitter position will still have priority and may result in a shrunk picture when not enough space is available.%0a\\%0aAll other avatar options are "per container" settings, so you must configure them in the [[ConfigureContainers|container settings]].%0a%0a[^#^]
+time=1289045884
+title=General settings dialog
+author:1289045884=admin
+diff:1289045884:1288350065:=33c33%0a%3c * '''Allow PASTE AND SEND feature'''. When checked, you can paste and immediately send the content of your clipboard by using the %25class=key%25Ctrl-D%25%25 keyboard shortcut[^Note that keyboard shortcuts are customizable in TabSRMM 3 using %25class=option%25Customize->Hotkeys%25%25.^]%0a---%0a> * '''Allow PASTE AND SEND feature'''. When checked, you can paste and immediately send the content of your clipboard by using the {{Key|Ctrl-D}} keyboard shortcut.%0a47d46%0a%3c [^#^]%0a\ No newline at end of file%0a
+host:1289045884=81.217.70.206
+author:1288350065=admin
+diff:1288350065:1288350046:=14a15%0a> %0a16d16%0a%3c %0a
+host:1288350065=81.217.70.206
+author:1288350046=admin
+diff:1288350046:1287778107:=1d0%0a%3c (:title General settings dialog:)%0a6d4%0a%3c [[#teaser]]%0a16d13%0a%3c [[#teaserend]]%0a32c29%0a%3c * '''Close the message window on send'''. When enabled, the message window will close after sending a message. This will close '''the entire container, including all other tabs'''. If you don't want this, you must also set the option '''Close current tab on send''' under [[AdvancedTweaks|advanced tweaks]].%0a---%0a> * '''Close the message window on send'''. When enabled, the message window will close after sending a message. This will close '''the entire container, including all other tabs'''. If you don't want this, you must also set the option '''Close current tab on send''' under [[TabSRMM_AdvancedTweaks|advanced tweaks]].%0a45c42%0a%3c All other avatar options are "per container" settings, so you must configure them in the [[ConfigureContainers|container settings]].%0a---%0a> All other avatar options are "per container" settings, so you must configure them in the [[container settings]].%0a
+host:1288350046=81.217.70.206
+author:1287778107=admin
+diff:1287778107:1287709201:=14,15c14,17%0a%3c ==Detailed description of the settings==%0a%3c %0a---%0a> =Detailed description of the settings=%0a> %0a> ==Toggle settings==%0a> %0a43a46,47%0a> (:include Template/Footer:)%0a> Category: [[!TabSRMM]]%0a\ No newline at end of file%0a
+host:1287778107=81.217.70.206
+author:1287709201=admin
+diff:1287709201:1287690520:=3c3%0a%3c >>float:right border="1px solid #aaa" margin-left:10px%3c%3c(:thumb Main./picture.png width=280 rel=highslide captionfmt="General settings":) %0a---%0a> >>float:right border="1px solid #aaa" margin-left:10px%3c%3c(:thumb Main./picture.png width=280 rel=lightbox captionfmt="General settings":) %0a
+host:1287709201=81.217.70.206
+author:1287690520=admin
+diff:1287690520:1287681709:=1c1%0a%3c %3c%3c|[[TabSRMM#reference#endreference|Page Index]]|>>%0a---%0a> %3c%3c|[[Main/Sitemap#tabsrmm-start#tabsrmm-end|Page Index]]|>>%0a
+host:1287690520=81.217.70.206
+author:1287681709=admin
+diff:1287681709:1287648906:=43c43%0a%3c \\%0a---%0a> %0a
+host:1287681709=81.217.70.206
+author:1287648906=admin
+diff:1287648906:1287648129:=1c1%0a%3c %3c%3c|[[Main/Sitemap#tabsrmm-start#tabsrmm-end|Page Index]]|>>%0a---%0a> %3c%3c|[[Page Index]]|>>%0a
+host:1287648906=81.217.70.206
+author:1287648129=admin
+diff:1287648129:1287647997:=
+host:1287648129=81.217.70.206
+author:1287647997=admin
+diff:1287647997:1287645265:=47c47%0a%3c Category: [[!TabSRMM]]%0a\ No newline at end of file%0a---%0a> [[!TabSRMM]]%0a\ No newline at end of file%0a
+host:1287647997=81.217.70.206
+author:1287645265=admin
+diff:1287645265:1287645031:=3c3%0a%3c >>float:right border="1px solid #aaa" margin-left:10px%3c%3c(:thumb Main./picture.png width=280 rel=lightbox captionfmt="General settings":) %0a---%0a> >>float:right border="1px solid #aaa" margin-left:10px%3c%3c(:thumb Main./picture.png width=280 rel=lightbox :) %0a
+host:1287645265=81.217.70.206
+author:1287645031=admin
+diff:1287645031:1287644904:=
+host:1287645031=81.217.70.206
+author:1287644904=admin
+diff:1287644904:1287643166:=
+host:1287644904=81.217.70.206
+author:1287643166=admin
+diff:1287643166:1287643095:=
+host:1287643166=81.217.70.206
+author:1287643095=admin
+diff:1287643095:1287642478:=
+host:1287643095=81.217.70.206
+author:1287642478=admin
+diff:1287642478:1287642283:=
+host:1287642478=81.217.70.206
+author:1287642283=admin
+diff:1287642283:1287642078:=3c3%0a%3c >>float:right border="1px solid #aaa" margin-left:10px%3c%3c(:thumb Main./picture.png width=280 rel=lightbox :) %0a---%0a> >>float:right border="1px solid #aaa" margin-left:10px%3c%3c(:thumb Main./picture.png width=280 rel=lightbox captionfmt="General settings":) %0a
+host:1287642283=81.217.70.206
+author:1287642078=admin
+diff:1287642078:1287641951:=
+host:1287642078=81.217.70.206
+author:1287641951=admin
+diff:1287641951:1287641936:=3c3%0a%3c >>float:right border="1px solid #aaa" margin-left:10px%3c%3c(:thumb Main./picture.png width=280 rel=lightbox captionfmt="General settings":) %0a---%0a> >>float:right border="1px solid #aaa" margin-left:10px%3c%3c(:thumb Main./picture.png width=280 rel=lightbox: captionfmt="General settings") %0a
+host:1287641951=81.217.70.206
+author:1287641936=admin
+diff:1287641936:1287641894:=3c3%0a%3c >>float:right border="1px solid #aaa" margin-left:10px%3c%3c(:thumb Main./picture.png width=280 rel=lightbox: captionfmt="General settings") %0a---%0a> >>float:right border="1px solid #aaa" margin-left:10px%3c%3c(:thumb Main./picture.png width=280 rel=lightbox:) %0a
+host:1287641936=81.217.70.206
+author:1287641894=admin
+diff:1287641894:1287640889:=3c3%0a%3c >>float:right border="1px solid #aaa" margin-left:10px%3c%3c(:thumb Main./picture.png width=280 rel=lightbox:) %0a---%0a> >>float:right border="1px solid #aaa" margin-left:10px%3c%3c(:thumb Main./picture.png width=280 captionfmt="General settings" rel=lightbox:) %0a
+host:1287641894=81.217.70.206
+author:1287640889=admin
+diff:1287640889:1287640720:=1c1%0a%3c %3c%3c|[[Page Index]]|>>%0a---%0a> %3c%3c|[[TabSRMM/Trail]]|>>%0a
+host:1287640889=81.217.70.206
+author:1287640720=admin
+diff:1287640720:1287640581:=
+host:1287640720=81.217.70.206
+author:1287640581=admin
+diff:1287640581:1287639081:=1d0%0a%3c %3c%3c|[[TabSRMM/Trail]]|>>%0a
+host:1287640581=81.217.70.206
+author:1287639081=admin
+diff:1287639081:1287639001:=2c2%0a%3c >>float:right border="1px solid #aaa" margin-left:10px%3c%3c(:thumb Main./picture.png width=280 captionfmt="General settings" rel=lightbox:) %0a---%0a> >>float:right border="1px solid #aaa" margin-left:10px%3c%3c(:thumb Main./picture.png captionfmt="General settings" rel=lightbox:) %0a
+host:1287639081=81.217.70.206
+author:1287639001=admin
+diff:1287639001:1287638684:=2c2%0a%3c >>float:right border="1px solid #aaa" margin-left:10px%3c%3c(:thumb Main./picture.png captionfmt="General settings" rel=lightbox:) %0a---%0a> >>float:right border="1px solid #aaa" margin-left:10px%3c%3c(:thumb Main./picture.png rel=lightbox captionfmt="General settings":) %0a
+host:1287639001=81.217.70.206
+author:1287638684=admin
+csum:1287638684=Description of the general settings dialog
+diff:1287638684:1287638607:minor=4c4%0a%3c This section covers the option page %25class=option%25Message Sessions->General[tab]%25%25 which holds generic and mostly global setting for the messaging plugin.%0a---%0a> This section covers the option page {{Option|Message Sessions->General[tab]}} which holds generic and mostly global setting for the messaging plugin.%0a
+host:1287638684=81.217.70.206
+author:1287638607=admin
+diff:1287638607:1287638576:=2c2%0a%3c >>float:right border="1px solid #aaa" margin-left:10px%3c%3c(:thumb Main./picture.png rel=lightbox captionfmt="General settings":) %0a---%0a> >>float:right border="1px solid #aaa"%3c%3c(:thumb Main./picture.png rel=lightbox captionfmt="General settings":) %0a
+host:1287638607=81.217.70.206
+author:1287638576=admin
+diff:1287638576:1287607928:=0a1%0a> __NOTOC____NOEDITSECTION__{{V3}}%0a2,3c3%0a%3c >>float:right border="1px solid #aaa"%3c%3c(:thumb Main./picture.png rel=lightbox captionfmt="General settings":) %0a%3c >>%3c%3c%0a---%0a> [[Image:General Settings.png|thumb|right|250px|The general settings dialog]]%0a8,10c8,10%0a%3c '''Things you can customize on this page'''%0a%3c %0a%3c * standard behavior for the message window and sending messages.%0a---%0a> :'''Things you can customize on this page'''%0a> %0a> * standard behaviour for the message window and sending messages.%0a12c12,14%0a%3c %0a---%0a> * auto-close feature%0a> %0a> %0a33d34%0a%3c %0a45c46,47%0a%3c (:include Template/Footer:)%0a---%0a> %0a> {{Footer}}%0a
+host:1287638576=81.217.70.206
+author:1287607928=Alex
+diff:1287607928:1287607928:=48c48%0a%3c [[!TabSRMM]]%0a\ No newline at end of file%0a---%0a> [[Category:TabSRMM]]%0a\ No newline at end of file%0a
+host:1287607928=81.217.70.206

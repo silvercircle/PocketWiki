@@ -1,0 +1,15 @@
+version=pmwiki-2.2.18 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.11 (KHTML, like Gecko) Chrome/8.0.561.0 Safari/534.11
+author=admin
+charset=UTF-8
+csum=
+ctime=1288120901
+host=81.217.70.206
+name=Firefox.GroupHeader
+rev=1
+targets=
+text=>>class=tabsrmm_header%3c%3c%0a%25rfloat margin-top="-3px"%25(:quicktoc:)%25%25%0aFirefox stuff%0a>>%3c%3c
+time=1288120901
+author:1288120901=admin
+diff:1288120901:1288120901:=1,4d0%0a%3c >>class=tabsrmm_header%3c%3c%0a%3c %25rfloat margin-top="-3px"%25(:quicktoc:)%25%25%0a%3c Firefox stuff%0a%3c >>%3c%3c%0a\ No newline at end of file%0a
+host:1288120901=81.217.70.206

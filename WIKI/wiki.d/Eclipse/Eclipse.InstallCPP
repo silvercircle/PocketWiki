@@ -1,0 +1,16 @@
+version=pmwiki-2.2.18 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:2.0b8pre) Gecko/20101031 Firefox/4.0b8pre Firefox/4.0b8pre
+author=admin
+charset=UTF-8
+csum=
+ctime=1288694442
+host=81.217.70.206
+name=Eclipse.InstallCPP
+rev=1
+targets=
+text=(:title Install Eclipse for C++ only:)%0a= Install for C++ development =%0a%0a
+time=1288694442
+title=Install Eclipse for C++ only
+author:1288694442=admin
+diff:1288694442:1288694442:=1,3d0%0a%3c (:title Install Eclipse for C++ only:)%0a%3c = Install for C++ development =%0a%3c %0a
+host:1288694442=81.217.70.206

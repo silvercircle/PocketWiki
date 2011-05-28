@@ -1,0 +1,15 @@
+version=pmwiki-2.2.18 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:2.0b8pre) Gecko/20101020 Firefox/4.0b8pre Firefox/4.0b8pre
+author=admin
+charset=UTF-8
+csum=
+ctime=1287780353
+host=81.217.70.206
+name=Plugins.GroupHeader
+rev=1
+targets=
+text=>>class=tabsrmm_header%3c%3c%0a%25rfloat margin-top="-3px"%25(:quicktoc:)%25%25%0aPlugin documentation%0a>>%3c%3c
+time=1287780353
+author:1287780353=admin
+diff:1287780353:1287780353:=1,4d0%0a%3c >>class=tabsrmm_header%3c%3c%0a%3c %25rfloat margin-top="-3px"%25(:quicktoc:)%25%25%0a%3c Plugin documentation%0a%3c >>%3c%3c%0a\ No newline at end of file%0a
+host:1287780353=81.217.70.206

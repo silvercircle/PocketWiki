@@ -1,0 +1,66 @@
+a:1:{i:0;s:5751:"<div class='tabsrmm_header' > 
+<p>
+<strong>TabSRMM documentation</strong> <code class='escaped'>   </code> <span class='rsslink'><a class='wikilink' href='http://localhost/TabSRMM/RecentChanges?action=rss'>RSS</a></span> | <span class='rsslink'><a class='wikilink' href='http://localhost/TabSRMM/RecentChanges?action=atom'>ATOM</a></span>
+</p></div>
+<p><span class='wikitrail'>&lsaquo; <a class='wikilink' href='http://localhost/TabSRMM/Downloads'>How and where to download</a> | <a class='wikilink' href='http://localhost/TabSRMM/TabSRMM#general#endgeneral'>Page Index</a></span>
+</p><h1>Installing tabSRMM</h1>
+<p><a id='teaser'></a>
+</p><h2>0. Prerequisites and requirements</h2>
+<p class='vspace'>The following things must be fulfilled, before you can install this plugin:
+</p>
+<div class='vspace'></div><ul><li>You must run Miranda 0.9.0 or later which is the current <strong>stable</strong> build.
+</li><li>You must use Windows 2000, Windows XP or later.
+</li><li>You must use the Unicode build of Miranda, either 32- or 64bit. TabSRMM does no longer support the ANSI builds of Miranda nor can it be used on Windows 98 or SE.
+</li><li>You may need administrator privileges to copy the plugin files to the main Miranda folder, depending on your systems configuration.
+</li></ul><p><a id='teaserend'></a>
+</p><h2>1. Getting the plugin</h2>
+<p class='vspace'>The current officially supported version is 3.0.x. You should not use older builds, because they will either not work at all or have bugs which are already fixed. 
+</p>
+<div class='vspace'></div><h3>Official download links</h3>
+<div class='vspace'></div><ul><li>Refer to <a class='wikilink' href='http://localhost/TabSRMM/Downloads'>this page</a>. TabSRMM is part of the 3rd party plugin pack which is distributed with Miranda 0.9.0 and later. Downloads are available from the official Miranda download page.
+</li></ul><div class='vspace'></div><h3>Building from the sources (for advanced users)</h3>
+<p class='vspace'>If you wish, you can obtain the source code and build it yourself. See <a class='createlinktext' rel='nofollow' 
+    href='http://localhost/TabSRMM/SVNRepositories?action=edit'>here</a><a rel='nofollow' 
+    class='createlink' href='http://localhost/TabSRMM/SVNRepositories?action=edit'>?</a> for more information where to get the code.
+</p>
+<div class='vspace'></div><h2>2. Installing it</h2>
+<p class='vspace'>Before installing a plugin, you should quit Miranda. Plugins will only be loaded and initialized when you start the program, so copying new plugins while Miranda is running will not activate them until the next restart.
+</p>
+<div class='vspace'></div><h4>The download archive will have the following directory structure inside:</h4>
+<div class='vspace'></div><pre class='escaped'>
+\docs
+\plugins
+\icons
+</pre>
+<div class='vspace'></div><h4>To install, copy the files as follows:</h4>
+<div class='vspace'></div><ul><li>the <strong>tabsrmm.dll</strong> from <strong>\plugins</strong> must be copied to the <span  style='color: red;'>plugins</span> folder of your Miranda installation.
+</li><li>The <strong>tabsrmm_icons.dll</strong> from <strong>\icons</strong> must be copied to the <span  style='color: red;'>icons</span> folder of your Miranda installation.<br /><br />
+</li></ul><p>For example, if your Miranda is installed in <strong>c:\program files\miranda\</strong>, you will find the <span  style='color: red;'>plugins</span> and <span class='Red'>icons</span> folders as subfolders in this directory.
+</p>
+<div class='vspace'></div><h2>3. Verify that the plugin has been properly installed and works</h2>
+<div class='vspace'></div><ul><li>start miranda
+</li><li>Open the options screen and navigate to the <strong>Plugins</strong> node.
+</li><li>A list of installed plugins will appear in the options dialog. Check the following things:
+<ul><li>tabsrmm.dll is listed.
+</li><li>its checkmark is checked (meaning, the plugin is activated)
+</li><li>It shows a green dot (meaning, the plugin is running)
+</li><li>It shows a blue 'A' or 'U' just in front of the DLL name, where the A stands for ANSI and U for UNICODE. Make sure, that matches your Miranda version.
+</li></ul></li></ul><div class='vspace'></div><h2>4. Troubleshooting</h2>
+<p class='vspace'>If one of the above steps cannot be verified properly, one of the following things may prevent TabSRMM from loading and activating.
+</p>
+<div class='vspace'></div><ul><li>wrong Miranda version. You must use Miranda 0.9 or later.
+</li><li>a conflicting plugin is still active. You can only use ONE message window plugin in Miranda. Other plugins, providing the same functionality, may still be active. Check <span class='option'>Options&rarr;Plugins</span> to resolve this. Examples for conflicting plugins are:
+<ul><li>SRMM.dll
+</li><li>Scriver.dll
+</li><li>nConvers.dll
+</li></ul></li><li>if you found that some other messaging plugin is conflicting, you can just disable it (remove the checkmark) and then activate <strong>tabsrmm.dll</strong> by ticking its checkmark. You'll have to restart Miranda thereafter.
+</li></ul><p><br /><br />That's it. You should now be able to use it. Continue reading with the <a class='createlinktext' rel='nofollow' 
+    href='http://localhost/TabSRMM/FirstTimeUsersTabSRMM?action=edit'>hints for first time users</a><a rel='nofollow' 
+    class='createlink' href='http://localhost/TabSRMM/FirstTimeUsersTabSRMM?action=edit'>?</a>.<br /><br />
+</p><hr />
+<p><span  style='float: right; color: #888; font-size: 10px;'>Author: admin</span>
+<span  style='text-align: left; color: #888; font-size: 10px;'>Last modified: Friday, October 29, 2010 at 01:35 CET</span>
+</p><hr />
+<p>Category: <a class='wikilink' href='http://localhost/TabSRMM/TabSRMM'>TabSRMM</a>
+</p>
+";}

@@ -1,0 +1,22 @@
+version=pmwiki-2.2.18 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:2.0b8pre) Gecko/20101105 Firefox/4.0b8pre Firefox/4.0b8pre
+author=admin
+charset=UTF-8
+csum=
+ctime=1289049527
+host=81.217.70.206
+name=TabSRMM.Sessions
+rev=3
+targets=TabSRMM.TabSRMM,TabSRMM.GroupChats,TabSRMM.Containers
+text=%3c|[[TabSRMM.#reference|Page Index]]|>%0a(:title Session management:)%0a= Session management in TabSRMM =%0a%0aIn TabSRMM terminology, a session is a chat entity, either a standard IM chat or a [[GroupChats|group chat]] (IRC channel, Jabber room). A session is always unique, there cannot be more than one chat session for the same contact or chat room and a session exists inside a [[Containers|container]]. Each container holds at least one session and can hold any number of sessions, providing a tab- or button bar to switch between them.\\\%0a%0aInternally, TabSRMM keeps track of all open sessions and provides a few methods for quickly accessing active sessions even when they are in different containers.%0a
+time=1289050666
+title=Session management
+author:1289050666=admin
+diff:1289050666:1289049574:=3,7c3%0a%3c = Session management in TabSRMM =%0a%3c %0a%3c In TabSRMM terminology, a session is a chat entity, either a standard IM chat or a [[GroupChats|group chat]] (IRC channel, Jabber room). A session is always unique, there cannot be more than one chat session for the same contact or chat room and a session exists inside a [[Containers|container]]. Each container holds at least one session and can hold any number of sessions, providing a tab- or button bar to switch between them.\\\%0a%3c %0a%3c Internally, TabSRMM keeps track of all open sessions and provides a few methods for quickly accessing active sessions even when they are in different containers.%0a---%0a> = Session management in TabSRMM =%0a\ No newline at end of file%0a
+host:1289050666=81.217.70.206
+author:1289049574=admin
+diff:1289049574:1289049527:=1c1%0a%3c %3c|[[TabSRMM.#reference|Page Index]]|>%0a---%0a> %3c|[[TabSRMM.#index|Page Index]]|>%0a
+host:1289049574=81.217.70.206
+author:1289049527=admin
+diff:1289049527:1289049527:=1,3d0%0a%3c %3c|[[TabSRMM.#index|Page Index]]|>%0a%3c (:title Session management:)%0a%3c = Session management in TabSRMM =%0a\ No newline at end of file%0a
+host:1289049527=81.217.70.206

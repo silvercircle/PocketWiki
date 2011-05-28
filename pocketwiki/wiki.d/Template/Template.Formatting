@@ -1,0 +1,75 @@
+version=pmwiki-2.2.18 ordered=1 urlencoded=1
+agent=Opera/9.80 (Windows NT 6.1; U; en) Presto/2.8.131 Version/11.10
+author=admin
+charset=UTF-8
+csum=
+ctime=1287616027
+host=81.217.70.206
+name=Template.Formatting
+rev=31
+targets=Category.Templates
+text=[[#hint]]%0a(:table class="table_plain" style="padding:5px;border:1px solid #aaa;display:block;background:#f0f0e2;" :)%0a(:cell style="width:20px;":)Attach:Template./Hint.png %0a(:cell style="vertical-align:top;":){$$Text}%0a(:tableend:)%0a[[#endhint]]%0a%0a[[#note]]%0a(:table class="table_plain" style="padding:5px;border:1px solid #aaa;display:block;background:#F0E2E2;" :)%0a(:cell style="width:20px;":)Attach:Template./Note.png %0a(:cell style="vertical-align:top;":){$$Text}%0a(:tableend:)%0a[[#endnote]]%0a%0a[[#check]]%0a(:table class="table_plain" style="padding:5px;border:1px solid #aaa;display:block;background:#e2f2E2;" :)%0a(:cell style="width:20px;":)Attach:Template./Check.png %0a(:cell style="vertical-align:top;":){$$Text}%0a(:tableend:)%0a[[#endcheck]]%0a%0a[[#rimage]]%0a>>float:right border="1px solid #ccc" margin-left:10px%3c%3c%0a(:thumb {$$Image} width={$$Width} class=cbox captionfmt="{$$Caption}":)%0a>>%3c%3c%0a[[#endrimage]]%0a%0a[[#limage]]%0a>>float:left border="1px solid #ccc" margin-right:10px%3c%3c%0a(:thumb {$$Image} width={$$Width} align=left captionfmt="{$$Caption}":)%0a>>%3c%3c%0a[[#endlimage]]%0a%0a[[#cbox]]%0a(:div class="{$$class}" style="width:{$$width}px; max-width:{$$width}px;":)%0a(:toggle {$$id} init="{$$init}" show="{$$showtext}" hide="{$$hidetext}":)%0a(:div1 id="{$$id}":)%0a[[#endcbox]]%0a%0aCategory: [[!Templates]]
+time=1305427914
+author:1305427914=admin
+diff:1305427914:1305427690:=24c24%0a%3c (:thumb {$$Image} width={$$Width} class=cbox captionfmt="{$$Caption}":)%0a---%0a> (:thumb {$$Image} style=width:{{$$Width}}px;" class=cbox captionfmt="{$$Caption}":)%0a
+host:1305427914=81.217.70.206
+author:1305427690=admin
+diff:1305427690:1305426439:=24c24%0a%3c (:thumb {$$Image} style=width:{{$$Width}}px;" class=cbox captionfmt="{$$Caption}":)%0a---%0a> (:thumb {$$Image} class=cbox captionfmt="{$$Caption}":)%0a
+host:1305427690=81.217.70.206
+author:1305426439=admin
+diff:1305426439:1305423227:=24c24%0a%3c (:thumb {$$Image} class=cbox captionfmt="{$$Caption}":)%0a---%0a> (:thumb {$$Image} width={$$Width} class=cbox captionfmt="{$$Caption}":)%0a
+host:1305426439=81.217.70.206
+author:1305423227=admin
+diff:1305423227:1305423027:=24c24%0a%3c (:thumb {$$Image} width={$$Width} class=cbox captionfmt="{$$Caption}":)%0a---%0a> (:thumb {$$Image} style=width:{$$Width}px; class=cbox captionfmt="{$$Caption}":)%0a30c30%0a%3c (:thumb {$$Image} width={$$Width} align=left captionfmt="{$$Caption}":)%0a---%0a> (:thumb {$$Image} width={$$Width} align=left rel=highslide captionfmt="{$$Caption}":)%0a
+host:1305423227=81.217.70.206
+author:1305423027=admin
+diff:1305423027:1305399682:=24c24%0a%3c (:thumb {$$Image} style=width:{$$Width}px; class=cbox captionfmt="{$$Caption}":)%0a---%0a> (:thumb {$$Image} width={$$Width} align=right class=cbox captionfmt="{$$Caption}":)%0a
+host:1305423027=81.217.70.206
+author:1305399682=admin
+diff:1305399682:1305389780:=2c2%0a%3c (:table class="table_plain" style="padding:5px;border:1px solid #aaa;display:block;background:#f0f0e2;" :)%0a---%0a> (:table style="padding:5px;border:1px solid #aaa;display:block;background:#f0f0e2;" cellpadding="0" cellspacing="0":)%0a9c9%0a%3c (:table class="table_plain" style="padding:5px;border:1px solid #aaa;display:block;background:#F0E2E2;" :)%0a---%0a> (:table style="padding:5px;border:1px solid #aaa;display:block;background:#F0E2E2;" cellpadding="0" cellspacing="0":)%0a16c16%0a%3c (:table class="table_plain" style="padding:5px;border:1px solid #aaa;display:block;background:#e2f2E2;" :)%0a---%0a> (:table style="padding:5px;border:1px solid #aaa;display:block;background:#e2f2E2;" cellpadding="0" cellspacing="0":)%0a
+host:1305399682=81.217.70.206
+author:1305389780=admin
+diff:1305389780:1288685092:=24c24%0a%3c (:thumb {$$Image} width={$$Width} align=right class=cbox captionfmt="{$$Caption}":)%0a---%0a> (:thumb {$$Image} width={$$Width} align=right rel=highslide captionfmt="{$$Caption}":)%0a
+host:1305389780=81.217.70.206
+author:1288685092=admin
+diff:1288685092:1288684455:=24c24%0a%3c (:thumb {$$Image} width={$$Width} align=right rel=highslide captionfmt="{$$Caption}":)%0a---%0a> (:thumb {$$Image} width={$$Width} align=right captionfmt="{$$Caption}":)%0a
+host:1288685092=81.217.70.206
+author:1288684455=admin
+diff:1288684455:1288683144:=24c24%0a%3c (:thumb {$$Image} width={$$Width} align=right captionfmt="{$$Caption}":)%0a---%0a> (:thumb {$$Image} width={$$Width} align=right rel=highslide captionfmt="{$$Caption}":)%0a
+host:1288684455=81.217.70.206
+author:1288683144=admin
+diff:1288683144:1288682985:=24c24%0a%3c (:thumb {$$Image} width={$$Width} align=right rel=highslide captionfmt="{$$Caption}":)%0a---%0a> (:thumb {$$Image} width={$$Width} align=right onclick="foo" rel=highslide captionfmt="{$$Caption}":)%0a
+host:1288683144=81.217.70.206
+author:1288682985=admin
+diff:1288682985:1287983694:=24c24%0a%3c (:thumb {$$Image} width={$$Width} align=right onclick="foo" rel=highslide captionfmt="{$$Caption}":)%0a---%0a> (:thumb {$$Image} width={$$Width} align=right rel=highslide captionfmt="{$$Caption}":)%0a
+host:1288682985=81.217.70.206
+author:1287983694=admin
+diff:1287983694:1287899589:=
+host:1287983694=81.217.70.206
+author:1287899589=admin
+diff:1287899589:1287899531:=36c36%0a%3c (:toggle {$$id} init="{$$init}" show="{$$showtext}" hide="{$$hidetext}":)%0a---%0a> (:toggle {$$id} set=1 init="{$$init}" show="{$$showtext}" hide="{$$hidetext}":)%0a
+host:1287899589=81.217.70.206
+author:1287899531=admin
+diff:1287899531:1287899475:=36c36%0a%3c (:toggle {$$id} set=1 init="{$$init}" show="{$$showtext}" hide="{$$hidetext}":)%0a---%0a> (:toggle set=1 {$$id} init="{$$init}" show="{$$showtext}" hide="{$$hidetext}":)%0a
+host:1287899531=81.217.70.206
+author:1287899475=admin
+diff:1287899475:1287899156:=36c36%0a%3c (:toggle set=1 {$$id} init="{$$init}" show="{$$showtext}" hide="{$$hidetext}":)%0a---%0a> (:toggle set=1 {$$id} {$$init} show="{$$showtext}" hide="{$$hidetext}":)%0a
+host:1287899475=81.217.70.206
+author:1287899156=admin
+diff:1287899156:1287899057:=36c36%0a%3c (:toggle set=1 {$$id} {$$init} show="{$$showtext}" hide="{$$hidetext}":)%0a---%0a> (:toggle {$$id} {$$init} show="{$$showtext}" hide="{$$hidetext}":)%0a
+host:1287899156=81.217.70.206
+author:1287899057=admin
+diff:1287899057:1287898879:=36c36%0a%3c (:toggle {$$id} {$$init} show="{$$showtext}" hide="{$$hidetext}":)%0a---%0a> (:togglehide {$$id} default={$$init} float=none showtext="{$$showtext}" hidetext="{$$hidetext}":)%0a
+host:1287899057=81.217.70.206
+author:1287898879=admin
+diff:1287898879:1287898692:=36c36%0a%3c (:togglehide {$$id} default={$$init} float=none showtext="{$$showtext}" hidetext="{$$hidetext}":)%0a---%0a> (:togglehide {$$id} default={$$init} float=none showtext="{$$show}" hidetext="{$$hide}":)%0a
+host:1287898879=81.217.70.206
+author:1287898692=admin
+diff:1287898692:1287898465:=36c36%0a%3c (:togglehide {$$id} default={$$init} float=none showtext="{$$show}" hidetext="{$$hide}":)%0a---%0a> (:togglehide {$$id} default=show:)%0a
+host:1287898692=81.217.70.206
+author:1287898465=admin
+diff:1287898465:1287896152:=36c36%0a%3c (:togglehide {$$id} default=show:)%0a---%0a> (:toggle id="{$$id}" {$$init} hide="{$$hidetext}" show="{$$showtext}":)%0a
+host:1287898465=81.217.70.206
+author:1287896152=admin
+diff:1287896152:1287895976:=35c35%0a%3c (:div class="{$$class}" style="width:{$$width}px; max-width:{$$width}px;":)%0a---%0a> (:div class="{$$class}" style="width:{$$width}; max-width:{$$width};":)%0a
+host:1287896152=81.217.70.206

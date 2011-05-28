@@ -1,0 +1,24 @@
+version=pmwiki-2.2.18 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.11 (KHTML, like Gecko) Chrome/9.0.567.0 Safari/534.11
+author=admin
+charset=UTF-8
+csum=
+ctime=1288687931
+host=81.217.70.206
+name=Eclipse.GroupFooter
+rev=4
+targets=Eclipse.Eclipse
+text=----%0a%25float:right color:#888 font-size:10px%25Author: {$LastModifiedBy}%25%25%0a%25text-align:left color:#888 font-size:10px%25Last modified: {(ftime fmt="%25A, %25B %25d, %25Y at %25H:%25M" @{$LastModifiedTime})} CET%25%25%0a----%0aCategory: [[Eclipse]]%0a
+time=1288687977
+author:1288687977=admin
+diff:1288687977:1288687968:=5c5%0a%3c Category: [[Eclipse]]%0a---%0a> Category: [[TabSRMM]]%0a
+host:1288687977=81.217.70.206
+author:1288687968=admin
+diff:1288687968:1288687955:=2c2%0a%3c %25float:right color:#888 font-size:10px%25Author: {$LastModifiedBy}%25%25%0a---%0a> %25float:right color:#888 font-size:small%25Author: {$LastModifiedBy}%25%25%0a
+host:1288687968=81.217.70.206
+author:1288687955=admin
+diff:1288687955:1288687931:=3c3%0a%3c %25text-align:left color:#888 font-size:10px%25Last modified: {(ftime fmt="%25A, %25B %25d, %25Y at %25H:%25M" @{$LastModifiedTime})} CET%25%25%0a---%0a> %25text-align:left color:#888 font-size:small%25Last modified: {(ftime fmt="%25A, %25B %25d, %25Y at %25H:%25M" @{$LastModifiedTime})} CET%25%25%0a
+host:1288687955=81.217.70.206
+author:1288687931=admin
+diff:1288687931:1288687931:=1,5d0%0a%3c ----%0a%3c %25float:right color:#888 font-size:small%25Author: {$LastModifiedBy}%25%25%0a%3c %25text-align:left color:#888 font-size:small%25Last modified: {(ftime fmt="%25A, %25B %25d, %25Y at %25H:%25M" @{$LastModifiedTime})} CET%25%25%0a%3c ----%0a%3c Category: [[TabSRMM]]%0a
+host:1288687931=81.217.70.206

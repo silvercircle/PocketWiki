@@ -1,0 +1,18 @@
+version=pmwiki-2.2.18 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.11 (KHTML, like Gecko) Chrome/8.0.561.0 Safari/534.11
+author=admin
+charset=UTF-8
+csum=
+ctime=1288121611
+host=81.217.70.206
+name=Firefox.FirefoxStyleMiranda
+rev=2
+targets=
+text== User style for Miranda IM forums =%0a%0aUse with stylish in Firefox or personalized web extension in Chrome (make sure to remove the @namespace stuff for chrome and use the plain CSS).%0a%0a(:codestart css:)%0a@namespace url(http://www.w3.org/1999/xhtml);%0a%0a@-moz-document domain("forums.miranda-im.org") {%0a%0ahtml {%0a   padding-left: 40px !important;%0a   padding-right: 40px !important;%0a}%0a%0abody {%0a   font-size:11px;%0a   font-family: Segoe UI !important;%0a   max-width: 1200px !important;%0a   min-width: 600px !important;%0a   width: auto !important;%0a   margin-left: auto !important;%0a   margin-right: auto !important;%0a}%0a%0a.foruminfo {%0a  padding:1px !important;%0a}%0a%0a#m_navbar {%0a  width: 100%25 !important;%0a}%0a%0a.content {%0a   font-family: Segoe UI !important;%0a   font-size:90%25 !important;%0a}%0a%0a}%0a(:codeend:)%0a
+time=1288121711
+author:1288121711=admin
+diff:1288121711:1288121611:=1,4d0%0a%3c = User style for Miranda IM forums =%0a%3c %0a%3c Use with stylish in Firefox or personalized web extension in Chrome (make sure to remove the @namespace stuff for chrome and use the plain CSS).%0a%3c %0a
+host:1288121711=81.217.70.206
+author:1288121611=admin
+diff:1288121611:1288121611:=1,35d0%0a%3c (:codestart css:)%0a%3c @namespace url(http://www.w3.org/1999/xhtml);%0a%3c %0a%3c @-moz-document domain("forums.miranda-im.org") {%0a%3c %0a%3c html {%0a%3c    padding-left: 40px !important;%0a%3c    padding-right: 40px !important;%0a%3c }%0a%3c %0a%3c body {%0a%3c    font-size:11px;%0a%3c    font-family: Segoe UI !important;%0a%3c    max-width: 1200px !important;%0a%3c    min-width: 600px !important;%0a%3c    width: auto !important;%0a%3c    margin-left: auto !important;%0a%3c    margin-right: auto !important;%0a%3c }%0a%3c %0a%3c .foruminfo {%0a%3c   padding:1px !important;%0a%3c }%0a%3c %0a%3c #m_navbar {%0a%3c   width: 100%25 !important;%0a%3c }%0a%3c %0a%3c .content {%0a%3c    font-family: Segoe UI !important;%0a%3c    font-size:90%25 !important;%0a%3c }%0a%3c %0a%3c }%0a%3c (:codeend:)%0a
+host:1288121611=81.217.70.206

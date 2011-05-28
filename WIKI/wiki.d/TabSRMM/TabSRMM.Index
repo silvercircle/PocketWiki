@@ -1,0 +1,78 @@
+version=pmwiki-2.2.18 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:2.0b8pre) Gecko/20101028 Firefox/4.0b8pre Firefox/4.0b8pre
+author=admin
+charset=UTF-8
+csum=
+ctime=1288302185
+host=81.217.70.206
+name=TabSRMM.Index
+rev=22
+targets=TabSRMM.FullName
+text=(:if auth read :)%0a(:if false :)%0a[[#blog]]%0a(:template each:)%0a= [[{=$FullName}|{=$Title}]] =%0a(:include {=$FullName}#teaser#teaserend self=0:)%0a\\\%0a[[{=$FullName}|read more...]]%0a----%0a(:template last:)%0a%25right%25{$$BPLnav}%0a[[#blogend]]%0a(:ifend:)%0a(:pagelist group=TabSRMM name=-Index,-RecentChanges,-TabSRMM count=10 order=-time fmt=#blog cache=1 start=BPL:)%0a(:ifend:)
+time=1288348726
+author:1288348726=admin
+diff:1288348726:1288310953:=14c14%0a%3c (:pagelist group=TabSRMM name=-Index,-RecentChanges,-TabSRMM count=10 order=-time fmt=#blog cache=1 start=BPL:)%0a---%0a> (:pagelist group=TabSRMM name=-Index,-RecentChanges,-TabSRMM count=5 order=-time fmt=#blog cache=1 start=BPL:)%0a
+host:1288348726=81.217.70.206
+author:1288310953=admin
+diff:1288310953:1288310935:=14c14%0a%3c (:pagelist group=TabSRMM name=-Index,-RecentChanges,-TabSRMM count=5 order=-time fmt=#blog cache=1 start=BPL:)%0a---%0a> (:pagelist group=TabSRMM name=-Index,-RecentChanges,-TabSRMM count=10 order=-time fmt=#blog cache=1 start=BPL:)%0a
+host:1288310953=81.217.70.206
+author:1288310935=admin
+diff:1288310935:1288310208:=5c5%0a%3c = [[{=$FullName}|{=$Title}]] =%0a---%0a> == [[{=$FullName}|{=$Title}]] ==%0a14c14,15%0a%3c (:pagelist group=TabSRMM name=-Index,-RecentChanges,-TabSRMM count=10 order=-time fmt=#blog cache=1 start=BPL:)%0a---%0a> = Index of changes in the TabSRMM group=%0a> (:pagelist group=TabSRMM name=-Index,-RecentChanges count=10 order=-time fmt=#blog cache=1 start=BPL:)%0a
+host:1288310935=81.217.70.206
+author:1288310208=admin
+diff:1288310208:1288309803:=5c5%0a%3c == [[{=$FullName}|{=$Title}]] ==%0a---%0a> = [[{=$FullName}|{=$Title}]] =%0a14d13%0a%3c = Index of changes in the TabSRMM group=%0a
+host:1288310208=81.217.70.206
+author:1288309803=admin
+diff:1288309803:1288309109:=14c14%0a%3c (:pagelist group=TabSRMM name=-Index,-RecentChanges count=10 order=-time fmt=#blog cache=1 start=BPL:)%0a---%0a> (:pagelist group=TabSRMM name=-Index count=10 order=-time fmt=#blog cache=1 start=BPL:)%0a
+host:1288309803=81.217.70.206
+author:1288309109=admin
+diff:1288309109:1288309061:=14c14%0a%3c (:pagelist group=TabSRMM name=-Index count=10 order=-time fmt=#blog cache=1 start=BPL:)%0a---%0a> (:pagelist group=TabSRMM name=-Index count=10 order=-ctime fmt=#blog cache=1 s:)%0a
+host:1288309109=81.217.70.206
+author:1288309061=admin
+diff:1288309061:1288309043:=14c14%0a%3c (:pagelist group=TabSRMM name=-Index count=10 order=-ctime fmt=#blog cache=1 s:)%0a---%0a> (:pagelist group=TabSRMM name=-Index count=10 order=-ctime fmt=#blog cache=1 start=BPL :)%0a
+host:1288309061=81.217.70.206
+author:1288309043=admin
+diff:1288309043:1288309029:=7c7%0a%3c \\\%0a---%0a> \\%0a
+host:1288309043=81.217.70.206
+author:1288309029=admin
+diff:1288309029:1288306226:=6c6%0a%3c (:include {=$FullName}#teaser#teaserend self=0:)%0a---%0a> (:include (:include {=$FullName}#teaser#teaserend self=0:)%0a
+host:1288309029=81.217.70.206
+author:1288306226=admin
+diff:1288306226:1288305644:=14c14%0a%3c (:pagelist group=TabSRMM name=-Index count=10 order=-ctime fmt=#blog cache=1 start=BPL :)%0a---%0a> (:pagelist group=TabSRMM count=10 order=-ctime fmt=#blog cache=1 start=BPL :)%0a
+host:1288306226=81.217.70.206
+author:1288305644=admin
+diff:1288305644:1288305545:=5c5%0a%3c = [[{=$FullName}|{=$Title}]] =%0a---%0a> = [[{=$Title}]] =%0a
+host:1288305644=81.217.70.206
+author:1288305545=admin
+diff:1288305545:1288303943:=5c5%0a%3c = [[{=$Title}]] =%0a---%0a> = [[{=$Name}]] =%0a
+host:1288305545=81.217.70.206
+author:1288303943=admin
+diff:1288303943:1288303818:=3a4,5%0a> (:template first:)%0a> {$$BPLnav}%0a10,11d11%0a%3c (:template last:)%0a%3c %25right%25{$$BPLnav}%0a
+host:1288303943=81.217.70.206
+author:1288303818=admin
+diff:1288303818:1288303755:=1d0%0a%3c (:if auth read :)%0a15d13%0a%3c (:ifend:)%0a\ No newline at end of file%0a
+host:1288303818=81.217.70.206
+author:1288303755=admin
+diff:1288303755:1288303680:=
+host:1288303755=81.217.70.206
+author:1288303680=admin
+diff:1288303680:1288303590:=4c4%0a%3c {$$BPLnav}%0a---%0a> %25right%25{$$BPLnav}%0a13c13%0a%3c (:pagelist group=TabSRMM count=10 order=-ctime fmt=#blog cache=1 start=BPL :)%0a---%0a> (:pagelist group=TabSRMM count=10 order=-ctime fmt=#blog cache=1 :)%0a
+host:1288303680=81.217.70.206
+author:1288303590=admin
+diff:1288303590:1288302450:=3,4d2%0a%3c (:template first:)%0a%3c %25right%25{$$BPLnav}%0a8,9d5%0a%3c \\%0a%3c [[{=$FullName}|read more...]]%0a13c9%0a%3c (:pagelist group=TabSRMM count=10 order=-ctime fmt=#blog cache=1 :)%0a---%0a> (:pagelist group=TabSRMM count=10 fmt=#blog cache=1 :)%0a
+host:1288303590=81.217.70.206
+author:1288302450=admin
+diff:1288302450:1288302244:=4,6c4%0a%3c = [[{=$Name}]] =%0a%3c (:include (:include {=$FullName}#teaser#teaserend self=0:)%0a%3c ----%0a---%0a> : :[[{=$Name}]]%0a9c7%0a%3c (:pagelist group=TabSRMM count=10 fmt=#blog cache=1 :)%0a---%0a> (:pagelist group=TabSRMM count=10 fmt=#blog :)%0a
+host:1288302450=81.217.70.206
+author:1288302244=admin
+diff:1288302244:1288302215:=4c4%0a%3c : :[[{=$Name}]]%0a---%0a> : :[[{=$Group}/{=$Name}]]%0a
+host:1288302244=81.217.70.206
+author:1288302215=admin
+diff:1288302215:1288302200:=2a3%0a> :[[{=$Group}/]] /:%0a
+host:1288302215=81.217.70.206
+author:1288302200=admin
+diff:1288302200:1288302185:=2a3,4%0a> (:template first {=$Group}:)%0a> %0a
+host:1288302200=81.217.70.206
+author:1288302185=admin
+diff:1288302185:1288302185:=1,10d0%0a%3c (:if false :)%0a%3c [[#blog]]%0a%3c (:template first {=$Group}:)%0a%3c %0a%3c :[[{=$Group}/]] /:%0a%3c (:template each:)%0a%3c : :[[{=$Group}/{=$Name}]]%0a%3c [[#blogend]]%0a%3c (:ifend:)%0a%3c (:pagelist group=TabSRMM count=10 fmt=#blog :)%0a
+host:1288302185=81.217.70.206

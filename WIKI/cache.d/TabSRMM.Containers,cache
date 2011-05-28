@@ -1,0 +1,102 @@
+a:1:{i:0;s:13996:"<div class='tabsrmm_header' > 
+<p>
+<strong>TabSRMM documentation</strong> <code class='escaped'>   </code> <span class='rsslink'><a class='wikilink' href='http://localhost/TabSRMM/RecentChanges?action=rss'>RSS</a></span> | <span class='rsslink'><a class='wikilink' href='http://localhost/TabSRMM/RecentChanges?action=atom'>ATOM</a></span>
+</p></div>
+<p><span class='wikitrail'>&lsaquo; <a class='wikilink' href='http://localhost/TabSRMM/GeneralSettings'>General settings</a> | <a class='wikilink' href='http://localhost/TabSRMM/TabSRMM#reference'>Page Index</a> | <a class='wikilink' href='http://localhost/TabSRMM/ConfigureContainers'>Configure containers</a> &rsaquo;</span>
+</p><h1>Containers</h1>
+<p><a id='teaser'></a>
+</p><div class='indent'><strong>Quick link if you only want to learn about the configuration options, go <a class='wikilink' href='http://localhost/TabSRMM/ConfigureContainers'>here</a></strong>.<br /><br />
+</div><p>In TabSRMM terminology, message windows are often called <strong>containers</strong>. So whenever you see this term, it basically means a top level message window. It is called a container, because it acts as a top level parent window for the actual session windows. The container implements a tabbed user interface and can hold any number of children and each child can be either a standard IM window (for 1:1 instant messaging chats) or a <a class='createlinktext' rel='nofollow' 
+    href='http://localhost/TabSRMM/GroupChats?action=edit'>group chat</a><a rel='nofollow' 
+    class='createlink' href='http://localhost/TabSRMM/GroupChats?action=edit'>?</a> window.<br /><br />
+TabSRMM also supports multiple containers. You can have as many as you want and there are 3 different modes for assigning a chat session to a particular container. A special case is the <strong>single window mode</strong> which disables the tabbed user interface. When active, each chat session will get its own top level window and any container window will hold exactly one child.
+<a id='teaserend'></a>
+</p>
+<div class='vspace'></div><h2>Configuration</h2>
+<p class='vspace'>Many options in TabSRMM are implemented on a <strong>per container</strong> basis, which means that different container windows can act or look different from each other. This is useful when you want to group and organize your chat sessions in one or another way. It is, however, completely optional and by default, all containers share a common set of settings to simplify configuration.
+</p>
+<div class='vspace'></div><h2>Identifying containers</h2>
+<p class='vspace'>Any container is identified by its name, which must be unique. How container names are assigned depends on the way container windows are used in the plugin:
+</p>
+<div class='vspace'></div><ul><li>The default container. It always exists and its name is always "Default". You cannot rename or delete the default container. Any non-assigned chat session will be opened in the default container
+</li><li><strong>Container names correspond to contact list group names</strong>. This happens when you use the option to organize chat sessions with the help of your contact list groups. Whenever you open a chat window, it will open inside a container that inherits its name from the contact list group. If a contact is not in any contact list group, it will open in the <strong>Default</strong> container.<br />Note that the contact list's setting of showing groups is not considered here. A contact will still be in its group despite the contact list using a 'flat' layout with no groups.
+</li><li><strong>Manually assigned names</strong> - this is the standard way. You are responsible for creating new (named) containers and assigning contacts to them. In this mode, all new chat sessions will open in the default container until you assign them to another one (which is completely optional, by the way).<br /><br />
+</li></ul><p><a id='assigning'></a>
+</p><h2>Assigning and managing containers</h2>
+<p class='vspace'>To create or delete containers, you must have a message window open. The container UI can be reached from the following locations:
+</p>
+<p class='vspace'><a id='note'></a>
+</p>
+<table class='table_plain' style='padding:5px;border:1px solid #aaa;display:block;background:#F0E2E2;' ><tr><td style='width:20px;'  valign='top'><img src='http://localhost/uploads/Template/Note.png' alt='' title='' /> 
+</td><td style='vertical-align:top;'  valign='top'>The container management UI can only be used when using the manual assignment mode. In any other mode, container management is automatic and the menu entries for assigning or managing containers are unavailable.
+</td></tr></table>
+<div class='vspace'></div><ul><li>right click the message window's tool bar and choose <span class='menu'>Attach to container...</span>
+</li><li>right click any tab to get the same popup menu.<br /><br />
+</li></ul><p><a id='rimage'></a>
+</p><div  style='float: right; border: 1px solid #ccc; margin-left: 10px;' > 
+<!-- TL2-20100315 --><table class='cbox'><tr class='thumbtr'><td class='thumbtd'><div class='img'  style='padding:2px 2px;'><a href='http://localhost/uploads/TabSRMM/containerui.png' class='thumblink' title='containerui.png'  ><img class="thumbs" src="http://localhost/uploads/TabSRMM/th163---ffffff--containerui.png.jpg" title="containerui.png: 324x264, 18k (November 06, 2010, at 12:28 PM)" alt="containerui.png: 324x264, 18k (November 06, 2010, at 12:28 PM)" width='200' height='163' /></a> </div><span class="caption">Managing containers</span></td></tr></table>
+</div>
+<p class='vspace'>The screenshot on the right shows how the container management dialog looks like. It shows a list of containers and a number of buttons to create, rename or delete containers.
+</p>
+<div class='vspace'></div><h4>To assign the current contact to a container</h4>
+<p class='vspace'>Select the target container in the list and click <strong>Ok</strong>. The current contact's message window will close and re-open in the new container. If the current message tab was the last tab in the open container, it will close, otherwise it will stay open.
+</p>
+<div class='vspace'></div><h4>To create a new named container</h4>
+<p class='vspace'>Enter the name in the text field at the bottom and click <strong>Create new</strong>.
+</p>
+<div class='vspace'></div><h4>To delete a container</h4>
+<p class='vspace'>Select it from the list and click <strong>Delete</strong>
+</p>
+<div class='vspace'></div><h4>What happens with assigned contacts when their container is deleted?</h4>
+<p class='vspace'>The next time, they will open in the default container. Nothing is lost.
+</p>
+<div class='vspace'></div><h4>Why is it not possible to rearrange message tabs using Drag and Drop?</h4>
+<p class='vspace'>Because it's not so easy to implement. Also, I do not consider it a major improvement in usability. Using drag and drop would require you to open the target container before you can drag the tab. If the target container is new, you cannot open it, because a container cannot exist without at least one message tab.
+</p>
+<div class='vspace'></div><h4>Quick assignment</h4>
+<p class='vspace'>When you know that the target container does already exist and just want to move a contact quickly, you can use the <span class='menu'>Attach to &gt;</span> menu entry from the popup menu. It will hold a list of available containers to choose from. By using this method, you can skip invoking the container management dialog.
+</p>
+<div class='vspace'></div><h2>Auto opening message windows</h2>
+<p class='vspace'>There are a few methods to configure the way, new message windows are opened when a message is received from some contact. By default, TabSRMM will not automatically open any message windows. The event will flash in the system tray until you click the tray icon or manually open the message window for the contact from whom you received the message. Additionally, you may see a <a class='wikilink' href='http://localhost/TabSRMM/EventNotifications'>notification popup</a>.
+</p>
+<p class='vspace'>Some people find it more convent to have message windows created automatically when new messages arrive. You can configure this behaviour under <span class='option'>Message Sessions&rarr;Tabs and layout[tab]</span> with the following settings, all of them in the section "Message tab and window creation options.:
+</p>
+<div class='vspace'></div><ol><li><strong>ALWAYS popup and activate new message windows</strong> - when this option is active, TabSRMM will automatically open and activate the message window for any incoming message. This option will 'steal' the focus of the current active desktop window and should therefore be considered the most aggressive option. Also, this option <strong>has priority</strong> over the others, so it will always override any other window creation mode. Disable it, if you want to have message windows opened in the background or in minimized state.
+</li><li><strong>Automatically create new message sessions windows without activating them</strong> - when active, new tabs will be created (but not focused) automatically, <strong>but only when the parent container to which the tab should be added is already open</strong>. This option will only allow automatic creation of new tabs in already existing containers.
+</li><li><strong>New windows are minimized</strong> - when active, new message windows are created minimized on the task bar (discreet mode, the message window will never steal the focus). <strong>Option 2) <span  style='color: red;'>MUST</span> also be enabled to make this work</strong>. Basically, if you disable 3) while 2) is enabled, no new windows will be created automatically, but new tabs will be automatically added to existing windows.
+</li><li><strong>Pop up a minimized window when a new tab is created</strong> - if enabled, a minimized message window will be restored to the desktop when a new tab is added to it. Also, when a new container is created on demand, it will put itself to foreground. This option is should be considered <span class='Red'>aggressive</span>, because it will steal the input focus.<br /><br />
+</li></ol><h2>The different modes of assigning contacts to containers</h2>
+<p class='vspace'>As mentioned, you can have multiple containers which may or may not be wanted and can help you with organizing your chat sessions. In a fresh install, only one container is defined and it is called the <strong>default container</strong>. Also, there are 4 different methods to tell TabSRMM how it should assign chat sessions to a container. These modes can be chosen under <span class='option'>Message Sessions&rarr;Containers[tab]</span>.
+</p>
+<div class='vspace'></div><h3>Use contact list group names for organizing container names</h3>
+<p class='vspace'>This option will tell tabSRMM to automatically create one container for each contact list group and add chat sessions as tabs. Let's assume you have a contact list group with the name <strong>Friends</strong> which holds a few of your more important contacts. Whenever you open a message window for one of the contacts in this group, tabSRMM will open the container with the name "Friends" and add the chat tab to it. If the container is already open, the chat window will be added as a new tab. This mode is fully automatic.
+</p>
+<p class='vspace'>
+</p>
+<table class='table_plain' style='padding:5px;border:1px solid #aaa;display:block;background:#F0E2E2;' ><tr><td style='width:20px;'  valign='top'><img src='http://localhost/uploads/Template/Note.png' alt='' title='' /> 
+</td><td style='vertical-align:top;'  valign='top'>When you move a contact from one contact list group to another one, the message tab will not move to the new container immediately. This will be done the next time you open a chat session for this contact.
+</td></tr></table>
+<p><br /><br />
+</p><h3>Maximum number of tabs per container</h3>
+<p class='vspace'>This mode, which is also fully automatic, will just limit the number of sessions per container window to the given number. Whenever a new session is created, it is added to the current container, unless this container already has reached the session limit, in which case, a new container will be created.
+</p>
+<div class='vspace'></div><h3>Use single window mode (one tab per container)</h3>
+<p class='vspace'>This mode will effectively disable the tabbed user interface. When active, each message session will be opened in its own top level window.
+</p>
+<p class='vspace'>Also, in this mode, container settings are global for all message windows. Only the size and position of the window will be saved individually for each contact or chat room.
+</p>
+<div class='vspace'></div><h3>Default container mode (manual assignment)</h3>
+<p class='vspace'>This is probably the most flexible method of using multiple containers. In this mode, you have full control over how many different containers you want to use and in which container a given contact should be placed when you open a message session. In a fresh install, only one named container is available. This is called the <strong>default</strong> container and it is used for any new message session, unless the contact had been assigned to a different container.
+</p>
+<p class='vspace'>See the section above <a href='#assigning'>about assigning containers in manual mode</a>
+</p>
+<div class='vspace'></div><h2>Related reading</h2>
+<div class='vspace'></div><ul><li><a class='wikilink' href='http://localhost/TabSRMM/Sessions'>session managment</a>
+</li><li><a class='wikilink' href='http://localhost/TabSRMM/ConfigureContainers'>how to configure the look and feel of a container window</a>
+</li></ul><hr />
+<p><span  style='float: right; color: #888; font-size: 10px;'>Author: admin</span>
+<span  style='text-align: left; color: #888; font-size: 10px;'>Last modified: Sunday, May 15, 2011 at 02:53 CET</span>
+</p><hr />
+<p>Category: <a class='wikilink' href='http://localhost/TabSRMM/TabSRMM'>TabSRMM</a>
+</p>
+";}

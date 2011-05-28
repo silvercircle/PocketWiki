@@ -1,0 +1,33 @@
+a:1:{i:0;s:2788:"<div class='tabsrmm_header' > 
+<p><span class='rfloat' style='margin-top: -3px;'>(:quicktoc:)</span>
+Firefox stuff
+</p></div>
+<h1>Firefox</h1>
+<p class='vspace'>A collection of pages related to the <a class='external' href='http://www.mozilla.com/en-US/' rel='nofollow'>Firefox web browser</a>. These are mostly notes to myself like user styles (chrome &amp; content) or preferences. Most stuff applies to Firefox 4 (currently beta).
+</p>
+<p class='vspace'><strong>I do not support them in any way</strong>.
+</p>
+<div class='vspace'></div><h2>Content style sheets</h2>
+<p class='vspace'><a id='hint'></a>
+</p>
+<table class='table_plain' style='padding:5px;border:1px solid #aaa;display:block;background:#f0f0e2;' ><tr><td style='width:20px;'  valign='top'><img src='http://localhost/uploads/Template/Hint.png' alt='' title='' /> 
+</td><td style='vertical-align:top;'  valign='top'>To use them in a simple way, use the Stylish extension for Firefox.<br />Content styles can also be used in Google Chrome by using <a class='external' href='https://chrome.google.com/extensions/detail/plcnnpdmhobdfbponjpedobekiogmbco' rel='nofollow'>this extension</a>.
+</td></tr></table>
+<div class='vspace'></div><div class='twocols' >
+<ul><li><a class='wikilink' href='http://localhost/Firefox/FirefoxStyleMiranda'>Miranda IM forums</a> (<a class='external' href='http://forums.miranda-im.org' rel='nofollow'>http://forums.miranda-im.org</a>)
+</li><li><a class='wikilink' href='http://localhost/Firefox/FirefoxStyleHeise'>Heise.DE</a> (<a class='external' href='http://www.heise.de' rel='nofollow'>http://www.heise.de</a>)
+</li><li><a class='wikilink' href='http://localhost/Firefox/FirefoxStyleGolem'>Golem.DE</a> (<a class='external' href='http://www.golem.de' rel='nofollow'>http://www.golem.de</a>)
+</li><li><a class='wikilink' href='http://localhost/Firefox/FirefoxStyleGmail'>Gmail</a> (remove ads in gmail)
+</li><li><a class='wikilink' href='http://localhost/Firefox/FirefoxStyleORF'>ORF.at</a> (remove ads, center layout, fix overflow problems)
+</li></ul></div>
+<div class='vspace'></div><h2>Chrome style sheets (UI)</h2>
+<div class='vspace'></div><ul><li><a class='wikilink' href='http://localhost/Firefox/Firefox4UIStyles'>UI tweaks for Firefox 4 beta</a>
+</li></ul><div class='vspace'></div><h2>Misc stuff for Firefox 4</h2>
+<div class='vspace'></div><ul><li><a class='wikilink' href='http://localhost/Firefox/PrefsVersion4'>list of new preferences in Firefox 4</a>
+</li></ul><hr />
+<p><span  style='float: right; color: #888; font-size: small;'>Author: admin</span>
+<span  style='text-align: left; color: #888; font-size: small;'>Last modified: Monday, November 01, 2010 at 06:44 CET</span>
+</p><hr />
+<p>Category: <a class='selflink' href='http://localhost/Firefox/Firefox'>Firefox</a>
+</p>
+";}

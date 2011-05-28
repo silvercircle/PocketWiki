@@ -1,0 +1,37 @@
+version=pmwiki-2.2.18 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.11 (KHTML, like Gecko) Chrome/9.0.567.0 Safari/534.11
+author=admin
+charset=UTF-8
+csum=
+ctime=1288120856
+host=81.217.70.206
+name=Firefox.Firefox
+rev=8
+targets=Firefox.FirefoxStyleMiranda,Firefox.FirefoxStyleHeise,Firefox.FirefoxStyleGolem,Firefox.FirefoxStyleGmail,Firefox.FirefoxStyleORF,Firefox.Firefox4UIStyles,Firefox.PrefsVersion4
+text=(:title Firefox 4 index:)%0a= Firefox =%0a%0aA collection of pages related to the [[http://www.mozilla.com/en-US/|Firefox web browser]]. These are mostly notes to myself like user styles (chrome & content) or preferences. Most stuff applies to Firefox 4 (currently beta).%0a%0a'''I do not support them in any way'''.%0a%0a== Content style sheets ==%0a%0a(:include Template/Formatting#hint#endhint Text="To use them in a simple way, use the Stylish extension for Firefox.\\Content styles can also be used in Google Chrome by using [[https://chrome.google.com/extensions/detail/plcnnpdmhobdfbponjpedobekiogmbco|this extension]].":)%0a%0a(:div class="twocols":)%0a* [[FirefoxStyleMiranda|Miranda IM forums]] (http://forums.miranda-im.org)%0a* [[FirefoxStyleHeise|Heise.DE]] (http://www.heise.de)%0a* [[FirefoxStyleGolem|Golem.DE]] (http://www.golem.de)%0a* [[FirefoxStyleGmail|Gmail]] (remove ads in gmail)%0a* [[FirefoxStyleORF|ORF.at]] (remove ads, center layout, fix overflow problems)%0a(:divend:)%0a%0a== Chrome style sheets (UI) ==%0a%0a* [[Firefox4UIStyles|UI tweaks for Firefox 4 beta]]%0a%0a== Misc stuff for Firefox 4 ==%0a%0a* [[PrefsVersion4|list of new preferences in Firefox 4]]
+time=1288590262
+title=Firefox 4 index
+author:1288590262=admin
+diff:1288590262:1288311777:=1d0%0a%3c (:title Firefox 4 index:)%0a23,26d21%0a%3c %0a%3c == Misc stuff for Firefox 4 ==%0a%3c %0a%3c * [[PrefsVersion4|list of new preferences in Firefox 4]]%0a\ No newline at end of file%0a
+host:1288590262=81.217.70.206
+author:1288311777=admin
+diff:1288311777:1288221939:=21d20%0a%3c * [[Firefox4UIStyles|UI tweaks for Firefox 4 beta]]%0a
+host:1288311777=81.217.70.206
+author:1288221939=admin
+diff:1288221939:1288122873:=16d15%0a%3c * [[FirefoxStyleORF|ORF.at]] (remove ads, center layout, fix overflow problems)%0a
+host:1288221939=81.217.70.206
+author:1288122873=admin
+diff:1288122873:1288122862:=9c9%0a%3c (:include Template/Formatting#hint#endhint Text="To use them in a simple way, use the Stylish extension for Firefox.\\Content styles can also be used in Google Chrome by using [[https://chrome.google.com/extensions/detail/plcnnpdmhobdfbponjpedobekiogmbco|this extension]].":)%0a---%0a> (:include Template/Formatting#hint#endhint Text="To use them in a simple way, use the Stylish extension for Firefox.\\\\Content styles can also be used in Google Chrome by using [[https://chrome.google.com/extensions/detail/plcnnpdmhobdfbponjpedobekiogmbco|this extension]].":)%0a
+host:1288122873=81.217.70.206
+author:1288122862=admin
+diff:1288122862:1288121527:=15c15%0a%3c * [[FirefoxStyleGmail|Gmail]] (remove ads in gmail)%0a---%0a> %0a
+host:1288122862=81.217.70.206
+author:1288121527=admin
+diff:1288121527:1288121052:=5,6d4%0a%3c '''I do not support them in any way'''.%0a%3c %0a8,16d5%0a%3c %0a%3c (:include Template/Formatting#hint#endhint Text="To use them in a simple way, use the Stylish extension for Firefox.\\\\Content styles can also be used in Google Chrome by using [[https://chrome.google.com/extensions/detail/plcnnpdmhobdfbponjpedobekiogmbco|this extension]].":)%0a%3c %0a%3c (:div class="twocols":)%0a%3c * [[FirefoxStyleMiranda|Miranda IM forums]] (http://forums.miranda-im.org)%0a%3c * [[FirefoxStyleHeise|Heise.DE]] (http://www.heise.de)%0a%3c * [[FirefoxStyleGolem|Golem.DE]] (http://www.golem.de)%0a%3c %0a%3c (:divend:)%0a
+host:1288121527=81.217.70.206
+author:1288121052=admin
+diff:1288121052:1288120856:=3,8c3%0a%3c A collection of pages related to the [[http://www.mozilla.com/en-US/|Firefox web browser]]. These are mostly notes to myself like user styles (chrome & content) or preferences. Most stuff applies to Firefox 4 (currently beta).%0a%3c %0a%3c == Content style sheets ==%0a%3c %0a%3c == Chrome style sheets (UI) ==%0a%3c %0a---%0a> A collection of pages related to the [[http://www.mozilla.com/en-US/|Firefox web browser]].%0a
+host:1288121052=81.217.70.206
+author:1288120856=admin
+diff:1288120856:1288120856:=1,3d0%0a%3c = Firefox =%0a%3c %0a%3c A collection of pages related to the [[http://www.mozilla.com/en-US/|Firefox web browser]].%0a
+host:1288120856=81.217.70.206

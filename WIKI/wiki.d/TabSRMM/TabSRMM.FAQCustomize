@@ -1,0 +1,19 @@
+version=pmwiki-2.2.18 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:2.0b8pre) Gecko/20101108 Firefox/4.0b8pre Firefox/4.0b8pre
+author=admin
+charset=UTF-8
+csum=
+ctime=1288942812
+host=81.217.70.206
+name=TabSRMM.FAQCustomize
+rev=2
+targets=TabSRMM.TabSRMM,TabSRMM.SuggestFAQ,TabSRMM.CustomizeImages,TabSRMM.FAQ,TabSRMM.FAQUI
+text=(:title Questions about plugin customization:)%0a%3c|[[TabSRMM.#faq|FAQ Index]]|>%0a= The Customize FAQ =%0a[[#teaser]]%0aThis is a compiled list of frequently asked questions. It is by no means complete or covers all aspects - if you have suggestions or comments, use this [[TabSRMM/SuggestFAQ|contact form]] to submit them.%0a[[#teaserend]]%0a%0a==3. Questions about customizing the plugin \\%0a%0aQ:%0a====Can the tabs in Aero mode be customized====%0a->Yes, see [[CustomizeImages|+]]\\%0a%0aQ:%0a====Can skins and Aero be used simultaneously?====%0a-> No. When you load a custom skin, all **visual Aero UI features** of TabSRMM will be disabled with the exception of the Windows 7 task bar features (like "per tab" thumbnails and Aero Peek live previews). Other than that, there are no problems with using skins under a Aero-enabled operating system.%0a%0a%0a----%0a=== Related reading ===%0a* [[FAQ|general questions]]%0a* [[FAQUI|questions about the UI]]
+time=1289314363
+title=Questions about plugin customization
+author:1289314363=admin
+diff:1289314363:1288942812:=12,17c12,13%0a%3c ->Yes, see [[CustomizeImages|+]]\\%0a%3c %0a%3c Q:%0a%3c ====Can skins and Aero be used simultaneously?====%0a%3c -> No. When you load a custom skin, all **visual Aero UI features** of TabSRMM will be disabled with the exception of the Windows 7 task bar features (like "per tab" thumbnails and Aero Peek live previews). Other than that, there are no problems with using skins under a Aero-enabled operating system.%0a%3c %0a---%0a> %0a> ->Yes, see [[CustomizeImages|+]]%0a
+host:1289314363=81.217.70.206
+author:1288942812=admin
+diff:1288942812:1288942812:=1,18d0%0a%3c (:title Questions about plugin customization:)%0a%3c %3c|[[TabSRMM.#faq|FAQ Index]]|>%0a%3c = The Customize FAQ =%0a%3c [[#teaser]]%0a%3c This is a compiled list of frequently asked questions. It is by no means complete or covers all aspects - if you have suggestions or comments, use this [[TabSRMM/SuggestFAQ|contact form]] to submit them.%0a%3c [[#teaserend]]%0a%3c %0a%3c ==3. Questions about customizing the plugin \\%0a%3c %0a%3c Q:%0a%3c ====Can the tabs in Aero mode be customized====%0a%3c %0a%3c ->Yes, see [[CustomizeImages|+]]%0a%3c %0a%3c ----%0a%3c === Related reading ===%0a%3c * [[FAQ|general questions]]%0a%3c * [[FAQUI|questions about the UI]]%0a\ No newline at end of file%0a
+host:1288942812=81.217.70.206

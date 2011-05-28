@@ -1,0 +1,47 @@
+a:1:{i:0;s:6230:"<div class='tabsrmm_header' > 
+<p><span class='rfloat' style='margin-top: -3px;'>(:quicktoc:)</span>
+Plugin documentation
+</p></div>
+<p><span class='wikitrail'>&lsaquo; <a class='wikilink' href='http://localhost//Plugins/Popups'>Popups for notifications</a> | <a class='wikilink' href='http://localhost//Plugins/Plugins#begin#end'>Other plugins index</a> | <a class='wikilink' href='http://localhost//Plugins/Folders'>Custom profile folders</a> &rsaquo;</span>
+</p><h1>Using graphical emoticons in the message window</h1>
+<p class='vspace'><a id='rimage'></a>
+</p><div  style='float: right; border: 1px solid #ccc; margin-left: 10px;' > 
+<!-- TL2-20100315 --><table class='cbox'><tr class='thumbtr'><td class='thumbtd'><div class='img'  style='padding:2px 2px;'><a href='http://localhost/uploads/Plugins/Emoticon_selector.png' class='thumblink' title='Emoticon_selector.png'  ><img class="thumbs" src="http://localhost/uploads/Plugins/th70---ffffff--Emoticon_selector.png.jpg" title="Emoticon_selector.png: 560x131, 48k (October 21, 2010, at 11:32 PM)" alt="Emoticon_selector.png: 560x131, 48k (October 21, 2010, at 11:32 PM)" width='300' height='70' /></a> </div><span class="caption">The smiley selection window in tabSRMM</span></td></tr></table>
+</div>
+<p class='vspace'>By default, Miranda and its various message window plugins do not support this. It is an optional feature, but nobody is forced to use graphical smileys, because some people think they are not required.<br /><br />To add this feature, the user must install a plugin which adds the ability to display graphical emoticons in the message history. The plugin acts as a service provider for Miranda and other plugins and implements the required functionality to convert simple "smiley codes" like :) into graphical emoticons.
+</p>
+<p class='vspace'>When such a plugin has been installed, the following things are added to tabSRMM:
+</p>
+<div class='vspace'></div><ul><li>on the toolbar, a new button with an emoticon symbol is added. Clicking it will open a emoticon selection window. It can be used to select a graphical emoticon and copy it to the message input area. When you have disabled the tool bar, you can use the keyboard shortcut <span class='key'>Alt-E</span> to invoke the selection window.
+<div class='vspace'></div></li><li>in the <a class='wikilink' href='http://localhost//TabSRMM/History'>message history</a>, emoticons will be visible as small images. For example, the text :) will be converted to a small (usually not bigger than 20x20 pixels) image showing a smiling face.
+</li></ul><div class='vspace'></div><h2>Available plugins to add this feature</h2>
+<p class='vspace'>There are two possible solutions to add this functionality to Miranda. Basically, they offer similar features, but follow different approaches to configure them. Basically, since Miranda is a multiprotocol messenger, it must be able to allow different emoticon packs for different protocols, because "smiley codes" are not standardized in any way and, for example, ICQ uses completely different codes than MSN.
+</p>
+<p class='vspace'><strong>One important thing to know about emoticons</strong> is the fact that, on most protocols, they are client-sided. When you send or receive a message which contains one or more emoticons, the images are NOT transferred with that message. The message only contains plain text representations of the emoticons (e.g. the smiley code like <strong>:-)</strong>) and it's completely up to the client which image it uses to replace this text. An exception to this generic rule is the <strong>custom emoticon feature</strong> in the MSN protocol. It allows users to send their own smiley images together with a message
+</p>
+<div class='vspace'></div><h3>1. The SmileyAdd plugin</h3>
+<p class='vspace'><a class='external' href='http://forums.miranda-im.org/showthread.php?t=1095' rel='nofollow'>The forum thread about SmileyAdd</a> on the official Miranda forum.
+This plugin is available for quite some time and is currently actively maintained and developed. It has many features and can be considered a stable plugin. It supports:
+</p>
+<div class='vspace'></div><ul><li>smiley packs per protocol
+</li><li>smiley packs per transport (gateway between protocols)
+</li><li>smiley packs per contact (optional)
+</li><li>replacing emoticons in tabSRMM and all other message plugins
+</li><li>replacing emoticons when using <a class='createlinktext' rel='nofollow' 
+    href='http://localhost//Plugins/PluginIEView?action=edit'>IEView</a><a rel='nofollow' 
+    class='createlink' href='http://localhost//Plugins/PluginIEView?action=edit'>?</a>
+</li><li>replacing emoticons in the <a class='createlinktext' rel='nofollow' 
+    href='http://localhost//Plugins/PluginHistoryPP?action=edit'>History++</a><a rel='nofollow' 
+    class='createlink' href='http://localhost//Plugins/PluginHistoryPP?action=edit'>?</a> plugin.
+</li><li>use animated emoticons (in log area, input area, smiley selector, history)
+</li><li>graphical emoticons in the message input area, thus it will allow you to see these images while you are typing a message
+</li><li>MSN custom emoticons<br /><br />
+</li></ul><h3>2. The 'Emoticons' plugin</h3>
+<p class='vspace'>This is a <a class='external' href='http://forums.miranda-im.org/showthread.php?t=17210' rel='nofollow'>forum thread about emoticons</a> which is an alternative to smileyadd. It follows a different approach to configure smiley packs, but most other features are present in both plugins though Smileyadd has more features and should be considered much more stable.<br /><br />A smiley pack is a collection of images and associated smiley codes. It determines how certain character sequences (smiley codes) will be converted to images. It also supports graphical emoticons in the message input area, thus it will allow you to see these images while you are typing a message.<br /><br />
+</p><hr />
+<p><span  style='float: right; color: #888; font-size: small;'>Author: admin</span>
+<span  style='text-align: left; color: #888; font-size: small;'>Last modified: Friday, October 22, 2010 at 22:47 CET</span>
+</p><hr />
+<p>Category: <a class='wikilink' href='http://localhost//Plugins/Plugins'>Plugins</a>
+</p>
+";}

@@ -1,0 +1,41 @@
+version=pmwiki-2.1.11 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (X11; U; Linux i686; de; rv:1.8.1) Gecko/20061010 Firefox/2.0
+author=thomas
+csum=
+ctime=1173089597
+host=219.79.193.197
+name=UserAuth2.EditUserQuickReference
+rev=10
+targets=UserAuth2.EditUserQuickReference
+text=!!!Permission Table Quick Reference%0aExample:%0a @mygroup,%0a @someothergroup,%0a rd_*.*,%0a ed_*.*,%0a -ed_Internal*.*,%0a -ed_*.*Private%0aBy default, no permissions are granted. Different permission entries may be specified to alter this (separate by comma):%0a%0a* [@@%3cgroup>@] - grants all rights that [@%3cgroup>@] possesses (these group membership entries take effect at their place of occurrence in affirmative direction only)%0a* [@*@] - grants all rights%0a* [@pr@] - may change his profile%0a* [@pw@] - may change his password%0a* [@ps@] - may set passwords for users/groups below%0a* [@ad@] - may access admin tool%0a* [@cu@] - may create or delete users/groups%0a* [@eu@] - may edit permissions of users/groups below%0a* [@ip@] - may alter ip adress related settings%0a* [@rd_%3cpagespec>@] - may read all pages/groups matching [@%3cpagespec>@]%0a* [@ed_%3cpagespec>@] - may edit all pages/groups matching [@%3cpagespec>@]%0a* [@up_%3cpagespec>@] - may upload to all pages/groups matching [@%3cpagespec>@]%0a* [@hi_%3cpagespec>@] - may view history (page changes) of all pages/groups matching [@%3cpagespec>@]%0a* [@xx_%3cpagespec>@] - level joker matching on all page related levels%0a* [@...{$AuthId}...@] - in all LoggedInUsers permission tables replaced by upper-cased version of user name the client is logged in as %0a* [@#...@] - rest of line is comment (note it also must have a comma at the end to separate it from other entries)%0a%0a[@%3cpagespec>@] is a pattern which can contain '*' and '?' to match an arbitrary string and a single character, respectively. It must contain the dot. Examples: [@Site.*@], [@PerDayLog_????_??_??.*@], [@*.*MySpecialEnding@].%0a%0aBy prepending an entry with a minus, i.e. [@-%3centry>@], the respective right is denied. For this purpose the entries are interpreted in the order they occur in the permission table, switching permission on or off as they apply. The complete table is processed to obtain the final result. So%0a rd_*.*%0a -rd_Site.*%0a rd_Site.PageActions%0agrants the right to read the complete pmwiki site apart from the 'Site' group, with the exception in turn of the page 'Site.PageActions'. (Note that the negation is not possible for group membership entries and the [@*@] entry.)%0a%0a[[Edit this quick reference -> {$FullName} ?action=edit]]%0a
+time=1175318016
+author:1175318016=thomas
+diff:1175318016:1175317710:=11c11%0a%3c * [@@%3cgroup>@] - grants all rights that [@%3cgroup>@] possesses (these group membership entries take effect at their place of occurrence in affirmative direction only)%0a---%0a> * [@@%3cgroup>@] - grants all rights that [@%3cgroup>@] possesses (these group membership entries take effect at their place only in affirmative direction)%0a
+host:1175318016=219.79.193.197
+author:1175317710=thomas
+diff:1175317710:1175306191:=11c11%0a%3c * [@@%3cgroup>@] - grants all rights that [@%3cgroup>@] possesses (these group membership entries take effect at their place only in affirmative direction)%0a---%0a> * [@@%3cgroup>@] - grants all rights that [@%3cgroup>@] possesses (these group membership entries are honoured independently of other entry types)%0a
+host:1175317710=219.79.193.197
+author:1175306191=admin
+diff:1175306191:1175222700:minor=11c11%0a%3c * [@@%3cgroup>@] - grants all rights that [@%3cgroup>@] possesses (these group membership entries are honoured independently of other entry types)%0a---%0a> * [@@%3cgroup>@] - grants all rights that [@%3cgroup>@] possesses (these group membership entries must be stated before any other entry types)%0a
+host:1175306191=220.246.181.177
+author:1175222700=admin
+diff:1175222700:1175222497:minor=10a11%0a> * [@#...,@] - comment (note the comma at the end must be present)%0a26,27c27%0a%3c * [@#...@] - rest of line is comment (note it also must have a comma at the end to separate it from other entries)%0a%3c %0a---%0a> %0a
+host:1175222700=219.78.201.180
+author:1175222497=admin
+diff:1175222497:1174491960:minor=11d10%0a%3c * [@#...,@] - comment (note the comma at the end must be present)%0a20a20,21%0a> * [@gu@] - if not granted, actions on the guest user are prevented%0a> * [@lu@] - if not granted, actions on the logged in user are prevented%0a25,27c26%0a%3c * [@xx_%3cpagespec>@] - level joker matching on all page related levels%0a%3c * [@...{$AuthId}...@] - in all LoggedInUsers permission tables replaced by upper-cased version of user name the client is logged in as %0a%3c %0a---%0a> %0a
+host:1175222497=219.78.201.180
+author:1174491960=admin
+diff:1174491960:1173090246:=13d12%0a%3c * [@pr@] - may change his profile%0a15c14%0a%3c * [@ps@] - may set passwords for users/groups below%0a---%0a> * [@pr@] - may change his profile%0a18,19c17,18%0a%3c * [@eu@] - may edit permissions of users/groups below%0a%3c * [@ip@] - may alter ip adress related settings%0a---%0a> * [@eu@] - may edit users'/groups' permissions%0a> * [@ip@] - may alter ip related login restrictions%0a
+host:1174491960=219.79.203.254
+author:1173090246=admin
+diff:1173090246:1173090156:=34c34%0a%3c [[Edit this quick reference -> {$FullName} ?action=edit]]%0a---%0a> [[Edit this quick reference -> {$Fullname} ?action=edit]]%0a
+host:1173090246=219.79.62.182
+author:1173090156=admin
+diff:1173090156:1173089658:=34c34%0a%3c [[Edit this quick reference -> {$Fullname} ?action=edit]]%0a---%0a> [[Edit this quick reference -> UserAuth2.EditUserQuickReference ?action=edit]]%0a
+host:1173090156=219.79.62.182
+author:1173089658=admin
+diff:1173089658:1173089597:=1c1%0a%3c !!!Permission Table Quick Reference%0a---%0a> !!!Permission Table Help%0a34c34%0a%3c [[Edit this quick reference -> UserAuth2.EditUserQuickReference ?action=edit]]%0a---%0a> [[Edit help -> UserAuth2.EditUserQuickReference ?action=edit]]%0a
+host:1173089658=219.79.62.182
+author:1173089597=admin
+diff:1173089597:1173089597:=1,34d0%0a%3c !!!Permission Table Help%0a%3c Example:%0a%3c  @mygroup,%0a%3c  @someothergroup,%0a%3c  rd_*.*,%0a%3c  ed_*.*,%0a%3c  -ed_Internal*.*,%0a%3c  -ed_*.*Private%0a%3c By default, no permissions are granted. Different permission entries may be specified to alter this (separate by comma):%0a%3c %0a%3c * [@@%3cgroup>@] - grants all rights that [@%3cgroup>@] possesses (these group membership entries must be stated before any other entry types)%0a%3c * [@*@] - grants all rights%0a%3c * [@pw@] - may change his password%0a%3c * [@pr@] - may change his profile%0a%3c * [@ad@] - may access admin tool%0a%3c * [@cu@] - may create or delete users/groups%0a%3c * [@eu@] - may edit users'/groups' permissions%0a%3c * [@ip@] - may alter ip related login restrictions%0a%3c * [@gu@] - if not granted, actions on the guest user are prevented%0a%3c * [@lu@] - if not granted, actions on the logged in user are prevented%0a%3c * [@rd_%3cpagespec>@] - may read all pages/groups matching [@%3cpagespec>@]%0a%3c * [@ed_%3cpagespec>@] - may edit all pages/groups matching [@%3cpagespec>@]%0a%3c * [@up_%3cpagespec>@] - may upload to all pages/groups matching [@%3cpagespec>@]%0a%3c * [@hi_%3cpagespec>@] - may view history (page changes) of all pages/groups matching [@%3cpagespec>@]%0a%3c %0a%3c [@%3cpagespec>@] is a pattern which can contain '*' and '?' to match an arbitrary string and a single character, respectively. It must contain the dot. Examples: [@Site.*@], [@PerDayLog_????_??_??.*@], [@*.*MySpecialEnding@].%0a%3c %0a%3c By prepending an entry with a minus, i.e. [@-%3centry>@], the respective right is denied. For this purpose the entries are interpreted in the order they occur in the permission table, switching permission on or off as they apply. The complete table is processed to obtain the final result. So%0a%3c  rd_*.*%0a%3c  -rd_Site.*%0a%3c  rd_Site.PageActions%0a%3c grants the right to read the complete pmwiki site apart from the 'Site' group, with the exception in turn of the page 'Site.PageActions'. (Note that the negation is not possible for group membership entries and the [@*@] entry.)%0a%3c %0a%3c [[Edit help -> UserAuth2.EditUserQuickReference ?action=edit]]%0a
+host:1173089597=219.79.62.182

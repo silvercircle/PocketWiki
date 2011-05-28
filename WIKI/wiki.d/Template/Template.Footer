@@ -1,0 +1,21 @@
+version=pmwiki-2.2.18 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:2.0b8pre) Gecko/20101020 Firefox/4.0b8pre Firefox/4.0b8pre
+author=admin
+charset=UTF-8
+csum=
+ctime=1287618023
+host=81.217.70.206
+name=Template.Footer
+rev=3
+targets=
+text=----%0a%25float:right color:#888 font-size:small%25Author: {$LastModifiedBy}%25%25%0a%25text-align:left color:#888 font-size:small%25Last modified: {(ftime fmt="%25A, %25B %25d, %25Y at %25H:%25M" @{$LastModifiedTime})} CET%25%25%0a----%0a
+time=1287647874
+author:1287647874=admin
+diff:1287647874:1287647851:=4d3%0a%3c ----%0a
+host:1287647874=81.217.70.206
+author:1287647851=admin
+diff:1287647851:1287618023:=2,3c2,4%0a%3c %25float:right color:#888 font-size:small%25Author: {$LastModifiedBy}%25%25%0a%3c %25text-align:left color:#888 font-size:small%25Last modified: {(ftime fmt="%25A, %25B %25d, %25Y at %25H:%25M" @{$LastModifiedTime})} CET%25%25%0a---%0a> %3cdiv style="float:right;color: #888;font-size:small;">Author: {$LastModifiedBy}%3c/div>%0a> %3cdiv style="text-align:left;color: #888; font-size:small;">Last modified: {(ftime fmt="%25A, %25B %25d, %25Y at %25H:%25M" @{$LastModifiedTime})} CET%0a> %3c/div>%0a
+host:1287647851=81.217.70.206
+author:1287618023=admin
+diff:1287618023:1287618023:=1,4d0%0a%3c ----%0a%3c %3cdiv style="float:right;color: #888;font-size:small;">Author: {$LastModifiedBy}%3c/div>%0a%3c %3cdiv style="text-align:left;color: #888; font-size:small;">Last modified: {(ftime fmt="%25A, %25B %25d, %25Y at %25H:%25M" @{$LastModifiedTime})} CET%0a%3c %3c/div>%0a
+host:1287618023=81.217.70.206

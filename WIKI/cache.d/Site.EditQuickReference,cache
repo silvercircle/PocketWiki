@@ -1,0 +1,66 @@
+a:1:{i:0;s:6081:"<p><span id="qref-tog" class="toggle"><a class="togglelink" href="javascript:toggleObj('qref','show','Show quick reference','Hide','','','','')">Show quick reference</a><style type='text/css'> #qref { display:none; }  @media print { #qref {display:block} } </style></span>
+</p> 
+<table id='qref' width='100%' cellspacing='0' cellpadding='0' style='font-size:100%; padding:4px; border:1px solid #cccccc;' class='quickref' ><tr><td  valign='top'>
+<p> <a target='_blank'  class='wikilink' href='http://localhost/PmWiki/BasicEditing'>Basic editing</a> - <a target='_blank'  class='wikilink' href='http://localhost/PmWiki/TextFormattingRules'>Text formatting rules</a> - <a target='_blank'  class='wikilink' href='http://localhost/PmWiki/DocumentationIndex'>Documentation index</a>
+</p></td><td align='right'  valign='top'>
+<p><span  style='font-weight: bold;'>Tables</span>: <a target='_blank'  class='wikilink' href='http://localhost/PmWiki/Tables'>simple</a> - <a target='_blank'  class='wikilink' href='http://localhost/PmWiki/TableDirectives'>advanced</a>
+</p></td></tr><tr><td  valign='top'>
+<p><span  style='font-weight: bold;'>Paragraphs</span>: for a new paragraph, use a blank line;
+</p></td><td align='right'  valign='top'>
+<p><span  style='font-weight: bold;'>Line break</span>: 
+<span  style='font-weight: bold;'>\\</span>, 
+<span  style='font-weight: bold;'>[[&lt;&lt;]]</span>, or 
+<span  style='font-weight: bold;'>(:nl:)</span>
+</p></td></tr><tr><td  valign='top'>
+<p><span  style='font-weight: bold;'>-&gt;</span> to indent text, 
+<span  style='font-weight: bold;'>-&lt;</span> hanging text 
+</p></td><td align='right'  valign='top'>
+<p><span  style='font-weight: bold;'>Join line</span>: <span  style='font-weight: bold;'>\</span>
+</p></td></tr><tr><td colspan='2'  valign='top'>
+<p><span  style='font-weight: bold;'>Lists</span>: 
+<span  style='font-weight: bold;'>*</span> for bulleted, 
+<span  style='font-weight: bold;'>#</span> for numbered, 
+<span  style='font-weight: bold;'>:</span>term<span  style='font-weight: bold;'>:</span>definition for definition lists
+</p></td></tr><tr><td colspan='2'  valign='top'>
+<p><span  style='font-weight: bold;'>Emphasis</span>: 
+<span  style='font-weight: bold;'>''</span><em>italics</em><span  style='font-weight: bold;'>''</span> &nbsp;
+<span  style='font-weight: bold;'>'''</span><strong>bold</strong><span  style='font-weight: bold;'>'''</span> &nbsp;
+<span  style='font-weight: bold;'>'''''</span><strong><em>bold italics</em></strong><span  style='font-weight: bold;'>'''''</span> &nbsp;
+<span  style='font-weight: bold;'>@@</span><code>monospaced</code><span  style='font-weight: bold;'>@@</span>
+</p></td></tr><tr><td colspan='2'  valign='top'>
+<p><span  style='font-weight: bold;'>References</span>: 
+<span  style='font-weight: bold;'>[[</span>another page<span  style='font-weight: bold;'>]]</span>, 
+<span  style='font-weight: bold;'>[[</span>http://example.com/<span  style='font-weight: bold;'>]]</span>, 
+<span  style='font-weight: bold;'>[[</span>another page <span  style='font-weight: bold;'>|</span> link text<span  style='font-weight: bold;'>]]</span>, 
+<span  style='font-weight: bold;'>[[#</span>anchor<span  style='font-weight: bold;'>]]</span>,
+<span  style='font-weight: bold;'>[[#</span>anchor <span  style='font-weight: bold;'>|</span> link text<span  style='font-weight: bold;'>]]</span>
+</p></td></tr><tr><td colspan='2'  valign='top'>
+<p><span  style='font-weight: bold;'>Groups</span>: 
+<span  style='font-weight: bold;'>[[</span>Group<span  style='font-weight: bold;'>/</span>Page<span  style='font-weight: bold;'>]]</span> <span style='font-size:83%'>displays Page,</span> 
+<span  style='font-weight: bold;'>[[</span>Group<span  style='font-weight: bold;'>.</span>Page<span  style='font-weight: bold;'>]]</span> <span style='font-size:83%'>displays Group.Page,</span> 
+<span  style='font-weight: bold;'>[[</span>Group<span  style='font-weight: bold;'>(.</span>Page<span  style='font-weight: bold;'>)]]</span> <span style='font-size:83%'>displays Group,</span>
+<span  style='font-weight: bold;'>[[</span>Group<span  style='font-weight: bold;'>/]]</span> <span style='font-size:83%'>links Group homepage</span>
+</p></td></tr><tr><td  valign='top'>
+<p><span  style='font-weight: bold;'>Separators</span>: 
+<span  style='font-weight: bold;'>!!</span>, 
+<span  style='font-weight: bold;'>!!!</span> for headings, 
+<span  style='font-weight: bold;'>----</span> for horizontal line
+</p></td><td align='right'  valign='top'>
+<p><span  style='font-weight: bold;'>Prevent formatting</span>: 
+<span  style='font-weight: bold;'>[=</span>...<span  style='font-weight: bold;'>=]</span>
+</p></td></tr><tr><td  valign='top'>
+<p><span  style='font-weight: bold;'>Other</span>: 
+<span  style='font-weight: bold;'>[+</span><span style='font-size:120%'>big</span><span  style='font-weight: bold;'>+]</span> &nbsp;
+<span  style='font-weight: bold;'>[++</span><span style='font-size:144%'>bigger</span><span  style='font-weight: bold;'>++]</span> &nbsp;
+<span  style='font-weight: bold;'>[-</span><span style='font-size:83%'>small</span><span  style='font-weight: bold;'>-]</span> &nbsp;
+<span  style='font-weight: bold;'>[--</span><span style='font-size:69%'>smaller</span><span  style='font-weight: bold;'>--]</span> &nbsp;
+<span  style='font-weight: bold;'>'^</span><sup>superscript</sup><span  style='font-weight: bold;'>^'</span> &nbsp;
+<span  style='font-weight: bold;'>'_</span><sub>subscript</sub><span  style='font-weight: bold;'>_'</span> &nbsp;
+<span  style='font-weight: bold;'>{+</span><ins>inserted</ins><span  style='font-weight: bold;'>+}</span> &nbsp;
+<span  style='font-weight: bold;'>{-</span><del>deleted</del><span  style='font-weight: bold;'>-}</span>
+</p></td><td align='right'  valign='top'>
+<p><span  style='font-weight: bold;'>Preformatted</span>: 
+<span  style='font-weight: bold;'>[@</span>...<span  style='font-weight: bold;'>@]</span>  or 
+<span  style='font-weight: bold;'>&gt;&gt;pre&lt;&lt;</span>...<span  style='font-weight: bold;'>&gt;&gt;&lt;&lt;</span>
+</p></td></tr></table>
+";}

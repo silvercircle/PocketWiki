@@ -1,0 +1,18 @@
+version=pmwiki-2.2.18 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:2.0b8pre) Gecko/20101025 Firefox/4.0b8pre Firefox/4.0b8pre
+author=admin
+charset=UTF-8
+csum=
+ctime=1288093926
+host=81.217.70.206
+name=TabSRMM.InfoPanel
+rev=2
+targets=TabSRMM.AutoKeyboard,TabSRMM.TabSRMM,TabSRMM.GroupChats,TabSRMM.ConfigureContainers
+text=%3c|[[TabSRMM.#reference|Page Index]]|>%0a= The info panel =%0a(:include Template/Formatting#rimage#endrimage Image="infopanel.png" Width=400 Caption="The info panel":)%0a%0aThe info panel is a small area at the top of a message window, showing additional information about the contact you are chatting with.%0a%0a== What it shows ==%0a%0a* The contact's nick name (or, for [[GroupChats|group chats]], the channel or room name) in the first line.%0a* The contact's status message in the first line (in group chats, it shows the channel modes).%0a* The contact's UID in the second line. In group chats, there is no UID, so the second line shows the channel or room topic.%0a* The contact's status, protocol and optionally (fingerprint plugin required) the client icon.%0a* The contact's avatar.\\\%0a%0a== General tasks ==%0a%0a==== Switch the info panel on or off ====%0a%0aUse the [[ConfigureContainers|container settings]] to enable or disable the info panel for the current container.%0a%0a==== Change the vertical size of the panel ====%0a%0aDrag the bottom edge of the panel up or down. There are limits which you cannot exceed, but you can set the height to any value between about 25 and 100 pixels. The display will automatically adjust itself to the new size and may be reduced to a single line of text%0a
+time=1288094047
+author:1288094047=admin
+diff:1288094047:1288093926:=1d0%0a%3c %3c|[[TabSRMM.#reference|Page Index]]|>%0a
+host:1288094047=81.217.70.206
+author:1288093926=admin
+diff:1288093926:1288093926:=1,22d0%0a%3c = The info panel =%0a%3c (:include Template/Formatting#rimage#endrimage Image="infopanel.png" Width=400 Caption="The info panel":)%0a%3c %0a%3c The info panel is a small area at the top of a message window, showing additional information about the contact you are chatting with.%0a%3c %0a%3c == What it shows ==%0a%3c %0a%3c * The contact's nick name (or, for [[GroupChats|group chats]], the channel or room name) in the first line.%0a%3c * The contact's status message in the first line (in group chats, it shows the channel modes).%0a%3c * The contact's UID in the second line. In group chats, there is no UID, so the second line shows the channel or room topic.%0a%3c * The contact's status, protocol and optionally (fingerprint plugin required) the client icon.%0a%3c * The contact's avatar.\\\%0a%3c %0a%3c == General tasks ==%0a%3c %0a%3c ==== Switch the info panel on or off ====%0a%3c %0a%3c Use the [[ConfigureContainers|container settings]] to enable or disable the info panel for the current container.%0a%3c %0a%3c ==== Change the vertical size of the panel ====%0a%3c %0a%3c Drag the bottom edge of the panel up or down. There are limits which you cannot exceed, but you can set the height to any value between about 25 and 100 pixels. The display will automatically adjust itself to the new size and may be reduced to a single line of text%0a
+host:1288093926=81.217.70.206

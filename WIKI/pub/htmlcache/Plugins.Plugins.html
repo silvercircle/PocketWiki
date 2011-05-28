@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+ 
+<html xmlns='http://www.w3.org/1999/xhtml' xml:lang='en' lang='en'>
+
+<head>
+
+<title>MyWiki : Plugins / Plugins : browse</title>
+
+<meta http-equiv='content-type' content='text/html; charset=UTF-8' />
+<meta name='author' content='PmWiki' />
+<meta name='generator' content="2.2" />
+
+<link rel='stylesheet' type='text/css' media='screen, projection' href='http://localhost/pub/skins/green/green.css' />
+
+<!--[if gt IE 6]>
+<link rel='stylesheet' type='text/css'
+	href='http://localhost/pub/skins/green/ie70.css' />
+<![endif]-->
+
+<!--HTMLHeader--><style type='text/css'><!--
+  ul, ol, pre, dl, p { margin-top:0px; margin-bottom:0px; }
+  code.escaped { white-space: nowrap; }
+  .vspace { margin-top:1.33em; }
+  .indent { margin-left:40px; }
+  .outdent { margin-left:40px; text-indent:-40px; }
+  a.createlinktext { text-decoration:none; border-bottom:1px dotted gray; }
+  a.createlink { text-decoration:none; position:relative; top:-0.5em;
+    font-weight:bold; font-size:smaller; border-bottom:none; }
+  img { border:0px; }
+  
+  div.sm-topnav { margin-bottom:1em; }
+  div.sm-topnav li { margin:0px; padding:4px 2px 2px 2px; font-size:11pt; font-weight:bold; }
+  div.sm-topnav li li { padding:0 0 0 6px; font-size:9.4pt; font-weight:normal; }
+  div.sm-nav ul { list-style:none; padding:0px; margin:0px; }
+  div.sm-nav li { margin:0px; padding:0 1em; }
+  div.sm-topnav li li.active, div.sm-nav li li.active { font-weight:bold; }
+  div.sm-nav a { text-decoration:none; color:black; }
+  div.sm-nav a:hover { text-decoration:underline; color:blue; }
+  div.sm-nav { float: right; clear: right; border:1px solid #cccccc; margin-top: 1em; padding:4px; background-color:#f9f9f9; }
+
+p.question { margin-top: 2.0em; }
+p.question:first-letter {
+    float: left;
+    font-family: Old English, Georgia, serif;
+    color: #777777;
+    font-size: 200%;
+    line-height: 1.0em;
+    margin-right: 0.2em;
+}.editconflict { color:green; 
+  font-style:italic; margin-top:1.33em; margin-bottom:1.33em; }
+
+  table.markup { border:2px dotted #ccf; width:90%; }
+  td.markup1, td.markup2 { padding-left:10px; padding-right:10px; }
+  table.vert td.markup1 { border-bottom:1px solid #ccf; }
+  table.horiz td.markup1 { width:23em; border-right:1px solid #ccf; }
+  table.markup caption { text-align:left; }
+  div.faq p, div.faq pre { margin-left:2em; }
+  div.faq p.question { margin:1em 0 0.75em 0; font-weight:bold; }
+  div.faqtoc div.faq * { display:none; }
+  div.faqtoc div.faq p.question 
+    { display:block; font-weight:normal; margin:0.5em 0 0.5em 20px; line-height:normal; }
+  div.faqtoc div.faq p.question * { display:inline; }
+   
+    .frame 
+      { border:1px solid #cccccc; padding:4px; background-color:#f9f9f9; }
+    .lfloat { float:left; margin-right:0.5em; }
+    .rfloat { float:right; margin-left:0.5em; }
+a.varlink { text-decoration:none; }
+
+--></style><meta http-equiv='Content-Type' content='text/html; charset=utf-8' /><link rel='stylesheet' href='http://localhost/pub/css/markup.css' type='text/css' />
+  <meta name='robots' content='index,follow' />
+<link rel='stylesheet' type='text/css' href='http://localhost/pub/css/local.css' />
+
+
+<link rel='icon' type='image/ico' href='http://localhost/pub/skins/green/gfx/favicon.ico' />
+<link rel='shortcut icon' type='image/ico' href='http://localhost/pub/skins/green/gfx/favicon.ico' />
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js?ver=1.3.2"></script>
+<script type="text/javascript" src="http://localhost/pub/skins/green/support.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+
+var wp_privacy = parseInt(readCookie('wp_privacy'));
+var menu_active = false;
+var $d;
+
+var textSizeUnit = 'pt';
+var textSizeStep = 1;
+var textSizeMax = 16;
+var textSizeMin = 8;
+var textSizeDefault = 10;
+
+var cookie = readCookie("pm_textsizestyle");
+var textsize = cookie ? parseInt(cookie) : textSizeDefault;
+
+var cookie_toggle = readCookie("pm_textstyle");
+var textstyle = cookie_toggle ? cookie_toggle : 'serif';
+
+if(textsize < textSizeMin || textsize > textSizeMax) {
+    textsize = textSizeDefault;
+}
+setInitialFontSize(textsize, textstyle);
+//]]>
+</script>
+</head>
+
+<body>
+
+<!--PageHeadFmt-->
+<div id='wiki-head' class='wiki-head'>
+	<div style="float:right;">
+	<form  style="margin:0;background-color:white;" action='http://localhost/' method='get'>
+	<fieldset style="border:0;margin:0;padding:5px;">
+		<input type='text' name='q' value='Search' size='17' onfocus="if(this.value=='Search')value=''" onblur="if(this.value=='')value='Search';" />
+		<input type='hidden' name='action' value='search' />
+		<input type='hidden' name='n' value='Site.Search' />
+		<input type='submit' value='Search' class="button" />
+	</fieldset>
+	</form>
+	<a style="color:white;font-size:8pt;font-weight:bold;margin-right:4px;" href="?action=search">Advanced search</a>
+	</div>	
+	<!--PageTopFmt-->
+	<div id='wiki-top' class='wiki-top'>
+	    <div  id='top-left' > 
+<ul><li class='sitechanges noborder'><a rel='nofollow'  class='wikilink' href='http://localhost//Site/AllRecentChanges'>Site Changes</a>
+</li><li class='groupchanges'><a rel='nofollow'  class='wikilink' href='http://localhost//Site/RecentChanges'>Group Changes</a>
+</li></ul></div>
+<div  id='top-right' > 
+<ul><li class='rss noborder'><a rel='nofollow'  class='wikilink' href='http://localhost//Site/AllRecentChanges?action=rss'>RSS</a>
+</li><li class='atom'><a rel='nofollow'  class='wikilink' href='http://localhost//Site/AllRecentChanges?action=atom'>ATOM</a>
+</li><li class='dc'><a rel='nofollow'  class='wikilink' href='http://localhost//Site/AllRecentChanges?action=dc'>DC</a>
+</li><li class='rdf'><a rel='nofollow'  class='wikilink' href='http://localhost//Site/AllRecentChanges?action=rdf'>RDF</a>
+</li></ul></div>
+<p><br style='clear:both;' />
+</p>
+
+	</div>
+	<!--/PageTopFmt-->
+	<a href="/"><img style="float:left;margin:10px 30px;" src="http://localhost/pub/skins/green/images/bloglogo.png" alt="logo" title="logo" /></a>
+</div>
+<!--/PageHeadFmt-->
+
+<!--PageInfoFmt-->
+<div id='wiki-info' class='wiki-info'>
+	&gt;<strong>You are here: </strong><div class="breadcrumb"><a href='http://localhost/'>Home</a> &raquo; <span>Plugins</span></div>
+		<div style="float:right;">
+		<span title="Increase content text size" id="fontinc">&nbsp;</span>
+		<span title="Decrease content text size" id="fontdec">&nbsp;</span>
+		<span title="Toggle serif or sans serif font" id="fonttoggle">&nbsp;</span>
+		<span class="greedlink" id="fontsize">&nbsp;&nbsp;&nbsp;</span>
+		</div>
+	<div  id='info-right' > 
+<ul><li class='browse'>      <a accesskey=''  rel='nofollow'  class='selflink' href='http://localhost//Plugins/Plugins'>View</a>
+</li><li class='edit'>      <a accesskey='e'  rel='nofollow'  class='wikilink' href='http://localhost//Plugins/Plugins?action=edit'>Edit</a>
+</li><li class='diff'>   <a accesskey='h'  rel='nofollow'  class='wikilink' href='http://localhost//Plugins/Plugins?action=diff'>History</a>
+</li><li class='print'>     <a accesskey=''  rel='nofollow'  class='wikilink' href='http://localhost//Plugins/Plugins?action=print'>Print</a>
+</li></ul></div><br style='clear:both;' />
+
+</div>
+<!--/PageInfoFmt-->
+
+<div id='wiki-wrap' class='wiki-wrap'>
+<div id="container">
+<table class="content_table">
+<tr>
+<!--PageLeftFmt-->
+<td id="wiki-left" style="width:250px;vertical-align:top;">
+	<div class='sidebar_container' >
+<p class='sidehead'> Site
+</p><ul><li><a class='wikilink' href='http://localhost//Main/Sitemap'>Site map</a>
+</li><li><a class='wikilink' href='http://localhost//Main/HelpContents'>Site help</a>
+</li><li><a class='external' href='http://blog.miranda.or.at' rel='nofollow'>Blog</a>
+</li><li><a class='external' href='http://forum.miranda.or.at' rel='nofollow'>Forum</a>
+</li><li><a class='wikilink' href='http://localhost//Main/SVNRepositories'>Code</a>
+</li><li><a class='wikilink' href='http://localhost//Main/ReportingBugs'>Bugs</a>
+</li><li><a class='wikilink' href='http://localhost//Site/Contact'>Contact form</a>
+</li></ul><p class='vspace sidehead'> Main categories
+</p><ul><li><a class='wikilink' href='http://localhost//TabSRMM/TabSRMM'>TabSRMM</a>
+</li><li><a class='wikilink' href='http://localhost//Firefox/Firefox'>Mozilla Firefox</a>
+</li><li><a class='wikilink' href='http://localhost//Eclipse/Eclipse'>Eclipse</a>
+</li></ul><p class='vspace sidehead'> External
+</p><ul><li><a class='external' href='http://www.miranda-im.org' rel='nofollow'>Miranda home</a>
+</li><li><a class='external' href='http://forums.miranda-im.org/' rel='nofollow'>Official miranda forum</a>
+</li><li><a class='external' href='http://code.google.com/p/miranda/issues/list' rel='nofollow'>Miranda bug tracker</a>
+</li><li><a class='external' href='http://www.miranda-im.org/download/' rel='nofollow'>Miranda downloads</a>
+</li><li><a class='external' href='http://code.google.com/p/silvercircle/' rel='nofollow'>My googlecode site</a>
+</li></ul><p class='vspace sidehead'> <a class='wikilink' href='http://localhost//PmWiki/PmWiki'>PmWiki</a>
+</p><ul><li><a class='wikilink' href='http://localhost//PmWiki/BasicEditing'>Editing Help</a>
+</li><li><a class='wikilink' href='http://localhost//PmWiki/DocumentationIndex'>Documentation Index</a>
+</li><li><a class='wikilink' href='http://localhost//PmWiki/FAQ'>PmWiki FAQ</a>
+</li><li><a class='wikilink' href='http://localhost//PmWiki/PmWikiPhilosophy'>PmWikiPhilosophy</a>
+</li><li><a class='wikilink' href='http://localhost//PmWiki/ReleaseNotes'>Release Notes</a>
+</li><li><a class='wikilink' href='http://localhost//PmWiki/ChangeLog'>ChangeLog</a>
+</li></ul><p class='vspace sidehead'> <a class='external' href='http://www.pmwiki.org' rel='nofollow'>pmwiki.org</a>
+</p><ul><li><a class='external' href='http://www.pmwiki.org/wiki/Cookbook/CookbookBasics' rel='nofollow'>Cookbook (addons)</a>
+</li><li><a class='external' href='http://www.pmwiki.org/wiki/Cookbook/Skins' rel='nofollow'>Skins (themes)</a>
+</li><li><a class='external' href='http://www.pmwiki.org/PITS/PITS' rel='nofollow'>PITS (issue tracking)</a>
+</li><li><a class='wikilink' href='http://localhost//PmWiki/MailingLists'>Mailing Lists</a>
+</li></ul><div class='vspace'></div></div>
+
+</td>
+<!--/PageLeftFmt-->
+<td id="wiki-page" style="width:100%;">
+	<!--PageText-->
+<div id='wikitext'>
+<div class='tabsrmm_header' > 
+<p><span class='rfloat' style='margin-top: -3px;'>(:quicktoc:)</span>
+Plugin documentation
+</p></div>
+<h1>All third party plugins</h1>
+<p class='vspace'>TabSRMM supports or is supported by a number of other plugins, most of them messaging related. Their use is optional though and TabSRMM does not require any other plugin with the exception of most core plugins to work but can benefit from features provided by said plugins.<br /><br />
+This list describes some of the important and commonly used plugins.
+<br /><a id='begin'></a>
+</p><ul><li><a class='wikilink' href='http://localhost//Plugins/IEView'>IEView plugin</a> (HTML based message log viewer for Miranda IM).
+</li><li><a class='wikilink' href='http://localhost//Plugins/Popups'>Popups for notifications</a> (plugin(s) to display event notifications in MIranda IM).
+</li><li><a class='wikilink' href='http://localhost//Plugins/Smileyadd'>Smileyadd</a> (plugin for graphical smileys or emoticons).
+</li><li><a class='wikilink' href='http://localhost//Plugins/Folders'>Custom profile folders</a> (plugin to manage storage folder locations in Miranda)
+</li><li><a class='createlinktext' rel='nofollow' 
+    href='http://localhost//Plugins/Metacontacts?action=edit'>Meta contacts</a><a rel='nofollow' 
+    class='createlink' href='http://localhost//Plugins/Metacontacts?action=edit'>?</a> (a protocol plugin to implement meta entities for contact management).
+</li><li><a class='wikilink' href='http://localhost//Plugins/CorePlugins#AVS'>avatar service</a> (core plugin for contact picture management).
+</li><li><a class='wikilink' href='http://localhost//Plugins/CorePlugins#Freeimage'>Miranda image services</a> (core plugin for low level image handling, based on <a class='external' href='http://www.freeimage.org' rel='nofollow'>the freeimage library</a>.
+</li><li><a class='wikilink' href='http://localhost//Plugins/SndVol'>Sound volume plugin</a> (old plugin to control the volume of Miranda sound effects, using a convenient contact list frame)
+</li><li><a class='wikilink' href='http://localhost//Plugins/DBEditor'>Database editor plugin</a>
+</li></ul><p><a id='end'></a><br />All these plugins are developed by various members of the Miranda community and are not my work with the exception of some core plugins (AVS and Image services).
+</p><hr />
+<p><span  style='float: right; color: #888; font-size: small;'>Author: admin</span>
+<span  style='text-align: left; color: #888; font-size: small;'>Last modified: Friday, November 05, 2010 at 13:32 CET</span>
+</p><hr />
+<p>Category: <a class='selflink' href='http://localhost//Plugins/Plugins'>Plugins</a>
+</p>
+</div>
+
+</td>
+</tr>
+</table>
+</div>
+<!--PageFootFmt-->
+<div id='wiki-foot' class='wiki-foot'>
+	<ul><li class='home noborder'><a class='external' href='http://localhost/?n=Main.HomePage' rel='nofollow'>Home</a>
+</li><li class='login'><a rel='nofollow'  class='wikilink' href='http://localhost//Plugins/Plugins?action=login'>Login</a>
+</li><li class='search'><a rel='nofollow'  class='wikilink' href='http://localhost//Site/Search'>Search</a>
+</li><li class='browse'>      <a accesskey=''  rel='nofollow'  class='selflink' href='http://localhost//Plugins/Plugins'>View</a>
+</li><li class='edit'>      <a accesskey='e'  rel='nofollow'  class='wikilink' href='http://localhost//Plugins/Plugins?action=edit'>Edit</a>
+</li><li class='diff'>   <a accesskey='h'  rel='nofollow'  class='wikilink' href='http://localhost//Plugins/Plugins?action=diff'>History</a>
+</li><li class='print'>     <a accesskey=''  rel='nofollow'  class='wikilink' href='http://localhost//Plugins/Plugins?action=print'>Print</a>
+</li></ul><p><span  style='float: right;'>&nbsp;<a class='external' href='http://www.pmwiki.org' rel='nofollow'>Powered by PmWiki</a>&nbsp; | &nbsp; <a class='external' href='http://validator.w3.org/check?uri=referer' rel='nofollow'>HTML 5</a></span>
+</p>
+<div class='vspace'></div>
+
+</div>
+<!--/PageFootFmt-->
+</div>
+
+<!--HTMLFooter-->
+	<script type="text/javascript" src="http://localhost/pub/skins/green/shlt/scripts/shAll.js"></script>
+	<script type="text/javascript">
+   	// <![CDATA[
+   	
+    	var anchor = document.getElementsByTagName('SCRIPT')[0];
+		var t2 = document.createElement('SCRIPT');
+		t2.type = "text/javascript";
+		t2.async = true;
+		t2.src = "http://localhost/pub/skins/green/support_footer.js?ver=1.1.0";
+		anchor.parentNode.insertBefore(t2, anchor);
+   	
+		function toggleObj(obj, tog, show, hide, swap, set, cname, button) {
+			var e = document.getElementById(obj);
+			if (hide && swap!='') var e2 = document.getElementById(swap);
+			var text    = document.getElementById(obj + "-tog");
+			if (set=='1') document.cookie=cname+'='+tog+'; path=/';
+			if (tog=='show') {
+				e.style.display = 'block';
+				if(swap!='') e2.style.display = 'none';
+				var label = hide;
+				tog='hide';				
+			}
+			else {
+				e.style.display = 'none';
+				if(swap!='') e2.style.display = 'block';
+				var label = show;
+				tog='show';
+			}
+
+         var act = '"javascript:toggleObj(\''+obj+'\',\''+tog+'\',\''+show+'\',\''+hide+'\',\''+swap+'\',\''+set+'\',\''+cname+'\',\''+button+'\');"';
+         if (button==1)
+         	copy = '<input type="button" class="inputbutton togglebutton" value="'+label+'" onclick='+act+' />';
+         else
+         	var copy = '<a class="togglelink" href='+act+'>'+label+'</a>'; 
+         text.innerHTML = copy;   	 
+      	}
+      	
+  		SyntaxHighlighter.autoloader(
+      'bash shell             http://localhost/pub/skins/green/shlt/scripts/shBrushBash.js',
+      'cpp c                  http://localhost/pub/skins/green/shlt/scripts/shBrushCpp.js',
+      'c# c-sharp csharp      http://localhost/pub/skins/green/shlt/scripts/shBrushCSharp.js',
+      'css                    http://localhost/pub/skins/green/shlt/scripts/shBrushCss.js',
+      'delphi pascal          http://localhost/pub/skins/green/shlt/scripts/shBrushDelphi.js',
+      'groovy                 http://localhost/pub/skins/green/shlt/scripts/shBrushGroovy.js',
+      'java                   http://localhost/pub/skins/green/shlt/scripts/shBrushJava.js',
+      'jfx javafx             http://localhost/pub/skins/green/shlt/scripts/shBrushJavaFX.js',
+      'js jscript javascript  http://localhost/pub/skins/green/shlt/scripts/shBrushJScript.js',
+      'perl pl                http://localhost/pub/skins/green/shlt/scripts/shBrushPerl.js',
+      'php                    http://localhost/pub/skins/green/shlt/scripts/shBrushPhp.js',
+      'text plain             http://localhost/pub/skins/green/shlt/scripts/shBrushPlain.js',
+      'py python              http://localhost/pub/skins/green/shlt/scripts/shBrushPython.js',
+      'ruby rails ror rb      http://localhost/pub/skins/green/shlt/scripts/shBrushRuby.js',
+      'sql                    http://localhost/pub/skins/green/shlt/scripts/shBrushSql.js',
+      'xml xhtml xslt html    http://localhost/pub/skins/green/shlt/scripts/shBrushXml.js'
+       );
+	SyntaxHighlighter.all();	      	
+	// ]]>
+	</script> 
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+a:1:{i:0;s:6576:"<div class='tabsrmm_header' > 
+<p><span class='rfloat' style='margin-top: -3px;'>(:quicktoc:)</span>
+Plugin documentation
+</p></div>
+<p><span class='wikitrail'>&lsaquo; <a class='wikilink' href='http://localhost/Plugins/CorePlugins#Freeimage'>Miranda image services</a> | <a class='wikilink' href='http://localhost/Plugins/Plugins#begin#end'>Other plugins index</a> | <a class='wikilink' href='http://localhost/Plugins/DBEditor'>Database editor plugin</a> &rsaquo;</span>
+</p><h1>The Sound Volume plugin</h1>
+<div class='vspace'></div><h2>Introduction</h2>
+<p class='vspace'><strong>SndVol</strong> is a simple plugin which enables you to control the volume of all sound effects used within Miranda. When installed, it creates a small subframe in your contact list with a volume slider and 1 or 2 mute buttons.
+</p>
+<div class='vspace'></div><h2>Features</h2>
+<div class='vspace'></div><ul><li>control volume of Miranda sound effects with a simple slider in the contact list.
+</li><li>Mute all sounds
+</li><li>control volume of the MRadio plugin (a 3rd party plugin which allows to use Miranda for receiving live radio streams).
+</li><li>Mute the MRadio plugin
+</li></ul><div class='vspace'></div><h2>Requirements</h2>
+<div class='vspace'></div><ul><li>Miranda IM 0.7 or later. Available from the <a class='external' href='http://www.miranda-im.org' rel='nofollow'>official site</a>.
+</li><li>A contact list with supports for additional frames. Clist_modern or clist_nicer are both supported.
+</li><li>Windows 2000 or Windows XP (may work on Windows 98/SE). The plugin can be used on Windows Vista or Windows 7, but there are known issues (see below).
+</li></ul><div class='vspace'></div><h2>Installation</h2>
+<div class='vspace'></div><ul><li>Copy the plugin DLL into Mirandas plugin folder. The download archive contains both ANSI and UNICODE builds in separate folders. Please choose the proper one, if unsure, check which Miranda build you are running. Using *Help&rarr;About* from the menu will tell you whether you are running ANSI or UNICODE build.
+<div class='vspace'></div></li><li>Like always, Miranda should not run when installing new plugins, but if it does, you will have to restart it in order to recognize the changes.
+<div class='vspace'></div></li><li>After installing it, make sure the plugin is running. Navigate to the <strong>Plugins</strong> node in the options tree and find the entry for the *Sound Volume* plugin in the list of running addon modules.
+</li></ul><div class='vspace'></div><h2>Using it</h2>
+<p class='vspace'><a id='rimage'></a>
+</p><div  style='float: right; border: 1px solid #ccc; margin-left: 10px;' > 
+<!-- TL2-20100315 --><table class='cbox'><tr class='thumbtr'><td class='thumbtd'><div class='img'  style='padding:2px 2px;'><a href='http://localhost/uploads/Plugins/Sndvol_frame.png' class='thumblink' title='Sndvol_frame.png'  ><img class="thumbs" src="http://localhost/uploads/Plugins/th197---ffffff--Sndvol_frame.png.jpg" title="Sndvol_frame.png: 209x322, 10k (October 23, 2010, at 08:53 AM)" alt="Sndvol_frame.png: 209x322, 10k (October 23, 2010, at 08:53 AM)" width='128' height='197' /></a> </div><span class="caption">Sound Volume plugin in Clist Nicer</span></td></tr></table>
+</div>
+<p>Should be straightforward. Use the slider to control the sound volume of all sounds created by Miranda. Such sounds are often used for notifications of any kind like online alerts or incoming messages. The slider also controls the volume of the MRadio output, but this is optional and can be disabled.
+</p>
+<p class='vspace'>The left button allows to mute all sounds. It will change its icon to indicate whether sound effects are muted or not. The right button allows to mute the output from MRadio only, consequently, this button will not appear when the MRadio plugin is not installed.
+</p>
+<p class='vspace'>The plugin is using the multiwindow module of clist_nicer or clist_modern. You can control the options of the embedded sound volume frame by using the *Frames* menu in the contact list. Using it, you can move the frame up or down, enable or disable its title bar and adjust its height. You can also temporarily hide the frame when you do not need it.
+</p>
+<div class='vspace'></div><h2>Setting options</h2>
+<div class='vspace'></div><ul><li>Options can be found in <span class='option'>Events&rarr;Sound Volume</span>
+</li><li>Most options should be self-explantory
+</li></ul><div class='vspace'></div><h2>Known issues</h2>
+<p class='vspace'>On Windows Vista and later, the plugin can consume noticeable CPU load, even when doing nothing. This is because of the changes in the sound mixer of Windows Vista (and Windows 7) and may depend on the installed hardware and drivers. There is no solution for this problem as it would require a total rewrite of the plugin and the way it works. If you experience such problems, uninstall it - it's not needed anyway, because on Windows Vista or later, you can use the system sound mixer, accessible from the tray.
+</p>
+<p class='vspace'>Otherwise, there are no known issues. If you find one, please report it using the <a class='external' href='http://code.google.com/p/silvercircle/issues/list' rel='nofollow'>Issue tracker</a> on this site. Make sure to file your issue using the proper tag (using the SndVol tag for reporting SndVol issues should be obvious).
+</p>
+<div class='vspace'></div><h2>TODO</h2>
+<p class='vspace'>Nothing at this time. I consider this plugin finished.
+</p>
+<div class='vspace'></div><h2>Download</h2>
+<p class='vspace'>The plugin is available from the <a class='external' href='http://code.google.com/p/silvercircle/downloads/list' rel='nofollow'>projects download page</a>.
+</p>
+<div class='vspace'></div><h2>Credits and copyrights</h2>
+<p class='vspace'>Sound Volume is licensed under the <a class='wikilink' href='http://localhost/Main/GPL'>GPL</a> version 2.0 or any later version. Source code is available via anonymous SVN (see <a class='wikilink' href='http://localhost/Main/SVNRepositories'>SVN_Repositories</a> for details).
+</p>
+<p class='vspace'>The plugin was originally written by Std. I've done the modifications for MRadio support and made the plugin compatible with Miranda 0.7 or later.
+</p>
+<div class='vspace'></div><hr />
+<p><span  style='float: right; color: #888; font-size: small;'>Author: admin</span>
+<span  style='text-align: left; color: #888; font-size: small;'>Last modified: Tuesday, November 02, 2010 at 03:46 CET</span>
+</p><hr />
+<p>Category: <a class='wikilink' href='http://localhost/Plugins/Plugins'>Plugins</a>
+</p>
+";}

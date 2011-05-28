@@ -1,0 +1,18 @@
+version=pmwiki-2.2.0-beta57 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (compatible; Konqueror/3.5; Linux) KHTML/3.5.5 (like Gecko)
+author=
+charset=ISO-8859-1
+csum=
+ctime=1162005298
+host=127.0.0.1
+name=Site.InfoBar
+rev=2
+targets=Site.InfoBar,Site.Search
+text=>>id=info-left%3c%3c* %25item rel='nofollow' class='home noborder' %25[[ {$ScriptUrl}?action=home  $[Home] ]](:if !authid :)* %25item rel='nofollow' class='login' %25[[ {*$FullName}?action=login  $[Login] ]](:ifend:)(:if authid :)* %25item rel='nofollow' class='logout' %25[[ {*$FullName}?action=logout  $[Logout] ]](:ifend:)* %25item rel='nofollow' class='search' %25[[{$SiteGroup}/Search  $[Search] ]]>>%3c%3c>>id=info-right%3c%3c(:include {$SiteGroup}.PageActions:)>>%3c%3c[[%3c%3c]]
+time=1184359788
+author:1184359788=
+diff:1184359788:1184359705:=2c2%0a%3c * %25item rel='nofollow' class='home noborder' accesskey='$[ak_home]'%25[[ {$ScriptUrl}?action=home | $[Home] ]]%0a---%0a> * %25item rel=nofollow class='home noborder' accesskey='$[ak_home]%25[[ {$ScriptUrl}?action=home | $[Home] ]]%0a4c4%0a%3c * %25item rel='nofollow' class='login' accesskey='$[ak_login]'%25[[ {*$FullName}?action=login | $[Login] ]]%0a---%0a> * %25item rel=nofollow class=login accesskey='$[ak_login]%25[[ {*$FullName}?action=login | $[Login] ]]%0a7c7%0a%3c * %25item rel='nofollow' class='logout' accesskey='$[ak_logout]'%25[[ {*$FullName}?action=logout | $[Logout] ]]%0a---%0a> * %25item rel=nofollow class=logout accesskey='$[ak_logout]%25[[ {*$FullName}?action=logout | $[Logout] ]]%0a9c9%0a%3c * %25item rel='nofollow' class='search' accesskey='$[ak_search]'%25[[{$SiteGroup}/Search | $[Search] ]]%0a---%0a> * %25item rel=nofollow class=search accesskey='$[ak_search]%25[[{$SiteGroup}/Search | $[Search] ]]%0a
+host:1184359788=127.0.0.1
+author:1184359705=
+diff:1184359705:1164071807:=
+host:1184359705=127.0.0.1

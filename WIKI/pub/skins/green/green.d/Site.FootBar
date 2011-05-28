@@ -1,0 +1,11 @@
+version=pmwiki-2.2.0-beta57 ordered=1 urlencoded=1
+agent=
+author=
+charset=ISO-8859-1
+csum=
+ctime=1160965702
+host=
+name=Site.FootBar
+rev=19
+targets=
+text=* %25item rel='nofollow' class='home noborder' %25[[ {$ScriptUrl}?n={$DefaultGroup}.{$DefaultName}|$[Home] ]]%0a(:if !authid :)%0a* %25item rel='nofollow' class='login' %25[[ {*$FullName}?action=login | $[Login] ]]%0a(:ifend:)%0a* %25item rel='nofollow' class='search' %25[[{$SiteGroup}/Search | $[Search] ]]%0a(:include {$SiteGroup}.PageActions:)%float:right%&nbsp;[[http://www.pmwiki.org|Powered by PmWiki]]&nbsp; | &nbsp; [[http://validator.w3.org/check?uri=referer|HTML 5]]%%%0a%0a

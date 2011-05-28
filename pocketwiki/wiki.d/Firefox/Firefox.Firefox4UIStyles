@@ -1,0 +1,16 @@
+version=pmwiki-2.2.18 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:2.0b8pre) Gecko/20101027 Firefox/4.0b8pre Firefox/4.0b8pre
+author=admin
+charset=UTF-8
+csum=
+ctime=1288312561
+host=81.217.70.206
+name=Firefox.Firefox4UIStyles
+rev=1
+targets=
+text=(:title User chrome CSS tweaks for Firefox 4 beta:)%0a= User Chrome tweaks =%0a%0a* tweak tabs (minimum and maximum width)%0a* tweak personal tool bar (less vertical space)%0a%0aAttach:userchrome.css
+time=1288312561
+title=User chrome CSS tweaks for Firefox 4 beta
+author:1288312561=admin
+diff:1288312561:1288312561:=1,7d0%0a%3c (:title User chrome CSS tweaks for Firefox 4 beta:)%0a%3c = User Chrome tweaks =%0a%3c %0a%3c * tweak tabs (minimum and maximum width)%0a%3c * tweak personal tool bar (less vertical space)%0a%3c %0a%3c Attach:userchrome.css%0a\ No newline at end of file%0a
+host:1288312561=81.217.70.206

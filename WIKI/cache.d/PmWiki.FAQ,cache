@@ -1,0 +1,1178 @@
+a:1:{i:0;s:115762:"<p>
+<a id='trailstart'></a> 
+</p><div style='clear:right; float:right; font-size:smaller; background-color:#eee;' >
+<p><span class='wikitrail'>&lsaquo; <a class='wikilink' href='http://localhost/PmWiki/WikiFarms'>Wiki Farms</a> | <a class='wikilink' href='http://localhost/PmWiki/DocumentationIndex#trailstart#trailend'>Documentation Index</a> | <a class='wikilink' href='http://localhost/PmWiki/Troubleshooting'>Troubleshooting</a> &rsaquo;</span> 
+</p></div>
+<div style='clear:right;' >
+</div>
+<p class='vspace'>This page will attempt to summarize some of the more commonly asked questions. The answers are on the corresponding pages (see link). If you have a question which isn't answered here, you can leave your question on the <a class='external' href='http://www.pmwiki.org/wiki/PmWiki/Questions' rel='nofollow'>Questions</a> page or search for documentation using the <a class='wikilink' href='http://localhost/Site/Search'>search</a> facility. More documentation can be found on the <a class='wikilink' href='http://localhost/PmWiki/DocumentationIndex'>documentation index</a> page.
+</p>
+<div class='vspace'></div><div class='faqtoc'><h2><a class='wikilink' href='http://localhost/PmWiki/Introduction'>Introduction</a></h2>
+<div class='faq' > 
+</div><div class='faq' > <a id='faq'></a> 
+<p class='question'>Q What is PmWiki?</p>
+<p> PmWiki is a <a class='wikilink' href='http://localhost/PmWiki/WikiWikiWeb'>wiki-based</a> system for collaborative creation and maintenance of websites. See <a class='wikilink' href='http://localhost/PmWiki/PmWiki'>PmWiki</a>.
+</p>
+<p class='vspace question'>Q What can I do with it?</p>
+<p> PmWiki pages look and act like normal web pages, except they have an "Edit" link that makes it easy to modify existing pages and add new pages into the website, using <a class='wikilink' href='http://localhost/PmWiki/BasicEditing'>basic editing</a> rules. You do not need to know or use any HTML or CSS. Page editing can be left open to the public or restricted to small groups of authors. Feel free to experiment with the <a class='wikilink' href='http://localhost/PmWiki/TextFormattingRules'>Text Formatting Rules</a> in the "<a class='wikilink' href='http://localhost/Main/WikiSandbox?action=edit'>Wiki sandbox</a>". The website you're currently viewing is built and maintained with PmWiki.
+</p>
+<p class='vspace question'>Q What are the requirements?</p>
+<p> See the <a class='wikilink' href='http://localhost/PmWiki/Requirements'>PmWiki requirements</a> page.
+</p>
+<p class='vspace question'>Q Where can I find documentation?</p>
+<p> See the <a class='wikilink' href='http://localhost/PmWiki/DocumentationIndex'>documentation index</a> page.
+</p>
+<p class='vspace question'>Q How can I download PmWiki?</p>
+<p> See the <a class='external' href='http://www.pmwiki.org/wiki/PmWiki/Download' rel='nofollow'>download</a> page.
+</p>
+<p class='vspace question'>Q How do I install PmWiki?</p>
+<p> Instructions for installation are on the <a class='wikilink' href='http://localhost/PmWiki/Installation'>installation page</a>.
+</p>
+<p class='vspace question'>Q How do I get help with PmWiki?</p>
+<p> See <a class='external' href='http://www.pmwiki.org/wiki/PmWiki/Mailing%20lists' rel='nofollow'>Mailing lists</a> and <a class='external' href='http://www.pmwiki.org/wiki/PmWiki/How%20to%20get%20assistance' rel='nofollow'>How to get assistance</a>.
+</p></div>
+<h2><a class='wikilink' href='http://localhost/PmWiki/BasicEditing'>Basic PmWiki editing rules</a></h2>
+<div class='faq' > 
+</div><div class='faq' >  
+<p><a id='beginning'></a>
+</p><p class='question'>Q I'm new to PmWiki, where can I find some basic help for getting started?</p>
+<p> The <a class='wikilink' href='http://localhost/PmWiki/BasicEditing'>Basic Editing</a> page is a good start.  From there, you can just follow the navigational links at the top or the bottom of the page (they are called <a class='wikilink' href='http://localhost/PmWiki/WikiTrails'>Wiki Trails</a>) to the next pages, or to the <a class='wikilink' href='http://localhost/PmWiki/DocumentationIndex'>Documentation Index</a> page, which provides an outline style index of essential documentation pages, organized from basic to advanced.
+</p>
+<p class='vspace question'>Q How do I include special characters such as Copyright (&#169;) and Trademark (&#174; or &#8482;) on my wiki pages?</p>
+<p>  See <a class='wikilink' href='http://localhost/PmWiki/SpecialCharacters'>special characters</a> on how to insert special characters that don't appear on your keyboard.
+</p>
+<p class='vspace question'>Q How can I preserve line-breaks from the source text?</p>
+<p> PmWiki normally treats consecutive lines of text as being a paragraph, and merges and wraps lines together on output. This is consistent with most other wiki packages. An author can use the <code class='escaped'>(:linebreaks:)</code> directive to cause the following lines of markup text in the page to be kept as separate lines in the output. Or a wiki administrator can set in <em>config.php</em> <code>&#36;HTMLPNewline = '&lt;br/&gt;';</code> to force literal new lines for the whole site.
+</p>
+<p class='vspace question'>Q Can I just enter HTML directly?</p>
+<p> By default (and by design), PmWiki does not support the use of HTML elements in the editable markup for wiki pages. There are a number of reasons for this described in the <a class='wikilink' href='http://localhost/PmWiki/PmWikiPhilosophy'>PmWiki Philosophy</a> and <a class='wikilink' href='http://localhost/PmWiki/Audiences'>Audiences</a>. Enabling HTML markup within wiki pages in a collaborative environment may exclude some potential authors from being able to edit pages, and pose a number of display and security issues. However, a site administrator can use the <a class='external' href='http://www.pmwiki.org/wiki/Cookbook/Enable%20HTML' rel='nofollow'>Cookbook:Enable HTML</a> recipe to enable the use of HTML markup directly in pages.
+</p>
+<p class='vspace question'>Q Where can I find more documentation?</p>
+<p> See the <a class='wikilink' href='http://localhost/PmWiki/DocumentationIndex'>documentation index</a> and the <a class='wikilink' href='http://localhost/PmWiki/MarkupMasterIndex'>markup master index</a> pages.
+</p></div>
+<h2><a class='wikilink' href='http://localhost/PmWiki/CreatingNewPages'>Creating New Pages</a></h2>
+<div class='faq' > 
+</div><div class='faq' >  
+<p>
+</p><p class='question'>Q How do I create a new page?</p>
+<p> Typing [[my new page]] will create a link to the new page. There's <a class='wikilink' href='http://localhost/PmWiki/Links'>a lot you can do</a> with double bracket links.
+</p>
+<p class='vspace question'>Q Why do some new pages have a title with spaces like "Creating New Pages" and others end up with a WikiWord-like title like "CreatingNewPages"?</p>
+<p> The default page title is simply the name of page, which is normally stored as "CreatingNewPages."  However, you can override a page's title by using the <code class='escaped'>(:title Creating New Pages:)</code> directive.  This is especially useful when there are special characters or capitalization that you want in the title that cannot be used in the page name.
+</p></div>
+<h2><a class='wikilink' href='http://localhost/PmWiki/Links'>Links</a></h2>
+<div class='faq' > 
+</div><div class='faq' >  
+<p class='vspace question'>Q How do I create a link that will open as a new window?</p>
+<p class='vspace'> Use the <code class='escaped'>%newwin%</code> wikistyle, as in:
+</p><table class='markup horiz' align='center'>
+      <tr><td class='markup1' valign='top'><pre>%newwin% http://example.com/ %%</pre></td><td 
+        class='markup2' valign='top'><p> <a target='_blank'  class='external' href='http://example.com/' rel='nofollow'>http://example.com/</a> 
+</p>
+</td></tr></table>
+<p class='vspace question'>Q How do I create a link that will open a new window, and configure that new window?</p>
+<p class='vspace'> This requires javascript. See <a class='external' href='http://www.pmwiki.org/wiki/Cookbook/PopupWindow' rel='nofollow'>Cookbook:PopupWindow</a>.
+</p>
+<p class='vspace question'>Q How do I place a mailing address in a page?</p>
+<p class='vspace'> Use the <code class='escaped'>mailto:</code> markup, as in one of the following:
+</p>
+<div class='vspace'></div><table class='markup horiz' align='center'>
+      <tr><td class='markup1' valign='top'><pre>* mailto:myaddress@example.com
+* [[mailto:myaddress@example.com]]
+* [[mailto:myaddress@example.com | email
+me]]
+*
+[[mailto:myaddress@example.com?subject=Some
+subject | email me]]
+</pre></td><td 
+        class='markup2' valign='top'><ul><li><a class='external' href='mailto:myaddress@example.com' rel='nofollow'>myaddress@example.com</a>
+</li><li><a class='external' href='mailto:myaddress@example.com' rel='nofollow'>mailto:myaddress@example.com</a>
+</li><li><a class='external' href='mailto:myaddress@example.com' rel='nofollow'>email me</a>
+</li><li><a class='external' href='mailto:myaddress@example.com?subject=Some%20subject' rel='nofollow'>email me</a>
+</li></ul>
+</td></tr></table>
+<p>The markup <code>[[mailto:me@example.com?<span  style='color: red;'>cc=</span>someoneelse@example.com<span  style='color: red;'>&amp;bcc=</span>else@example.com<span  style='color: red;'>&amp;subject=</span>Pre-set Subject<span  style='color: red;'>&amp;body=</span>Pre-set body | display text]] =]</code> lets you specify more parameters like the message body and more recipients (may not work in all browsers and e-mail clients).
+</p>
+<p class='vspace'>See also <a class='external' href='http://www.pmwiki.org/wiki/Cookbook/DeObMail' rel='nofollow'>Cookbook:DeObMail</a> for information on protecting email addresses from spammers.
+</p>
+<p class='vspace question'>Q How can I enable links to other protocols, such as nntp:, ssh:, xmpp:, etc?</p>
+<p class='vspace'> See <a class='external' href='http://www.pmwiki.org/wiki/Cookbook/Add%20Url%20schemes' rel='nofollow'>Cookbook:Add Url schemes</a> 
+</p>
+<p class='vspace question'>Q How do I make a WikiWord link to an external page instead of a WikiPage?</p>
+<p class='vspace'> Use link markup.  There are two formats:
+</p>
+<div class='vspace'></div><div class='indent'><pre class='escaped'>[[http://example.com/ | WikiWord]]
+[[WikiWord -&gt; http://example.com/]]</pre>
+</div><p class='vspace question'>Q How do I find all of the pages that link to another page (i.e., backlinks)?</p>
+<p class='vspace'> In the wiki search form, use <code>link=Group.Page</code> to find all pages linking to Group.Page.
+</p>
+<p class='vspace'> Use the <code class='escaped'>link=</code> option of the <a class='wikilink' href='http://localhost/PmWiki/PageLists#pagelistlink'><code class='escaped'>(:pagelist:)</code> directive</a>, as in
+</p>
+<div class='vspace'></div><div class='indent'><pre class='escaped'>(:pagelist link=SomePage list=all:)   -- show all links to SomePage
+(:pagelist link={$FullName} list=all:)  -- show all links to the current page</pre>
+</div><p class='vspace question'>Q What link schemes does PmWiki support?</p>
+<p> See <a class='external' href='http://www.pmwiki.org/wiki/PmWiki/Link%20schemes' rel='nofollow'>PmWiki:Link schemes</a> 
+</p>
+<p class='vspace question'>Q How do I open external links in a new window or mark them with an icon?</p>
+<p> See <a class='external' href='http://www.pmwiki.org/wiki/Cookbook/External%20links' rel='nofollow'>Cookbook:External links</a> 
+</p>
+<p class='vspace question'>Q How can I use an image as a link?</p>
+<p> Use [[Page| Attach:image.jpg ]] or [[ http://site | http://site/image.jpg ]]  See <a class='wikilink' href='http://localhost/PmWiki/Images#links'>Images#links</a>
+</p></div>
+<h2><a class='wikilink' href='http://localhost/PmWiki/Images'>Images</a></h2>
+<div class='faq' > 
+</div><div class='faq' >  
+<p class='vspace question'>Q Is it possible to link an image on PmWiki without using a fully qualified URL?</p>
+<p> Yes. For images that are attachments, the general format is <code class='escaped'>Attach:Groupname./image.gif</code>.  To link to an image that is on the same server, use <code class='escaped'>Path:/path/to/image.gif</code>.
+</p>
+<p class='vspace question'>Q Can I attach a client image file on PmWiki?</p>
+<p> Yes, see <a class='wikilink' href='http://localhost/PmWiki/Uploads'>Uploads</a> .
+</p>
+<p class='vspace question'>Q How can I include a page from another group that contains an attached image?</p>
+<p> Include the page in the normal way, ie <code class='escaped'>(:include GroupName.Pagename:)</code>. In the page to be included (that contains the image) change <code class='escaped'>Attach:filename.ext</code> to <code class='escaped'>Attach:{$Group}./filename.ext</code>. 
+</p>
+<p class='vspace question'>Q Why, if I put an image with rframe or rfloat and immediatly after that I open a new page section with ! the section title row is below the image instead of on the left side?</p>
+<p> Because the CSS for <strong>headings</strong> such as ! contains an element <strong>clear:both</strong> which forces this behaviour. Redefine the CSS locally if you want to stop this happening, but I think the bottom border (that underlines the heading) would need further re-definition. I just use bolding for the title, and 4 dashes below ---- to separate a new section, and it saves the effort of fiddling with the core definitions.
+</p>
+<p class='vspace'>Unlike the <strong>lframe</strong> and <strong>rframe</strong> directives, <strong>cframe</strong> does not fully honour the width setting. While the frame itself resizes to match the request, the enclosed image does not, and retains its original width. Effect is the same in IE and Fx. I've added an example beneath the standard example above.
+</p>
+<p class='vspace question'>Q Is it possible to disallow all images?  I already disabled uploads but I also want to disallow external images from being shown on my wiki pages.</p>
+<div class='vspace'></div> Yes, add to config.php <pre class='escaped'>DisableMarkup('img');
+$ImgExtPattern = "$^";</pre>
+<p class='vspace question'>Q How can I make it so that when I place an image in a page, the block of text it is in is a &lt;p&gt; (paragraph) rather than a &lt;div&gt; (division)?</p>
+<p class='vspace'> If you just want it to happen for a single image (instead of all), then
+try putting <code class='escaped'>[==]</code> at the beginning of the line, as in:
+</p>
+<div class='vspace'></div><div class='indent'><code class='escaped'>[==] http://www.pmwiki.org/pub/pmwiki/pmwiki-32.gif</code>
+</div><p class='vspace'>Having <code class='escaped'>[==]</code> at the beginning of a line forces whatever follows to
+be part of a paragraph.
+</p>
+<p class='vspace question'>Q Is there any way to use relative paths for images?</p>
+<p> See <a class='external' href='http://www.pmwiki.org/wiki/Cookbook/RelativeLinks' rel='nofollow'>Cookbook:RelativeLinks</a> and <a class='varlink' href='http://localhost/PmWiki/LinkVariables#EnableLinkPageRelative'><code class='varlink'>&#36;EnableLinkPageRelative</code></a>.
+</p>
+<p class='vspace question'>Q Is there a way to attach a BMP and have it display rather than link?</p>
+<p> Add to config.php the following line:<br /> <code>&#36;ImgExtPattern = "<br />.(?:gif|jpg|jpeg|png|bmp|GIF|JPG|JPEG|PNG|BMP)";</code><br />Note that BMP images are uncompressed and quite heavy. You may wish to convert them to PNG (lossless) or JPG (lossy) format, and thus reduce 5-20 times their filesizes.
+</p>
+<p class='vspace question'>Q Is there a way to have a table to the left or right of an image?</p>
+<p> Yes, see <a class='external' href='http://www.pmwiki.org/wiki/Test/TableAndImage' rel='nofollow'>TableAndImage</a>.
+</p></div>
+<h2><a class='wikilink' href='http://localhost/PmWiki/Uploads'>Uploads</a></h2>
+<div class='faq' > 
+</div><div class='faq' >  
+<p class='vspace question'>Q When I upload a file, how do I make the link look like "file.doc" instead of "<a rel='nofollow' class='createlinktext' href='http://localhost/PmWiki/FAQ?action=upload&amp;upname=file.doc'>Attach:file.doc</a><a rel='nofollow' class='createlink' href='http://localhost/PmWiki/FAQ?action=upload&amp;upname=file.doc'>&nbsp;&Delta;</a>"?</p>
+<p> Use parentheses, as in <code class='escaped'>[[(Attach:)file.doc]]</code>.  There is also a configuration change that can eliminate the <code class='escaped'>Attach:</code> -- see <a class='external' href='http://www.pmwiki.org/wiki/Cookbook/AttachLinks' rel='nofollow'>Cookbook:AttachLinks</a>.
+</p>
+<p class='vspace question'>Q Why can't I upload files of size more than 50kB to my newly installed PmWiki?</p>
+<p> Out of the box PmWiki limits the size of files to be uploaded to 50kB. Add
+</p><div class='indent'><code><a class='varlink' href='http://localhost/PmWiki/UploadVariables#UploadMaxSize'><code class='varlink'>&#36;UploadMaxSize</code></a> = 1000000; # limit upload file size to 1 megabyte</code>
+</div><div class='indent'>to your <em>config.php</em> to increase limit to 1MB (for example). See <a class='wikilink' href='http://localhost/PmWiki/UploadsAdmin'>UploadsAdmin</a> for how to further customize limits.  Note that both PHP and webservers also place their own limits on the size of uploaded files.
+</div><p class='vspace question'>Q Why does my upload exit unexpectedly with "Incomplete file received"?</p>
+<p> You may be running out of space in a 'scratch' area, used either by PmWiki or by PHP.  On *nix, check that you have sufficient free space in /tmp and /var/tmp.
+</p>
+<p class='vspace question'>Q How do I make it so that the upload link still allows one to make another upload (if someone wants to replace the old version of a file with a newer version, for example). Currently you only get the upload link when there is no file in the upload directory.</p>
+<p> Use the Attach <a class='wikilink' href='http://localhost/Site/PageActions'>page action</a>, and click on the delta symbol <span  style='color: blue;'>(&Delta;)</span> shown against each of files listed. If you can't see the attach action either uploads are not enabled, you are not not authorized to upload, or the attach action has been commented out or is missing. See also <a class='wikilink' href='http://localhost/PmWiki/AvailableActions'>available actions</a>.
+</p>
+<p class='vspace question'>Q How do I hide the "Attach:" for all attachments</p>
+<p> See <a class='external' href='http://www.pmwiki.org/wiki/Cookbook/AttachLinks' rel='nofollow'>Cookbook:AttachLinks</a>, note that this does not currently work for <code class='escaped'> [[Attach:my file.ext]] </code>.
+</p>
+<p class='vspace question'>Q How to avoid problems with non-ASCII characters in attachment names (i.e. "Za&#380;ó&#322;&#263; ge&#347;l&#261; ja&#378;&#324;.doc")?</p>
+<p> See <a class='varlink' href='http://localhost/PmWiki/UploadVariables#UploadNameChars'><code class='varlink'>&#36;UploadNameChars</code></a><code class='escaped'> = "-\w. !=+#";</code> # allow exclamations, equals, plus, and hash
+</p>
+<p class='vspace question'>Q How can I link a file that have a 4-letter file extension such like 'abc.pptx'?</p>
+<p> See <a class='external' href='http://www.pmwiki.org/wiki/Cookbook/Upload%20Types' rel='nofollow'>Cookbook:Upload Types</a>
+</p>
+<p class='vspace question'>Q How can I prevent others from using the url's of my images on their site</p>
+<p> See <a class='external' href='http://www.pmwiki.org/wiki/Cookbook/Prevent%20Hotlinking' rel='nofollow'>Cookbook:Prevent Hotlinking</a> 
+</p>
+<div class='vspace'></div></div>
+<h2><a class='wikilink' href='http://localhost/PmWiki/Tables'>Tables</a></h2>
+<div class='faq' > 
+</div><div class='faq' >  
+<p class='question'>Q How do I create a basic table?  </p>
+<p> Tables are created via use of the double pipe character: <code>||</code>. Lines beginning with this markup denote rows in a table; within such lines the double-pipe is used to delimit cells.  In the examples below a border is added for illustration (the default is no border).
+</p>
+<div class='vspace'></div><table class='markup horiz' align='center'><caption>Basic table</caption>
+      <tr><td class='markup1' valign='top'><pre>|| border=1 rules=rows frame=hsides
+|| cell 1 || cell 2 || cell 3 ||
+|| cell 1 || cell 2 || cell 3 ||
+</pre></td><td 
+        class='markup2' valign='top'><table  border='1' rules='rows' frame='hsides'><tr ><td  align='center'>cell 1</td><td  align='center'>cell 2</td><td  align='center'>cell 3</td></tr>
+<tr ><td  align='center'>cell 1</td><td  align='center'>cell 2</td><td  align='center'>cell 3</td></tr>
+</table>
+</td></tr></table>
+<p class='vspace question'>Q How do I create cell headers?</p>
+<p> Header cells can be created by placing ! as the first character of a cell.  Note that these are <em>table headers</em>, not <em>headings</em>, so it doesn't extend to !!, !!!, etc.
+</p>
+<div class='vspace'></div><table class='markup horiz' align='center'><caption>Table headers</caption>
+      <tr><td class='markup1' valign='top'><pre>|| border=1 rules=cols frame=vsides
+||! cell 1 ||! cell 2 ||! cell 3 ||
+|| cell 1  ||  cell 2 ||  cell 3 ||
+</pre></td><td 
+        class='markup2' valign='top'><table  border='1' rules='cols' frame='vsides'><tr ><th  align='center'>cell 1</th><th  align='center'>cell 2</th><th  align='center'>cell 3</th></tr>
+<tr ><td  align='center'>cell 1</td><td  align='center'>cell 2</td><td  align='center'>cell 3</td></tr>
+</table>
+</td></tr></table>
+<p class='vspace question'>Q How do I obtain a table with thin lines and more distance to the content?</p>
+<p> "Thin lines" is tricky and browser dependent, but the following works for Firefox and IE (Nov. 2009):
+</p>
+<div class='vspace'></div><table class='markup horiz' align='center'><caption>Thin lines and cell padding</caption>
+      <tr><td class='markup1' valign='top'><pre>||border="1" bordercolordark="black"
+bordercolorlight="black"
+style="border-collapse:collapse"
+cellpadding="5" width=66%
+||!Header || !Header|| '''Header'''||
+||cells   || with   ||      padding||
+||        ||        ||             ||
+</pre></td><td 
+        class='markup2' valign='top'><table border='"1"' bordercolordark='"black"' bordercolorlight='"black"' style='"border-collapse:collapse"' cellpadding='"5"' width='66%'><tr ><th  align='left'>Header</th><td  align='right'>!Header</td><td  align='right'><strong>Header</strong></td></tr>
+<tr ><td  align='left'>cells</td><td  align='center'>with</td><td  align='right'>padding</td></tr>
+<tr ><td >&nbsp;</td><td >&nbsp;</td><td >&nbsp;</td></tr>
+</table>
+</td></tr></table>
+<p class='vspace question'>Q How do I create an advanced table?  </p>
+<p> See <a class='wikilink' href='http://localhost/PmWiki/TableDirectives'>table directives</a>
+</p>
+<p class='vspace question'>Q My tables are by default centered. When I try to use '||align=left' they don't align left as expected. </p>
+<p> Use ||style="margin-left:0px;" instead. 
+</p>
+<p class='vspace question'>Q How can I specify the width of columns?</p>
+<p> You can define the widths via custom styles, see <a class='external' href='http://www.pmwiki.org/wiki/Cookbook/FormattingTables' rel='nofollow'>Cookbook:FormattingTables</a> and <a class='varlink' href='http://localhost/PmWiki/LayoutVariables#TableCellAttrFmt'><code class='varlink'>&#36;TableCellAttrFmt</code></a>. Add in config.php :
+<code class='escaped'>$TableCellAttrFmt = 'class=col\$TableCellCount';</code>
+</p><div class='indent'>And add in pub/css/local.css : 
+</div><pre class='escaped'>
+table.column td.col1 { width: 120px; }
+table.column td.col3 { width: 40px; }
+</pre>
+<p class='vspace question'>Q How can I display a double pipe "||" in cell text using basic table markup?</p>
+<p> Escape it with <code class='escaped'>[=||=]</code> to display || unchanged.
+</p>
+<p class='vspace question'>Q How to I apply styles to the elements of the table, like an ID to the table row, or a class/style to the TD?</p>
+<p> See <a class='wikilink' href='http://localhost/PmWiki/WikiStyles#WikiStyleApply'>&#036;WikiStyleApply</a>.
+</p></div>
+<h2><a class='wikilink' href='http://localhost/PmWiki/TableDirectives'>Table directives</a></h2>
+<div class='faq' > 
+</div><div class='faq' >  
+<p class='vspace question'>Q Can I define table headers using the table directive markup?</p>
+<p> Yes, with PmWiki version 2.2.11 or newer. See also <a class='external' href='http://www.pmwiki.org/wiki/Cookbook/AdvancedTableDirectives' rel='nofollow'>Cookbook:AdvancedTableDirectives</a>.
+</p>
+<p class='vspace question'>Q Is it possible to do nested tables?</p>
+<p> Yes, if you nest <a class='wikilink' href='http://localhost/PmWiki/Tables'>simple tables</a> inside advanced tables. See also <a class='external' href='http://www.pmwiki.org/wiki/Cookbook/AdvancedTableDirectives' rel='nofollow'>Cookbook:AdvancedTableDirectives</a>.
+</p>
+<p class='vspace question'>Q Is it possible to add background images to tables and table cells?</p>
+<p> Yes, see <a class='external' href='http://www.pmwiki.org/wiki/Cookbook/BackgroundImages' rel='nofollow'>Cookbook:BackgroundImages</a>.
+</p>
+<p class='vspace question'>Q Is it possible to apply styles to the elements of the table, like an ID to the table row, or a class/style to the TD?</p>
+<p> Yes, see <a class='wikilink' href='http://localhost/PmWiki/WikiStyles#WikiStyleApply'>&#036;WikiStyleApply</a>.
+</p></div>
+<h2><a class='wikilink' href='http://localhost/PmWiki/WikiStyles'>WikiStyles</a></h2>
+<div class='faq' > 
+</div><div class='faq' >  
+<p class='question'>Q </p>
+<p>
+</p></div>
+<h2><a class='wikilink' href='http://localhost/PmWiki/AccessKeys'>AccessKeys</a></h2>
+<div class='faq' > 
+</div><div class='faq' >  
+<p class='vspace question'>Q How can I change the keyboard shortcuts for editing and saving a page?</p>
+<p> See <a href='#customkeys'>Customizing access keys</a>.
+</p>
+<div class='vspace'></div></div>
+<h2><a class='wikilink' href='http://localhost/PmWiki/PageDirectives'>PageDirectives</a></h2>
+<div class='faq' > 
+</div><div class='faq' >  
+<p class='question'>Q Can I get <code class='escaped'>(:redirect:)</code> to return a "moved permanently" (HTTP 301) status code?</p>
+<p> Use <code class='escaped'>(:redirect PageName status=301:)</code>.
+</p>
+<p class='vspace question'>Q Is there any way to prevent the "redirected from" message from showing at the top of the target page when I use <code class='escaped'>(:redirect:)</code>?</p>
+<p> From version 2.2.1 on, set in config.php <code><a class='varlink' href='http://localhost/PmWiki/LinkVariables#EnableRedirectQuiet'><code class='varlink'>&#36;EnableRedirectQuiet</code></a>=1;</code> and in the page <code>(:redirect OtherPage quiet=1:)</code> for a quiet redirect.
+</p>
+<p class='vspace question'>Q Is there any method for redirecting to the equivalent page in a different group, i.e. from BadGroup/thispage =&gt; GoodGroup/thispage using similar markup to (:redirect Goodgroup.{Name}:)?</p>
+<p>
+</p><div class='indent'>(:redirect Goodgroup.{$Name}:) works if you want to put it in one page. 
+<div class='vspace'></div></div><div class='indent'>If you want it to work for the entire group, put (:redirect Goodgroup.{*$Name}:) into Badgroup.GroupHeader - however, that only works with pages that really exist in Goodgroup; if you visit a page in Badgroup without a corresponding page of the same name in Goodgroup, instead of being redirected to a nonexistant page, you get the redirect Directive at the top of the page.
+<div class='vspace'></div></div><div class='indent'>With (:if exists Goodgroup.{*$Name}:)(:redirect Goodgroup.{*$Name}:)(:ifend:) in Badgroup.GroupHeader you get redirected to Goodgroup.Name if it exists, otherwise you get Badgroup.Name without the bit of code displayed.
+</div></div>
+<h2><a class='wikilink' href='http://localhost/PmWiki/IncludeOtherPages'>IncludeOtherPages</a></h2>
+<div class='faq' > 
+</div><div class='faq' >  
+<p class='vspace question'>Q <a id='maxincludes'></a> What's the maximum number of includes that can exist in a page? </p>
+<div class='indent'>My site seems to stop including after 48 includes. (<a class='varlink' href='http://localhost/PmWiki/LayoutVariables#MaxIncludes'><code class='varlink'>&#36;MaxIncludes</code></a>)
+</div><p class='vspace'> By default, PmWiki places a limit of 50 include directives for any given page, to prevent runaway infinite loops and other situations that might eat up server resources. (Two of these are GroupHeader and GroupFooter.) The limit can be modified by the <a class='wikilink' href='http://localhost/PmWiki/WikiAdministrator'>wiki administrator</a> via the <a class='varlink' href='http://localhost/PmWiki/LayoutVariables#MaxIncludes'><code class='varlink'>&#36;MaxIncludes</code></a> variable.
+</p>
+<p class='vspace question'>Q Is there any way to include from a group of pages without specifying by exact name, e.g. between Anchor X and Y from all pages named IFClass-* ?</p>
+<p> This can be achieved using <a class='wikilink' href='http://localhost/PmWiki/PageLists'>page lists</a>.
+</p>
+<p class='vspace question'>Q There appears to be a viewing issue when the included page contains the (:title:) directive.</p>
+<p> As of version 2.2.0, the <em>last</em> title in the page overrides previous ones. In future versions, this may be configurable, but for the moment, best is to place your (:title :) directive at the bottom of the page, after any includes.
+</p></div>
+<h2><a class='wikilink' href='http://localhost/PmWiki/ConditionalMarkup'>ConditionalMarkup</a></h2>
+<div class='faq' > 
+</div><div class='faq' >  
+</div>
+<h2><a class='wikilink' href='http://localhost/PmWiki/PageVariables'>Page specific variables</a></h2>
+<div class='faq' > 
+</div><div class='faq' >  
+<p class='vspace question'>QIs there a variable like &#36;LastModified, but which shows me the creation time?</p>
+<p>No, but you can create one in config.php. For instance:
+</p><div class='indent'><pre class='escaped'># add page variable {$PageCreationDate} in format yyyy-mm-dd
+$FmtPV['$PageCreationDate'] = 'strftime("%Y-%m-%d", $page["ctime"])';</pre>
+</div><p class='vspace'>If you like the same format that you define in config.php with <a class='varlink' href='http://localhost/PmWiki/BasicVariables#TimeFmt'><code class='varlink'>&#36;TimeFmt</code></a> use
+</p><pre class='escaped'> $FmtPV['$Created'] = "strftime(\$GLOBALS['TimeFmt'], \$page['ctime'])";
+</pre>
+</div>
+<h2><a class='wikilink' href='http://localhost/PmWiki/WikiGroup'>WikiGroup</a></h2>
+<div class='faq' > 
+</div><div class='faq' >  
+<p class='question'>Q How can I get rid of the 'Main' group in urls for pages pointing to Main?</p>
+<p class='vspace'> See <a class='external' href='http://www.pmwiki.org/wiki/Cookbook/Get%20Rid%20Of%20Main' rel='nofollow'>Cookbook:Get Rid Of Main</a>.
+</p>
+<p class='vspace question'>Q How can I limit the creation of new groups?</p>
+<p class='vspace'> See <a class='external' href='http://www.pmwiki.org/wiki/Cookbook/Limit%20Wiki%20Groups' rel='nofollow'>Cookbook:Limit Wiki Groups</a>.
+</p>
+<p class='vspace question'>Q Why doesn't [[St. Giles and St. James]] work as a link?  (It doesn't display anything.)</p>
+<p class='vspace'> Because it contains periods, and destroys PmWiki's file structure, which saves pages as Group.PageName. Adding those periods disrupts this format. Links may only contain words. If you need a link precisely as shown, the page must be named eg StGilesAndStJames then you can use the (:title:) directive to have the page's title appear with periods (:title St. Giles and St. James:). (Although modern US and UK grammar now tend to drop the period to simplify style).
+</p>
+<p class='vspace question'>Q How can I delete a wiki group?</p>
+<p class='vspace'> Normally you can't, as this requires an admin with server-side access to delete the file that makes up the group's RecentChanges page.  But there is an option method of making it possible to delete RecentChanges pages from within the wiki if the admin enables the code found on <a class='external' href='http://www.pmwiki.org/wiki/Cookbook/RecentChanges%20Deletion' rel='nofollow'>Cookbook:RecentChanges Deletion</a>.
+</p>
+<p class='vspace question'>Q How can I delete a wiki group's Group.RecentChanges page?</p>
+<p class='vspace'> Normally you can't, as this requires an admin with server-side access to delete a file.  But there is an optional method of making it possible to delete RecentChanges pages from within the wiki if the admin enables the code found on <a class='external' href='http://www.pmwiki.org/wiki/Cookbook/RecentChanges%20Deletion' rel='nofollow'>Cookbook:RecentChanges Deletion</a>.
+</p></div>
+<h2><a class='wikilink' href='http://localhost/PmWiki/GroupHeaders'>GroupHeaders</a></h2>
+<div class='faq' > 
+</div><div class='faq' >  
+<p class='vspace question'>Q How do I set one header for all pages/groups?</p>
+<p> The header for each page is controlled by the <a class='varlink' href='http://localhost/PmWiki/LayoutVariables#GroupHeaderFmt'><code class='varlink'>&#36;GroupHeaderFmt</code></a> variable.  Thus a site-wide groupheader can be added with
+</p>
+<div class='vspace'></div><div class='indent'><pre class='escaped'>
+$GroupHeaderFmt = '(:include {$SiteGroup}.SiteHeader
+                   basepage={*$FullName}:)(:nl:)' . $GroupHeaderFmt;
+</pre>
+</div><p class='vspace'>Note that single quotes must be used so that <code class='escaped'>$Group</code> (which is part of the default contents of <a class='varlink' href='http://localhost/PmWiki/LayoutVariables#GroupHeaderFmt'><code class='varlink'>&#36;GroupHeaderFmt</code></a>) will be substituted properly by PmWiki, and that this applies to all variables ending in $<code class='escaped'>...Fmt</code>.
+See also the <a class='external' href='http://www.pmwiki.org/wiki/Cookbook/AllGroupHeader' rel='nofollow'>Cookbook:AllGroupHeader</a> page.
+</p>
+<p class='vspace'> Any form of markup is valid in <a class='varlink' href='http://localhost/PmWiki/LayoutVariables#GroupHeaderFmt'><code class='varlink'>&#36;GroupHeaderFmt</code></a>, thus one can do
+</p>
+<div class='vspace'></div><div class='indent'><code class='escaped'>$GroupHeaderFmt .= "Global markup text here.";</code>
+</div><p class='vspace question'>Q Would this then work for site footers?</p>
+<div class='indent'><pre class='escaped'>
+$GroupFooterFmt = '(:include {$SiteGroup}.SiteFooter
+                   basepage={*$FullName}:)(:nl:)' . $GroupFooterFmt;
+</pre>
+</div></div>
+<h2><a class='wikilink' href='http://localhost/PmWiki/WikiTrails'>WikiTrails</a></h2>
+<div class='faq' > 
+<p>
+</p></div><div class='faq' > 
+<p class='question'>Q What's the difference between a <a class='wikilink' href='http://localhost/PmWiki/PageLists'>PageList</a> and a WikiTrail?</p>
+<p> The pagelist directive dynamically generates a list of pages. There are many ways to generate the list, including using a WikiTrail as the source. The pagelist directive then displays the pages that match the criteria using an optional template - for example displaying each page name on a separate line as a link or including the entire content. The pagelist directive currently does not have built-in navigation markup that you can put on the pages in the list. By contrast, WikiTrails are simply specified via links on an "index" page and you <em>can</em> put previous-next navigation markup on each page. The two serve very different purposes. WikiTrails are useful for specifying the pages in <a class='wikilink' href='http://localhost/PmWiki/WebFeeds'>web feeds</a>, for creating a "tour" through a predefined set of pages, and many other things.
+</p></div>
+<h2><a class='wikilink' href='http://localhost/PmWiki/PageHistory'>PageHistory</a></h2>
+<div class='faq' > 
+</div><div class='faq' >  
+<p class='vspace question'>Q <a id='removepagehistory'></a> Is there a way to remove page history from page files?</p>
+<p> 1. Administrators can clean page histories using the <a class='external' href='http://www.pmwiki.org/wiki/Cookbook/ExpireDiff' rel='nofollow'>Cookbook:ExpireDiff</a> recipe. 
+</p>
+<p class='vspace'> 2. Administrators with FTP file access can download individual pages from the wiki.d directory, open them in a text editor, manually remove history, and re-upload the files to wiki.d/ directory. Care must be exercised, when manually editing a page file, to preserve the minimum required elements of the page and avoid corrupting its contents. See <a class='wikilink' href='http://localhost/PmWiki/PageFileFormat#creating'>PageFileFormat#creating</a>.
+</p>
+<p class='vspace'> 3. Edit the page. Select <em>all</em> the contents of the edit text area and cut them to the clipboard. Enter <code>delete</code> into the text area and  click on the <em>save and edit</em> button. Select <em>all</em> the contents of the edit text area and paste the contents of the clipboard over them. Click on the <em>save</em> button. This will remove all of the page's history up to the final save in which the pasted material is re-added.
+</p>
+<p class='vspace question'>Q <a id='restrictpagehistory'></a> How can I restrict viewing the page history <code class='escaped'>(?action=diff)</code> to people with edit permission?</p>
+<p> In the <em>local/config.php</em> file, set
+</p>
+<div class='vspace'></div><div class='indent'><code class='escaped'>$HandleAuth['diff'] = 'edit'</code>;
+</div><p class='vspace'>In case of this restriction is set up on a farm, and you want to allow it on a particular wiki, set in your local/config.php :
+</p>
+<div class='vspace'></div><div class='indent'><code class='escaped'>$HandleAuth['diff'] = 'read'</code>;
+</div></div>
+<h2><a class='wikilink' href='http://localhost/PmWiki/Passwords'>Passwords</a></h2>
+<div class='faq' > 
+</div><div class='faq' >  
+<p class='vspace question'>Q  How can I password protect all the pages and groups on my site?  Do I really have to set passwords page by page, or group by group?</p>
+<p class='vspace'>  Administrators can set passwords for the entire site by editing the config.php file; they don't have to set passwords for each page or group.  For example, to set the entire site to be editable only by those who know an "edit" password, an administrator can add a line like the following to local/config.php:
+</p>
+<div class='vspace'></div><pre>    <a class='varlink' href='http://localhost/PmWiki/SecurityVariables#DefaultPasswords'><code class='varlink'>&#36;DefaultPasswords</code></a>['edit'] = crypt('edit_password');
+</pre><p class='vspace'>For more information about the password options that are available only to administrators, see <a class='wikilink' href='http://localhost/PmWiki/PasswordsAdmin'>PasswordsAdmin</a>.
+</p>
+<p class='vspace question'>Q  I get http error 500 "Internal Server Error" when I try to log in. What's wrong?</p>
+<p class='vspace'>  This can happen if the encrypted passwords are not created on the web server that hosts the PmWiki.<br />The crypt function changed during the PHP development, e.g. a password encrypted with PHP 5.2 can not be decrypted in PHP 5.1, but PHP 5.2 can decrypt passwords created by PHP 5.1.<br />This situation normally happens if you prepare everything on your local machine with the latest PHP version and you upload the passwords to a webserver which is running an older version.<br />The same error occurs when you add encrypted passwords to local/config.php.
+</p>
+<p class='vspace'>Solution: Create the passwords on the system with the oldest PHP version and use them on all other systems.
+</p>
+<p class='vspace question'>Q  How can I create private groups for users, so that each user can edit pages in their group, but no one else (other than the admin) can?</p>
+<p class='vspace'>  Administrators can use the <a class='external' href='http://www.pmwiki.org/wiki/PmWiki/AuthUser' rel='nofollow'>AuthUser</a> recipe and add the following few lines to their local/config.php file to set this up:
+</p>
+<div class='vspace'></div><pre>    $group = FmtPageName('$Group', $pagename); <br />    <a class='varlink' href='http://localhost/PmWiki/SecurityVariables#DefaultPasswords'><code class='varlink'>&#36;DefaultPasswords</code></a>['edit'] = 'id:'.$group; <br />    include_once("<a class='varlink' href='http://localhost/PmWiki/PathVariables#FarmD'><code class='varlink'>&#36;FarmD</code></a>/scripts/authuser.php");
+</pre><p class='vspace'>This automatically gives edit rights to a group to every user who has the same user name as the group name.
+</p>
+<p class='vspace question'>Q <a id='farm'></a> How come when I switch to another wiki within a farm, I keep my same authorization?</p>
+<p class='vspace'> PmWiki uses PHP sessions to keep track of authentication/authorization information, and by default PHP sets things up such that all interactions with the same server are considered part of the same session.
+</p>
+<p class='vspace'>An easy way to fix this is to make sure each wiki is using a different cookie name for its session identifier.  Near the top of one of the wiki's local/config.php files, before calling authuser or any other recipes, add a line like:
+</p>
+<div class='vspace'></div><pre>    session_name('XYZSESSID');
+</pre><p class='vspace'>You can pick any alphanumeric name for XYZSESSID; for example, for the cs559-1 wiki you might choose
+</p>
+<div class='vspace'></div><pre>    session_name('CS559SESSID');
+</pre><p class='vspace'>This will keep the two wikis' sessions independent of each other.
+</p></div>
+<h2><a class='wikilink' href='http://localhost/PmWiki/DeletingPages'>DeletingPages</a></h2>
+<div class='faq' > 
+</div><div class='faq' >  
+<p class='vspace question'>Q Deleting <a class='wikilink' href='http://localhost/PmWiki/WikiGroup'>Wiki Groups</a> &amp; <a class='wikilink' href='http://localhost/PmWiki/Categories'>Categories</a>: Once I create a Group or Category, how can I get rid of that group or category?</p>
+<p> An admin can just remove the unwanted pages from wiki.d/ .  Normally, doing it via the wiki
+doesn't resolve the problem, since it counts as an "update" which causes the <a class='createlinktext' rel='nofollow' 
+    href='http://localhost/PmWiki/RecentChanges?action=edit'>Recent Changes</a><a rel='nofollow' 
+    class='createlink' href='http://localhost/PmWiki/RecentChanges?action=edit'>?</a> page to be re-created, but it is possible to modify the site's configuration to allow deletion of the group's RecentChanges page -- see <a class='external' href='http://www.pmwiki.org/wiki/Cookbook/RecentChangesDeletion' rel='nofollow'>Cookbook:RecentChangesDeletion</a>.
+</p></div>
+<h2><a class='wikilink' href='http://localhost/PmWiki/Installation'>PmWiki Installation</a></h2>
+<div class='faq' > 
+</div><div class='faq' >  
+<p class='question'>Q Should I rename pmwiki.php to index.php?</p>
+<p> Renaming pmwiki.php is not recommended. Instead, create an <em>index.php</em> file that contains this single line
+</p>
+<div class='vspace'></div><div class='indent'><code class='escaped'>&lt;?php include_once('pmwiki.php');</code>
+</div><p class='vspace question'>Q How do I make pmwiki.php the default page for a website?</p>
+<p> Create an <em>index.php</em> file that runs PmWiki from a subdirectory (<em>pmwiki/</em> for example) and place it in the site's web document root (the main directory for the website).
+</p>
+<div class='vspace'></div><div class='indent'><code class='escaped'>&lt;?php chdir('pmwiki'); include_once('pmwiki.php');</code>
+</div><p class='vspace'>Note: You will also need to explicitly set the <a class='varlink' href='http://localhost/PmWiki/PathVariables#PubDirUrl'><code class='varlink'>&#36;PubDirUrl</code></a> variable (e.g. to <code class='escaped'>"http://example.com/pmwiki/pub"</code>) in <em>local/config.php</em> .
+</p>
+<p class='vspace question'>Q How do I enable "Clean URLs" that are shorter and look like paths to my wiki pages? Why does pmwiki.org appear to have a directory structure rather than "?n=pagename" in URLs?</p>
+<p> See <a class='external' href='http://www.pmwiki.org/wiki/Cookbook/CleanUrls' rel='nofollow'>Cookbook:CleanUrls</a>.
+</p>
+<p class='vspace question'>Q Is it possible to move wiki.d to /tmp/persistent/foo/wiki.d (a new sourceforge rule)?</p>
+<p> Sourceforge suggests moving everything to '<cite>tmp/persistent/new-folder-of-your-choice</cite>' and creating a symbolic link to the new folder on /tmp . It works -- see <a class='external' href='http://www.pmwiki.org/wiki/Cookbook/SourceForgeServers' rel='nofollow'>Cookbook:SourceForgeServers</a>.
+</p>
+<p class='vspace question'>Q How can I run PmWiki on a standalone (offline, portable) machine ?</p>
+<p> See <a class='external' href='http://www.pmwiki.org/wiki/Cookbook/Standalone' rel='nofollow'>Cookbook:Standalone</a> or <a class='external' href='http://www.pmwiki.org/wiki/Cookbook/WikiOnAStick' rel='nofollow'>Cookbook:WikiOnAStick</a>.
+</p>
+<div class='vspace'></div></div>
+<h2><a class='wikilink' href='http://localhost/PmWiki/Upgrades'>Upgrades</a></h2>
+<div class='faq' > 
+</div><div class='faq' >  
+<p class='vspace question'>Q How can I determine what version of PmWiki I'm running now?</p>
+<p> See <a class='wikilink' href='http://localhost/PmWiki/Version'>version</a> - Determining and displaying the current version of PmWiki (pmwiki-2.2.18).
+</p>
+<p class='vspace question'>Q How can I test a new version of PmWiki on my wiki without changing the prior version used by visitors?</p>
+<p> The easy way to do this is to install the new version in a separate
+directory, and for the new version set (in local/config.php):
+</p><pre class='escaped'>
+
+    $WikiLibDirs = array(&amp;$WikiDir,
+      new PageStore('/path/to/existing/wiki.d/{$FullName}'),
+      new PageStore('wikilib.d/{$FullName}'));
+
+</pre>
+<p>This lets you test the new version using existing page content
+without impacting the existing site or risking modification of
+the pages.  (Of course, any recipes or local customizations have to
+be installed in the new version as well.) 
+</p>
+<p class='vspace'>Then, once you're comfortable that the new version seems to work
+as well as the old, it's safe to upgrade the old version (and one
+knows of any configuration or page changes that need to be made).
+</p></div>
+<h2><a class='wikilink' href='http://localhost/PmWiki/UploadsAdmin'>Uploads Administration</a></h2>
+<div class='faq' > 
+</div><div class='faq' >  
+<p class='vspace question'>Q How do I disable uploading of a certain type of file?</p>
+<p> Here's an example of what to add to your <em>local/config.php</em> file to disable uploading of .zip files, or of files with no extension:
+</p>
+<div class='vspace'></div><div class='indent'><pre class='escaped'>
+$UploadExtSize['zip'] = 0;  # Disallow uploading .zip files
+$UploadExtSize[''] = 0;     # Disallow files with no extension</pre>
+</div><p class='vspace question'>Q How do I attach uploads to individual pages or the entire site, instead of organizing them by <a class='wikilink' href='http://localhost/PmWiki/WikiGroup'>wiki group</a>?</p>
+<p> Use the <a class='varlink' href='http://localhost/PmWiki/UploadVariables#UploadPrefixFmt'><code class='varlink'>&#36;UploadPrefixFmt</code></a> variable (see also the <a class='external' href='http://www.pmwiki.org/wiki/Cookbook/UploadGroups' rel='nofollow'>Cookbook:UploadGroups</a> recipe).
+</p>
+<div class='vspace'></div><div class='indent'><code class='escaped'>$UploadPrefixFmt = '/$FullName';  # per-page</code>
+</div><div class='indent'><code class='escaped'>$UploadPrefixFmt = '';   # site-wide</code>
+</div><p class='vspace question'>QFor <a class='varlink' href='http://localhost/PmWiki/UploadVariables#UploadDirQuota'><code class='varlink'>&#36;UploadDirQuota</code></a> - can you provide some units and numbers?  Is the specification in bytes or bits? What is the number for 100K? 1 Meg? 1 Gig? 1 Terabyte?</p>
+<p> Units are in bytes. 
+</p>
+<div class='vspace'></div><pre>   <a class='varlink' href='http://localhost/PmWiki/UploadVariables#UploadDirQuota'><code class='varlink'>&#36;UploadDirQuota</code></a> = 100*1024;         # limit uploads to 100KiB
+   <a class='varlink' href='http://localhost/PmWiki/UploadVariables#UploadDirQuota'><code class='varlink'>&#36;UploadDirQuota</code></a> = 1000*1024;        # limit uploads to 1000KiB
+   <a class='varlink' href='http://localhost/PmWiki/UploadVariables#UploadDirQuota'><code class='varlink'>&#36;UploadDirQuota</code></a> = 1024*1024;        # limit uploads to 1MiB
+   <a class='varlink' href='http://localhost/PmWiki/UploadVariables#UploadDirQuota'><code class='varlink'>&#36;UploadDirQuota</code></a> = 25*1024*1024;     # limit uploads to 25MiB
+   <a class='varlink' href='http://localhost/PmWiki/UploadVariables#UploadDirQuota'><code class='varlink'>&#36;UploadDirQuota</code></a> = 2*1024*1024*1024; # limit uploads to 2GiB
+</pre><p class='vspace question'>Q Is there a way to allow file names with Unicode or addtiional characters? </p>
+<p> Yes, see <a class='varlink' href='http://localhost/PmWiki/UploadVariables#UploadNameChars'><code class='varlink'>&#36;UploadNameChars</code></a>
+</p>
+<p class='vspace question'>QWhere is the list of attachments stored?</p>
+<p> It is generated on the fly by the <a class='wikilink' href='http://localhost/PmWiki/PageDirectives#attachlist'><ul></ul></a> markup.
+</p>
+<p class='vspace question'>Q How can I find orphaned or missing attachments</p>
+<p> For older versions of PmWiki, see <a class='external' href='http://www.pmwiki.org/wiki/Cookbook/Attachlist%20enhanced' rel='nofollow'>Cookbook:Attachlist enhanced</a> "", <br />   for version 2.2 or higher see <a class='external' href='http://www.pmwiki.org/wiki/Cookbook/Attachtable' rel='nofollow'>Cookbook:Attachtable</a> ""
+</p>
+<p class='vspace question'>Q How can I prevent hotlinking of my uploaded images</p>
+<p> See <a class='external' href='http://www.pmwiki.org/wiki/Cookbook/Prevent%20Hotlinking' rel='nofollow'>Cookbook:Prevent Hotlinking</a> 
+</p>
+<p class='vspace question'>Q I have limited the max upload size to 8 MB in config.php, however only files smaller than 2MB can be uploaded.</p>
+<p> Check your php.ini for <em>upload_max_filesize</em>
+</p><div class='indent'><pre class='escaped'>
+upload_max_filesize = 8M
+</pre>
+</div><p class='vspace'>If you cannot access your php.ini directly try to soften server limits in the root .htaccess file:
+</p>
+<div class='vspace'></div><div class='indent'><pre class='escaped'>php_value post_max_size 63M
+php_value upload_max_filesize 62M
+php_value memory_limit 64M
+php_value max_execution_time 600
+php_value default_socket_timeout 600
+</pre>
+</div></div>
+<h2><a class='wikilink' href='http://localhost/PmWiki/Security'>Security</a></h2>
+<div class='faq' > 
+</div><div class='faq' >  
+<p class='vspace question'>Q How do I report a possible security vulnerability of PmWiki?</p>
+<p class='vspace'> <a class='external' href='http://www.pmichaud.com' rel='nofollow'>Pm</a> wrote about this in <a class='external' href='http://pmichaud.com/pipermail/pmwiki-users/2006-September/031793.html' rel='nofollow'>a post to pmwiki-users from September 2006</a>. In a nutshell he differentiates two cases:
+</p><dl><dd><ol><li>The possible vulnerability isn't already known publicly: In this case please contact Pm by private mail.
+</li><li>The possible vulnerability is already known publicly: In this case feel free to discuss the vulnerability in public (e.g. on <a class='external' href='http://www.pmichaud.com/mailman/listinfo/pmwiki-users' rel='nofollow'>pmwiki-users</a>).
+</li></ol></dd></dl><p>See <a class='external' href='http://pmichaud.com/pipermail/pmwiki-users/2006-September/031793.html' rel='nofollow'>his post mentioned above</a> for details and rationals.
+</p>
+<p class='vspace question'>Q What about the botnet security advisory at <a target='_blank'  class='external' href='http://isc.sans.org/diary.php?storyid=1672' rel='nofollow'>http://isc.sans.org/diary.php?storyid=1672</a>?</p>
+<p class='vspace'> Sites that are running with PHP's <em>register_globals</em> setting set to "On" and versions of PmWiki prior to 2.1.21 may be vulnerable to a botnet exploit that is taking advantage of a bug in PHP.  The vulnerability can be closed by turning <em>register_globals</em> off, upgrading to PmWiki 2.1.21 or later, or upgrading to PHP versions 4.4.3 or 5.1.4.  <br style='clear:both;' />In addition, there is a test at <a class='external' href='http://www.pmwiki.org/wiki/PmWiki/SiteAnalyzer' rel='nofollow'>PmWiki:SiteAnalyzer</a> that can be used to determine if your site is vulnerable.
+</p>
+<p class='vspace'><a id='wikivandalism'></a>
+</p><h2>Wiki Vandalism</h2>
+<dl><dt>Assumptions</dt><dd> you are using a <a class='wikilink' href='http://localhost/PmWiki/Blocklist'>Blocklist</a> and <a class='wikilink' href='http://localhost/PmWiki/UrlApprovals'>Url approvals</a>.
+</dd></dl><div class='indent'>You don't want to resort to <a class='wikilink' href='http://localhost/PmWiki/Passwords'>password</a> protecting the entire wiki, that's not the point after all.
+</div><div class='indent'>Ideally these protections will be invoked in <code>config.php</code>
+</div><p class='vspace question'>Q How do I stop pages being <a class='wikilink' href='http://localhost/PmWiki/DeletingPages'>deleted</a>, eg password protect a page from deletion?</p>
+<p> Use <a class='external' href='http://www.pmwiki.org/wiki/Cookbook/DeleteAction' rel='nofollow'>Cookbook:DeleteAction</a> and password protect the page deletion <a class='wikilink' href='http://localhost/PmWiki/AvailableActions'> action</a> by adding <code class='escaped'>$DefaultPasswords['delete'] = '*';</code> to <code>config.php</code> or password protect the action with <code><a class='varlink' href='http://localhost/PmWiki/SecurityVariables#HandleAuth'><code class='varlink'>&#36;HandleAuth</code></a>['delete'] = 'edit';</code>
+</p><div class='indent'>or <code><a class='varlink' href='http://localhost/PmWiki/SecurityVariables#HandleAuth'><code class='varlink'>&#36;HandleAuth</code></a>['delete'] = 'admin';</code> to require the edit or admin password respectively.
+</div><p class='vspace question'>Q How do I stop pages being replaced with an empty (all spaces) page?</p>
+<p> Add <code class='escaped'>block: /^\s*$/</code> to your <a class='wikilink' href='http://localhost/PmWiki/Blocklist'>blocklist</a>.
+</p>
+<p class='vspace question'>Q how do I stop pages being completely replaced by an inane comment such as <em>excellent site</em>, <em>great information</em>, where the content cannot be blocked?</p>
+<p> Try using the newer <a class='wikilink' href='http://localhost/PmWiki/Blocklist#automaticblocklists'>automatic blocklists</a> that pull information and IP addresses about known wiki defacers.
+</p>
+<p class='vspace'> (OR) Try using <a class='external' href='http://www.pmwiki.org/wiki/Cookbook/Captchas' rel='nofollow'>Cookbook:Captchas</a> or <a class='external' href='http://www.pmwiki.org/wiki/Cookbook/Captcha' rel='nofollow'>Cookbook:Captcha</a> (note these are different).
+</p>
+<p class='vspace'> (OR) Set an edit password, but make it publicly available on the <a class='wikilink' href='http://localhost/Site/AuthForm'>Site.AuthForm</a> template.
+</p>
+<p class='vspace question'>Q How do I password protect all common pages in all groups such as recent changes, search, group header, group footer, and so on?</p>
+<p> Insert the following lines into your local/config.php file. Editing these pages then requires the admin password.
+</p><div class='indent'><pre class='escaped'>
+## Require admin password to edit RecentChanges (etc.) pages.
+if ($action=='edit'
+    &amp;&amp; preg_match('/\\.(Search|Group(Header|Footer)|(All)?RecentChanges)$/', $pagename))
+  { $DefaultPasswords['edit'] = crypt('secret&amp;nbsp;phrase'); }
+</pre>
+</div><p class='vspace'>Note that all GroupAttributes pages are protected by the attr password.
+</p>
+<p class='vspace'><strong>Alternative:</strong> you can require 'admin' authentication for these pages:
+</p><div class='indent'><pre class='escaped'>
+## Require admin password to edit RecentChanges (etc.) pages.
+if ($action=='edit' 
+    &amp;&amp; preg_match('(Search|Group(Header|Footer)|(All)?RecentChanges)', $pagename))
+  { $HandleAuth['edit'] = 'admin'; }
+</pre>
+</div><p class='vspace question'>Q How do I password protect the creation of new groups?</p>
+<p> See <a class='external' href='http://www.pmwiki.org/wiki/Cookbook/Limit%20Wiki%20Groups' rel='nofollow'>Cookbook:Limit Wiki Groups</a> 
+</p>
+<p class='vspace question'>Q How do I password protect the creation of new pages?</p>
+<p> See <a class='external' href='http://www.pmwiki.org/wiki/Cookbook/Limit%20new%20pages%20in%20Wiki%20Groups' rel='nofollow'>Cookbook:Limit new pages in Wiki Groups</a> 
+</p>
+<p class='vspace question'>Q How do I take a whitelist approach where users from known or trusted IP addresses can edit, and others require a password?</p>
+<p> Put these lines to local/config.php:
+</p><pre class='escaped'>
+## Allow passwordless editing from own turf, pass for others.
+if ($action=='edit'
+ &amp;&amp; !preg_match("/^90\\.68\\./", $_SERVER['REMOTE_ADDR']) )    
+ { $DefaultPasswords['edit'] = crypt('foobar'); }
+</pre>
+<p>Replace 90.68. with the preferred network prefix and foobar with the default password for others.
+</p>
+<p class='vspace question'>Q How do I password protect <a class='wikilink' href='http://localhost/PmWiki/AvailableActions'>page actions</a>?</p>
+<p> See <a class='wikilink' href='http://localhost/PmWiki/Passwords'>Passwords</a> for setting in config.php  
+</p><div class='indent'><code><a class='varlink' href='http://localhost/PmWiki/SecurityVariables#HandleAuth'><code class='varlink'>&#36;HandleAuth</code></a>['<em>pageactionname</em>'] = 'pageactionname'; # along with :</code>
+</div><div class='indent'><code><a class='varlink' href='http://localhost/PmWiki/SecurityVariables#DefaultPasswords'><code class='varlink'>&#36;DefaultPasswords</code></a>['<em>pageactionname</em>'] = crypt('secret&nbsp;phrase');</code>
+</div><p> or 
+</p><div class='indent'><code><a class='varlink' href='http://localhost/PmWiki/SecurityVariables#HandleAuth'><code class='varlink'>&#36;HandleAuth</code></a>['<em>pageactionname</em>'] = 'anotherpageactionname';</code>
+</div><p class='vspace question'>Q How to make a rule that allows only authors to edit their own wiki page in <a class='createlinktext' rel='nofollow' 
+    href='http://localhost/PmWiki/Profiles?action=edit'>Profiles</a><a rel='nofollow' 
+    class='createlink' href='http://localhost/PmWiki/Profiles?action=edit'>?</a> group?</p>
+<p> Add this to your <em>local/config.php</em>
+</p>
+<div class='vspace'></div><div class='indent'><code>$name = PageVar($pagename, '$Name');</code>
+</div><div class='indent'><code>$group = PageVar($pagename, '$Group');</code>
+</div><div class='indent'><code>if($group=='Profiles') <a class='varlink' href='http://localhost/PmWiki/SecurityVariables#DefaultPasswords'><code class='varlink'>&#36;DefaultPasswords</code></a>['edit'] = 'id:'.$name;</code>
+</div><p class='vspace question'>Q How do I moderate all postings?</p>
+<p> Enable <a class='wikilink' href='http://localhost/PmWiki/Drafts'>PmWiki.Drafts</a>
+</p><ul><li>Set <a class='varlink' href='http://localhost/PmWiki/EditVariables#EnableDrafts'><code class='varlink'>&#36;EnableDrafts</code></a>, this relabels the "Save" button to "Publish" and a "Save draft" button appears. 
+</li><li>Set &#36;EnablePublish, this adds a new "publish" authorization level to distinguish editing from publishing.
+</li></ul><p class='vspace question'>Q How do I make a read only wiki?</p>
+<p> In config.php <a class='wikilink' href='http://localhost/PmWiki/PasswordsAdmin'>set</a> an "edit" password.
+</p>
+<p class='vspace question'>Q How do I restrict access to <a class='wikilink' href='http://localhost/PmWiki/Uploads'>uploaded attachments</a>?</p>
+<p> See
+</p><ul><li><a class='wikilink' href='http://localhost/PmWiki/UploadsAdmin#direct_download'>instructions</a> for denying  public access to the uploads directory
+</li><li>see <a class='external' href='http://www.pmwiki.org/wiki/Cookbook/Secure%20attachments' rel='nofollow'>Cookbook:Secure attachments</a> 
+</li></ul><div class='vspace'></div></div>
+<h2><a class='wikilink' href='http://localhost/PmWiki/CustomInterMap'>Custom InterMap</a></h2>
+<div class='faq' > 
+</div><div class='faq' >  
+<p class='vspace question'>Q Are InterMap names case sensitive?</p>
+<p> Yes, thus <code class='escaped'>eAdmin:</code> is a different InterMap link than <code class='escaped'>EAdmin:</code>.
+</p>
+<p class='vspace question'>Q How can I achieve a <em>localmap.txt</em> mapping with the effect of <code class='escaped'>Pics: Path:/somepathto/pics/</code>?</p>
+<p> Use the following:
+</p><div class='indent'><code class='escaped'>Pics:     /somepathto/pics/</code>
+</div><p class='vspace question'>Q How can I define an InterMap in PHP?</p>
+<p> Use the following:
+</p><div class='indent'><pre class='escaped'>
+      $LinkFunctions['PmWikiHome:'] = 'LinkIMap';
+      $IMap['PmWikiHome:'] = 'http://pmwiki.org/wiki/$1';
+</pre>
+</div><div class='vspace'></div></div>
+<h2><a class='wikilink' href='http://localhost/PmWiki/CustomMarkup'>CustomMarkup</a></h2>
+<div class='faq' > 
+</div><div class='faq' >  
+<p class='question'>Q How can I embed JavaScript into a page's output?</p>
+<p> There are several ways to do this.  The <a class='external' href='http://www.pmwiki.org/wiki/Cookbook/JavaScript' rel='nofollow'>Cookbook:JavaScript</a> recipe describes a simple means for embedding static JavaScript into web pages using <a class='wikilink' href='http://localhost/PmWiki/CustomMarkup'>custom markup</a>.  For editing JavaScript directly in wiki pages (which can pose various security risks), see the <a class='external' href='http://www.pmwiki.org/wiki/Cookbook/JavaScript-Editable' rel='nofollow'>JavaScript-Editable</a> recipe.  For JavaScript that is to appear in headers or footers of pages, the <a class='wikilink' href='http://localhost/PmWiki/Skins'>skin</a> template can be modified directly, or &lt;script&gt; statements can be inserted using the <a class='varlink' href='http://localhost/PmWiki/LayoutVariables#HTMLHeaderFmt'><code class='varlink'>&#36;HTMLHeaderFmt</code></a> array.
+</p>
+<p class='vspace question'>Q How would I create a markup (<em>(:nodiscussion:)</em>) that will set a page variable (<em>{$HideDiscussion}</em>) which can be used by <em>(:if enabled HideDiscussion:)</em> in .PageActions?</p>
+<p> Add the following section of code to your config.php
+</p><div class='indent'><pre class='escaped'>
+SDV($HideDiscussion, 0); 	#define var name
+Markup('hideDiscussion', '&lt;{$var}',
+ '/\\(:nodiscussion:\\)/e', 'setHideDiscussion(true)'); 
+function setHideDiscussion($val) { 
+  global $HideDiscussion; 
+  $HideDiscussion = $val;
+} 
+</pre>
+</div><p class='vspace'>This will enable the <code>(:if enabled HideDiscussion:)</code> markup to be used.  If you want to print the current value of {$HideDiscussion} (for testing purposes) on the page, you'll also need to add the line:  <br /><code>$FmtPV['$HideDiscussion'] = '$GLOBALS["HideDiscussion"]';</code>
+</p>
+<p class='vspace question'>Q PmWiki only supports tool tips for external links, can I use custom markup to add tool tips to internal links?</p>
+<p> Yes, add the following custom markup to your config.php: <br /> Markup('%title%', 'inline', '/%title%(.*?)"(.*?)"(.*?)%%/', '&lt;span title="$2"&gt;$1$3&lt;/span&gt;');    # Add tool tips to internal links, Example: %title%[[link"tool tip"]]%% 
+</p>
+<p class='vspace'>Use the markup with internal links such as: <br /> %title%[[CookBook "cool" | Example]]%% 
+</p>
+<p class='vspace'> See also <a class='external' href='http://www.pmwiki.org/wiki/Cookbook/LinkTitles' rel='nofollow'>Cookbook:LinkTitles</a>.
+</p>
+<p class='vspace question'>Q It appears that (.*?) does not match newlines in these functions, making the above example inoperable if the text to be wrappen in &lt;em&gt; contains new lines.</p>
+<p> If you include the "s" modifier on the regular expression then the dot (.) will match newlines.  Thus your regular expression will be "/STUFF(.*?)/s".  That s at the very end is what you are looking for.  If you start getting into multi-line regexes you may be forced to look at the m option as well - let's anchors (^ and $) match not begin/end of strings but also begin/end of lines (i.e., right before/after a newline).
+</p>
+<p class='vspace question'>Q How do I get started writing recipes and creating my own custom markup?</p>
+<p> <a class='external' href='http://www.pmwiki.org/wiki/PmWiki/CustomMarkupAlt' rel='nofollow'>(alternate) Introduction to custom markup for Beginners</a>
+</p></div>
+<h2><a class='wikilink' href='http://localhost/PmWiki/Internationalizations'>Internationalizations</a></h2>
+<div class='faq' > 
+</div><div class='faq' >  
+<p class='vspace question'>Q If my wiki is internationalized by <em>config.php</em>, how do I revert a specific group to English?</p>
+<p class='vspace'> Use <code class='escaped'>$XLLangs = array('en');</code> in the group's <a class='wikilink' href='http://localhost/PmWiki/GroupCustomizations'>group customization</a> file.
+</p>
+<p class='vspace question'>Q If my wiki is in English and I want just one page, or group, in Spanish do I say <code class='escaped'>XLPage('es','PmWikiEs.XLPage');</code> in the group or page configuration file?</p>
+<p class='vspace'> Yes, that is usually the best method. If you were doing this with many scattered pages, or with several languages, you might find it easier to maintain if you load the translations all in config.php like this:
+</p>
+<div class='vspace'></div><pre>   XLPage('es','PmWikiEs.XLPage');
+   XLPage('fr','PmWikiFr.XLPage');
+   XLPage('ru','PmWikiRu.XLPage');
+   <a class='varlink' href='http://localhost/PmWiki/I18nVariables#XLLangs'><code class='varlink'>&#36;XLLangs</code></a> = array('en');
+</pre><p class='vspace'> Then in each group or page configuration file, you'd just use <a class='varlink' href='http://localhost/PmWiki/I18nVariables#XLLangs'><code class='varlink'>&#36;XLLangs</code></a> = array('es'); to set the language to use (in this case, Spanish). Note that though this method is easier to maintain, its somewhat slower because it loads all the dictionaries for each page view, even if they won't be used.
+</p>
+<p class='vspace question'>Q What does the first parameter of this function stand for? How can it be used?</p>
+<p class='vspace'> The XLPage mechanism allows multiple sets of translations to be loaded,
+and the first parameter is used to distinguish them.  
+</p>
+<p class='vspace'>For example, suppose I want to have translations for both normal French
+and "Canadian" French.  Rather than maintain two entirely separate sets
+of pages, I could do:
+</p>
+<div class='vspace'></div><pre>    XLPage('fr', 'PmWikiFr.XLPage');
+    XLPage('fr-ca', 'PmWikiFrCa.XLPage');
+</pre><p class='vspace'>PmWikiFr.XLPage would contain all of the standard French translations,
+while PmWikiFrCA.XLPage would only need to contain "Canada-specific"
+translations -- i.e., those that are different from the ones in the
+French page.
+</p>
+<p class='vspace'>The first parameter distinguishes the two sets of translations.
+In addition, a <em>config.php</em> script can use the <a class='varlink' href='http://localhost/PmWiki/I18nVariables#XLLangs'><code class='varlink'>&#36;XLLangs</code></a> variable
+to adjust the order of translation, so if there was a group or
+page where I only wanted the standard French translation, I
+can set
+</p>
+<div class='vspace'></div><pre>    <a class='varlink' href='http://localhost/PmWiki/I18nVariables#XLLangs'><code class='varlink'>&#36;XLLangs</code></a> = array('fr', 'en');
+</pre><p class='vspace'>and PmWiki will use only the 'fr' and 'en' translations (in that order),
+no matter how many translations have been loaded with XLPage().
+</p>
+<p class='vspace question'>Q How can I use PHP to add a translation for an individual string on the fly?</p>
+<p class='vspace'> Use the XLSDV() function to provide a translation for a specific (English) string. For instance, with this in config.php
+</p>
+<div class='vspace'></div><pre>    XLSDV('nl', array('my English expression'=&gt;'mijn Nederlandse uitdrukking'));
+</pre><p class='vspace'>any instance of the variable expression <code class='escaped'>$[my English expression]</code> in wiki mark-up will be displayed as <em>my English expression</em> in default (English) context, but as <em>mijn Nederlandse uitdrukking</em> in Dutch (nl) context, i.e. when <code class='escaped'>XLPage('nl',...)</code> has been called for that page in config.php or a cookbook recipe.
+</p>
+<p class='vspace'>But beware: XLPage() uses XLSDV() internally for its translation pairs, too, and only the first definition is accepted! Thus, if the Dutch XLPage already contains a translation for your string like
+</p>
+<div class='vspace'></div><pre>    'my English expression' =&gt; 'bla bla',
+</pre><p class='vspace'>and you want to override that, you need to use your XLSDV('nl',...) <em>before</em> calling the correspondent XLPage('nl',...). Otherwise, by using  XLSDV() <em>after</em> XLPage() - e.g. within a recipe that is included later in config.php - your translation will only work as long nobody defines 'my English expression' in that XLPage.
+</p></div>
+<h2><a class='wikilink' href='http://localhost/PmWiki/LocalCustomizations'>LocalCustomizations</a></h2>
+<div class='faq' > 
+</div><div class='faq' >  
+<p class='question'>Q There's no "config.php"; it's not even clear what a "local customisation file" is!</p>
+<p> The "sample-config.php" file in the "docs" folder, is given as an example. Copy it to the "local" folder and rename it to "config.php". You can then remove the "#" symbols or add other commands shown in the documentation. See also <a class='wikilink' href='http://localhost/PmWiki/GroupCustomizations'>Group Customizations</a>.
+</p>
+<p class='vspace question'>Q Can I change the default page something other than Main.HomePage (<a class='varlink' href='http://localhost/PmWiki/BasicVariables#DefaultPage'><code class='varlink'>&#36;DefaultPage</code></a>)?</p>
+<p> Yes, just set the <a class='varlink' href='http://localhost/PmWiki/BasicVariables#DefaultPage'><code class='varlink'>&#36;DefaultPage</code></a> variable to the name of the page you want to be the default.  You might also look at the <a class='varlink' href='http://localhost/PmWiki/BasicVariables#DefaultGroup'><code class='varlink'>&#36;DefaultGroup</code></a> and <a class='varlink' href='http://localhost/PmWiki/BasicVariables#DefaultName'><code class='varlink'>&#36;DefaultName</code></a> configuration variables.
+</p>
+<div class='vspace'></div><div class='indent'><code class='escaped'>$DefaultPage = 'ABC.StartPage';</code>
+</div><p class='vspace question'>Q How do I get the group / page name in a local configuration file (e.g. <em>local/config.php</em>)?</p>
+<p> Use the following markup in pmwiki-2.1.beta21 or newer:
+</p>
+<div class='vspace'></div><div class='indent'><pre class='escaped'>
+## Get the group and page name
+$pagename = ResolvePageName($pagename);
+$page = PageVar($pagename, '$FullName');
+$group = PageVar($pagename, '$Group');
+$name = PageVar($pagename, '$Name');
+</pre>
+</div><p class='vspace question'>Q Can I remove items from the wikilib.d folder on my site?</p>
+<p> Yes, the files in <em>wikilib.d/</em> can be safely removed.  They'll reappear again when you upgrade, however.
+</p>
+<p class='vspace question'>Q How do I customize my own 404 error page for non-existent pages?</p>
+<p> To change the text of the message, try editing the <a class='wikilink' href='http://localhost/Site/PageNotFound'>Site.PageNotFound</a> page.
+</p>
+<p class='vspace question'>Q <a id='configphp-order'></a> Is the order of customizations in config.php important?  Are there certain things that should come before or after others in that file? <sup><a class='external' href='http://localhost/PmWiki/LocalCustomizations#configphp-order' rel='nofollow'>[1]</a></sup></p>
+<p> Yes, the following has been recommended on the mailing list:
+</p>
+<div class='vspace'></div><ul><li>define <a class='varlink' href='http://localhost/PmWiki/PathVariables#ScriptUrl'><code class='varlink'>&#36;ScriptUrl</code></a> and <a class='varlink' href='http://localhost/PmWiki/PathVariables#PubDirUrl'><code class='varlink'>&#36;PubDirUrl</code></a>, if needed,
+</li><li>define any custom PageStore class, like <a class='external' href='http://www.pmwiki.org/wiki/Cookbook/SQLite' rel='nofollow'>SQLite</a>, <a class='external' href='http://www.pmwiki.org/wiki/Cookbook/CompressedPageStore' rel='nofollow'>CompressedPageStore</a> or <a class='external' href='http://www.pmwiki.org/wiki/Cookbook/PerGroupSubDirectories' rel='nofollow'>PerGroupSubDirectories</a>,
+</li><li>next include_once scripts/xlpage-utf-8.php,
+</li><li>next call XLPage() which needs the definitive (rw) <a class='varlink' href='http://localhost/PmWiki/PathVariables#WikiDir'><code class='varlink'>&#36;WikiDir</code></a> already set in order to find the wiki page containing the translations,
+</li><li>next include authuser.php (if needed), because PmWiki caches some group and page authorization levels when a page is accessed,
+</li><li>next include any other scripts and recipes,
+</li><li>any direct function call in config.php, like ResolvePageName(), CondAuth(), PageTextVar(), PageVar(), RetrieveAuthPage(), or others, if possible, should be done near the end of config.php.
+</li></ul><p class='vspace'><em>Note, each part is <strong>not</strong> required, but if your wiki needs it, this is the recommended order in config.php.</em>
+</p></div>
+<h2><a class='wikilink' href='http://localhost/PmWiki/GroupCustomizations'>GroupCustomizations</a></h2>
+<div class='faq' > 
+</div><div class='faq' >  
+<p class='question'>Q How can I apply CSS styles to a particular group or page?</p>
+<p class='vspace'> Simply create a <em>pub/css/Group.css</em> or <em>pub/css/Group.Page.css</em> file containing the custom CSS styles for that group or page.
+</p>
+<p class='vspace question'>Q Why shouldn't passwords be set in group (or page) customization files?</p>
+<p class='vspace'> The reason for this advice is that per-group customization files are only loaded for the current page. So, if <code>$DefaultPasswords['read']</code> is set in <em>local/GroupA.php</em>, then someone could use a page in another group to view the contents of pages in GroupA. For example, Main.WikiSandbox could contain:
+</p>
+<div class='vspace'></div><dl><dd><div class='indent'>(:include GroupA.SomePage:)
+</div></dd></dl><p class='vspace'>and because the <em>GroupA.php</em> file wasn't loaded (we're looking at Main.WikiSandbox &rarr; <em>local/Main.php</em>), there's no read password set.
+</p>
+<p class='vspace'>The same is true for page customization files.
+</p>
+<p class='vspace question'>Q Isn't that processing order strange? Why not load per page configuration last (that is after global configuration an per group configuration)?</p>
+<p class='vspace'> Many times what we want to do is to enable a certain capability for a group of pages, but disable it on a specific page, as if it was never enabled.  If the per-group config file is processed first, then it becomes very difficult/tedious for the per-page one to "undo" the effects of the per-group page. So, we load the per-page file before the per-group.
+</p>
+<p class='vspace'>If a per-page customization wants the per-group customizations to be performed first, it can use the techniques given in <a class='wikilink' href='http://localhost/PmWiki/GroupCustomizations'>PmWiki.GroupCustomizations</a> (using <em>include_once()</em> or setting <code>$EnablePGCust = 0</code>).
+</p></div>
+<h2><a class='wikilink' href='http://localhost/PmWiki/Skins'>Skins</a></h2>
+<div class='faq' > 
+</div><div class='faq' >  
+<p class='vspace question'>Q How do I change the Wiki's default name in the upper left corner of the Main Page?</p>
+<p class='vspace'> Put the following config.php
+</p>
+<div class='vspace'></div><div class='indent'><code class='escaped'>$WikiTitle = 'My Wiki Site';</code>
+</div><p class='vspace'>The <em>docs/sample-config.php</em> file has an example of changing the title.
+</p>
+<p class='vspace question'>Q How can I embed PmWiki pages inside a web page?</p>
+<p class='vspace'> Source them through a PHP page, or place them in a frame.
+</p>
+<p class='vspace question'>Q How do I change the font or background color of the hints block on the Edit Page?</p>
+<p class='vspace'> Add a CSS style to pub/css/local.css: <code class='escaped'>.quickref {background:...; color:... }</code>. The hints are provided by the <a class='wikilink' href='http://localhost/Site/EditQuickReference'>Site.EditQuickReference</a> page, which is in the PmWiki or Site wikigroup.  Edit that page, and change the "bgcolor" or specify the font "color" to get the contrast you need.
+</p>
+<div class='vspace'></div></div>
+<h2><a class='wikilink' href='http://localhost/PmWiki/SkinTemplates'>SkinTemplates</a></h2>
+<div class='faq' > 
+</div><div class='faq' >  
+<p class='vspace question'>Q How do I customize the CSS styling of my PmWiki layout?<a id='customcss'></a></p>
+<p class='vspace'> See <a class='wikilink' href='http://localhost/PmWiki/Skins'>Skins</a> for how to change the default PmWiki skin.  See also <a class='external' href='http://www.pmwiki.org/wiki/Cookbook/Skins' rel='nofollow'>Cookbook:Skins</a>, where you will find pre-made templates you can use to customize the appearance of your site.  You can also create a file called <em>local.css</em> in the <em>pub/css/</em> directory and add CSS selectors there (this file gets automatically loaded if it exists).  Or, styles can be added directly into a local customization file by using something like:
+</p>
+<div class='vspace'></div><div class='indent'><code class='escaped'>$HTMLStylesFmt[] = '.foo { color:blue; }';</code>
+</div><p class='vspace question'>Q Where can the mentioned "translation table" be found for adding translated phrases?</p>
+<p> See <a class='wikilink' href='http://localhost/PmWiki/Internationalizations'>Internationalizations</a>.
+</p>
+<p class='vspace question'>Q Is it possible to have the edit form in full page width, with no sidebar?</p>
+<p> If the sidebar is marked with <code class='escaped'>&lt;!--PageLeftFmt--&gt;</code>, adding <code class='escaped'>(:noleft:)</code> to Site.EditForm will hide it when a page is edited.
+</p>
+<p class='vspace question'>Q Can I easily hide the Home Page title from the homepage?</p>
+<p> Yes, you can use in the wiki page either <code>(:title Some other title:)</code> to change it or <code>(:notitle:)</code> to hide it.
+</p>
+<p class='vspace question'>Q Is it possible to hide the Search-Bar in the default PmWiki Skin?</p>
+<p> Yes, please see <a class='external' href='http://www.pmwiki.org/wiki/Cookbook/HideSearchBar' rel='nofollow'>Cookbook:HideSearchBar</a>.
+</p>
+<div class='vspace'></div></div>
+<h2><a class='wikilink' href='http://localhost/PmWiki/WebFeeds'>WebFeeds</a></h2>
+<div class='faq' > 
+</div><div class='faq' >  
+<p class='vspace question'>Q How do I include text from the page (whole page, or first X characters) in the feed body?  (note: markup NOT digested)</p>
+<div class='vspace'></div><pre>    function MarkupExcerpt($pagename) {
+      $page = RetrieveAuthPage($pagename, 'read', false);
+      return substr(@$page['text'], 0, 200);
+    }
+
+    <a class='varlink' href='http://localhost/PmWiki/OtherVariables#FmtPV'><code class='varlink'>&#36;FmtPV</code></a>['&#36;MarkupExcerpt'] = 'MarkupExcerpt($pn)';
+    &#36;FeedFmt['rss']['item']['description'] = '&#36;MarkupExcerpt';
+</pre><p class='vspace'><span  style='color: green;'> Q:Does this mean if I want to include the time in the rss title and "summary" to rss body I call <code class='escaped'>$FeedFmt</code> twice like so:</span>
+</p><div class='indent'><pre class='escaped'>$FeedFmt['rss']['item']['description'] = '$LastSummary'; 
+$FeedFmt['rss']['item']['title'] = '{$Group} / {$Title} @ $ItemISOTime';</pre> 
+<div class='vspace'></div><dl><dd><div class='indent'>From mailing list Feb 13,2007, a response by Pm: Yes
+</div></dd></dl></div><p class='vspace question'>Q How can I use the RSS &lt;enclosure&gt; tag for podcasting?</p>
+<p class='vspace'> For podcasting of mp3 files, simply attach an mp3 file to the page
+with the same name as the page (i.e., for a page named Podcast.Episode4,
+one would attach to that page a file named "Episode4.mp3").  The
+file is automatically picked up by ?action=rss and used as an
+enclosure.
+</p>
+<p class='vspace'>The set of potential enclosures is given by the &#36;RSSEnclosureFmt
+array, thus
+</p>
+<div class='vspace'></div><div class='indent'><code class='escaped'>$RSSEnclosureFmt = array('{$Name}.mp3', '{$Name}.wma', '{$Name}.ogg');</code>
+</div><p class='vspace'>allows podcasting in mp3, wma, and ogg formats.
+</p>
+<p class='vspace question'>Q <a id='AddSummary'></a> How to add "summary" to the title in a rss feed (ie. with <code class='escaped'>?action=rss</code>)?</p>
+<p class='vspace'> Add this line in you <code class='escaped'>local/config.php</code>
+</p>
+<div class='vspace'></div><div class='indent'><code class='escaped'>$FeedFmt['rss']['item']['title'] = '{$Group} / {$Title} : $LastModifiedSummary';</code>
+</div><p class='vspace question'>Q <a id='AddDescriptionSummary'></a> How to add "description" to the title in an rss feed, and summary to the body?</p>
+<p class='vspace'> Add these lines to your <code class='escaped'>local/config.php</code>
+</p>
+<div class='vspace'></div><div class='indent'><code class='escaped'>$FeedFmt['rss']['item']['title'] = '{$Group} / {$Title} : {$Description}';</code>
+</div><div class='indent'><code class='escaped'>$FeedFmt['rss']['item']['description'] = '$LastModifiedSummary';</code>
+</div><p class='vspace'><strong>NOTES:</strong>
+</p><ul><li>you need to replicate these lines for each type (atom, rdf, dc) of feed you provide.
+</li><li>the RSS <strong><code class='escaped'>description</code></strong>-tag is not equivalent to the pmWiki <em><code class='escaped'>$Description</code></em> variable, despite the confusing similarity.
+</li></ul><p class='vspace question'>Q Some of my password-protected pages aren't appearing in the feed... how do I work around this?</p>
+<p class='vspace'> From a similar question on the newsgroup, Pm's reply:
+</p>
+<p class='vspace'>The last time I checked, RSS and other syndication protocols didn't
+really have a well-established interface or mechanism for performing
+access control (i.e., authentication).  As far as I know this is
+still the case.
+</p>
+<p class='vspace'>PmWiki's WebFeeds capability is built on top of pagelists, so it
+could simply be that the <a class='varlink' href='http://localhost/PmWiki/PagelistVariables#EnablePageListProtect'><code class='varlink'>&#36;EnablePageListProtect</code></a> option is preventing
+the updated pages from appearing in the feed.  You might try
+setting <a class='varlink' href='http://localhost/PmWiki/PagelistVariables#EnablePageListProtect'><code class='varlink'>&#36;EnablePageListProtect</code></a>=0; and see if the password-protected
+pages start appearing in the RSS feed.
+</p>
+<p class='vspace'>The "downside" to setting <a class='varlink' href='http://localhost/PmWiki/PagelistVariables#EnablePageListProtect'><code class='varlink'>&#36;EnablePageListProtect</code></a> to zero is that
+anyone doing a search on your site will see the existence of the
+pages in the locked section.  They won't be able to read any of
+them, but they'll know they are there!
+</p>
+<p class='vspace'>You could also set <a class='varlink' href='http://localhost/PmWiki/PagelistVariables#EnablePageListProtect'><code class='varlink'>&#36;EnablePageListProtect</code></a> to zero only if ?action=rss:
+</p>
+<div class='vspace'></div><pre>    if ($action == 'rss') <a class='varlink' href='http://localhost/PmWiki/PagelistVariables#EnablePageListProtect'><code class='varlink'>&#36;EnablePageListProtect</code></a> = 0;
+</pre><p class='vspace'>This limits the ability to see the protected pages to RSS feeds;
+normal pagelists and searches wouldn't see them.
+</p>
+<p class='vspace'>Lastly, it's also possible to configure the webfeeds to obtain
+the authentication information from the url directly, as in:
+</p>
+<div class='vspace'></div><pre>    .../Site/AllRecentChanges?action=rss&amp;authpw=secret
+</pre><p class='vspace'>The big downside to this is that the cleartext password will
+end up traveling across the net with every RSS request, and
+may end up being recorded in Apache's access logs.
+</p>
+<p class='vspace question'>Q How to add feed image?</p>
+<p class='vspace'> Add the following to <em>local/config.php</em> (this example is for <code class='escaped'>?action=rss</code>):
+</p>
+<div class='vspace'></div><div class='indent'><pre class='escaped'>
+$FeedFmt['rss']['feed']['image'] =
+" &lt;title&gt;Logo title&lt;/title&gt;
+ &lt;link&gt;http://example.com/&lt;/link&gt;
+ &lt;url&gt;http://example.com/images/logo.gif&lt;/url&gt;
+ &lt;width&gt;120&lt;/width&gt;
+ &lt;height&gt;60&lt;/height&gt;";
+</pre>
+<div class='vspace'></div></div><div class='indent'><span  style='color: red;'>Do not forget NOT to start with a '&lt;' as there would be no &lt;image&gt; tag around this...   See <a style='color: red' href='#pitfall1'>here</a>.</span>
+</div><p class='vspace question'>Q How do I insert RSS news feeds into PmWiki pages?</p>
+<p class='vspace'> See <a class='external' href='http://www.pmwiki.org/wiki/Cookbook/RssFeedDisplay' rel='nofollow'>Cookbook:RssFeedDisplay</a>.
+</p>
+<p class='vspace question'>Q How can I specify default feed options in a configuration file instead of always placing them in the url?</p>
+<p> For example, if you want <code class='escaped'>?action=rss</code> to default to <code class='escaped'>?action=rss&amp;group=News&amp;order=-time&amp;count=10</code>, try the following in a <a class='wikilink' href='http://localhost/PmWiki/LocalCustomizations'>local customization</a> file:
+</p>
+<div class='vspace'></div><div class='indent'><pre class='escaped'>
+   if ($action == 'rss')
+     SDVA($_REQUEST, array(
+       'group' =&gt; 'News',
+       'order' =&gt; '-time',
+       'count' =&gt; 10));
+</pre>
+</div><p class='vspace question'>Q Are there ways to let people easily subscribe to a feed?</p>
+<div class='vspace'></div> On some browsers (Mozilla Firefox), the visitor can see an orange RSS icon in the address bar, and subscribe to the feed by clicking on it. To enable the RSS icon, add this to config.php :<pre class='escaped'>
+$HTMLHeaderFmt['feedlinks'] = '&lt;link rel="alternate" type="application/rss+xml" 
+  title="$WikiTitle" href="$ScriptUrl?n=Site.AllRecentChanges&amp;amp;action=rss" /&gt;
+&lt;link rel="alternate" type="application/atom+xml" title="$WikiTitle"
+  href="$ScriptUrl?n=Site.AllRecentChanges&amp;amp;action=atom" /&gt;';</pre>
+<p class='vspace'>You can also add such a link, for example in your SideBar, <code>[[Site.AllRecentChanges?action=atom | Subscribe to feed]]</code>. 
+</p>
+<p class='vspace question'>Q Can I create an RSS feed for individual page histories?</p>
+<p> See <a class='external' href='http://www.pmwiki.org/wiki/Cookbook/PageFeed' rel='nofollow'>Cookbook:PageFeed</a>.
+</p>
+<p class='vspace question'>Q How do I create a custom FeedPage similar to RecentChanges or AllRecentChanges, but with only certain groups or pages recorded?</p>
+<p> See <a class='external' href='http://www.pmwiki.org/wiki/Cookbook/CustomRecentChanges' rel='nofollow'>Cookbook:CustomRecentChanges</a>. In a nutshell, you'll declare a <a class='varlink' href='http://localhost/PmWiki/LayoutVariables#RecentChangesFmt'><code class='varlink'>&#36;RecentChangesFmt</code></a> variable with your dedicated FeedPage, and then wrap it in a condition of your choice. For example:
+</p><pre class='escaped'>
+   if (PageVar($pagename, '$Group')!='ForbiddenGroup') {
+     $RecentChangesFmt['Site.MyFeedPage'] =
+       '* [[{$FullName}]]  . . . $CurrentTime $[by] $AuthorLink: [=$ChangeSummary=]';
+   }
+</pre>
+<p class='vspace question'>Q How can I update my RSS feed to show every edit for pages on that feed, not just new pages added to the feed?</p>
+<p> Add unique guid links for each edit to your to congif.php file (see PITS <a class='external' href='http://www.pmwiki.org/PITS/01161' rel='nofollow'>entry</a>):
+</p><pre class='escaped'>
+   $FeedFmt['rss']['item']['guid'] = '{$PageUrl}?guid=$ItemISOTime';
+</pre>
+<p class='vspace'>Alternatively, you can create the option for edit monitoring by adding a qualifier for RSS links. This allows the user to choose between default <em>new pages</em> RSS feeds and <em>new edits</em> RSS feeds (pmwiki.org has this option enabled).
+</p><pre class='escaped'>
+   ## For new pages updates: http://example.com/wiki/HomePage?action=rss
+   ## For edits updates: http://example.com/wiki/HomePage?action=rss&amp;edits=1
+   if(@$_REQUEST['edits'] &amp;&amp; $action == 'rss')
+     $FeedFmt['rss']['item']['guid'] = '{$PageUrl}?guid=$ItemISOTime';
+</pre>
+</div>
+<h2><a class='selflink' href='http://localhost/PmWiki/FAQ'>FAQ</a></h2>
+<div class='faq' > 
+</div>
+<h2><a class='wikilink' href='http://localhost/PmWiki/Troubleshooting'>Troubleshooting</a></h2>
+<div class='faq' > 
+</div><div class='faq' >  
+<p class='question'>Q Why am I seeing strange errors after <a class='wikilink' href='http://localhost/PmWiki/Upgrades'>upgrading</a>?</p>
+<p> Make sure all of the files were updated, in particular <em>pmwiki.php</em>.
+</p>
+<p class='vspace'> This question sometimes arises when an administrator hasn't
+followed the advice, which used to be less prominent, on the
+<a class='wikilink' href='http://localhost/PmWiki/Installation#notes'>installation</a> and
+<a class='wikilink' href='http://localhost/PmWiki/InitialSetupTasks#dontmodify'>initial setup tasks</a> pages and has renamed
+<em>pmwiki.php</em> instead of creating an <em>index.php</em> wrapper script.
+If you have renamed <em>pmwiki.php</em> to <em>index.php</em>, then the upgrade procedure
+won't have updated your <em>index.php</em> file.  Delete the old version and
+create a wrapper script so it won't happen again.
+</p>
+<p class='vspace'> Sometimes an FTP or other copy program will fail to transfer all of the
+files properly.  One way to check for this is by comparing file sizes.
+</p>
+<p class='vspace'> Be sure all of the files in the <em>wikilib.d/</em> directory
+were also upgraded.  Sometimes it's a good idea to simply delete the <em>wikilib.d/</em>
+directory before upgrading.  (Local copies of pages are stored in <em>wiki.d/</em> and not <em>wikilib.d/</em>.)
+</p>
+<p class='vspace'> If you use a custom pattern for <a class='varlink' href='http://localhost/PmWiki/BasicVariables#GroupPattern'><code class='varlink'>&#36;GroupPattern</code></a> make sure that it includes Site (<a class='varlink' href='http://localhost/PmWiki/BasicVariables#SiteGroup'><code class='varlink'>&#36;SiteGroup</code></a>) and since PMWiki 2.2 also SiteAdmin (<a class='varlink' href='http://localhost/PmWiki/BasicVariables#SiteAdminGroup'><code class='varlink'>&#36;SiteAdminGroup</code></a>).
+Otherwise migration may fail (e.g. missing SiteAdmin for PMWiki 2.2 and later) and/or login does not work.<br />Additionally Main (<a class='varlink' href='http://localhost/PmWiki/BasicVariables#DefaultGroup'><code class='varlink'>&#36;DefaultGroup</code></a>) should be included too.
+</p>
+<p class='vspace'><a id='flock'></a>
+</p><p class='question'>Q I'm suddenly getting messages like "<code>Warning: fopen(wiki.d/.flock): failed to open stream: Permission denied...</code>" and <code>Cannot acquire lockfile</code>"... what's wrong?</p>
+<p class='vspace'> Something (or someone) has changed the <a class='wikilink' href='http://localhost/PmWiki/FilePermissions'>permissions</a> on the <em>wiki.d/.flock</em> file or the <em>wiki.d/</em> directory such that the webserver is no longer able to write the lockfile.  The normal solution is to simply delete the <em>.flock</em> file from the <em>wiki.d/</em> directory  -- PmWiki will then create a new one.  Also be sure to check the permissions on the <em>wiki.d/</em> directory itself. (One can easily check and modify permissions of the <em>wiki.d/</em> directory in <a target='_blank'  class='external' href='http://filezilla-project.org/' rel='nofollow'>FileZilla</a> (open-source FTP app) by right-clicking on the file &gt; File attributes)
+</p>
+<p class='vspace'><a id='sidebar'></a>
+</p><p class='question'>Q My links in the sidebar seem to be pointing to non-existent pages, even though I know I created the pages.  Where are the pages?</p>
+<p class='vspace'> Links in the sidebar normally need to be qualified by a <a class='wikilink' href='http://localhost/PmWiki/WikiGroup'>WikiGroup</a> in order to work properly (use [[Group.Page]] instead of [[Page]]).<br />Also: Make sure you type Side<strong>B</strong>ar with a capital B.
+</p>
+<p class='vspace'><a id='headers'></a>
+</p><p class='question'>Q Why am I seeing "<code>Warning: Cannot modify header information - headers already sent ...</code>" messages at the top of my page.</p>
+<p class='vspace'> If this is the first or only error message you're seeing, it's usually an indication that there are blank lines or spaces before the <code class='escaped'>&lt;?php</code> or after the <code class='escaped'>?&gt;</code> in a <a class='wikilink' href='http://localhost/PmWiki/LocalCustomizations'>local customization</a> file.  Double-check the file and make sure there aren't any blank lines or spaces before the initial <code class='escaped'>&lt;?php</code>.  It's often easiest and safest to eliminate any closing <code class='escaped'>?&gt;</code> altogether.  On Windows, it may be necessary to use a hex editor to convert LFCR line endings to LF line endings in the local\config.php file.
+</p>
+<p class='vspace'> If the warning is appearing after some other warning or error message, then resolve the other error and this warning may go away.
+</p>
+<p class='vspace'><a id='session_write_close_error'></a>
+</p><p class='question'>Q How do I make a PHP Warning about <code>function.session-write-close</code> go away?</p>
+<p class='vspace'> If you are seeing an error similar to this
+</p>
+<div class='vspace'></div><div class='indent'><pre class='escaped'>
+Warning: session_write_close() [function.session-write-close]:
+open(/some/filesystem/path/to/a/directory/sess_[...]) failed: No such file
+or directory (2) in /your/filesystem/path/to/pmwiki.php on line NNN
+</pre>
+</div><p class='vspace'>PmWiki sometimes does session-tracking using PHP's
+<a class='external' href='http://php.net/session' rel='nofollow'>session-handling functions</a>.
+For session-tracking to work, some information needs to be written
+in a directory on the server.  That directory needs to exist and
+be writable by the webserver software.  For this example, the
+webserver software is configured to write sessions in this
+directory
+</p>
+<div class='vspace'></div><div class='indent'><code class='escaped'>/some/filesystem/path/to/a/directory/</code>
+</div><p class='vspace'>but the directory doesn't exist.  The solution is to do at least one
+of these:
+</p><ul><li>Create the directory and make sure it's writable by the webserver software
+</li><li>Provide a session_save_path value that points to a directory that is writable by the server, e.g.
+</li></ul><div class='vspace'></div><div class='indent'><code class='escaped'>session_save_path('/home/someuser/tmp/sessions');</code>
+</div><p class='vspace'><a id='multiplepwprompts'></a>
+</p><p class='question'>Q Why is PmWiki prompting me multiple times for a password I've already entered?</p>
+<p class='vspace'> Usually this is an indication that the browser isn't accepting cookies, or that PHP's session handling functions on the server aren't properly configured.  If the browser is accepting cookies, then try setting <a class='varlink' href='http://localhost/PmWiki/DebugVariables#EnableDiag'><code class='varlink'>&#36;EnableDiag</code></a>=1; in <em>local/config.php</em>, run PmWiki using <code class='escaped'>?action=phpinfo</code>, and verify that sessions are enabled and that the session.save_path has a reasonable value.  Note that several versions of PHP under Windows require that a session_save_path be explicitly set (this can be done in the <em>local/config.php</em> file).  You might also try setting session.auto_start to 1 in your php.ini.
+</p>
+<p class='vspace question'>Q I edited <em>config.php</em>, but when I look at my wiki pages, all I see is "<code>Parse error: parse error, unexpected T_VARIABLE in <em>somefile</em> on line <em>number</em>.</code>"</p>
+<p class='vspace'> You've made a mistake in writing the PHP that goes into the <em>config.php</em> file. The most common mistake that causes the T_VARIABLE error is forgetting the semi-colon (;) at the end of a line that you added. The line number and file named are where you should look for the mistake.
+</p>
+<p class='vspace question'>Q Searches and pagelists stopped working after I upgraded -- no errors are reported, but links to other pages do not appear (or do not appear as they should) -- what gives?</p>
+<p class='vspace'> Be sure all of the files in the <em>wikilib.d/</em> directory
+were also upgraded.  In particular, it sounds as if the Site.PageListTemplates page is either missing (if no links are displayed) or is an old version (if the links do not appear as they should). Allso make sure that read-permissions (attr) are set for the pages Site.PageListTemplates and Site.Search.
+</p>
+<p class='vspace'><a id='mod_security'></a>
+</p><p class='question'>Q Some of my posts are coming back with "403 Forbidden" errors, "Not Acceptable", or "Internal Server Error".  This happens with some posts but not others.</p>
+<p class='vspace'> Your webserver probably has <a class='external' href='http://modsecurity.org' rel='nofollow'>mod_security</a> enabled.  The mod_security "feature" scans all incoming posts for forbidden words or phrases that might indicate someone is trying to hack the system, and if any of them are present then Apache returns the 403 Forbidden error.  Common phrases that tend to trigger mod_security include "curl ", "wget", "file(", and "system(", although there are many others.
+</p>
+<p class='vspace'>Since mod_security intercepts the requests and sends the "forbidden"
+message before PmWiki ever gets a chance to run, it's not a bug in PmWiki, and
+there's little that PmWiki can do about it.  Instead, one has to alter the
+webserver configuration to disable mod_security or reconfigure it to allow
+whatever word it is forbidding.  Some sites may be able to disable mod_security
+by placing <code class='escaped'>SecFilterEngine off</code> in a <em>.htaccess</em> file.
+</p>
+<p class='vspace question'>Q I get the following message when attempting to upload an image, what do I do?</p>
+<p><span style='font-size:83%'><code><strong>Warning</strong>: move_uploaded_file(): SAFE MODE Restriction in effect. The script whose uid is 1929 is not allowed to access /home/onscolre/public_html/pmwikiuploads/Photos owned by uid 33 in <strong>/home/onscolre/public_html/pmwiki/scripts/upload.php</strong> on line <strong>198</strong></code></span>
+</p>
+<p class='vspace'><code><strong>PmWiki can't process your request</strong></code>
+</p>
+<p class='vspace'><span style='font-size:83%'><code>?cannot move uploaded file to /home/onscolre/public_html/pmwikiuploads/Photos/FoundationPupilsIn1958.jpeg</code></span>
+</p>
+<p class='vspace'><span style='font-size:83%'><code>We are sorry for any inconvenience.</code></span>
+</p>
+<p class='vspace'> Your server is configured with PHP <a class='external' href='http://php.net/manual/en/features.safe-mode.php' rel='nofollow'>Safe Mode</a> enabled.  Configure your wiki to use a <a class='wikilink' href='http://localhost/PmWiki/UploadsAdmin#sitewideprefix'>site-wide uploads prefix</a>, then create the <em>uploads/</em> directory manually and set 777 permissions on it (rather than letting PmWiki create the directory).
+</p>
+<p class='vspace'><a id='TableRowIndexMax'></a> <a id='divisionbyzero'></a>
+</p><p class='question'>Q I'm starting to see "Division by zero error in pmwiki.php..." on my site.  What's wrong?</p>
+<p class='vspace'> It's a bug in PmWiki that occurs only with the <a class='wikilink' href='http://localhost/PmWiki/Tables'>tables</a> markup and only for versions of PHP &gt;= 4.4.6 or &gt;= 5.2.0.  Often it seems to occur "out of nowhere" because the server administrator has upgraded PHP.  Try <a class='wikilink' href='http://localhost/PmWiki/Upgrades'>upgrading</a> to a later version of PmWiki to remove the error, or try setting the following in <em>local/config.php</em>:
+</p>
+<div class='vspace'></div><pre>    <a class='varlink' href='http://localhost/PmWiki/LayoutVariables#TableRowIndexMax'><code class='varlink'>&#36;TableRowIndexMax</code></a> = 1;
+</pre><p class='vspace question'>Q I have to log in twice <span style='font-size:83%'>(two times) (2 times)</span>.  -or- My password is not being required even though it should.  -or- I changed the password but the old password is still active. -or- My config.php password is not over-riding my farmconfig.php password.</p>
+<p> It could happen if (farm)config.php, or an included recipe, directly calls the functions CondAuth(), or RetrieveAuthPage(), PageTextVar(), PageVar() and possibly others, before defining all passwords and before including AuthUser (if required).  
+</p>
+<p class='vspace'>The <a class='wikilink' href='http://localhost/PmWiki/LocalCustomizations#configphp-order'>order of config.php</a> is very significant.
+</p></div>
+<h2><a class='wikilink' href='http://localhost/PmWiki/AuthUser'>AuthUser</a></h2>
+<div class='faq' > 
+</div><div class='faq' >  
+<p class='question'>Q  Can I specify authorization group memberships from with <em>local/config.php</em>?</p>
+<p class='vspace'>  Yes -- put the group definition into the &#36;AuthUser array (in config.php):
+</p>
+<div class='vspace'></div><pre>        &#36;AuthUser['@editors'] = array('alice', 'carol', 'bob');
+</pre><p class='vspace question'>Q Can I have multiple admin group?</p>
+<p class='vspace'> Yes, define the groups with <code> array('@admins', '@moderators'); </code> like this:
+</p>
+<div class='vspace'></div><pre>  <a class='varlink' href='http://localhost/PmWiki/SecurityVariables#DefaultPasswords'><code class='varlink'>&#36;DefaultPasswords</code></a>['admin'] = array( crypt('masterpass'), # global password
+    '@admins', '@moderators', # +users in these groups
+    'id:Fred', 'id:Barney');  # +users Fred and Barney
+</pre><p class='vspace question'>Q  I'm running multiple wikis under the same domain name, and logins from one wiki are appearing on other wikis.  Shouldn't they be independent?</p>
+<p class='vspace'>  This is caused by the way that PHP treats sessions.  See <a class='wikilink' href='http://localhost/PmWiki/AuthUser#sessions'>PmWiki.AuthUser#sessions</a> for more details.
+</p>
+<p class='vspace question'>Q Is there any way to record the time of the last login for each user when using AuthUser?  I need a way to look for stale accounts.</p>
+<p class='vspace'> See <a class='external' href='http://www.pmwiki.org/wiki/Cookbook/UserLastAction' rel='nofollow'>Cookbook:UserLastAction</a>.
+</p>
+<p class='vspace question'>Q Though every settings seem correct, authentication against LDAP is not working, and there is nothing in ldap log. What's wrong ?</p>
+<p class='vspace'> Be sure ldap php module is installed ( on debian apt-get install php(4|5)-ldap ; apache(2)ctl graceful )
+</p>
+<p class='vspace question'>Q The login form asks for username and password, but only password matters.  </p>
+<div class='indent'>Username can be left blank and it still signs in under the account.  Is this intentional and if so, can I change it so that the username and password must both be entered?  - X 1/18/07  Never mind I think this has something to do with using the admin password.  I created a test account and it's working ok.
+</div><p class='vspace'> Make sure you are not entering the admin password when testing the account because, if the password is equal to the admin password, it will authenticate directly through the config.php file and skip any other system.
+</p>
+<p class='vspace'> Do note that even with AuthUser activated you can still log in with a blank username and only entering the password.  In that case any password you enter will be "accepted" but only passwords which authenticate in the given context will actually give you any authorization rights.  Using this capability AuthUser comfortably coexists with the default password-based system.
+</p>
+<p class='vspace'>If you want to require both username and password, then you need to set an admin id <strong>before</strong> including authuser.php:
+</p>
+<div class='vspace'></div><pre class='escaped'>
+## Define usernames and passwords.
+$AuthUser['carol'] = '$1$CknC8zAs$dC8z2vu3UvnIXMfOcGDON0';
+
+## Enable authentication based on username.
+include_once('scripts/authuser.php');
+
+# $DefaultPasswords['admin'] = crypt('secret');
+$DefaultPasswords['admin'] = 'id:carol';
+</pre>
+<p class='vspace'>A username and password will then be required before login is successful.
+</p>
+<p class='vspace question'>Q Is there any way to hide IP addresses once someone has logged in so that registered users can keep their IP addresses invisible to everyone except administrators?  - X 1/18/07</p>
+<p class='vspace'> Yes, see solution provided at <a class='external' href='http://www.pmwiki.org/PITS/00400' rel='nofollow'>PITS:00400</a>.
+</p>
+<p class='vspace question'>Q Is there a way that people could self-register through AuthUser?  </p>
+<p class='vspace'> You can see <a class='external' href='http://www.pmwiki.org/wiki/Cookbook/HtpasswdForm' rel='nofollow'>HtpasswdForm</a> and <a class='external' href='http://www.pmwiki.org/wiki/Cookbook/AuthUserSignup' rel='nofollow'>AuthUserSignup</a> for two recipes providing this feature. 
+</p>
+<p class='vspace question'>Q I would like it that after I have AuthUser turned and a user is authenticated to get on my site, that if I have a password put on a particular page or group that they don't get the AuthUser form to show up (username and password), but only the typical field for password?</p>
+<p class='vspace'> See <a class='external' href='http://article.gmane.org/gmane.comp.web.wiki.pmwiki.user/52420' rel='nofollow'>this thread of the mailing list</a>.
+</p></div>
+<h2><a class='wikilink' href='http://localhost/PmWiki/PasswordsAdmin'>PasswordsAdmin</a></h2>
+<div class='faq' > 
+</div><div class='faq' >  
+<p class='vspace question'>Q There seems to be a default password.  What is it? <a id='pwlocked'></a></p>
+<p> There isn't any valid password until you set one.  <a class='wikilink' href='http://localhost/PmWiki/PasswordsAdmin'>Passwords admin</a> describes how to set one.
+</p>
+<p class='vspace'>PmWiki comes "out of the box" with <a class='varlink' href='http://localhost/PmWiki/SecurityVariables#DefaultPasswords'><code class='varlink'>&#36;DefaultPasswords</code></a>['admin'] set to '*'.   This doesn't mean the password is an asterisk, it means that default admin password has to be something that encrypts to an asterisk.  Since it's impossible for the crypt() function to ever return a 1-character encrypted value, the admin password is effectively locked until the admin sets one in config.php.
+</p>
+<p class='vspace question'>Q How do I use passwd-formatted files (like .htpasswd) for authentication?</p>
+<p> See <a class='wikilink' href='http://localhost/PmWiki/AuthUser'>AuthUser</a>, <a class='external' href='http://www.pmwiki.org/wiki/Cookbook/HtpasswdForm' rel='nofollow'>Cookbook:HtpasswdForm</a> or <a class='external' href='http://www.pmwiki.org/wiki/Cookbook/UserAuth' rel='nofollow'>Cookbook:UserAuth</a>.
+</p>
+<p class='vspace question'>Q Is there anything I can enter in a GroupAttributes field to say 'same as the admin password'? If not, is there anything I can put into the config.php file to have the same effect?</p>
+<p class='vspace'> Enter '@lock' in GroupAttributes?action=attr to require an admin password for that group.
+</p>
+<p class='vspace question'>Q How do I edit protect, say, all RecentChanges pages?</p>
+<p> see <a class='wikilink' href='http://localhost/PmWiki/Security#wikivandalism'>Security#wikivandalism</a>.
+</p>
+<p class='vspace question'>Q How can I read password protect all pages in a group except the HomePage using configuration files?</p>
+<p class='vspace'> As described in <a class='wikilink' href='http://localhost/PmWiki/GroupCustomizations'>PmWiki.GroupCustomizations</a> per-group or per-page configuration files should not be used for defining passwords. The reason is that per-group (or per-page) customization files are only loaded for the current page. So, if <code>$DefaultPasswords['read']</code> is set in <em>local/GroupA.php</em>, then someone could use a page in another group to view the contents of pages in GroupA. For example, Main.WikiSandbox could contain:
+</p>
+<div class='vspace'></div><dl><dd><div class='indent'>(:include GroupA.SomePage:)
+</div></dd></dl><p class='vspace'>and because the <em>GroupA.php</em> file wasn't loaded (we're looking at Main.WikiSandbox &rarr; <em>local/Main.php</em>), there's no read password set.
+</p>
+<p class='vspace question'>Q How can I password protect the creation of new pages?</p>
+<p> See <a class='external' href='http://www.pmwiki.org/wiki/Cookbook/LimitWikiGroups' rel='nofollow'>Cookbook:LimitWikiGroups</a>, <a class='external' href='http://www.pmwiki.org/wiki/Cookbook/NewGroupWarning' rel='nofollow'>Cookbook:NewGroupWarning</a>, <a class='external' href='http://www.pmwiki.org/wiki/Cookbook/LimitNewPagesInWikiGroups' rel='nofollow'>Cookbook:LimitNewPagesInWikiGroups</a>.
+</p>
+<p class='vspace question'>Q How do I change the password prompt screen?</p>
+<p> If your question is about how to make changes to that page... edit <a class='wikilink' href='http://localhost/Site/AuthForm'>Site.AuthForm</a>.  If your question is about how to change which page you are sent to when prompted for a password, you might check out the <a class='external' href='http://www.pmwiki.org/wiki/Cookbook/CustomAuthForm' rel='nofollow'>Cookbook:CustomAuthForm</a> for help.
+</p>
+<p class='vspace question'>Q How do I change the prompt on the attributes (<code>?action=attr</code>) screen?</p>
+<p> Simply create a new page at <a class='createlinktext' rel='nofollow' 
+    href='http://localhost/Site/AttrForm?action=edit'>Site.AttrForm</a><a rel='nofollow' 
+    class='createlink' href='http://localhost/Site/AttrForm?action=edit'>?</a>, and add the following line of code to <code>config.php</code>:
+</p><dl><dd><div class='indent'><code>&#36;PageAttrFmt = 'page:Site.AttrForm';</code>
+</div></dd></dl><p class='vspace'>Note that this only changes the text above the password inputs on the attributes page, but doesn't change the inputs themselves - the inputs have to be dealt with separately. See <a class='external' href='http://www.pmwiki.org/wiki/Cookbook/CustomAttrForm' rel='nofollow'>Cookbook:CustomAttrForm</a> for more info.
+</p>
+<p class='vspace question'>Q  I get http error 500 "Internal Server Error" when I try to log in. What's wrong?</p>
+<p>  This can happen if the encrypted passwords are not created on the web server that hosts the PmWiki.<br />The crypt function changed during the PHP development, e.g. a password encrypted with PHP 5.2 can not be decrypted in PHP 5.1, but PHP 5.2 can decrypt passwords created by PHP 5.1.<br />This situation normally happens if you prepare everything on your local machine with the latest PHP version and you upload the passwords to a webserver which is running an older version.<br />The same error occurs when you add encrypted passwords to local/config.php.
+</p>
+<p class='vspace'>Solution: Create the passwords on the system with the oldest PHP version and use them on all other systems.
+</p>
+<p class='vspace question'>Q  I only want users to have to create an 'edit' password, which is automatically used for their 'upload' &amp; 'attr' passwords (without them having to set those independently). How do I do this?</p>
+<p>  By setting <code class='escaped'>$HandleAuth</code> like so:
+</p><pre>      <a class='varlink' href='http://localhost/PmWiki/SecurityVariables#HandleAuth'><code class='varlink'>&#36;HandleAuth</code></a>['upload'] = 'edit';
+      // And to prevent a WikiSandbox from having it's 'attr' permissions changed 
+      // except by the admin (but allowing editors to change it on their own pages/group)
+      if(($group=="Site") || ($group=="Main") || ($group=="Category") || 
+             ($group=="SiteAdmin") || ($group=="PmWiki") ) {
+	<a class='varlink' href='http://localhost/PmWiki/SecurityVariables#HandleAuth'><code class='varlink'>&#36;HandleAuth</code></a>['attr'] = 'admin';  // for all main admin pages, set 'attr' to 'admin' password
+      } else { 
+	<a class='varlink' href='http://localhost/PmWiki/SecurityVariables#HandleAuth'><code class='varlink'>&#36;HandleAuth</code></a>['attr'] = 'edit';  // if you can edit, then you can set attr
+      }
+</pre><div class='vspace'></div></div>
+<h2><a class='wikilink' href='http://localhost/PmWiki/DesignNotes'>DesignNotes</a></h2>
+<div class='faq' > 
+</div><div class='faq' >  
+<p class='vspace question'>Q Why doesn't PmWiki  use hierarchical / nested groups?</p>
+<p> It essentially comes down to figuring out how to handle 
+page links between nested groups; if someone can figure out 
+an obvious, intuitive way for authors to
+do that, then nested groups become plausible.  See <a class='wikilink' href='http://localhost/PmWiki/DesignNotes'>Design Notes</a>
+and <a class='external' href='http://www.pmwiki.org/wiki/PmWiki/Hierarchical%20Groups' rel='nofollow'>PmWiki:Hierarchical Groups</a>.
+</p>
+<p class='vspace question'>Q Why don't PmWiki's scripts have a closing ?&gt; tag?</p>
+<p> All of PmWiki's scripts now omit the closing ?&gt; tag.  The tag is not
+required, and it avoids problems with unnoticed spaces or blank
+lines at the end of the file.  Also, some file transfer protocols
+may change the newline character(s) in the file, which can also
+cause problems.  See also the <a class='external' href='http://php.net/manual/en/language.basic-syntax.instruction-separation.php' rel='nofollow'>Instruction separation</a> page in the <a class='external' href='http://php.net/manual/en/index.php' rel='nofollow'>PHP manual</a>.
+</p>
+<p class='vspace question'>Q Does PmWiki support WYSIWYG editing (or something like the FCKEditor)?</p>
+<p> Short answer:  PmWiki provides GUI buttons in a toolbar for common markups, but otherwise does not have WYSIWYG editing.  For the reasons why, see <a class='external' href='http://www.pmwiki.org/wiki/PmWiki/WYSIWYG' rel='nofollow'>PmWiki:WYSIWYG</a>.
+</p>
+<div class='vspace'></div></div>
+</div>
+<p class='vspace'> 
+</p><div style='clear:right; float:right; font-size:smaller; background-color:#eee;' >
+<p><span class='wikitrail'>&lsaquo; <a class='wikilink' href='http://localhost/PmWiki/WikiFarms'>Wiki Farms</a> | <a class='wikilink' href='http://localhost/PmWiki/DocumentationIndex#trailstart#trailend'>Documentation Index</a> | <a class='wikilink' href='http://localhost/PmWiki/Troubleshooting'>Troubleshooting</a> &rsaquo;</span> 
+</p></div>
+<p><a id='trailend'></a>
+<br style='clear:both;' />
+</p><div  style='background-color: #ffe; border-top: 1px solid black; font-size: .8em;' > 
+<p>This page may have <span class='commentout-pmwikiorg'> a more recent version on <a class='external' href='http://www.pmwiki.org' rel='nofollow'>pmwiki.org</a>: <a class='external' href='http://www.pmwiki.org/wiki/PmWiki/FAQ' rel='nofollow'>PmWiki:FAQ</a>, and </span> a talk page: <a class='external' href='http://www.pmwiki.org/wiki/PmWiki/FAQ-Talk' rel='nofollow'>PmWiki:FAQ-Talk</a>.
+</p></div>
+";}

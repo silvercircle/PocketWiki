@@ -1,0 +1,21 @@
+version=pmwiki-2.2.18 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10 (KHTML, like Gecko) Chrome/8.0.549.0 Safari/534.10
+author=admin
+charset=UTF-8
+csum=
+ctime=1162005298
+host=81.217.70.206
+name=Site.InfoBar
+rev=3
+targets=
+text=>>id=info-right%3c%3c%0a(:include {$SiteGroup}.PageActions:)>>%3c%3c[[%3c%3c]]
+time=1287634613
+author:1287634613=admin
+diff:1287634613:1184359788:=0a1,10%0a> >>id=info-left%3c%3c%0a> * %25item rel='nofollow' class='home noborder' accesskey='$[ak_home]'%25[[ {$ScriptUrl}?action=home | $[Home] ]]%0a> (:if !authid :)%0a> * %25item rel='nofollow' class='login' accesskey='$[ak_login]'%25[[ {*$FullName}?action=login | $[Login] ]]%0a> (:ifend:)%0a> (:if authid :)%0a> * %25item rel='nofollow' class='logout' accesskey='$[ak_logout]'%25[[ {*$FullName}?action=logout | $[Logout] ]]%0a> (:ifend:)%0a> * %25item rel='nofollow' class='search' accesskey='$[ak_search]'%25[[{$SiteGroup}/Search  $[Search] ]]%0a> >>%3c%3c%0a
+host:1287634613=81.217.70.206
+author:1184359788=
+diff:1184359788:1184359705:=2c2%0a%3c * %25item rel='nofollow' class='home noborder' accesskey='$[ak_home]'%25[[ {$ScriptUrl}?action=home | $[Home] ]]%0a---%0a> * %25item rel=nofollow class='home noborder' accesskey='$[ak_home]%25[[ {$ScriptUrl}?action=home | $[Home] ]]%0a4c4%0a%3c * %25item rel='nofollow' class='login' accesskey='$[ak_login]'%25[[ {*$FullName}?action=login | $[Login] ]]%0a---%0a> * %25item rel=nofollow class=login accesskey='$[ak_login]%25[[ {*$FullName}?action=login | $[Login] ]]%0a7c7%0a%3c * %25item rel='nofollow' class='logout' accesskey='$[ak_logout]'%25[[ {*$FullName}?action=logout | $[Logout] ]]%0a---%0a> * %25item rel=nofollow class=logout accesskey='$[ak_logout]%25[[ {*$FullName}?action=logout | $[Logout] ]]%0a9c9%0a%3c * %25item rel='nofollow' class='search' accesskey='$[ak_search]'%25[[{$SiteGroup}/Search | $[Search] ]]%0a---%0a> * %25item rel=nofollow class=search accesskey='$[ak_search]%25[[{$SiteGroup}/Search | $[Search] ]]%0a
+host:1184359788=127.0.0.1
+author:1184359705=
+diff:1184359705:1164071807:=
+host:1184359705=127.0.0.1

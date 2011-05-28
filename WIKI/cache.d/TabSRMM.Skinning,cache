@@ -1,0 +1,59 @@
+a:1:{i:0;s:6753:"<div class='tabsrmm_header' > 
+<p>
+<strong>TabSRMM documentation</strong> <code class='escaped'>   </code> <span class='rsslink'><a class='wikilink' href='http://localhost/TabSRMM/RecentChanges?action=rss'>RSS</a></span> | <span class='rsslink'><a class='wikilink' href='http://localhost/TabSRMM/RecentChanges?action=atom'>ATOM</a></span>
+</p></div>
+<p><span class='wikitrail'><a class='wikilink' href='http://localhost/TabSRMM/TabSRMM#skinning'>Skinning Index</a> | <a class='wikilink' href='http://localhost/TabSRMM/UsingSkins'>Installing and using skins</a> &rsaquo;</span>
+</p><h1>Skinning tabSRMM - how it works</h1>
+<p><a id='teaser'></a>
+Beginning with version 1.0, tabSRMM introduced a simple skinning engine. This allows the user to customize the look of the entire message window by using a skin. Usually, a skin consists of the following elements:
+</p>
+<div class='vspace'></div><ul><li>images (supported are PNG images in 32bit RGBA format only, this allows full per-pixel alphablending)
+</li><li>a skin definition file. This is an ordinary plain text file. The syntax is compatible with the well-known .INI - Format.<br /><br />
+</li></ul><p>Typically, all files must be placed into a single directory. There are basically no restrictions where to put the files, but because the skinning engine is only using relative paths, the images must be at or below the folder in which the skin definition file is placed. The basic rule of <strong>one skin per phyical directory</strong> is important to understand. You cannot mix files from 2 different skin within the same directory.
+</p>
+<p class='vspace'>Advanced skinning techniques allow to use only a single image file. Skin elements are then created by "extracting" rectangular areas from that image file.
+<a id='teaserend'></a>
+</p><h2>Themes vs. skins</h2>
+<p class='vspace'>One thing a user should understand is the difference between a <a class='wikilink' href='http://localhost/TabSRMM/Theme'>theme</a> and a skin. A theme is a set of font-, template- and color definitions which determine the look and layout of the text areas inside the message window. A theme does <span  style='color: red;'>not</span> alter the look of other message window elements, like title bar, buttons or the status bar.
+</p>
+<div class='vspace'></div><ul><li>Themes are files with the extension <strong>.tabsrmm</strong>. They can be manually written, but the preferred method is to use the <span  style='color: green;'><strong>export message log settings</strong></span> feature of tabSRMM. This will collect and export all settings which compose a theme and save them to a <strong>.tabsrmm</strong> file. Such a file can later be imported again.
+<div class='vspace'></div></li><li>Skin definition files have the extension <strong>.tsk</strong> and basically they define the rules how the various user interface elements should look like. A skin can optionally include a theme which will be imported when the skin is loaded. This allows users to create a complete customization pack, consisting of a skin and a matching theme.
+</li></ul><div class='vspace'></div><h2>Skins, themes and how they work with other plugins like IEView</h2>
+<p class='vspace'><a class='wikilink' href='http://localhost/Plugins/IEView'>IEView</a> is a very popular addon for Miranda. When it is used and active for a message window, it will replace the default message log. Consequently, TabSRMM themes will not work when IEView is in use. Read the page about the <a class='wikilink' href='http://localhost/TabSRMM/History'>message history</a> for further information. Skins will however continue to work, because IEView only replaces the message log area but not the entire message window.
+</p>
+<p class='vspace'>Similarly, when using <a class='wikilink' href='http://localhost/Plugins/HistoryPP'>History++</a> to display the message history, the same applies.
+</p>
+<div class='vspace'></div><h2>Which elements are skinable?</h2>
+<div class='vspace'></div><ul><li>tabs (and the tab page itself)
+</li><li>the container background
+</li><li>the info panel background
+</li><li>the window frame and title bar
+</li><li>the title buttons
+</li><li>the status bar background
+</li><li>the status bar panels (the content rectangles which hold the text or icons)
+</li><li>the surrounding regions of the 2 text areas (<a class='wikilink' href='http://localhost/TabSRMM/History'>message history</a> and <a class='createlinktext' rel='nofollow' 
+    href='http://localhost/TabSRMM/InputArea?action=edit'>message input area</a><a rel='nofollow' 
+    class='createlink' href='http://localhost/TabSRMM/InputArea?action=edit'>?</a>)<br /><br />
+</li></ul><p>A skin definition can also load a <span  style='color: blue;'>.tabsrmm</span> theme definition file which contains font style and color definition for both the message history log and the input area. So it is possible, to load a complete skin by just loading a single file. Skins can be changed at runtime and it is possible to reload the currently selected skin which makes it easier for skin developers to preview their work. However, to load or reload a skin definition, all message windows must be closed.
+</p>
+<p class='vspace'>The skin definition is plain text file and uses the .INI format. You can use any text editor you want to edit skins. The only valid file name extension is .tsk. 
+</p>
+<p class='vspace'>Image path names are <strong>RELATIVE</strong> to the directory in which the skin file is located. The best way is to put all images and the skin definition file into a single directory.
+</p>
+<p class='vspace'>The same applies to the theme file (.tabsrmm theme) - it has to be placed in the skin directory and the filename must be given without a path.
+</p>
+<div class='vspace'></div><h2>How to load a skin definition</h2>
+<p class='vspace'>Refer to <a class='wikilink' href='http://localhost/TabSRMM/UsingSkins'>installing and loading skins</a>.
+</p>
+<div class='vspace'></div><h3>Related reading</h3>
+<div class='vspace'></div><ul><li><a class='wikilink' href='http://localhost/TabSRMM/SkinningFormat'>the skin definition format</a> - for skin developers.
+</li><li><a class='wikilink' href='http://localhost/TabSRMM/ColorThemes'>using color themes</a> - alternative to skins, easier to customize with fewer possibilities
+</li></ul><div class='vspace'></div><hr />
+<p>Category: <a class='categorylink' href='http://localhost/Category/TabSRMM'>TabSRMM</a>
+</p><hr />
+<p><span  style='float: right; color: #888; font-size: 10px;'>Author: admin</span>
+<span  style='text-align: left; color: #888; font-size: 10px;'>Last modified: Friday, October 29, 2010 at 12:39 CET</span>
+</p><hr />
+<p>Category: <a class='wikilink' href='http://localhost/TabSRMM/TabSRMM'>TabSRMM</a>
+</p>
+";}

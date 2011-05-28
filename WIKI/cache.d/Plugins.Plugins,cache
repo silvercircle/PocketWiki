@@ -1,0 +1,27 @@
+a:1:{i:0;s:2646:"<div class='tabsrmm_header' > 
+<p><span class='rfloat' style='margin-top: -3px;'>(:quicktoc:)</span>
+Plugin documentation
+</p></div>
+<h1>All third party plugins</h1>
+<p class='vspace'>TabSRMM supports or is supported by a number of other plugins, most of them messaging related. Their use is optional though and TabSRMM does not require any other plugin with the exception of most core plugins to work but can benefit from features provided by said plugins.<br /><br />
+This list describes some of the important and commonly used plugins.
+<br /><a id='begin'></a>
+</p><ul><li><a class='wikilink' href='http://localhost/Plugins/IEView'>IEView plugin</a> (HTML based message log viewer for Miranda IM).
+</li><li><a class='wikilink' href='http://localhost/Plugins/Popups'>Popups for notifications</a> (plugin(s) to display event notifications in MIranda IM).
+</li><li><a class='wikilink' href='http://localhost/Plugins/Smileyadd'>Smileyadd</a> (plugin for graphical smileys or emoticons).
+</li><li><a class='wikilink' href='http://localhost/Plugins/Folders'>Custom profile folders</a> (plugin to manage storage folder locations in Miranda)
+</li><li><a class='createlinktext' rel='nofollow' 
+    href='http://localhost/Plugins/Metacontacts?action=edit'>Meta contacts</a><a rel='nofollow' 
+    class='createlink' href='http://localhost/Plugins/Metacontacts?action=edit'>?</a> (a protocol plugin to implement meta entities for contact management).
+</li><li><a class='wikilink' href='http://localhost/Plugins/CorePlugins#AVS'>avatar service</a> (core plugin for contact picture management).
+</li><li><a class='wikilink' href='http://localhost/Plugins/CorePlugins#Freeimage'>Miranda image services</a> (core plugin for low level image handling, based on <a class='external' href='http://www.freeimage.org' rel='nofollow'>the freeimage library</a>.
+</li><li><a class='wikilink' href='http://localhost/Plugins/SndVol'>Sound volume plugin</a> (old plugin to control the volume of Miranda sound effects, using a convenient contact list frame)
+</li><li><a class='wikilink' href='http://localhost/Plugins/DBEditor'>Database editor plugin</a>
+</li></ul><p><a id='end'></a><br />All these plugins are developed by various members of the Miranda community and are not my work with the exception of some core plugins (AVS and Image services).
+</p><hr />
+<p><span  style='float: right; color: #888; font-size: small;'>Author: admin</span>
+<span  style='text-align: left; color: #888; font-size: small;'>Last modified: Friday, November 05, 2010 at 13:32 CET</span>
+</p><hr />
+<p>Category: <a class='selflink' href='http://localhost/Plugins/Plugins'>Plugins</a>
+</p>
+";}

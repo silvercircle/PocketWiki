@@ -1,0 +1,39 @@
+version=pmwiki-2.2.18 ordered=1 urlencoded=1
+agent=Opera/9.80 (Windows NT 6.1; U; en) Presto/2.8.131 Version/11.10
+author=admin
+charset=UTF-8
+csum=
+ctime=1287772687
+host=81.217.70.206
+name=TabSRMM.GroupHeader
+rev=9
+targets=TabSRMM.RecentChanges
+text=>>class=tabsrmm_header%3c%3c%0a%25rfloat margin-top="-1px" margin-right="30px"%25%25%25%0a'''TabSRMM documentation''' [@   @] %25class=rsslink%25[[RecentChanges?action=rss|RSS]]%25%25 | %25class=rsslink%25[[RecentChanges?action=atom|ATOM]]%25%25%0a>>%3c%3c
+time=1305403042
+author:1305403042=admin
+diff:1305403042:1288719673:=2c2%0a%3c %25rfloat margin-top="-1px" margin-right="30px"%25%25%25%0a---%0a> %25rfloat margin-top="-1px" margin-right="30px"%25(:quicktoc:)%25%25%0a
+host:1305403042=81.217.70.206
+author:1288719673=admin
+diff:1288719673:1288719629:=3c3%0a%3c '''TabSRMM documentation''' [@   @] %25class=rsslink%25[[RecentChanges?action=rss|RSS]]%25%25 | %25class=rsslink%25[[RecentChanges?action=atom|ATOM]]%25%25%0a---%0a> TabSRMM documentation [@   @] %25class=rsslink%25[[RecentChanges?action=rss|RSS]]%25%25 | %25class=rsslink%25[[RecentChanges?action=atom|ATOM]]%25%25%0a
+host:1288719673=81.217.70.206
+author:1288719629=admin
+diff:1288719629:1288718277:=3c3%0a%3c TabSRMM documentation [@   @] %25class=rsslink%25[[RecentChanges?action=rss|RSS]]%25%25 | %25class=rsslink%25[[RecentChanges?action=atom|ATOM]]%25%25%0a---%0a> TabSRMM documentation | RSS [[RecentChanges?action=rss|http://wiki.miranda.or.at/pub/feed.png]] | ATOM [[RecentChanges?action=atom|http://wiki.miranda.or.at/pub/feed.png]]%0a
+host:1288719629=81.217.70.206
+author:1288718277=admin
+diff:1288718277:1288717594:=2,3c2,3%0a%3c %25rfloat margin-top="-1px" margin-right="30px"%25(:quicktoc:)%25%25%0a%3c TabSRMM documentation | RSS [[RecentChanges?action=rss|http://wiki.miranda.or.at/pub/feed.png]] | ATOM [[RecentChanges?action=atom|http://wiki.miranda.or.at/pub/feed.png]]%0a---%0a> %25rfloat margin-top="-3px"%25(:quicktoc:)%25%25%0a> TabSRMM documentation | [[/pub/feed.png]]%0a
+host:1288718277=81.217.70.206
+author:1288717594=admin
+diff:1288717594:1287778009:=3c3%0a%3c TabSRMM documentation | [[/pub/feed.png]]%0a---%0a> TabSRMM documentation%0a
+host:1288717594=81.217.70.206
+author:1287778009=admin
+diff:1287778009:1287773843:=3c3%0a%3c TabSRMM documentation%0a---%0a> '''TabSRMM documentation:''' {$FullName}%0a
+host:1287778009=81.217.70.206
+author:1287773843=admin
+diff:1287773843:1287773206:=2,3c2%0a%3c %25rfloat margin-top="-3px"%25(:quicktoc:)%25%25%0a%3c '''TabSRMM documentation:''' {$FullName}%0a---%0a> '''TabSRMM documentation'''%0a
+host:1287773843=81.217.70.206
+author:1287773206=admin
+diff:1287773206:1287772687:=1,3c1%0a%3c >>class=tabsrmm_header%3c%3c%0a%3c '''TabSRMM documentation'''%0a%3c >>%3c%3c%0a\ No newline at end of file%0a---%0a> Group Header for TabSRMM%0a\ No newline at end of file%0a
+host:1287773206=81.217.70.206
+author:1287772687=admin
+diff:1287772687:1287772687:=1d0%0a%3c Group Header for TabSRMM%0a\ No newline at end of file%0a
+host:1287772687=81.217.70.206

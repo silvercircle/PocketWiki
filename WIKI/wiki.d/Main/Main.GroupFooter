@@ -1,0 +1,21 @@
+version=pmwiki-2.2.18 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:2.0b8pre) Gecko/20101103 Firefox/4.0b8pre Firefox/4.0b8pre
+author=admin
+charset=UTF-8
+csum=
+ctime=1287812543
+host=81.217.70.206
+name=Main.GroupFooter
+rev=3
+targets=Main.HomePage
+text=----%0a%25float:right color:#888 font-size:10px%25Author: {$LastModifiedBy}%25%25%0a%25text-align:left color:#888 font-size:10px%25Last modified: {(ftime fmt="%25A, %25B %25d, %25Y at %25H:%25M" @{$LastModifiedTime})} CET%25%25%0a----%0aCategory: [[Main]]
+time=1288850491
+author:1288850491=admin
+diff:1288850491:1287812644:=2,3c2,3%0a%3c %25float:right color:#888 font-size:10px%25Author: {$LastModifiedBy}%25%25%0a%3c %25text-align:left color:#888 font-size:10px%25Last modified: {(ftime fmt="%25A, %25B %25d, %25Y at %25H:%25M" @{$LastModifiedTime})} CET%25%25%0a---%0a> %25float:right color:#888 font-size:small%25Author: {$LastModifiedBy}%25%25%0a> %25text-align:left color:#888 font-size:small%25Last modified: {(ftime fmt="%25A, %25B %25d, %25Y at %25H:%25M" @{$LastModifiedTime})} CET%25%25%0a
+host:1288850491=81.217.70.206
+author:1287812644=admin
+diff:1287812644:1287812543:=1,4c1%0a%3c ----%0a%3c %25float:right color:#888 font-size:small%25Author: {$LastModifiedBy}%25%25%0a%3c %25text-align:left color:#888 font-size:small%25Last modified: {(ftime fmt="%25A, %25B %25d, %25Y at %25H:%25M" @{$LastModifiedTime})} CET%25%25%0a%3c ----%0a---%0a> (:include Template/Footer:)%0a
+host:1287812644=81.217.70.206
+author:1287812543=admin
+diff:1287812543:1287812543:=1,2d0%0a%3c (:include Template/Footer:)%0a%3c Category: [[Main]]%0a\ No newline at end of file%0a
+host:1287812543=81.217.70.206

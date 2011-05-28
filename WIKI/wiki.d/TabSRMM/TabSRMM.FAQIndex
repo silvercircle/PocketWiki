@@ -1,0 +1,24 @@
+version=pmwiki-2.2.18 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:2.0b8pre) Gecko/20101028 Firefox/4.0b8pre Firefox/4.0b8pre
+author=admin
+charset=UTF-8
+csum=
+ctime=1288395841
+host=81.217.70.206
+name=TabSRMM.FAQIndex
+rev=4
+targets=TabSRMM.FullName
+text=(:if auth read :)%0a= FAQ Index =%0a%0a(:include Template/Formatting#hint#endhint Text="This is the Index for all FAQ articles. Only the first few are listed - use the read more link to see the entire list of all FAQs for a specific category.":)\\\%0a(:if false :)%0a[[#faqblog]]%0a(:template each:)%0a= [[{=$FullName}|{=$Title}]] =%0a(:include {=$FullName}#teaser#teaserend self=0:)%0a%0a====[[{=$FullName}|read more...]]====%0a----%0a(:template last:)%0a%25right%25{$$BPLnav}%0a[[#faqblogend]]%0a(:ifend:)%0a(:pagelist group=TabSRMM name=FAQ*, -Index,-RecentChanges,-TabSRMM count=10 order=-time fmt=#faqblog cache=1 start=BPL:)%0a(:ifend:)
+time=1288396280
+author:1288396280=admin
+diff:1288396280:1288396157:=2,4d1%0a%3c = FAQ Index =%0a%3c %0a%3c (:include Template/Formatting#hint#endhint Text="This is the Index for all FAQ articles. Only the first few are listed - use the read more link to see the entire list of all FAQs for a specific category.":)\\\%0a
+host:1288396280=81.217.70.206
+author:1288396157=admin
+diff:1288396157:1288395896:=7,8c7,8%0a%3c %0a%3c ====[[{=$FullName}|read more...]]====%0a---%0a> \\\%0a> [[{=$FullName}|read more...]]%0a
+host:1288396157=81.217.70.206
+author:1288395896=admin
+diff:1288395896:1288395841:=
+host:1288395896=81.217.70.206
+author:1288395841=admin
+diff:1288395841:1288395841:=1,15d0%0a%3c (:if auth read :)%0a%3c (:if false :)%0a%3c [[#faqblog]]%0a%3c (:template each:)%0a%3c = [[{=$FullName}|{=$Title}]] =%0a%3c (:include {=$FullName}#teaser#teaserend self=0:)%0a%3c \\\%0a%3c [[{=$FullName}|read more...]]%0a%3c ----%0a%3c (:template last:)%0a%3c %25right%25{$$BPLnav}%0a%3c [[#faqblogend]]%0a%3c (:ifend:)%0a%3c (:pagelist group=TabSRMM name=FAQ*, -Index,-RecentChanges,-TabSRMM count=10 order=-time fmt=#faqblog cache=1 start=BPL:)%0a%3c (:ifend:)%0a\ No newline at end of file%0a
+host:1288395841=81.217.70.206

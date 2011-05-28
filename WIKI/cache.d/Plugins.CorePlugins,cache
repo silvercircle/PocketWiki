@@ -1,0 +1,35 @@
+a:1:{i:0;s:3407:"<div class='tabsrmm_header' > 
+<p><span class='rfloat' style='margin-top: -3px;'>(:quicktoc:)</span>
+Plugin documentation
+</p></div>
+<p><span class='wikitrail'>&lsaquo; <a class='wikilink' href='http://localhost/Plugins/CorePlugins#AVS'>avatar service</a> | <a class='wikilink' href='http://localhost/Plugins/Plugins#begin#end'>Other plugins index</a> | <a class='wikilink' href='http://localhost/Plugins/SndVol'>Sound volume plugin</a> &rsaquo;</span>
+</p><h1>Core plugins</h1>
+<p class='vspace'>This is a brief description of core plugins and services that are essential for TabSRMM. They are all part of Miranda so they are normally installed by default and should be active. Uninstalling or disabling them is not recommended and will almost certainly cause issues.
+</p>
+<p class='vspace'><a id='note'></a>
+</p>
+<table class='table_plain' style='padding:5px;border:1px solid #aaa;display:block;background:#F0E2E2;' ><tr><td style='width:20px;'  valign='top'><img src='http://localhost/uploads/Template/Note.png' alt='' title='' /> 
+</td><td style='vertical-align:top;'  valign='top'>These plugins are <strong>core plugins</strong>. They are part of Miranda and usually required. <span  style='color: red;'><strong>Do not uninstall or disable</strong></span> any of these plugins.
+</td></tr></table>
+<p><br /><br /><a id='avs'></a>
+</p><h2>Avatar service (AVS)</h2>
+<p class='vspace'>This plugin manages contact pictures (<a class='wikilink' href='http://localhost/TabSRMM/Avatars'>Avatars</a>) and provides a couple of things:
+</p>
+<div class='vspace'></div><ul><li>It maintains an internal cache of contact pictures for fast access and provides an API to load, change and display these pictures.
+</li><li>It communicates with the protocols and schedules avatar requests.
+</li><li>It provides a custom window control to display contact pictures including support for animated .GIF pictures.
+</li><li>It allows the user to set his own avatar.<br /><br />
+</li></ul><p>TabSRMM uses AVS to obtain contact pictures to display them in the message window. Without AVS being active, no avatars can be visible, so it's best to leave this plugin as it is. The plugin's DLL name is <strong><span  style='color: red;'>avs.dll</span></strong>.<br /><br />AVS is also needed to display animated images in the message window.
+</p>
+<p class='vspace'><a id='freeimage'></a>
+</p><h2>Image services</h2>
+<p class='vspace'>The image service plugin (<strong><span  style='color: red;'>advaimg.dll</span></strong>) is a low level core plugin to handle images. It allows Miranda to load, save, convert and rescale pictures of many formats, including .GIF, .JPG, .BMP and .PNG. This plugin is based on the <a class='external' href='http://www.freeimage.org' rel='nofollow'>Freeimage</a> library, a open source image handling library.<br /><br />TabSRMM needs the image service plugins to load skins and to rescale pictures (avatars and some images needed to draw certain UI elements).
+</p>
+<div class='vspace'></div><div class='indent'><strong>It is a required plugin</strong>
+</div><div class='vspace'></div><hr />
+<p><span  style='float: right; color: #888; font-size: small;'>Author: admin</span>
+<span  style='text-align: left; color: #888; font-size: small;'>Last modified: Thursday, October 28, 2010 at 07:29 CET</span>
+</p><hr />
+<p>Category: <a class='wikilink' href='http://localhost/Plugins/Plugins'>Plugins</a>
+</p>
+";}

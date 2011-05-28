@@ -1,0 +1,46 @@
+a:1:{i:0;s:5153:"<div class='tabsrmm_header' > 
+<p><span class='rfloat' style='margin-top: -3px;'>(:quicktoc:)</span>
+Plugin documentation
+</p></div>
+<p><span class='wikitrail'>&lsaquo; <a class='wikilink' href='http://localhost/Plugins/Smileyadd'>Smileyadd</a> | <a class='wikilink' href='http://localhost/Plugins/Plugins#begin'>Other plugins index</a> | <a class='createlinktext' rel='nofollow' 
+    href='http://localhost/Plugins/Metacontacts?action=edit'>Meta contacts</a><a rel='nofollow' 
+    class='createlink' href='http://localhost/Plugins/Metacontacts?action=edit'>?</a> &rsaquo;</span>
+</p><h1>Custom profile folders</h1>
+<p class='vspace'><a id='hint'></a>
+</p>
+<table class='table_plain' style='padding:5px;border:1px solid #aaa;display:block;background:#f0f0e2;' ><tr><td style='width:20px;'  valign='top'><img src='http://localhost/uploads/Template/Hint.png' alt='' title='' /> 
+</td><td style='vertical-align:top;'  valign='top'>This plugin is usually known as <span  style='color: green;'>'folders plugin'</span> in the Miranda community.
+</td></tr></table>
+<p><br />
+This is a generic service plugin to customize the location of storage paths in Miranda. It is supported by many plugins, even some core plugins and TabSRMM uses it to customize the following paths:
+</p>
+<div class='vspace'></div><ul><li><strong>Data path</strong> (generic root directory for the plugin)
+</li><li><strong>Skins root folder</strong> (base folder where all skins must be installed)
+</li><li><strong>Saved avatars folder</strong> (the folder where TabSRMM stores contact pictures when you save them - this has nothing to do with the normal avatar storage).
+</li><li><strong>Group chat logs root folder</strong> - Where the group chat module of TabSRMM stores all log files.<br /><br />
+</li></ul><p><a id='rimage'></a>
+</p><div  style='float: right; border: 1px solid #ccc; margin-left: 10px;' > 
+<!-- TL2-20100315 --><table class='cbox'><tr class='thumbtr'><td class='thumbtd'><div class='img'  style='padding:2px 2px;'><a href='http://localhost/uploads/Plugins/folders.png' class='thumblink' title='folders.png'  ><img class="thumbs" src="http://localhost/uploads/Plugins/th199---ffffff--folders.png.jpg" title="folders.png: 648x517, 85k (October 25, 2010, at 10:26 AM)" alt="folders.png: 648x517, 85k (October 25, 2010, at 10:26 AM)" width='250' height='199' /></a> </div><span class="caption">Folders support in TabSRMM</span></td></tr></table>
+</div>
+<p class='vspace'>The plugin has no user-visible functionality or options - it must be used by other plugins to have some effect. All customized paths are accessible via <span class='option'>Customize&rarr;Folders</span> in the main options dialog. Plugins can register storage locations for different purposes and the UI allows you to change these locations.
+</p>
+<p class='vspace'>Normally, when not using the folders plugin, all these directories are hard coded and cannot be changed. They are all located in your Miranda profile and consequently, each profile has its own folders separated from other profiles. This can be inconvenient for users who may use multiple Miranda profiles, because sharing skins or logs between profiles is not not possible without customizable storage locations.<br /><br />
+This becomes possible when using the folders plugin as it allows to configure the exact same storage folders in multiple profiles. 
+</p>
+<p class='vspace'>The visible options in the dialog depends on the number of plugins that support customizable folders. Not all plugins can use this feature, but most of the more recent ones which need to access private or public directories within your Miranda profile are supporting it.
+</p>
+<div class='vspace'></div><h2>Using it</h2>
+<p class='vspace'>This should be fairly straightforward. Simply select one of the locations on the list and the dialog will show you the current path. In the bottom text field, you can modify this path by simply typing a new one. The current path (displayed in the upper text field) will be updated in real time while you edit the new path in the bottom field, so you can instantly see the effect of variables.<br /><br />The button <strong>Variables help</strong> will open a window to explain the meaning of the supported variables. All variables must be enclosed between '@' characters.<br /><br />Once done hit <strong>Apply</strong> and all plugins should use the new storage locations.
+</p>
+<p class='vspace'><a id='note'></a>
+</p>
+<table class='table_plain' style='padding:5px;border:1px solid #aaa;display:block;background:#F0E2E2;' ><tr><td style='width:20px;'  valign='top'><img src='http://localhost/uploads/Template/Note.png' alt='' title='' /> 
+</td><td style='vertical-align:top;'  valign='top'>While not required, it is advisable to restart Miranda after changing storage folders.
+</td></tr></table>
+<hr />
+<p><span  style='float: right; color: #888; font-size: small;'>Author: admin</span>
+<span  style='text-align: left; color: #888; font-size: small;'>Last modified: Thursday, October 28, 2010 at 07:06 CET</span>
+</p><hr />
+<p>Category: <a class='wikilink' href='http://localhost/Plugins/Plugins'>Plugins</a>
+</p>
+";}

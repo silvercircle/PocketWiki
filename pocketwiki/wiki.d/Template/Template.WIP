@@ -1,0 +1,18 @@
+version=pmwiki-2.2.18 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:2.0b8pre) Gecko/20101020 Firefox/4.0b8pre Firefox/4.0b8pre
+author=admin
+charset=UTF-8
+csum=
+ctime=1287623705
+host=81.217.70.206
+name=Template.WIP
+rev=2
+targets=
+text=>>background-color=#ffe5e5 border="1px solid #aaa" padding=5px margin="2px 2px 2px 2px"%3c%3c%0a'''Work in progress'''\\\%0aThis article should be considered work in progress. It is not complete and undergoing frequent changes. %0a>>%3c%3c%0a
+time=1287811830
+author:1287811830=admin
+diff:1287811830:1287623705:=1,4c1,4%0a%3c >>background-color=#ffe5e5 border="1px solid #aaa" padding=5px margin="2px 2px 2px 2px"%3c%3c%0a%3c '''Work in progress'''\\\%0a%3c This article should be considered work in progress. It is not complete and undergoing frequent changes. %0a%3c >>%3c%3c%0a---%0a> %3cdiv style="background:#f5f0f0; border: 1px solid #aaa; margin: 5px 20px 5px 20px; padding:0px 10px 0px 10px;">%0a> '''Work in progress'''%3cbr />%0a> This article should be considered work in progress. It is not complete and undergoing frequent changes. You can contribute to improve it by doing your own edits. If you have any comments, please use the [[Talk:{{FULLPAGENAME}}|discussion]] feature for this page.%0a> %3c/div>%0a
+host:1287811830=81.217.70.206
+author:1287623705=admin
+diff:1287623705:1287623705:=1,4d0%0a%3c %3cdiv style="background:#f5f0f0; border: 1px solid #aaa; margin: 5px 20px 5px 20px; padding:0px 10px 0px 10px;">%0a%3c '''Work in progress'''%3cbr />%0a%3c This article should be considered work in progress. It is not complete and undergoing frequent changes. You can contribute to improve it by doing your own edits. If you have any comments, please use the [[Talk:{{FULLPAGENAME}}|discussion]] feature for this page.%0a%3c %3c/div>%0a
+host:1287623705=81.217.70.206

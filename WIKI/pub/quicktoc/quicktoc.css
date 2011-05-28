@@ -1,0 +1,53 @@
+div#quicktoc {
+ width:200px;
+ float:right;
+ position:relative;
+ margin-right:10px;
+}
+
+div#quicktocframe {
+ position:absolute; 
+ top:-1px;
+ left:0;
+ width:200px;
+ font-size:9pt;
+ border:1px solid #ccc;
+ font-variant:normal;
+}
+div#quicktocmsg {
+ float:right;
+ padding:.25em .25em 0 0;
+ font-size:.75em;
+ color:blue;
+ cursor:pointer;
+}
+h2#quicktocheading {
+ background-repeat:no-repeat;
+ background-position:2px 2px;
+ cursor:pointer;
+ color:blue;
+ font-size:1em;
+ font-weight:normal;
+ margin:0;
+ padding-left:12px;
+ text-align:right;
+}
+
+h2#quicktocheading.open {
+ background-image:url(arrowdown.gif) !important;
+}
+h2#quicktocheading.closed {
+ background-image:url(arrowright.gif) !important;
+}
+div#quicktoccontents {
+ display:none;
+ color:blue;
+ background-color:white;
+ padding:3px;
+}
+div.quicktocitem {
+ background-image:url(disc.gif);
+ background-repeat:no-repeat;
+ background-position:2px 2px;
+ padding-left:10px;
+}

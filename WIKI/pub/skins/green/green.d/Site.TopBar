@@ -1,0 +1,63 @@
+version=pmwiki-2.2.0-beta57 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (compatible; Konqueror/3.5; Linux) KHTML/3.5.5 (like Gecko)
+author=CB
+charset=ISO-8859-1
+csum=
+ctime=1161147829
+host=127.0.0.1
+name=Site.TopBar
+rev=17
+targets=Site.TodasAtualizações,Site.Atualizações,Site.AllRecentChanges
+text=>>id=top-left%3c%3c%0a*%25item rel='nofollow' class='sitechanges noborder' %25[[{$SiteGroup}/$[AllRecentChanges]| $[Site Changes] ]]%0a*%25item rel='nofollow' class='groupchanges' %25[[{$SiteGroup}/$[RecentChanges]| $[Group Changes]]]%0a>>%3c%3c%0a>>id=top-right%3c%3c%0a*%25item rel='nofollow' class='rss noborder'%25[[{$SiteGroup}/AllRecentChanges?action=rss|RSS]]%0a*%25item rel='nofollow' class='atom'%25[[{$SiteGroup}/AllRecentChanges?action=atom|ATOM]]%0a*%25item rel='nofollow' class='dc'%25[[{$SiteGroup}/AllRecentChanges?action=dc|DC]]%0a*%25item rel='nofollow' class='rdf'%25[[{$SiteGroup}/AllRecentChanges?action=rdf|RDF]]%0a>>%3c%3c%0a[[%3c%3c]]
+time=1184360703
+author:1184360703=CB
+diff:1184360703:1184360586:=2,5d1%0a%3c *%25item rel='nofollow' class='sitechanges noborder' %25[[{$SiteGroup}/$[AllRecentChanges]| $[Site Changes] ]]%0a%3c *%25item rel='nofollow' class='groupchanges' %25[[{$SiteGroup}/$[RecentChanges]| $[Group Changes]]]%0a%3c >>%3c%3c%0a%3c >>id=top-right%3c%3c%0a9a6,9%0a> >>%3c%3c%0a> >>id=top-right%3c%3c%0a> *%25item rel='nofollow' class='allchanges noborder' %25([[{$SiteGroup}/AllRecentChanges| All]])%0a> *%25item rel='nofollow' class='changes' %25[[{$SiteGroup}/RecentChanges| Changes]]%0a
+host:1184360703=127.0.0.1
+author:1184360586=CB
+diff:1184360586:1184360532:=4,5d3%0a%3c *%25item rel='nofollow' class='dc'%25[[{$SiteGroup}/AllRecentChanges?action=dc|DC]]%0a%3c *%25item rel='nofollow' class='rdf'%25[[{$SiteGroup}/AllRecentChanges?action=rdf|RDF]]%0a8c6%0a%3c *%25item rel='nofollow' class='allchanges noborder' accesskey='$[ak_allchanges]'%25([[{$SiteGroup}/AllRecentChanges| All]])%0a---%0a> *%25item rel='nofollow' class='allchanges' accesskey='$[ak_allchanges]'%25([[{$SiteGroup}/AllRecentChanges| All]])%0a
+host:1184360586=127.0.0.1
+author:1184360532=CB
+diff:1184360532:1184360202:=1a2,4%0a> &nbsp;'''Today :''' {$Today}%0a> >>%3c%3c%0a> >>id=top-right%3c%3c%0a4,7c7%0a%3c >>%3c%3c%0a%3c >>id=top-right%3c%3c%0a%3c *%25item rel='nofollow' class='allchanges' accesskey='$[ak_allchanges]'%25([[{$SiteGroup}/AllRecentChanges| All]])%0a%3c *%25item rel='nofollow' class='changes' accesskey='$[ak_changes]'%25[[{$SiteGroup}/RecentChanges| Changes]]%0a---%0a> *%25item rel='nofollow' class='allchanges' accesskey='$[ak_allchanges]'%25([[{$SiteGroup}/AllRecentChanges| All]]) %25rel=nofollow class='changes' accesskey='$[ak_changes]'%25[[{$SiteGroup}/RecentChanges| Changes]]%0a
+host:1184360532=127.0.0.1
+author:1184360202=CB
+diff:1184360202:1184360186:=
+host:1184360202=127.0.0.1
+author:1184360186=
+diff:1184360186:1184359470:=1,9c1,8%0a%3c >>id=top-left%3c%3c%0a%3c &nbsp;'''Today :''' {$Today}%0a%3c >>%3c%3c%0a%3c >>id=top-right%3c%3c%0a%3c *%25item rel='nofollow' class='rss noborder'%25[[{$SiteGroup}/AllRecentChanges?action=rss|RSS]]%0a%3c *%25item rel='nofollow' class='atom'%25[[{$SiteGroup}/AllRecentChanges?action=atom|ATOM]]%0a%3c *%25item rel='nofollow' class='allchanges' accesskey='$[ak_allchanges]'%25([[{$SiteGroup}/AllRecentChanges| All]]) %25rel=nofollow class='changes' accesskey='$[ak_changes]'%25[[{$SiteGroup}/RecentChanges| Changes]]%0a%3c >>%3c%3c%0a%3c [[%3c%3c]]%0a\ No newline at end of file%0a---%0a> (:div:)%0a> *%25item rel='nofollow' class='rss left noborder'%25[[{$SiteGroup}/$[AllRecentChanges]?action=rss|RSS]]%0a> *%25item rel='nofollow' class='atom left'%25[[{$SiteGroup}/$[AllRecentChanges]?action=atom|ATOM]]%0a> *%25item rel='nofollow' class='dublincore left' %25[[{$SiteGroup}/$[AllRecentChanges]?action=dc|DC]]%0a> *%25item rel='nofollow' class='rss left'%25[[{$SiteGroup}/$[AllRecentChanges]?action=rdf|RDF]]%0a> *%25item rel='nofollow' class='allchanges right' accesskey='$[ak_allchanges]'%25[[{$SiteGroup}/$[AllRecentChanges]| All Changes]]%0a> *%25item rel='nofollow' class='changes right noborder' accesskey='$[ak_changes]'%25[[{$SiteGroup}/$[RecentChanges]| Changes in this group]]%0a> (:divend:)%0a\ No newline at end of file%0a
+host:1184360186=127.0.0.1
+author:1184359470=
+diff:1184359470:1184359410:=
+host:1184359470=127.0.0.1
+author:1184359410=
+diff:1184359410:1184359345:=
+host:1184359410=127.0.0.1
+author:1184359345=
+diff:1184359345:1184359231:=4,5d3%0a%3c *%25item rel='nofollow' class='dublincore left' %25[[{$SiteGroup}/$[AllRecentChanges]?action=dc|DC]]%0a%3c *%25item rel='nofollow' class='rss left'%25[[{$SiteGroup}/$[AllRecentChanges]?action=rdf|RDF]]%0a
+host:1184359345=127.0.0.1
+author:1184359231=
+diff:1184359231:1184359213:=4c4%0a%3c *%25item rel='nofollow' class='allchanges right' accesskey='$[ak_allchanges]'%25[[{$SiteGroup}/$[AllRecentChanges]| All Changes]]%0a---%0a> *%25item rel='nofollow' class='allchanges right' accesskey='$[ak_allchanges]'%25([[{$SiteGroup}/$[AllRecentChanges]| All Changes]]) %0a
+host:1184359231=127.0.0.1
+author:1184359213=
+diff:1184359213:1184359131:=4,5c4,5%0a%3c *%25item rel='nofollow' class='allchanges right' accesskey='$[ak_allchanges]'%25([[{$SiteGroup}/$[AllRecentChanges]| All Changes]]) %0a%3c *%25item rel='nofollow' class='changes right noborder' accesskey='$[ak_changes]'%25[[{$SiteGroup}/$[RecentChanges]| Changes in this group]]%0a---%0a> *%25item rel='nofollow' class='allchanges right' accesskey='$[ak_allchanges]'%25([[{$SiteGroup}/$[AllRecentChanges]| All]]) %0a> *%25item rel='nofollow' class='changes right noborder' accesskey='$[ak_changes]'%25[[{$SiteGroup}/$[RecentChanges]| Changes]]%0a
+host:1184359213=127.0.0.1
+author:1184359131=
+diff:1184359131:1184359074:=2,5c2,5%0a%3c *%25item rel='nofollow' class='rss left noborder'%25[[{$SiteGroup}/$[AllRecentChanges]?action=rss|RSS]]%0a%3c *%25item rel='nofollow' class='atom left'%25[[{$SiteGroup}/$[AllRecentChanges]?action=atom|ATOM]]%0a%3c *%25item rel='nofollow' class='allchanges right' accesskey='$[ak_allchanges]'%25([[{$SiteGroup}/$[AllRecentChanges]| All]]) %0a%3c *%25item rel='nofollow' class='changes right noborder' accesskey='$[ak_changes]'%25[[{$SiteGroup}/$[RecentChanges]| Changes]]%0a---%0a> *%25item rel='nofollow' class='rss left noborder'%25[[{$SiteGroup}/AllRecentChanges?action=rss|RSS]]%0a> *%25item rel='nofollow' class='atom left'%25[[{$SiteGroup}/AllRecentChanges?action=atom|ATOM]]%0a> *%25item rel='nofollow' class='allchanges right' accesskey='$[ak_allchanges]'%25([[{$SiteGroup}/AllRecentChanges| All]]) %0a> *%25item rel='nofollow' class='changes right' accesskey='$[ak_changes]'%25[[{$SiteGroup}/RecentChanges| Changes]]%0a
+host:1184359131=127.0.0.1
+author:1184359074=
+diff:1184359074:1184359056:=4c4%0a%3c *%25item rel='nofollow' class='allchanges right' accesskey='$[ak_allchanges]'%25([[{$SiteGroup}/AllRecentChanges| All]]) %0a---%0a> *%25item rel='nofollow' class='allchanges' accesskey='$[ak_allchanges]'%25([[{$SiteGroup}/AllRecentChanges| All]]) %0a
+host:1184359074=127.0.0.1
+author:1184359056=
+diff:1184359056:1184359024:=1d0%0a%3c (:div:)%0a6d4%0a%3c (:divend:)%0a\ No newline at end of file%0a
+host:1184359056=127.0.0.1
+author:1184359024=
+diff:1184359024:1184358977:=0a1%0a> >>id=top-right%3c%3c%0a3c4%0a%3c *%25item rel='nofollow' class='allchanges' accesskey='$[ak_allchanges]'%25([[{$SiteGroup}/AllRecentChanges| All]]) %0a---%0a> *%25item rel='nofollow' class='allchanges right' accesskey='$[ak_allchanges]'%25([[{$SiteGroup}/AllRecentChanges| All]]) %0a4a6,7%0a> >>%3c%3c%0a> [[%3c%3c]]%0a\ No newline at end of file%0a
+host:1184359024=127.0.0.1
+author:1184358977=
+diff:1184358977:1184358933:=5c5%0a%3c *%25item rel='nofollow' class='changes right' accesskey='$[ak_changes]'%25[[{$SiteGroup}/RecentChanges| Changes]]%0a---%0a> *%25item %25rel='nofollow' class='changes right' accesskey='$[ak_changes]'%25[[{$SiteGroup}/RecentChanges| Changes]]%0a
+host:1184358977=127.0.0.1
+author:1184358933=
+diff:1184358933:1184357452:=0a1,3%0a> >>id=top-left%3c%3c%0a> &nbsp;'''Today :''' {$Today}%0a> >>%3c%3c%0a2,5c5,7%0a%3c *%25item rel='nofollow' class='rss left noborder'%25[[{$SiteGroup}/AllRecentChanges?action=rss|RSS]]%0a%3c *%25item rel='nofollow' class='atom left'%25[[{$SiteGroup}/AllRecentChanges?action=atom|ATOM]]%0a%3c *%25item rel='nofollow' class='allchanges right' accesskey='$[ak_allchanges]'%25([[{$SiteGroup}/AllRecentChanges| All]]) %0a%3c *%25item %25rel='nofollow' class='changes right' accesskey='$[ak_changes]'%25[[{$SiteGroup}/RecentChanges| Changes]]%0a---%0a> *%25item rel='nofollow' class='rss noborder'%25[[{$SiteGroup}/AllRecentChanges?action=rss|RSS]]%0a> *%25item rel='nofollow' class='atom'%25[[{$SiteGroup}/AllRecentChanges?action=atom|ATOM]]%0a> *%25item rel=nofollow class='allchanges' accesskey='$[ak_allchanges]'%25([[{$SiteGroup}/AllRecentChanges| All]]) %25rel=nofollow class='changes' accesskey='$[ak_changes]'%25[[{$SiteGroup}/RecentChanges| Changes]]%0a
+host:1184358933=127.0.0.1
+author:1184357452=
+diff:1184357452:1164071943:=5,7c5,7%0a%3c *%25item rel='nofollow' class='rss noborder'%25[[{$SiteGroup}/AllRecentChanges?action=rss|RSS]]%0a%3c *%25item rel='nofollow' class='atom'%25[[{$SiteGroup}/AllRecentChanges?action=atom|ATOM]]%0a%3c *%25item rel=nofollow class='allchanges' accesskey='$[ak_allchanges]'%25([[{$SiteGroup}/AllRecentChanges| All]]) %25rel=nofollow class='changes' accesskey='$[ak_changes]'%25[[{$SiteGroup}/RecentChanges| Changes]]%0a---%0a> *%25item rel=nofollow class='rss noborder'%25[[{$SiteGroup}/AllRecentChanges?action=rss|RSS]]%0a> *%25item rel=nofollow class=atom%25[[{$SiteGroup}/AllRecentChanges?action=atom|ATOM]]%0a> *%25item rel=nofollow class=allchanges accesskey='$[ak_allchanges]%25([[{$SiteGroup}/AllRecentChanges| All]]) %25rel=nofollow class=changes accesskey='$[ak_changes]%25[[{$SiteGroup}/RecentChanges| Changes]]%0a
+host:1184357452=127.0.0.1

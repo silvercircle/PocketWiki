@@ -1,0 +1,13 @@
+version=pmwiki-2.2.0-beta57 ordered=1 urlencoded=1
+agent=
+author=
+charset=ISO-8859-1
+csum=
+ctime=1183076020
+host=
+name=
+rev=
+targets=
+text=!!%25apply=block id=page-title%25{*$Title}%25%25%0a%25p id=page-info%25$[Filed in]: {*$FullName}  &middot; $[Modified on] : {*$LastModifiedDate}%25%25
+time=1183506233
+author:1183506233=CB

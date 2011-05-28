@@ -1,0 +1,27 @@
+version=pmwiki-2.2.18 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.11 (KHTML, like Gecko) Chrome/8.0.561.0 Safari/534.11
+author=admin
+charset=UTF-8
+csum=
+ctime=1288105010
+host=81.217.70.206
+name=Firefox.ChromeStyle
+rev=5
+targets=
+text== My Firefox 4.x beta Chrome style sheet =%0a%0aNote: source code display requires JavaScript%0a%0a(:codestart css:)%0a#navigator-toolbox { padding-bottom: 0px !important; }%0a%0a#main-window {%0amargin-top: 1px !important;%0a}%0a%0a#main-window:-moz-lwtheme {%0abackground-position: right 1px !important;%0a/*background-color:black !important;*/%0a}%0a%0a#browser {%0amargin-top: -1px !important;%0a}%0a%0a#navigator-toolbox[iconsize="small"]:-moz-system-metric(windows-default-theme) #PersonalToolbar {%0aheight: 23px !important;%0amax-height: 23px !important;%0amin-height: 23px !important;%0amargin-bottom:0px !important;%0a-moz-appearance: -moz-win-browsertabbar-toolbox !important; %0aborder-left: 0 !important;%0aborder-right: 0 !important;%0aborder-bottom: 0 !important;}%0a%0a#navigator-toolbox[iconsize="large"]:-moz-system-metric(windows-default-theme) #PersonalToolbar {%0aheight: 24px !important;%0amax-height: 24px !important;%0amin-height: 24px !important;%0amargin-bottom:0px !important;%0a-moz-appearance: -moz-win-browsertabbar-toolbox !important;%0a%0a}%0a%0a#navigator-toolbox #PersonalToolbar toolbarbutton {%0a  -moz-appearance: none !important;%0a  -moz-box-orient: horizontal !important;%0a  border:3px solid transparent !important;%0a  opacity: 1 !important;%0a  margin: 0 !important;%0a  padding: 0 !important;%0a  -moz-border-radius: 3px !important;%0a  -moz-border-image: none !important;%0a  background-image: none !important;%0a  font-size:11px !important;%0a  margin:0 !important;%0a  color: black !important;%0a  text-shadow: 2px 2px white !important;%0a}%0a(:codeend:)
+time=1288110127
+author:1288110127=admin
+diff:1288110127:1288107554:=
+host:1288110127=81.217.70.206
+author:1288107554=admin
+diff:1288107554:1288107265:=20a21%0a> ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd%0a
+host:1288107554=81.217.70.206
+author:1288107265=admin
+diff:1288107265:1288105761:=1,4d0%0a%3c = My Firefox 4.x beta Chrome style sheet =%0a%3c %0a%3c Note: source code display requires JavaScript%0a%3c %0a21d16%0a%3c ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd%0a
+host:1288107265=81.217.70.206
+author:1288105761=admin
+diff:1288105761:1288105010:=
+host:1288105761=81.217.70.206
+author:1288105010=admin
+diff:1288105010:1288105010:=1,51d0%0a%3c (:codestart css:)%0a%3c #navigator-toolbox { padding-bottom: 0px !important; }%0a%3c %0a%3c #main-window {%0a%3c margin-top: 1px !important;%0a%3c }%0a%3c %0a%3c #main-window:-moz-lwtheme {%0a%3c background-position: right 1px !important;%0a%3c /*background-color:black !important;*/%0a%3c }%0a%3c %0a%3c #browser {%0a%3c margin-top: -1px !important;%0a%3c }%0a%3c %0a%3c #navigator-toolbox[iconsize="small"]:-moz-system-metric(windows-default-theme) #PersonalToolbar {%0a%3c height: 23px !important;%0a%3c max-height: 23px !important;%0a%3c min-height: 23px !important;%0a%3c margin-bottom:0px !important;%0a%3c -moz-appearance: -moz-win-browsertabbar-toolbox !important; %0a%3c border-left: 0 !important;%0a%3c border-right: 0 !important;%0a%3c border-bottom: 0 !important;}%0a%3c %0a%3c #navigator-toolbox[iconsize="large"]:-moz-system-metric(windows-default-theme) #PersonalToolbar {%0a%3c height: 24px !important;%0a%3c max-height: 24px !important;%0a%3c min-height: 24px !important;%0a%3c margin-bottom:0px !important;%0a%3c -moz-appearance: -moz-win-browsertabbar-toolbox !important;%0a%3c %0a%3c }%0a%3c %0a%3c #navigator-toolbox #PersonalToolbar toolbarbutton {%0a%3c   -moz-appearance: none !important;%0a%3c   -moz-box-orient: horizontal !important;%0a%3c   border:3px solid transparent !important;%0a%3c   opacity: 1 !important;%0a%3c   margin: 0 !important;%0a%3c   padding: 0 !important;%0a%3c   -moz-border-radius: 3px !important;%0a%3c   -moz-border-image: none !important;%0a%3c   background-image: none !important;%0a%3c   font-size:11px !important;%0a%3c   margin:0 !important;%0a%3c   color: black !important;%0a%3c   text-shadow: 2px 2px white !important;%0a%3c }%0a%3c (:codeend:)%0a\ No newline at end of file%0a
+host:1288105010=81.217.70.206

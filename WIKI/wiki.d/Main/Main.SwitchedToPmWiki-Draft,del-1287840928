@@ -1,0 +1,15 @@
+version=pmwiki-2.2.18 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:2.0b8pre) Gecko/20101020 Firefox/4.0b8pre Firefox/4.0b8pre
+author=admin
+charset=UTF-8
+csum=
+ctime=1287840535
+host=81.217.70.206
+name=Main.SwitchedToPmWiki-Draft
+rev=1
+targets=
+text==Why I switched to PmWiki=%0a
+time=1287840535
+author:1287840535=admin
+diff:1287840535:1287840535:=1d0%0a%3c =Why I switched to PmWiki=%0a
+host:1287840535=81.217.70.206

@@ -1,0 +1,46 @@
+a:1:{i:0;s:2441:"<h1>Eclipse stuff</h1>
+<div class='vspace'></div><div class='box tborder' style='float:right;width:200px;margin-left:10px;' >
+<div class='colheader' style='padding-top:5px;' >
+<p>Resources
+</p></div>
+<p><a class='external' href='http://download.eclipse.org/eclipse/downloads/' rel='nofollow'>Eclipse downloads</a><br /><a class='external' href='http://www.eclipse.org/subversive/downloads.php' rel='nofollow'>Subversive downloads</a><br /><a class='external' href='http://www.eclipse.org/cdt/downloads.php' rel='nofollow'>CDT downloads</a><br />
+</p><hr />
+<p class='vspace'><a class='external' href='http://andrei.gmxhome.de/skins/index.html' rel='nofollow'>Extended VS presentation</a><br />
+</p></div>
+<div class='indent'><strong>The following pages are by no means intended to be an official documentation. This is just some stuff I wrote for myself.</strong><br /><br />
+</div><p>For the curious: This is about <a class='external' href='http://www.eclipse.org' rel='nofollow'>Eclipse</a>, the famous multi-platform, multi-language open source development platform written in Java.
+</p>
+<div class='vspace'></div><h3>It covers</h3>
+<div class='vspace'></div><ul><li>Installation
+</li><li>Using Eclipse with the MS SDK and the SDK build tools (vcbuild.exe and msbuild.exe).<br /><br />
+</li></ul><h2>Pages Index</h2>
+<p><a id='index'></a>
+</p><ul><li><a class='wikilink' href='http://localhost/Eclipse/InstallCPP'>Install Eclipse for C++ only</a>
+</li><li><a class='createlinktext' rel='nofollow' 
+    href='http://localhost/Eclipse/EclipseMSC?action=edit'>EclipseMSC</a><a rel='nofollow' 
+    class='createlink' href='http://localhost/Eclipse/EclipseMSC?action=edit'>?</a>
+</li></ul><p><a id='endindex'></a>
+</p>
+<div class='vspace'></div><h2>Sample <strong>eclipse.ini</strong></h2>
+<div class='vspace'></div><pre class="brush: cpp">
+-startup
+plugins/org.eclipse.equinox.launcher_1.2.0.v20100824b.jar
+--launcher.library
+plugins/org.eclipse.equinox.launcher.win32.win32.x86_1.1.100.v20101004
+-showsplash
+org.eclipse.platform
+--launcher.XXMaxPermSize
+256m
+--launcher.defaultAction
+openFile
+-vmargs
+-Xms80m
+-Xmx512m
+</pre>
+<hr />
+<p><span  style='float: right; color: #888; font-size: 10px;'>Author: admin</span>
+<span  style='text-align: left; color: #888; font-size: 10px;'>Last modified: Tuesday, November 02, 2010 at 11:53 CET</span>
+</p><hr />
+<p>Category: <a class='selflink' href='http://localhost/Eclipse/Eclipse'>Eclipse</a>
+</p>
+";}

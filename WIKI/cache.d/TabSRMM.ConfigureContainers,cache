@@ -1,0 +1,49 @@
+a:1:{i:0;s:6276:"<div class='tabsrmm_header' > 
+<p>
+<strong>TabSRMM documentation</strong> <code class='escaped'>   </code> <span class='rsslink'><a class='wikilink' href='http://localhost/TabSRMM/RecentChanges?action=rss'>RSS</a></span> | <span class='rsslink'><a class='wikilink' href='http://localhost/TabSRMM/RecentChanges?action=atom'>ATOM</a></span>
+</p></div>
+<p><span class='wikitrail'>&lsaquo; <a class='wikilink' href='http://localhost/TabSRMM/Containers'>Containers</a> | <a class='wikilink' href='http://localhost/TabSRMM/TabSRMM#reference#endreference'>Page Index</a> | <a class='wikilink' href='http://localhost/TabSRMM/Sessions'>Session management</a> &rsaquo;</span>
+</p><h1>Container settings</h1>
+<p class='vspace'><a id='rimage'></a>
+</p><div  style='float: right; border: 1px solid #ccc; margin-left: 10px;' > 
+<!-- TL2-20100315 --><table class='cbox'><tr class='thumbtr'><td class='thumbtd'><div class='img'  style='padding:2px 2px;'><a href='http://localhost/uploads/TabSRMM/Containersettings.png' class='thumblink' title='Containersettings.png'  ><img class="thumbs" src="http://localhost/uploads/TabSRMM/th192---ffffff--Containersettings.png.jpg" title="Containersettings.png: 648x444, 69k (October 22, 2010, at 06:00 AM)" alt="Containersettings.png: 648x444, 69k (October 22, 2010, at 06:00 AM)" width='280' height='192' /></a> </div><span class="caption">Container settings dialog</span></td></tr></table>
+</div>
+<p>The container settings dialog must be used to customize all settings which are not global and therefore not available in the Miranda options. Since TabSRMM supports multiple containers, these containers can have different settings for appearance and behavior. For example, you could define 2 containers, one for normal IM chats and one for group chat sessions (e.g. IRC, Jabber rooms) and configure them with a different window layout and different options.<br /><br />
+A container options dialog can only exist when its owning container window (a message window with one or more tabs) is open. When you close the message window, the options dialog will automatically close and all changes you have done to the options are lost.
+</p>
+<div class='vspace'></div><h2>Things you can configure here</h2>
+<div class='vspace'></div><ul><li><strong>window layout options</strong> (visibility of the <a class='wikilink' href='http://localhost/TabSRMM/MenuBar'>menu bar</a>, the <a class='wikilink' href='http://localhost/TabSRMM/ToolBar'>tool bar</a>, the status bar, the <a class='wikilink' href='http://localhost/TabSRMM/InfoPanel'>info panel</a> and more.
+</li><li><strong>Flashing</strong> - how and if the window should flash when new events are received
+</li><li><strong>Tabs and switch bar options</strong> - how to use tabs (at the top/bottom) and various options for the tabs and the <a class='createlinktext' rel='nofollow' 
+    href='http://localhost/TabSRMM/SwitchBar?action=edit'>SwitchBar</a><a rel='nofollow' 
+    class='createlink' href='http://localhost/TabSRMM/SwitchBar?action=edit'>?</a>.
+</li><li><strong>Title bar</strong> - visibility of the title bar and which information the window caption text should show.
+</li><li><strong>Avatars</strong> - visibility of <a class='wikilink' href='http://localhost/TabSRMM/Avatars'>contact pictures</a>.
+</li><li><strong>Notifications</strong> - behavior of <a class='wikilink' href='http://localhost/TabSRMM/EventNotifications'>visual and sound notifications</a> for incoming events.
+</li><li><strong>Transparency</strong> - how the window should use translucency effects.
+</li></ul><div class='vspace'></div><h3>Global/Shared vs private container settings</h3>
+<p class='vspace'>By default and to simplify the settings, TabSRMM uses shared settings for all containers, so when you change the options for the "Default" container, all other containers will inherit them. This is fine in most cases, but there are exceptions. Consider you have a dedicated container for all group chat sessions while all normal (IM) chats go into the default container. You may want to configure the group chat container in a different way and that's where private container options can be useful. At the bottom of the container options dialog, you can find a check box which is usually unchecked. Once checked, the container will use its own set of settings.
+</p>
+<div class='vspace'></div><h3>Implicit container options</h3>
+<div class='vspace'></div><div class='indent'><strong>Some settings are always "per container" even though there are no explicit options in the dialog.</strong>
+</div><div class='vspace'></div><ul><li>Splitter position (the position of the area that separates the writing area from the message history display and which usually holds the tool bar)
+</li><li>The height of the info panel<br /><br />
+</li></ul><p>When a container uses private settings and you change the height of the info panel or the splitter position, it will only affect this specific container. Consequently, when you change one of these things in a container that uses global/shared options, all windows will be affected.
+</p>
+<div class='vspace'></div><h2>Invoking the container settings dialog</h2>
+<p class='vspace'>Because these settings are bound to a specific container, a message window must be open. It is not possible to invoke container options from outside the message window.
+</p>
+<div class='vspace'></div><h4>The following ways can be used to invoke the dialog</h4>
+<div class='vspace'></div><ul><li>Right-click the toolbar and select <span class='menu'>Container settings...</span> from the menu
+</li><li>Use the hotkey <span class='key'>Ctrl-O</span>
+</li><li>Right click a visible tab and use the menu entry.
+</li><li>Use the <a class='wikilink' href='http://localhost/TabSRMM/MenuBar'>message window menu bar</a><br /><br />
+</li></ul><h3>Related reading</h3>
+<div class='vspace'></div><ul><li><a class='wikilink' href='http://localhost/TabSRMM/Containers'>TabSRMM containers</a>
+</li></ul><hr />
+<p><span  style='float: right; color: #888; font-size: 10px;'>Author: admin</span>
+<span  style='text-align: left; color: #888; font-size: 10px;'>Last modified: Sunday, May 15, 2011 at 03:36 CET</span>
+</p><hr />
+<p>Category: <a class='wikilink' href='http://localhost/TabSRMM/TabSRMM'>TabSRMM</a>
+</p>
+";}

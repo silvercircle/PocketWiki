@@ -1,0 +1,49 @@
+a:1:{i:0;s:5044:"<div class='tabsrmm_header' > 
+<p>
+<strong>TabSRMM documentation</strong> <code class='escaped'>   </code> <span class='rsslink'><a class='wikilink' href='http://localhost/TabSRMM/RecentChanges?action=rss'>RSS</a></span> | <span class='rsslink'><a class='wikilink' href='http://localhost/TabSRMM/RecentChanges?action=atom'>ATOM</a></span>
+</p></div>
+<p><span class='wikitrail'>&lsaquo; <a class='wikilink' href='http://localhost/TabSRMM/Sessions'>Session management</a> | <a class='wikilink' href='http://localhost/TabSRMM/TabSRMM#reference#endreference'>Page Index</a> | <a class='wikilink' href='http://localhost/TabSRMM/ToolBar'>The tool bar</a> &rsaquo;</span>
+</p><h1>The menu bar</h1>
+<p><a id='teaser'></a>
+Each container window has a menu bar which allows access to common functions of the message window. The base visibility of the menu bar must be set in the <a class='wikilink' href='http://localhost/TabSRMM/ConfigureContainers'>container options</a> or from the <span class='menu'>View</span> menu of the menu bar itself.
+<a id='teaserend'></a>
+<a id='rimage'></a>
+</p><div  style='float: right; border: 1px solid #ccc; margin-left: 10px;' > 
+<!-- TL2-20100315 --><table class='cbox'><tr class='thumbtr'><td class='thumbtd'><div class='img'  style='padding:2px 2px;'><a href='http://localhost/uploads/TabSRMM/Menubar.png' class='thumblink' title='Menubar.png'  ><img class="thumbs" src="http://localhost/uploads/TabSRMM/th90---ffffff--Menubar.png.jpg" title="Menubar.png: 555x125, 32k (October 22, 2010, at 11:50 PM)" alt="Menubar.png: 555x125, 32k (October 22, 2010, at 11:50 PM)" width='400' height='90' /></a> </div><span class="caption">The menu bar</span></td></tr></table>
+</div>
+<div class='vspace'></div><h2>Visibility of the menu bar</h2>
+<p class='vspace'>By default, the menu bar is set to be invisible all time. Its behavior is like in most other applications - press and release the <span class='key'>Alt</span> key once to make the menu bar appear. Another way to show the menu bar is using one of the accelerator keys which will directly invoke the corresponding popup menu. To use an accelerator key, press and hold the <span class='key'>Alt</span> key followed by one of the underlined letter keys. For example, <span class='key'>Alt-V</span> will open the <strong>View</strong> menu popup.
+</p>
+<div class='vspace'></div><h3>The menu bar will automatically disappear when:</h3>
+<div class='vspace'></div><ul><li>you press <span class='key'>ESC</span>
+</li><li>you click anywhere in the message window except the menu bar itself.
+</li><li>you select a command from the menu bar.
+</li><li>you click anywhere outside the message window.
+</li></ul><p class='vspace'><a id='hint'></a>
+</p>
+<table class='table_plain' style='padding:5px;border:1px solid #aaa;display:block;background:#f0f0e2;' ><tr><td style='width:20px;'  valign='top'><img src='http://localhost/uploads/Template/Hint.png' alt='' title='' /> 
+</td><td style='vertical-align:top;'  valign='top'>The menu bar will NOT automatically disappear when you have configured it to be visible all the time by UNchecking the option 'Hide the menu bar' in the <a class='wikilink' href='http://localhost/TabSRMM/ConfigureContainers'>container options</a>
+</td></tr></table>
+<div class='vspace'></div><h2>Special entries in the menu bar</h2>
+<p class='vspace'>The leftmost popup menu, showing a Miranda symbol, is the global Miranda main menu - the same menu you can also access from the contact list menu bar.
+</p>
+<p class='vspace'>The <span class='menu'>User</span> popup will open the contact's context menu (not available for group chat windows).
+</p>
+<p class='vspace'>The <span class='menu'>Room</span> popup will open the chat room configuration menu. It is only available for group chat rooms (for instance, Jabber rooms or IRC channels). Note: <strong>currently not implemented</strong>. 
+</p>
+<div class='vspace'></div><h2>Skinning information</h2>
+<p class='vspace'>The menu bar itself (but not the popup menus) can be adjusted to the skin by defining a background color in the skin configuration file.
+</p>
+<div class='vspace'></div><div class='indent'><kbd>[Global]<br />...<br />MenuBarBG = rrggbb<br />...</kbd>
+</div><p class='vspace'>Where <strong>rrggbb</strong> is a hexadecimal RGB color value (e.g. FFFFFF for white).
+</p>
+<div class='vspace'></div><h2>Notes for TabSRMM Version 2 or older</h2>
+<p class='vspace'>The menu bar was changed significantly in TabSRMM 3. The auto show/hide feature was not available prior to version 3 and you had to explicitly configure the visibility of the menu bar in the <a class='wikilink' href='http://localhost/TabSRMM/ConfigureContainers'>container options</a>.
+</p>
+<div class='vspace'></div><hr />
+<p><span  style='float: right; color: #888; font-size: 10px;'>Author: admin</span>
+<span  style='text-align: left; color: #888; font-size: 10px;'>Last modified: Friday, October 29, 2010 at 01:46 CET</span>
+</p><hr />
+<p>Category: <a class='wikilink' href='http://localhost/TabSRMM/TabSRMM'>TabSRMM</a>
+</p>
+";}

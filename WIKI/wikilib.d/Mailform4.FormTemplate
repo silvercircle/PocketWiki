@@ -1,0 +1,37 @@
+version=pmwiki-2.2.14 ordered=1 urlencoded=1
+agent=Opera/9.80 (X11; Linux i686; U; en) Presto/2.2.15 Version/10.10
+author=mkonrad
+charset=ISO-8859-1
+csum=
+ctime=1273334928
+host=127.0.0.1
+name=Mailform4.FormTemplate
+passwdedit=@_site_admin
+rev=10
+targets=
+text=(:mailform4-show-msgs:)%0a(:input form "{*$PageUrl}?action=mailform4" post:)%0a|| border=0%0a||$[Your name]: || (:input text size="50" name="mailform4[name]" value="{$Mailform4Name}":)||%0a||$[Your email address]:  || (:input text size="50" name="mailform4[sender]" value="{$Mailform4Sender}":)||%0a||$[Your message]: ||||%0a||(:input textarea name="mailform4[text]" value="{$Mailform4Text}" rows=10 cols=70:) ||||%0a||$[Enter CAPTCHA value]: {$Captcha} (:input captcha:) ||||%0a||(:input submit value="$[Send message]":) ||||%0a(:input end:)
+time=1273519291
+author:1273519291=mkonrad
+diff:1273519291:1273519175:=3,9c3,8%0a%3c || border=0%0a%3c ||$[Your name]: || (:input text size="50" name="mailform4[name]" value="{$Mailform4Name}":)||%0a%3c ||$[Your email address]:  || (:input text size="50" name="mailform4[sender]" value="{$Mailform4Sender}":)||%0a%3c ||$[Your message]: ||||%0a%3c ||(:input textarea name="mailform4[text]" value="{$Mailform4Text}" rows=10 cols=70:) ||||%0a%3c ||$[Enter CAPTCHA value]: {$Captcha} (:input captcha:) ||||%0a%3c ||(:input submit value="$[Send message]":) ||||%0a---%0a> $[Your name]: (:input text size="60" name="mailform4[name]" value="{$Mailform4Name}":)\\%0a> $[Your email address]: (:input text size="50" name="mailform4[sender]" value="{$Mailform4Sender}":)\\%0a> $[Your message]:\\%0a> (:input textarea name="mailform4[text]" value="{$Mailform4Text}" rows=10 cols=70:)\\%0a> $[Enter CAPTCHA value]: {$Captcha} (:input captcha:)\\%0a> (:input submit value="$[Send message]":)%0a
+host:1273519291=127.0.0.1
+author:1273519175=mkonrad
+diff:1273519175:1273519169:=3c3%0a%3c $[Your name]: (:input text size="60" name="mailform4[name]" value="{$Mailform4Name}":)\\%0a---%0a> $[Your name]: (:input text size="70" name="mailform4[name]" value="{$Mailform4Name}":)\\%0a
+host:1273519175=127.0.0.1
+author:1273519169=mkonrad
+diff:1273519169:1273518883:=3c3%0a%3c $[Your name]: (:input text size="70" name="mailform4[name]" value="{$Mailform4Name}":)\\%0a---%0a> $[Your name]: (:input text size="50" name="mailform4[name]" value="{$Mailform4Name}":)\\%0a
+host:1273519169=127.0.0.1
+author:1273518883=mkonrad
+diff:1273518883:1273421227:=2c2%0a%3c (:input form "{*$PageUrl}?action=mailform4" post:)%0a---%0a> (:input form "{$PageUrl}?action=mailform4" post:)%0a
+host:1273518883=127.0.0.1
+author:1273421227=mkonrad
+diff:1273421227:1273420515:=3,4c3%0a%3c $[Your name]: (:input text size="50" name="mailform4[name]" value="{$Mailform4Name}":)\\%0a%3c $[Your email address]: (:input text size="50" name="mailform4[sender]" value="{$Mailform4Sender}":)\\%0a---%0a> $[Your email address]: (:input text size="50" name="mail-sender" value="{$Mailform4Sender}":)\\%0a6c5%0a%3c (:input textarea name="mailform4[text]" value="{$Mailform4Text}" rows=10 cols=70:)\\%0a---%0a> (:input textarea name="mail-text" value="{$Mailform4Text}" rows=10 cols=70:)\\%0a
+host:1273421227=127.0.0.1
+author:1273420515=mkonrad
+diff:1273420515:1273420359:=7c7%0a%3c (:input submit value="$[Send message]":)%0a---%0a> (:input submit value="$[Send Message]":)%0a
+host:1273420515=127.0.0.1
+author:1273420359=mkonrad
+diff:1273420359:1273419678:=3,4c3,4%0a%3c $[Your email address]: (:input text size="50" name="mail-sender" value="{$Mailform4Sender}":)\\%0a%3c $[Your message]:\\%0a---%0a> [$Your email address]: (:input text size="50" name="mail-sender" value="{$Mailform4Sender}":)\\%0a> [$Your message]:\\%0a6,7c6,7%0a%3c $[Enter CAPTCHA value]: {$Captcha} (:input captcha:)\\%0a%3c (:input submit value="$[Send Message]":)%0a---%0a> [$Enter CAPTCHA value]: {$Captcha} (:input captcha:)\\%0a> (:input submit value="[$Send Message]":)%0a
+host:1273420359=127.0.0.1
+author:1273334928=mkonrad
+diff:1273334928:1273334928:=1,8d0%0a%3c (:mailform4-show-msgs:)%0a%3c (:input form "{$PageUrl}?action=mailform4" post:)%0a%3c [$Your email address]: (:input text size="50" name="mail-sender" value="{$Mailform4Sender}":)\\%0a%3c [$Your message]:\\%0a%3c (:input textarea name="mail-text" value="{$Mailform4Text}" rows=10 cols=70:)\\%0a%3c [$Enter CAPTCHA value]: {$Captcha} (:input captcha:)\\%0a%3c (:input submit value="[$Send Message]":)%0a%3c (:input end:)%0a\ No newline at end of file%0a
+host:1273334928=127.0.0.1

@@ -1,0 +1,43 @@
+a:1:{i:0;s:5069:"<div class='tabsrmm_header' > 
+<p>
+<strong>TabSRMM documentation</strong> <code class='escaped'>   </code> <span class='rsslink'><a class='wikilink' href='http://localhost/TabSRMM/RecentChanges?action=rss'>RSS</a></span> | <span class='rsslink'><a class='wikilink' href='http://localhost/TabSRMM/RecentChanges?action=atom'>ATOM</a></span>
+</p></div>
+<p><span class='wikitrail'>&lsaquo; <a class='wikilink' href='http://localhost/TabSRMM/SkinningFormat'>Description of the skin format</a> | <a class='wikilink' href='http://localhost/TabSRMM/TabSRMM#skinning#endskinning'>Skinning index</a> | <a class='wikilink' href='http://localhost/TabSRMM/ColorThemes'>Using color themes</a> &rsaquo;</span>
+</p><h1>Themes</h1>
+<p>Themes are a quick way to customize the look of your message history. They must not be confused with a <a class='wikilink' href='http://localhost/TabSRMM/Skinning'>skin</a>, because they serve a different purpose. However, themes and skins can be combined to form packages for easy customization. The <a class='wikilink' href='http://localhost/TabSRMM/Skinning'>article about skinning</a> will explain, how to link a theme to a skin in order to distribute a single <cite>all in one</cite> customization package.
+</p>
+<div class='vspace'></div><h2>What is a theme?</h2>
+<p class='vspace'><strong>A theme is a collection of the following things:</strong>
+</p>
+<div class='vspace'></div><ul><li>Fonts and colors for the message history and other parts of the message window (input area, info panel etc.)
+</li><li>Colors for various elements of the message window - see: <a class='wikilink' href='http://localhost/TabSRMM/ColorThemes'>Color themes in TabSRMM 3</a>.
+</li><li>A number of settings which control the formatting (indentation, grouping mode and so on).
+</li><li>A template set which controls how messages are displayed (see: <a class='wikilink' href='http://localhost/TabSRMM/Templates'>templates</a>).
+</li></ul><div class='vspace'></div><h2>What a theme is not</h2>
+<p class='vspace'>A theme is not a skin. It does not alter the look of the message window user interface, that is, it will not skin your window frame, buttons or other parts of the message window. It ONLY customizes the two large text areas in your message window and can set a few generic colors.
+</p>
+<p class='vspace'><a id='note'></a>
+</p>
+<table class='table_plain' style='padding:5px;border:1px solid #aaa;display:block;background:#F0E2E2;' ><tr><td style='width:20px;'  valign='top'><img src='http://localhost/uploads/Template/Note.png' alt='' title='' /> 
+</td><td style='vertical-align:top;'  valign='top'>Like all other message log customization features, themes can only be used with the default message log. If IEView or History++ is active to display the message history, the themes will have no effect on the look of your message window.<br />Refer to the <a class='wikilink' href='http://localhost/TabSRMM/History'>article about the message history</a> for more information on this.
+</td></tr></table>
+<div class='vspace'></div><h2>How to create a theme?</h2>
+<p class='vspace'>In theory, you could create a theme manually. The format is plain text and follows the <strong>.INI</strong> syntax - however, it would be very hard to edit such a theme. The easiest way to create a theme is:
+</p>
+<div class='vspace'></div><ol><li>set all colors and fonts the way you want them using <span class='option'>Customize&rarr;Fonts and colors</span>
+</li><li>configure your message templates which control the formatting of the <a class='wikilink' href='http://localhost/TabSRMM/History'>message history</a>.<br /><br />
+</li></ol><p>Once you have everything you want, you can use the export function. You can find this on the <span class='option'>Customize&rarr;Message window skin</span> option page. Using this feature, TabSRMM will store all current settings that compose a theme in a file with the extension <strong>.tabsrmm</strong>. <br /><br />
+Consequently, this file can be imported at a later time, using the import features from the same location.
+</p>
+<p class='vspace'>You can use this feature to save your current message log settings and all changes you have done to fonts, colors, templates and formatting options when you are satisfied with the result. You will later be able to re-import the saved settings file. It is also a fast method to transfer these settings between two different profiles.
+</p>
+<div class='vspace'></div><h2>Related articles</h2>
+<div class='vspace'></div><ul><li><a class='wikilink' href='http://localhost/TabSRMM/Skinning'>using skins</a>
+</li><li><a class='wikilink' href='http://localhost/TabSRMM/Templates'>using templates to customize the message history formatting.</a>
+</li></ul><div class='vspace'></div><hr />
+<p><span  style='float: right; color: #888; font-size: 10px;'>Author: admin</span>
+<span  style='text-align: left; color: #888; font-size: 10px;'>Last modified: Monday, November 01, 2010 at 14:32 CET</span>
+</p><hr />
+<p>Category: <a class='wikilink' href='http://localhost/TabSRMM/TabSRMM'>TabSRMM</a>
+</p>
+";}

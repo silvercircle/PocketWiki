@@ -1,0 +1,18 @@
+version=pmwiki-2.2.18 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.11 (KHTML, like Gecko) Chrome/8.0.561.0 Safari/534.11
+author=admin
+charset=UTF-8
+csum=
+ctime=1288122417
+host=81.217.70.206
+name=Firefox.FirefoxStyleHeise
+rev=2
+targets=
+text== User content style for Heise.DE=%0a%0a===This style:===%0a%0a* centers the main page%0a* removes the top ads and collapses the space occupied by them.\\\%0a%0a(:codestart css:)%0a@namespace url(http://www.w3.org/1999/xhtml);%0a%0a@-moz-document domain("heise.de") {%0a%0abody {%0a   font-family: Segoe UI Semibold !important;%0a}%0a%0a#container_content {%0a   top: 25px !important; %0a}%0a%0a.teaser_adliste {%0a   display: none !important;%0a}%0a%0a.teaser_preisvergleich {%0a   display: none !important;%0a}%0a%0a.teaser_ebook {%0a   display: none !important;%0a}%0a}%0a(:codeend:)%0a
+time=1288122449
+author:1288122449=admin
+diff:1288122449:1288122417:=8c8%0a%3c (:codestart css:)%0a---%0a> (:code css:)%0a
+host:1288122449=81.217.70.206
+author:1288122417=admin
+diff:1288122417:1288122417:=1,33d0%0a%3c = User content style for Heise.DE=%0a%3c %0a%3c ===This style:===%0a%3c %0a%3c * centers the main page%0a%3c * removes the top ads and collapses the space occupied by them.\\\%0a%3c %0a%3c (:code css:)%0a%3c @namespace url(http://www.w3.org/1999/xhtml);%0a%3c %0a%3c @-moz-document domain("heise.de") {%0a%3c %0a%3c body {%0a%3c    font-family: Segoe UI Semibold !important;%0a%3c }%0a%3c %0a%3c #container_content {%0a%3c    top: 25px !important; %0a%3c }%0a%3c %0a%3c .teaser_adliste {%0a%3c    display: none !important;%0a%3c }%0a%3c %0a%3c .teaser_preisvergleich {%0a%3c    display: none !important;%0a%3c }%0a%3c %0a%3c .teaser_ebook {%0a%3c    display: none !important;%0a%3c }%0a%3c }%0a%3c (:codeend:)%0a
+host:1288122417=81.217.70.206

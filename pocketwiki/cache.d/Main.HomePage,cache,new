@@ -1,0 +1,14 @@
+a:1:{i:0;s:1305:"<h1>Welcome to PocketWiki</h1>
+<p class='vspace'>This is the default home page of your freshly installed PocketWiki distribution. You can, of course, edit this page whenever you want and replace its content with something more suitable for your default landing page.
+</p>
+<div class='vspace'></div><ul><li>This personal Wiki is based on <a class='external' href='http://www.pmwiki.org' rel='nofollow'>PmWiki</a>, so all the documentation for it is valid. The PmWiki docs are included and you can find them in the side bar on the left. PmWiki is fairly easy to use when you have some experience with Wiki markup and general usage of Wiki systems.
+<div class='vspace'></div></li><li>Make sure, <strong>JavaScipt</strong> is enabled in your browser. While it is possible to use this Wiki without, some advanced features rely on JavaScript.
+</li></ul><div class='vspace'></div><hr />
+<p><span  style='float: right; color: #888; font-size: 10px;'>Author: admin</span>
+<span  style='text-align: left; color: #888; font-size: 10px;'>Last modified: Sunday, May 22, 2011 at 05:30 CET</span>
+</p><hr />
+<p>Category: <a class='createlinktext' rel='nofollow' 
+    href='http://localhost/Main/Main?action=edit'>Main</a><a rel='nofollow' 
+    class='createlink' href='http://localhost/Main/Main?action=edit'>?</a>
+</p>
+";}

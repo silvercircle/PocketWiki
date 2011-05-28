@@ -1,0 +1,16 @@
+version=pmwiki-2.2.18 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.11 (KHTML, like Gecko) Chrome/9.0.567.0 Safari/534.11
+author=admin
+charset=UTF-8
+csum=
+ctime=1288590642
+host=81.217.70.206
+name=Firefox.PrefsVersion4
+rev=1
+targets=
+text=(:title New preferences in Firefox 4:)%0a= New preferences in Firefox 4 =%0a%0aThis is a list of new prefs available in Firefox 4 via '''about:config'''.%0a%0a== 1. Graphics related ==%0a%0a* '''layers.accelerate-none''' - boolean. If true, all layer composition via Direct3D or OpenGL will be disabled.%0a%0a* '''layers.prefer-opengl''' - boolean. Use OpenGL for layer composition.%0a%0a* '''layers.use-d3d10''' - boolean. Use Direct3D10 (when available) for layer acceleration. Windows Vista and higher only.%0a%0a* '''layers.accelerate-all''' - boolean. Enable hardware assisted layer composition.%0a%0a* '''layers.prefer-d3d9''' - boolean. Prefer D3D9 backend for layer acceleration, even when the browser is using Direct2D rendering on Vista or higher.%0a%0a
+time=1288590642
+title=New preferences in Firefox 4
+author:1288590642=admin
+diff:1288590642:1288590642:=1,17d0%0a%3c (:title New preferences in Firefox 4:)%0a%3c = New preferences in Firefox 4 =%0a%3c %0a%3c This is a list of new prefs available in Firefox 4 via '''about:config'''.%0a%3c %0a%3c == 1. Graphics related ==%0a%3c %0a%3c * '''layers.accelerate-none''' - boolean. If true, all layer composition via Direct3D or OpenGL will be disabled.%0a%3c %0a%3c * '''layers.prefer-opengl''' - boolean. Use OpenGL for layer composition.%0a%3c %0a%3c * '''layers.use-d3d10''' - boolean. Use Direct3D10 (when available) for layer acceleration. Windows Vista and higher only.%0a%3c %0a%3c * '''layers.accelerate-all''' - boolean. Enable hardware assisted layer composition.%0a%3c %0a%3c * '''layers.prefer-d3d9''' - boolean. Prefer D3D9 backend for layer acceleration, even when the browser is using Direct2D rendering on Vista or higher.%0a%3c %0a
+host:1288590642=81.217.70.206

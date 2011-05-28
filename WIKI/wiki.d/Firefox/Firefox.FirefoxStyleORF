@@ -1,0 +1,24 @@
+version=pmwiki-2.2.18 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.11 (KHTML, like Gecko) Chrome/9.0.565.0 Safari/534.11
+author=admin
+charset=UTF-8
+csum=
+ctime=1288222025
+host=81.217.70.206
+name=Firefox.FirefoxStyleORF
+rev=4
+targets=
+text== ORF.at style sheet fixes =%0a%0a* hide all banners%0a* center the main wrapper%0a* fix overflow problems when expanding/collapsing article teasers. By default, horizontal scroll bars will appear.%0a* use segoe font and reduce font size of stories somewhat.%0a%0a(:codestart css:)%0abody {%0a padding-left: 30px;%0a padding-right:30px;%0a font-family: "Segoe UI" !important;%0a}%0a%0a#wrapper, #container { %0a margin-left: auto !important;%0a margin-right: auto !important;%0a}%0adiv.banner {%0a display:none !important;%0a}%0a%0adiv.stories {%0a  font-size:0.9em !important;%0a}%0a(:codeend:)
+time=1288224590
+author:1288224590=admin
+diff:1288224590:1288222367:=10,11c10,11%0a%3c  padding-left: 30px;%0a%3c  padding-right:30px;%0a---%0a>  margin-left:auto;%0a>  margin-right: auto;%0a15c15%0a%3c #wrapper, #container { %0a---%0a> #wrapper { %0a18a19%0a> %0a25a27%0a> %0a
+host:1288224590=81.217.70.206
+author:1288222367=admin
+diff:1288222367:1288222100:=6,7c6%0a%3c * use segoe font and reduce font size of stories somewhat.%0a%3c %0a---%0a> %0a12d10%0a%3c  font-family: "Segoe UI" !important;%0a23,27d20%0a%3c %0a%3c div.stories {%0a%3c   font-size:0.9em !important;%0a%3c }%0a%3c %0a
+host:1288222367=81.217.70.206
+author:1288222100=admin
+diff:1288222100:1288222025:=17d16%0a%3c %0a18a18,20%0a>  visibility: hidden !important;%0a>  width: 0px !important;%0a>  height: 0px !important;%0a
+host:1288222100=81.217.70.206
+author:1288222025=admin
+diff:1288222025:1288222025:=1,23d0%0a%3c = ORF.at style sheet fixes =%0a%3c %0a%3c * hide all banners%0a%3c * center the main wrapper%0a%3c * fix overflow problems when expanding/collapsing article teasers. By default, horizontal scroll bars will appear.%0a%3c %0a%3c (:codestart css:)%0a%3c body {%0a%3c  margin-left:auto;%0a%3c  margin-right: auto;%0a%3c }%0a%3c %0a%3c #wrapper { %0a%3c  margin-left: auto !important;%0a%3c  margin-right: auto !important;%0a%3c }%0a%3c div.banner {%0a%3c  visibility: hidden !important;%0a%3c  width: 0px !important;%0a%3c  height: 0px !important;%0a%3c  display:none !important;%0a%3c }%0a%3c (:codeend:)%0a\ No newline at end of file%0a
+host:1288222025=81.217.70.206

@@ -1,0 +1,144 @@
+a:1:{i:0;s:16882:"<p>
+<a id='trailstart'></a> 
+</p><div style='clear:right;' >
+</div>
+<div class='vspace'></div><div class='frame rfloat' style='font-size: smaller;' > 
+<h2><a id='contents'></a> Table of Contents</h2>
+<ul><li><a href='#using'>Beginner Topics for Creating/Editing Pages</a>
+</li><li><a href='#intermed'>Intermediate Editing Topics</a>
+</li><li><a href='#struct'>Wiki Structures: Organizing and Protecting Pages</a>
+</li><li><a href='#admin'>PmWiki Site Administration</a>
+<ul><li><a href='#install'>Install</a>
+</li><li><a href='#customise'>Customise</a>
+</li><li><a href='#troubleshoot'>Troubleshoot</a>
+</li><li><a href='#security'>Security</a>
+</li></ul></li><li><a href='#development'>Development</a>
+</li><li><a href='#misc'>About PmWiki</a>
+</li></ul></div>
+<p class='vspace'>The pages below describe various aspects of <a href='#using'>using</a>, <a href='#admin'>administering</a> and <a href='#troubleshoot'>troubleshooting</a> a PmWiki installation, as well as aspects of the <a href='#misc'>PmWiki community</a>.
+</p>
+<p class='vspace'>As you know, documentation is <em>always</em> incomplete. 
+Feel free to help yourself and others by contributing to it.  
+Just edit the pages on <a target='_blank'  class='external' href='http://www.pmwiki.org/wiki/PmWiki/DocumentationIndex' rel='nofollow'>pmwiki.org</a>.  
+You might want to follow or contribute to the <a target='_blank'  class='external' href='http://www.pmwiki.org/wiki/PmWiki/DocumentationGuidelines' rel='nofollow'>documentation guidelines</a>.
+</p><hr />
+<p>
+</p><ul><li  style='display: none;'><a class='wikilink' href='http://localhost/PmWiki/Introduction'>Introduction</a>   
+</li></ul><div class='vspace'></div><h2><a id='using'></a> Beginner Topics for Creating and Editing Pages</h2>
+<ul><li><a class='wikilink' href='http://localhost/PmWiki/BasicEditing'>Basic editing</a>        - PmWiki's basic edit syntax
+</li><li><a class='wikilink' href='http://localhost/PmWiki/CreatingNewPages'>Creating new pages</a>   - How to create a new page
+</li><li><a class='wikilink' href='http://localhost/PmWiki/Links'>Links</a>                - Multiple mechanisms for creating links
+</li><li><a class='wikilink' href='http://localhost/PmWiki/Images'>Images</a>               - Placing images in pages
+</li><li><a class='wikilink' href='http://localhost/PmWiki/TextFormattingRules'>Text formatting rules</a> - A list of some of the markup sequences available
+</li></ul><div class='vspace'></div><h2><a id='intermed'></a> Intermediate Editing Topics</h2>
+<ul><li><a class='wikilink' href='http://localhost/PmWiki/MarkupMasterIndex'>Markup master index</a>  - Tabulation of all PmWiki markup
+<div class='vspace'></div></li><li><a class='wikilink' href='http://localhost/PmWiki/Uploads'>Uploads</a>              - Allow authors to upload files, also known as page attachments
+</li><li><a class='wikilink' href='http://localhost/PmWiki/Tables'>Tables</a>               - Simple tables with double pipe markup, one row per line
+</li><li><a class='wikilink' href='http://localhost/PmWiki/TableDirectives'>Table directives</a>     - Directives for table processing
+</li><li><a class='wikilink' href='http://localhost/PmWiki/WikiStyles'>Wiki styles</a>          - Modifying the style of page contents
+<ul><li><a class='wikilink' href='http://localhost/PmWiki/WikiStyleExamples'>Wiki style examples</a> - Styling text for colour and other attributes
+</li></ul><div class='vspace'></div></li><li><a class='wikilink' href='http://localhost/PmWiki/AccessKeys'>Access keys</a>          - Access keys are keyboard shortcuts for tasks that would otherwise require a mouse
+</li><li><a class='wikilink' href='http://localhost/PmWiki/PageDirectives'>Page directives</a>      - Directives to specify page titles, descriptions, keywords, and display
+</li><li><a class='wikilink' href='http://localhost/PmWiki/IncludeOtherPages'>Include other pages</a>  - Include contents from other PmWiki pages
+</li><li><a class='wikilink' href='http://localhost/PmWiki/InterMap'>InterMap</a> links       - Interwiki links definition and use
+</li><li><a class='wikilink' href='http://localhost/PmWiki/ConditionalMarkup'>Conditional markup</a>   - The if directive allows portions of a page to be included or excluded from rendering
+</li><li><a class='wikilink' href='http://localhost/PmWiki/PageVariables'>Page variables</a>       - variables that are associated with pages
+</li><li><a class='wikilink' href='http://localhost/PmWiki/PageTextVariables'>Page text variables</a>  - Page variables automatically made available through natural or explicit page markup
+</li><li><a class='wikilink' href='http://localhost/PmWiki/MarkupExpressions'>Markup expressions</a>   - String and formatting operations
+</li><li><a class='wikilink' href='http://localhost/PmWiki/Forms'>Forms</a>                - How you can embed input forms into wiki pages
+<div class='vspace'></div></li><li><a class='wikilink' href='http://localhost/PmWiki/SimultaneousEdits'>Simultaneous edits</a>   - Handling multiple attempts to edit a page nearly simultaneously
+</li></ul><div class='vspace'></div><h2><a id='struct'></a> Organizing and Protecting Pages</h2>
+<ul><li><a class='wikilink' href='http://localhost/PmWiki/WikiStructure'>Wiki structure</a>     - PmWiki structural support for page organization
+</li><li><a class='wikilink' href='http://localhost/PmWiki/WikiGroup'>Wiki groups</a>        - Organising pages into related groups
+</li><li><a class='wikilink' href='http://localhost/PmWiki/GroupHeaders'>Group headers</a>      - Group Header and Group Footer page usage
+</li><li><a class='wikilink' href='http://localhost/PmWiki/WikiTrails'>Wiki trails</a>        - Trails from lists items from a single page
+</li><li><a class='wikilink' href='http://localhost/PmWiki/PageHistory'>Page history</a>       - History of previous edits to a page
+<div class='vspace'></div></li><li><a class='wikilink' href='http://localhost/PmWiki/Passwords'>Passwords</a>          - General use of passwords
+</li><li><a class='wikilink' href='http://localhost/PmWiki/Categories'>Categories</a>         - Categories are a way to organize and find related pages
+</li><li><a class='wikilink' href='http://localhost/PmWiki/PageLists'>Page lists</a>         - Listing pages by multiple criteria with templated output
+</li><li> <a class='wikilink' href='http://localhost/PmWiki/PageDirectives#attachlist'>Attach lists</a> - Get a list of files uploaded and attached to a group using (:attachlist:) <span style='font-size:83%'>(Directives to specify page titles, descriptions, keywords, and display)</span>
+</li><li><a class='wikilink' href='http://localhost/PmWiki/DeletingPages'>Deleting pages</a>     - Page maintenance
+</li><li><a class='external' href='http://www.pmwiki.org/wiki/PmWiki/Wiki%20elements' rel='nofollow'>Wiki elements</a>      - 
+</li><li><a class='external' href='http://www.pmwiki.org/wiki/PmWiki/Special%20pages' rel='nofollow'>Special pages</a>      - 
+</li></ul><div class='vspace'></div><h2><a id='admin'></a> PmWiki Site Administration</h2>
+<h3><a id='install'></a>Installation and maintenance</h3>
+<ul><li><a class='wikilink' href='http://localhost/PmWiki/Installation'>Installation</a>          - Obtaining and installing PmWiki
+</li><li><a class='wikilink' href='http://localhost/PmWiki/InitialSetupTasks'>Initial setup tasks</a>   - First steps following a fresh installation
+</li><li><a class='wikilink' href='http://localhost/PmWiki/Upgrades'>Upgrades</a>              - How to upgrade an existing PmWiki installation
+</li><li><a class='wikilink' href='http://localhost/PmWiki/BackupAndRestore'>Backup and Restore</a> - background information and some basic backup and restore procedures
+</li><li><a class='wikilink' href='http://localhost/PmWiki/UploadsAdmin'>Uploads administration</a> - Administration of PmWiki <a class='wikilink' href='http://localhost/PmWiki/Uploads'>uploads</a>
+</li><li><a class='wikilink' href='http://localhost/PmWiki/Security'>Security</a>              - Resources for securing your PmWiki installation
+</li></ul><div class='vspace'></div><h3><a id='customise'></a> Customisation</h3>
+<ul><li><a class='wikilink' href='http://localhost/PmWiki/CustomInterMap'>Custom inter map</a>     - PmWiki's default <a class='wikilink' href='http://localhost/PmWiki/InterMap'>InterMap</a> links, and how to can create additional InterMap links
+</li><li><a class='wikilink' href='http://localhost/PmWiki/CustomMarkup'>Custom markup</a>        - Using the Markup() function for custom wiki syntax
+</li><li><a class='wikilink' href='http://localhost/PmWiki/CustomWikiStyles'>Custom wiki styles</a>   - Predefined PmWiki styles &amp; adding custom wiki styles
+</li><li><a class='wikilink' href='http://localhost/PmWiki/Internationalizations'>Internationalizations</a> - Language internationalisation of web pages
+</li><li><a class='wikilink' href='http://localhost/PmWiki/LocalCustomizations'>Local customizations</a>  - Customize your PmWiki installation through <code>config.php</code> and <code>local.css</code>
+</li><li><a class='wikilink' href='http://localhost/PmWiki/GroupCustomizations'>Group customizations</a>  - How to customize a subset of your wiki
+</li><li><a class='wikilink' href='http://localhost/PmWiki/Skins'>Skins</a>               - Change the look and feel of part or all of PmWiki
+</li><li><a class='wikilink' href='http://localhost/PmWiki/SkinTemplates'>Skin templates</a>      - <a class='wikilink' href='http://localhost/PmWiki/Skins'>Skin</a> templates (.tmpl files)
+</li><li><a class='wikilink' href='http://localhost/PmWiki/SitePreferences'>Site Preferences</a>    - Customisable browser setting preferences: Access keys, edit form
+</li><li><a class='wikilink' href='http://localhost/PmWiki/WebFeeds'>Web feeds</a>           - Web feed notification of changes
+</li><li><a class='wikilink' href='http://localhost/PmWiki/WikiFarms'>Wiki Farms</a>          - Running multiple wikis from a single installation
+</li></ul><div class='vspace'></div><h3><a id='troubleshoot'></a> Troubleshooting</h3>
+<ul><li><a class='wikilink' href='http://localhost/PmWiki/FAQ'>Frequently answered questions</a>
+</li><li><a class='external' href='http://www.pmwiki.org/wiki/PmWiki/AQ' rel='nofollow'>Answers to some other questions</a>
+</li><li><a class='external' href='http://www.pmwiki.org/wiki/PmWiki/FAQ%20Candidate' rel='nofollow'>FAQ Candidate</a> - more answered questions
+</li><li><a class='external' href='http://www.pmwiki.org/wiki/PmWiki/Questions' rel='nofollow'>Questions</a>
+</li><li><a class='external' href='http://www.pmwiki.org/wiki/PmWiki/How%20to%20get%20assistance' rel='nofollow'>How to get assistance</a>
+</li><li><a class='wikilink' href='http://localhost/PmWiki/Troubleshooting'>Troubleshooting</a> - Advice for troubleshooting an installation
+</li><li><a class='wikilink' href='http://localhost/PmWiki/AvailableActions'>Available actions</a> - documentation for developers
+</li></ul><div class='vspace'></div><h3><a id='security'></a> Security</h3>
+<ul><li><a class='wikilink' href='http://localhost/PmWiki/AuthUser'>AuthUser</a>          - Authorization system that uses usernames and passwords
+</li><li><a class='wikilink' href='http://localhost/PmWiki/Blocklist'>Blocklist</a>         - Blocking IP addresses, phrases, and expressions to counteract spam and vandalism. 
+</li><li><a class='wikilink' href='http://localhost/PmWiki/Notify'>Notify</a>            - Allows a site administrator to configure PmWiki to send email messages whenever pages are changed on the wiki site
+</li><li><a class='wikilink' href='http://localhost/PmWiki/PasswordsAdmin'>Passwords administration</a> - More password options for the administrator
+</li><li><a class='wikilink' href='http://localhost/PmWiki/RefCount'>Ref count</a>         - Link references counts on pages
+</li><li><a class='wikilink' href='http://localhost/PmWiki/UrlApprovals'>Url approvals</a>     - Require approval of Url links
+</li></ul><div class='vspace'></div><h2><a id='development'></a> Development</h2>
+<ul><li><a class='wikilink' href='http://localhost/PmWiki/Variables'>Variables</a>        - Variables available for local customisation
+</li><li><a class='wikilink' href='http://localhost/PmWiki/Functions'>Functions</a>        - How some of the functions in pmwiki.php work
+</li><li><a class='wikilink' href='http://localhost/PmWiki/PageFileFormat'>Page file format</a> - Create wiki formatted pages in bulk and for upload to your pmwiki site
+</li></ul><div class='vspace'></div><h2><a id='misc'></a> About PmWiki</h2>
+<ul><li><a class='wikilink' href='http://localhost/PmWiki/Audiences'>Audiences</a>      - Patrick Michaud's comments regarding the "audiences" for which PmWiki was designed
+</li><li><a class='wikilink' href='http://localhost/PmWiki/Contributors'>Contributors</a>   - A list of contributors to PmWiki development and improvement
+</li><li><a class='wikilink' href='http://localhost/PmWiki/MailingLists'>Mailing lists</a>  - The email discussion lists available and their archives
+</li><li><a class='wikilink' href='http://localhost/PmWiki/PmWikiPhilosophy'>PmWiki philosophy</a> - This page describes some of the ideas that guide the design and implementation of PmWiki
+</li><li><a class='wikilink' href='http://localhost/PmWiki/DesignNotes'>Design notes</a>   - Some of the features and notes about PmWiki's design decisions
+</li><li><a class='wikilink' href='http://localhost/PmWiki/ReleaseNotes'>Release notes</a>  - Notes about new versions, important for upgrades
+</li><li><a class='wikilink' href='http://localhost/PmWiki/ChangeLog'>Change log</a>     - Log of changes made to PmWiki by <a class='wikilink' href='http://localhost/PmWiki/ReleaseNotes'>Release</a>
+<div class='vspace'></div></li><li><a class='external' href='http://www.pmwiki.org/wiki/PmWiki/References' rel='nofollow'>References</a> - References to PmWiki media coverage
+</li><li><a class='wikilink' href='http://localhost/PmWiki/Glossary'>Glossary</a>            - Terms related to PmWiki
+<div class='vspace'></div></li><li  style='display: none;'><a class='wikilink' href='http://localhost/PmWiki/Introduction'>Introduction</a>    loop trail
+</li></ul><p><a id='trailend'></a>
+</p>
+<div class='vspace'></div><div  style='display: none;' > 
+<p>Note: The following pages are listed here so that they can include a #faq section and have the questions appear on the FAQ page. 
+</p>
+<p class='vspace'>The problem is that these pages become part of the trail 
+</p>
+<div class='vspace'></div><ul><li><a class='wikilink' href='http://localhost/PmWiki/BasicVariables'>Basic Variables</a>
+</li><li><a class='wikilink' href='http://localhost/PmWiki/EditVariables'>Edit Variables</a>
+</li><li><a class='wikilink' href='http://localhost/PmWiki/FilePermissions'>File Permissions</a>
+</li><li><a class='wikilink' href='http://localhost/PmWiki/FmtPageName'>Fmt Page Name</a>
+</li><li><a class='wikilink' href='http://localhost/PmWiki/I18nVariables'>I18n Variables</a>
+</li><li><a class='wikilink' href='http://localhost/PmWiki/LayoutVariables'>Layout Variables</a>
+</li><li><a class='wikilink' href='http://localhost/PmWiki/LinkVariables'>Link Variables</a>
+</li><li><a class='wikilink' href='http://localhost/PmWiki/OtherVariables'>Other Variables</a>
+</li><li><a class='wikilink' href='http://localhost/PmWiki/PagelistVariables'>Pagelist Variables</a>
+</li><li><a class='wikilink' href='http://localhost/PmWiki/PageListTemplates'>PageList Templates</a>
+</li><li><a class='wikilink' href='http://localhost/PmWiki/PathVariables'>Path Variables</a>
+</li><li><a class='wikilink' href='http://localhost/PmWiki/Requirements'>Requirements</a>
+</li><li><a class='wikilink' href='http://localhost/PmWiki/SkinTemplates'>Skin Templates</a>
+</li><li><a class='wikilink' href='http://localhost/PmWiki/SpecialCharacters'>Special Characters</a>
+</li><li><a class='wikilink' href='http://localhost/PmWiki/UploadVariables'>Upload Variables</a>
+</li><li><a class='wikilink' href='http://localhost/PmWiki/WikiAdministrator'>Wiki Administrator</a>
+</li><li><a class='wikilink' href='http://localhost/PmWiki/WikiPage'>Wiki Page</a>
+</li><li><a class='wikilink' href='http://localhost/PmWiki/WikiWikiWeb'>Wiki Wiki Web</a>
+</li><li><a class='wikilink' href='http://localhost/PmWiki/WikiWord'>Wiki Word</a>
+</li></ul><p> 
+<br style='clear:both;' />
+</p></div><div  style='background-color: #ffe; border-top: 1px solid black; font-size: .8em;' > 
+<p>This page may have <span class='commentout-pmwikiorg'> a more recent version on <a class='external' href='http://www.pmwiki.org' rel='nofollow'>pmwiki.org</a>: <a class='external' href='http://www.pmwiki.org/wiki/PmWiki/DocumentationIndex' rel='nofollow'>PmWiki:DocumentationIndex</a>, and </span> a talk page: <a class='external' href='http://www.pmwiki.org/wiki/PmWiki/DocumentationIndex-Talk' rel='nofollow'>PmWiki:DocumentationIndex-Talk</a>.
+</p></div>
+";}

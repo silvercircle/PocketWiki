@@ -1,0 +1,15 @@
+version=pmwiki-2.2.18 ordered=1 urlencoded=1
+agent=Opera/9.80 (Windows NT 6.1; U; en) Presto/2.8.131 Version/11.10
+author=admin
+charset=UTF-8
+csum=
+ctime=1305595909
+host=127.0.0.1
+name=WordPress.GroupFooter
+rev=1
+targets=WordPress.WordPress
+text=----%0a%25float:right color:#888 font-size:small%25Author: {$LastModifiedBy}%25%25%0a%25text-align:left color:#888 font-size:small%25Last modified: {(ftime fmt="%25A, %25B %25d, %25Y at %25H:%25M" @{$LastModifiedTime})} CET%25%25%0a----%0aCategory: [[WordPress]]%0a
+time=1305595909
+author:1305595909=admin
+diff:1305595909:1305595909:=1,5d0%0a%3c ----%0a%3c %25float:right color:#888 font-size:small%25Author: {$LastModifiedBy}%25%25%0a%3c %25text-align:left color:#888 font-size:small%25Last modified: {(ftime fmt="%25A, %25B %25d, %25Y at %25H:%25M" @{$LastModifiedTime})} CET%25%25%0a%3c ----%0a%3c Category: [[WordPress]]%0a
+host:1305595909=127.0.0.1

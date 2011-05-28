@@ -1,0 +1,35 @@
+version=pmwiki-2.2.18 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.11 (KHTML, like Gecko) Chrome/8.0.561.0 Safari/534.11
+author=admin
+charset=UTF-8
+csum=
+host=81.217.70.206
+name=Site.PageNotFound
+rev=53
+targets=TabSRMM.TabSRMM,Site.PageNotFound
+text=(:Summary: Page displayed when PmWiki can't find the requested page:)%0a(:nolinkwikiwords:)(:noheader:)(:nofooter:)%0a(:if name {$SiteGroup}.PageNotFound:)%0a-> %25green font-style:italic%25 This page contains the text to be displayed when PmWiki is unable to locate a requested page.  Administrators can edit this page to change the message.%0a(:ifend:)%0a%0a= Not Found =%0a%0a(:div style="float:right":)%0aAttach:Site/404.jpg%0a(:divend:)%0a%0aWe are sorry, but the page you've requested does not seem to exist any longer.\\\%0aThe site was recently reorganized so some links may have changed.\\\%0aShould you search the documentation for the TabSRMM plugin - [[TabSRMM.|Here is the Index]].\\\%0a(:if !group Category:)%0a{$RequestedPage} could not be found.\\\\%0a(:ifend:)%0a(:if auth edit:)%0a%25rel=nofollow%25 ([[{*$FullName}?action=edit | You can create {*$FullName}]]). %0a(:ifend:)%0a%0a
+time=1288099878
+author:1288099878=admin
+diff:1288099878:1287979650:=2c2%0a%3c (:nolinkwikiwords:)(:noheader:)(:nofooter:)%0a---%0a> (:nolinkwikiwords:)%0a
+host:1288099878=81.217.70.206
+author:1287979650=admin
+diff:1287979650:1287969554:=14,15d13%0a%3c The site was recently reorganized so some links may have changed.\\\%0a%3c Should you search the documentation for the TabSRMM plugin - [[TabSRMM.|Here is the Index]].\\\%0a
+host:1287979650=81.217.70.206
+author:1287969554=admin
+diff:1287969554:1287969506:=10c10%0a%3c Attach:Site/404.jpg%0a---%0a> Attach:404.jpg%0a
+host:1287969554=81.217.70.206
+author:1287969506=admin
+diff:1287969506:1287965053:=9,13d8%0a%3c (:div style="float:right":)%0a%3c Attach:404.jpg%0a%3c (:divend:)%0a%3c %0a%3c We are sorry, but the page you've requested does not seem to exist any longer.\\\%0a15c10%0a%3c {$RequestedPage} could not be found.\\\\%0a---%0a> The page "{$RequestedPage}" doesn't exist.  %0a18c13%0a%3c %25rel=nofollow%25 ([[{*$FullName}?action=edit | You can create {*$FullName}]]). %0a---%0a> %25rel=nofollow%25 ([[{*$FullName}?action=edit | Create {*$FullName}]]). %0a
+host:1287969506=81.217.70.206
+author:1287965053=admin
+diff:1287965053:1287796069:=6,7d5%0a%3c %0a%3c = Not Found =%0a
+host:1287965053=81.217.70.206
+author:1287796069=admin
+diff:1287796069:1287795942:=
+host:1287796069=81.217.70.206
+author:1287795942=admin
+diff:1287795942:1287795917:=
+host:1287795942=81.217.70.206
+author:1287795917=admin
+diff:1287795917:1237082832:=
+host:1287795917=81.217.70.206

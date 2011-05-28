@@ -1,0 +1,76 @@
+version=pmwiki-2.2.18 ordered=1 urlencoded=1
+agent=Opera/9.80 (Windows NT 6.1; U; en) Presto/2.8.131 Version/11.10
+author=admin
+charset=UTF-8
+csum=
+ctime=1287607977
+host=81.217.70.206
+name=TabSRMM.TabSRMM
+rev=86
+targets=TabSRMM.Downloads,TabSRMM.ChangeLogTrunk,TabSRMM.ChangeLogStable,TabSRMM.Install,TabSRMM.FirstTimeUsersTabSRMM,TabSRMM.TabSrmmOverview,TabSRMM.Tips,TabSRMM.TabSRMM3New,TabSRMM.TabSRMM3KnownIssues,TabSRMM.TabSRMM3Upgrading,TabSRMM.AutoKeyboard,TabSRMM.GeneralSettings,TabSRMM.Containers,TabSRMM.ConfigureContainers,TabSRMM.Sessions,TabSRMM.MenuBar,TabSRMM.ToolBar,TabSRMM.TitleBarFormatting,TabSRMM.InfoPanel,TabSRMM.Aero,TabSRMM.History,TabSRMM.ConfigureHistory,TabSRMM.Templates,TabSRMM.EventNotifications,TabSRMM.UserNotesEditing,TabSRMM.ConfigureEventNotifications,TabSRMM.Avatars,TabSRMM.MessageLengthIndicator,TabSRMM.InputHistory,TabSRMM.HidingContainers,TabSRMM.SendLater,TabSRMM.TypingNotifications,TabSRMM.AdvancedTweaks,TabSRMM.DatabaseTweaks,TabSRMM.Keyboard,TabSRMM.Skinning,TabSRMM.UsingSkins,TabSRMM.SkinningFormat,TabSRMM.Theme,TabSRMM.ColorThemes,TabSRMM.SkinningV3,TabSRMM.CustomizeImages,TabSRMM.FAQ,TabSRMM.FAQUI,TabSRMM.FAQCustomize,TabSRMM.Future,TabSRMM.ImgList,TabSRMM.RecentChanges
+text=(:title TabSRMM page index:)%0a=All pages about TabSRMM=%0a%0aAll pages related to the messaging plugin for Miranda IM. Over the years, tabSRMM has evolved to a quite complex piece of software, offering many features and options. This is an attempt to document them in a fairly detailed way, but also providing easy to understand information for new users.%0a%0a'''This is always under heavy construction. Pages are changing frequently and new stuff is added on a regular base.'''%0a%0a==Downloading TabSRMM==%0a%0a* Refer to [[Downloads|this page]].%0a* Detailed change logs are posted [[ChangeLogTrunk|here]] (trunk) and [[ChangeLogStable|here]] (stable).%0a%0a==Some quick links for TabSRMM==%0a%0a[[#overview]]%0a* [[Install|how to install the plugin]].%0a* [[FirstTimeUsers_tabSRMM|information for first time users]]%0a* [[TabSrmmOverview|overview]] lists some basics and gives an overview about the features.%0a* [[Tips|tips and tricks for advanced users]].%0a[[#overviewend]]%0a\\%0a%0a== All pages in this category ==%0a%0aThis is a list of all pages related to TabSRMM, divided into some sub sections of interest. This list also serves as index for the "trail" navigation you can usually find in the top right corner of a page.%0a\\%0a%0a(:div class="twocols":)%0a==== New and noteworthy in TabSRMM version 3 ====%0a[[#version3]]%0a* [[TabSRMM3New|New and changed features]]%0a* [[TabSRMM3KnownIssues|Known issues]] (known issues and limitations in TabSRMM 3)%0a* [[TabSRMM3Upgrading|Tips for upgrading]] (Tips for users who are upgrading from an earlier release)%0a[[#endversion3]]%0a\\%0a%0a==== General topics ====%0a[[#general]]%0a* [[Downloads|How and where to download]]%0a* [[Install|Basic installation guide]]%0a[[#endgeneral]]%0a\\%0a%0a==== Reference articles ====%0a[[#reference]]%0a* [[AutoKeyboard|Keyboard layout]] (how to use the automatic keyboard layout feature)%0a* [[GeneralSettings|General settings]] (how to set basic global options)%0a* [[Containers]] (how to use containers)%0a* [[ConfigureContainers|Configure containers]] (how to configure containers and set container options)%0a* [[Sessions|+]]%0a* [[MenuBar|The menu bar]]%0a* [[ToolBar|The tool bar]]%0a* [[TitleBarFormatting|Title bar formatting]]%0a* [[InfoPanel|The info panel]]%0a* [[Aero|Using Aero]]%0a* [[History|Message history]]%0a* [[ConfigureHistory|Configure the history]]%0a* [[Templates|Using message templates]]%0a* [[EventNotifications|Event notifications]]%0a* [[UserNotesEditing|editing user notes]]%0a* [[ConfigureEventNotifications|Configure notifications]] (how to configure event notifications)%0a* [[Avatars]] (customize avatar handling)%0a* [[Message_length_indicator|Message length]] (description of the visual message length indicator)%0a* [[InputHistory|The input history]] (using the input history)%0a* [[HidingContainers|Hidden containers]]%0a* [[SendLater|Send later and multisend]]%0a* [[TypingNotifications|Typing notifications]]%0a* [[Tips]] (tips and tricks and some lesser known features)%0a* [[AdvancedTweaks|Advanced options]]%0a* [[DatabaseTweaks|Database tweaks]] (like registry tweaks for windows, set some unsupported options)%0a[[#endreference]]%0a\\%0a%0a==== Customizing the plugin ====%0a[[#customizing]]%0a* [[Keyboard|Available keyboard shortcuts and customization options]]%0a[[#endcustomizing]]%0a\\%0a%0a==== Theming and skinning ====%0a[[#skinning]]%0a* [[Skinning|General info]]%0a* [[UsingSkins|Installing and using skins]]%0a* [[SkinningFormat|Description of the skin format]]%0a* [[Theme|Themes vs skins]]%0a* [[ColorThemes|Using color themes]]%0a* [[SkinningV3|Changes in TabSRMM3]] (relevant changes to the skinning and theming engine in TabSRMM 3).%0a* [[CustomizeImages|+]]%0a[[#endskinning]]%0a\\%0a%0a==== Frequently asked questions (FAQ) ====%0a[[#faq]]%0a* [[FAQ|General questsions]]%0a* [[FAQ_UI|Questions about the user interface]]%0a* [[FAQ_Customize|Questions about customization]]%0a[[#endfaq]]%0a\\%0a%0a==== Future ====%0a* [[Future|Future developments and open requests]]%0a(:divend:)%0a%0a[[#other]]%0a== Other pages ==%0a%0a* [[ImgList|List of images]] in the TabSRMM category of pages.%0a* [[ChangeLogTrunk|change log for the trunk tree]]%0a* [[ChangeLogStable|change log for the stable tree]]%0a%0a== RSS Feeds for the TabSRMM category ==%0a%0a* [[RecentChanges?action=rss|RSS format]] | [[RecentChanges?action=atom|ATOM format]]%0a
+time=1305415411
+title=TabSRMM page index
+author:1305415411=admin
+diff:1305415411:1305415382:=1c1%0a%3c (:title TabSRMM page index:)%0a---%0a> (:noleft:)(:title TabSRMM page index:)%0a
+host:1305415411=81.217.70.206
+author:1305415382=admin
+diff:1305415382:1305394409:=1c1%0a%3c (:noleft:)(:title TabSRMM page index:)%0a---%0a> (:title TabSRMM page index:)%0a
+host:1305415382=81.217.70.206
+author:1305394409=admin
+diff:1305394409:1289049544:=
+host:1305394409=81.217.70.206
+author:1289049544=admin
+diff:1289049544:1288940965:=50d49%0a%3c * [[Sessions|+]]%0a
+host:1289049544=81.217.70.206
+author:1288940965=admin
+diff:1288940965:1288717316:=87d86%0a%3c * [[CustomizeImages|+]]%0a
+host:1288940965=81.217.70.206
+author:1288717316=admin
+diff:1288717316:1288506894:=108,111d107%0a%3c %0a%3c == RSS Feeds for the TabSRMM category ==%0a%3c %0a%3c * [[RecentChanges?action=rss|RSS format]] | [[RecentChanges?action=atom|ATOM format]]%0a
+host:1288717316=81.217.70.206
+author:1288506894=admin
+diff:1288506894:1288506766:=18c18%0a%3c * [[TabSrmmOverview|overview]] lists some basics and gives an overview about the features.%0a---%0a> * [[TabSrmm:Overview|overview]] lists some basics and gives an overview about the features.%0a
+host:1288506894=81.217.70.206
+author:1288506766=admin
+diff:1288506766:1288506670:=20d19%0a%3c [[#overviewend]]%0a
+host:1288506766=81.217.70.206
+author:1288506670=admin
+diff:1288506670:1288493079:=15d14%0a%3c [[#overview]]%0a
+host:1288506670=81.217.70.206
+author:1288493079=admin
+diff:1288493079:1288432221:=18c18%0a%3c * [[Tips|tips and tricks for advanced users]].%0a---%0a> * [[TabSrmm_Tips|tips and tricks for advanced users]].%0a
+host:1288493079=81.217.70.206
+author:1288432221=admin
+diff:1288432221:1288432205:=8,9c8,9%0a%3c ==Downloading TabSRMM==%0a%3c %0a---%0a> ==Downloading tabSRMM==%0a> %0a13c13%0a%3c ==Some quick links for TabSRMM==%0a---%0a> ==Some quick links for tabSRMM==%0a
+host:1288432221=81.217.70.206
+author:1288432205=admin
+diff:1288432205:1288399998:=2c2%0a%3c =All pages about TabSRMM=%0a---%0a> =All pages about tabSRMM=%0a
+host:1288432205=81.217.70.206
+author:1288399998=admin
+diff:1288399998:1288314440:=1d0%0a%3c (:title TabSRMM page index:)%0a
+host:1288399998=81.217.70.206
+author:1288314440=admin
+diff:1288314440:1288314029:=0a1%0a> (:noleft:)%0a
+host:1288314440=81.217.70.206
+author:1288314029=admin
+diff:1288314029:1288239935:=1d0%0a%3c (:noleft:)%0a
+host:1288314029=81.217.70.206
+author:1288239935=admin
+diff:1288239935:1288237960:=81,82c81%0a%3c * [[Theme|Themes vs skins]]%0a%3c * [[ColorThemes|Using color themes]]%0a---%0a> * [[Theme|Description of color and font themes]]%0a
+host:1288239935=81.217.70.206
+author:1288237960=admin
+diff:1288237960:1288214245:=10c10%0a%3c * Detailed change logs are posted [[ChangeLogTrunk|here]] (trunk) and [[ChangeLogStable|here]] (stable).%0a---%0a> * Detailed change logs are posted at my [[http://blog.miranda.or.at/|blog]]%0a
+host:1288237960=81.217.70.206
+author:1288214245=admin
+diff:1288214245:1288214192:=98d97%0a%3c [[#other]]%0a101,103c100,102%0a%3c * [[ImgList|List of images]] in the TabSRMM category of pages.%0a%3c * [[ChangeLogTrunk|change log for the trunk tree]]%0a%3c * [[ChangeLogStable|change log for the stable tree]]%0a---%0a> [[ImgList|List of images]] in the TabSRMM category of pages.%0a> [[ChangeLogTrunk|change log for the trunk tree]]%0a> [[ChangeLogStable|change log for the stable tree]]%0a
+host:1288214245=81.217.70.206
+author:1288214192=admin
+diff:1288214192:1288128042:=100,102c100%0a%3c [[ImgList|List of images]] in the TabSRMM category of pages.%0a%3c [[ChangeLogTrunk|change log for the trunk tree]]%0a%3c [[ChangeLogStable|change log for the stable tree]]%0a---%0a> [[ImgList|List of images]] in the TabSRMM category of pages.%0a\ No newline at end of file%0a
+host:1288214192=81.217.70.206
+author:1288128042=admin
+diff:1288128042:1288099967:=
+host:1288128042=81.217.70.206
+author:1288099967=admin
+diff:1288099967:1288094004:=16a17,20%0a> * [[Containers|How to use containers and what they are]]%0a> * [[TabSRMM/History|how to setup and configure the message history display]]. Also, how to use external plugins like [[Plugins/IEView]] or [[Plugins/HistoryPP]] to display the history.%0a> * [[Plugins/Smileyadd|using emoticons]].%0a> * [[EventNotifications|how to configure event notifications]].%0a97,100d100%0a%3c %0a%3c == Other pages ==%0a%3c %0a%3c [[ImgList|List of images]] in the TabSRMM category of pages.%0a\ No newline at end of file%0a
+host:1288099967=81.217.70.206

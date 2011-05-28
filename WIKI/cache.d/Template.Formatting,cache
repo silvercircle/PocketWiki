@@ -1,0 +1,42 @@
+a:1:{i:0;s:2587:"<p><a id='hint'></a>
+</p>
+<table class='table_plain' style='padding:5px;border:1px solid #aaa;display:block;background:#f0f0e2;' ><tr><td style='width:20px;'  valign='top'><img src='http://localhost/uploads/Template/Hint.png' alt='' title='' /> 
+</td><td style='vertical-align:top;'  valign='top'>{$$Text}
+</td></tr></table>
+<p><a id='endhint'></a>
+</p>
+<p class='vspace'><a id='note'></a>
+</p>
+<table class='table_plain' style='padding:5px;border:1px solid #aaa;display:block;background:#F0E2E2;' ><tr><td style='width:20px;'  valign='top'><img src='http://localhost/uploads/Template/Note.png' alt='' title='' /> 
+</td><td style='vertical-align:top;'  valign='top'>{$$Text}
+</td></tr></table>
+<p><a id='endnote'></a>
+</p>
+<p class='vspace'><a id='check'></a>
+</p>
+<table class='table_plain' style='padding:5px;border:1px solid #aaa;display:block;background:#e2f2E2;' ><tr><td style='width:20px;'  valign='top'><img src='http://localhost/uploads/Template/Check.png' alt='' title='' /> 
+</td><td style='vertical-align:top;'  valign='top'>{$$Text}
+</td></tr></table>
+<p><a id='endcheck'></a>
+</p>
+<p class='vspace'><a id='rimage'></a>
+</p><div  style='float: right; border: 1px solid #ccc; margin-left: 10px;' > 
+<!-- TL2-20100315 --><table class='cbox'></table>* <a rel='nofollow' class='createlinktext' href='http://localhost/Template/Formatting?action=upload&amp;upname=Image'>{$$Image}</a><a rel='nofollow' class='createlink' href='http://localhost/Template/Formatting?action=upload&amp;upname=Image'>&nbsp;&Delta;</a>
+</div>
+<p><a id='endrimage'></a>
+</p>
+<p class='vspace'><a id='limage'></a>
+</p><div  style='float: left; border: 1px solid #ccc; margin-right: 10px;' > 
+<table class='thumbtable' align="left"></table>* <a rel='nofollow' class='createlinktext' href='http://localhost/Template/Formatting?action=upload&amp;upname=Image'>{$$Image}</a><a rel='nofollow' class='createlink' href='http://localhost/Template/Formatting?action=upload&amp;upname=Image'>&nbsp;&Delta;</a>
+</div>
+<p><a id='endlimage'></a>
+</p>
+<p class='vspace'><a id='cbox'></a>
+</p><div class='{$$class}' style='width:{$$width}px; max-width:{$$width}px;' >
+<p><span id="{$$id}-tog" class="toggle"><a class="togglelink" href="javascript:toggleObj('{$$id}','show','{$$showtext}','{$$hidetext}','','','','')">{$$showtext}</a><style type='text/css'> #{$$id} { display:none; }  @media print { #{$$id} {display:block} } </style></span>
+</p><div id='{$$id}' >
+<p><a id='endcbox'></a>
+</p>
+<p class='vspace'>Category: <a class='categorylink' href='http://localhost/Category/Templates'>Templates</a>
+</p></div></div>
+";}

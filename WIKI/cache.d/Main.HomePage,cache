@@ -1,0 +1,66 @@
+a:1:{i:0;s:7801:"<h1>Welcome</h1>
+<p class='vspace'><span  style='color: red;'><strong><span style='font-size:83%'>Important Note: The site has been changed from MediaWiki to PmWiki, so it is possible that some links are broken or missing. The update went smooth, but since there are some fundamental differences between these two Wiki systems, it was not possible to convert everything 1:1</span></strong></span>
+</p>
+<div class='vspace'></div><div class='box tborder' style='float:left;width:300px;margin-right:10px;' >
+<div class='colheader' style='padding-top:5px;' >
+<p>Recent events - <a class='wikilink' href='http://localhost/Site/Events'>view all</a>
+</p></div>
+<ul><li><a class='external' href='http://www.miranda-im.org/2010/11/16/miranda-im-v0-9-11-released-2/' rel='nofollow'>Miranda 0.9.11 released</a>
+</li><li><a class='external' href='http://www.miranda-im.org/2010/10/31/miranda-im-v0-9-10-released/' rel='nofollow'>Miranda 0.9.10 released</a><br />To get the contrib pack with TabSRMM, go <a class='external' href='http://code.google.com/p/miranda/downloads/list' rel='nofollow'>here</a>.
+</li><li>The site has been converted to <a class='external' href='http://www.pmwiki.org' rel='nofollow'>PmWiki</a> - more <a class='wikilink' href='http://localhost/Main/SwitchedToPmWiki'>here</a>.
+</li><li><a class='external' href='http://www.miranda-im.org/2010/10/17/miranda-im-v0-9-8-released/' rel='nofollow'>Miranda 0.9.8 released</a><br />This includes a plugin pack with the most recent TabSRMM.
+</li><li><strong>TabSRMM 3 has gone stable</strong> - read about <a class='wikilink' href='http://localhost/TabSRMM/TabSRMM3New'>new things</a>, <a class='wikilink' href='http://localhost/TabSRMM/TabSRMM3KnownIssues'>known issues</a> and <a class='wikilink' href='http://localhost/TabSRMM/TabSRMM3Upgrading'>upgrading</a> from an older release.
+</li></ul></div>
+<div class='vspace'></div><div style='float:right;background-color:#efefff;width:200px;border:1px solid #aaa;margin-left:20px;padding:0px 5px 5px 5px;font-size:11px;' >
+<div class='colheader' >
+<p>Featured
+</p></div>
+<p class='vspace'><a class='wikilink' href='http://localhost/TabSRMM/TabSRMM3New'>TabSRMM Version 3</a><br /><a class='wikilink' href='http://localhost/TabSRMM/ChangeLogTrunk'>Trunk change log</a><br /><a class='wikilink' href='http://localhost/TabSRMM/ChangeLogStable'>Stable change log</a><br /><a class='wikilink' href='http://localhost/TabSRMM/FAQIndex'>TabSRMM FAQ</a>
+</p><hr />
+<div class='colheader' >
+<p>Files
+</p></div>
+<p class='vspace'><a class='wikilink' href='http://localhost/TabSRMM/Downloads'>Downloads</a>
+</p><hr />
+<div class='colheader' >
+<p>Site overview
+</p></div>
+<p><a class='external' href='http://blog.miranda.or.at/' rel='nofollow'>Blog</a><br /><a class='external' href='http://forum.miranda.or.at' rel='nofollow'>My forum</a>
+</p><hr />
+<div class='colheader' >
+<p>Categories
+</p></div>
+<p><a class='wikilink' href='http://localhost/TabSRMM/TabSRMM'>TabSRMM</a><br /><a class='wikilink' href='http://localhost/Plugins/Plugins'>Other plugins</a><br /><a class='wikilink' href='http://localhost/Plugins/SndVol'>Sound Volume</a>
+</p></div>
+<p class='vspace'>This site is supposed to become my new homepage with its main focus on my various software projects. In the last few years, I've written several smaller and bigger plugins for <strong>Miranda</strong> but none of them had a real home where all information was collected, except for my <a class='external' href='http://forum.miranda.or.at' rel='nofollow'>forum</a>.
+</p>
+<p class='vspace'>My <a class='external' href='http://forum.miranda.or.at' rel='nofollow'>forum</a> will continue to exist, but I will probably post most news on this site.
+</p>
+<p class='vspace'>I have also created a <a class='external' href='http://silvercircle.googlecode.com' rel='nofollow'>googlecode site</a> where you can find:
+</p>
+<div class='vspace'></div><ul><li><strong>a issue tracker</strong> (should be a better solution to deal with issues and problems than a forum). Please read <a class='wikilink' href='http://localhost/Main/ReportingBugs'>this page</a> to learn, how and where bugs should be reported. For TabSRMM and Clist Nicer you can also use the <a class='external' href='http://bugs.miranda-im.org/' rel='nofollow'>Miranda Bug Tracker</a>, if you already have an account there.
+</li><li><strong>downloads</strong> for plugins which are not on the file listing, or beta version which may not work with stable Miranda releases (my policy is to NOT release such versions to the official file listing, because they will most likely only cause troubles for less experienced users).
+</li><li>a <a class='external' href='http://groups.google.com/group/silvercirclemimpluginsdiscuss/' rel='nofollow'>discussion group</a> which has the advantage that you can use it with your gmail account and will not have to register a new one (I assume that most people now have a google account).
+</li></ul><p><br />This site is built on top of the <a class='external' href='http://www.pmwiki.org/' rel='nofollow'>PmWiki software</a> which I've found suitable for creating a document-orientated website. Additional functionality for posting news and such can be added with extensions easily. Read <a class='wikilink' href='http://localhost/Main/HelpContents'>the help page</a> for more information.
+</p>
+<div class='vspace'></div><h2>Documentation</h2>
+<p class='vspace'>A major goal of this site is to provide "wiki style" documentation for my various Miranda plugins. Some of these plugins have become very complex pieces of software with many features, but there is almost no documentation, except for some articles on my old forum and blog. I've been thinking of creating offline documents and distribute them together with the plugin binaries and considered various formats, like HTML, PDF, Word and even the Microsoft Help document format. But finally, I discarded all these ideas and made the decision to create the documentation online.
+</p>
+<p class='vspace'>A Wiki system is probably the easiest way to create and maintain documents online, link them together and produce very well-readable results. Also, contributions are easy to incorporate, simply, because people can just edit a page when they think, they have something to contribute.
+</p>
+<div class='vspace'></div><h3>Right now, the following plugins are covered here</h3>
+<div class='vspace'></div><ul><li>TabSRMM (messaging plugin). <a class='wikilink' href='http://localhost/TabSRMM/TabSRMM'>Main article</a>.
+</li><li>Sound volume (slightly improved version of the original plugin with support for MRadio and compatible with Miranda 0.7/0.8). <a class='wikilink' href='http://localhost/Plugins/SndVol'>Main article</a>.
+</li></ul><p><br />The articles will cover topics for end users and provide some technical informations (e.g. how to create skins, templates and other advanced customization topics). This is still under heavy construction as I'am in the process of collecting various articles, I've written over the last years and convert them to Wiki format.<br /><br />
+</p><h3>Content licensing</h3>
+<p class='vspace'>All content is licensed under the <a class='wikilink' href='http://localhost/Site/Copyrights'>FDL</a> and the here is the <a class='wikilink' href='http://localhost/Site/PrivacyPolicy'>privacy statement</a>.
+</p>
+<div class='vspace'></div><hr />
+<p><span  style='float: right; color: #888; font-size: 10px;'>Author: admin</span>
+<span  style='text-align: left; color: #888; font-size: 10px;'>Last modified: Sunday, May 15, 2011 at 05:29 CET</span>
+</p><hr />
+<p>Category: <a class='createlinktext' rel='nofollow' 
+    href='http://localhost/Main/Main?action=edit'>Main</a><a rel='nofollow' 
+    class='createlink' href='http://localhost/Main/Main?action=edit'>?</a>
+</p>
+";}

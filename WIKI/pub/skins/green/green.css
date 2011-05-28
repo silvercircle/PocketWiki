@@ -1,0 +1,1011 @@
+body, h1, h2, h3, h4, h5, h6, ol, ul, li, p {
+}
+a{
+	color:#348191;
+	background:transparent;
+}		
+a:link {
+	text-decoration:underline;
+}
+a:visited {
+	text-decoration:underline;
+}
+a:active {
+	text-decoration:underline;
+}
+a:hover {
+	/*hover doesn't work in nn4*/
+}
+
+img {
+	border: 0;
+}
+
+pre {
+	font-family: monospace;
+
+}
+strong, b {
+	font-weight: bold;
+}
+
+body {
+	margin: 0 auto;
+	padding: 0;
+	font-family: verdana, arial, helvetica, sans-serif;
+	color: #000;
+	font-size:12px;
+	background-color: #d9dee1;
+}
+input{
+	vertical-align:middle;
+	padding:0.3ex;
+	margin:0.5ex;
+}
+textarea{
+	background-color:#fcfcfc;
+	margin:1ex;
+	padding:4px;
+	border:1px solid #aaa;
+}
+form{
+	margin:1ex;
+	padding:0
+}
+hr {
+	height: 1px;
+	border-width: 1px 0 0 0;
+	border-style: solid;
+	border-color: #ccc;
+}
+a {
+	color:#258;
+	background:transparent;
+	text-decoration:none;
+}
+a:link {
+	color:#258;
+	background:transparent;
+	text-decoration:none;
+}
+a:visited {
+	color:#258;
+	background:transparent;
+	text-decoration:none;
+}
+a:active {
+	color:#348191;
+	background:transparent;
+	text-decoration:none;
+}
+a:hover {
+	color:#258;
+	background:transparent;
+	text-decoration:underline;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0px 0em 5px 0px;
+	font-weight: bold;
+	color:#960;
+	background-color:transparent;
+}
+h1 {
+	font-size: 18px;
+}
+
+div.sidebar_container {
+	width:240px;
+	min-width:240px;
+	max-width:240px;
+	margin-left:0px;
+	margin-right:10px;
+	padding-right:5px;
+	margin-top:1px;
+}
+
+div.sidebar_container > ul {
+	border:1px solid #ccc;	
+	border-top:0;
+	border-bottom-left-radius:4px;
+	border-bottom-right-radius:4px;
+	margin-bottom:10px;
+	background-color:#f0f0f0;
+}
+#wikitext {
+	background-color:#f0f0f0;
+	color:#444;
+	border:1px solid #ccc;
+	border-radius:2px;
+	padding:4px 10px;
+	font-family: Constantia,Georgia,"Times new roman", serif;
+	font-size:10pt;
+}
+#wikitext h1 {
+	font-variant:small-caps;
+	font-size:17px;
+	font-weight:bold;
+	padding-left:20px;
+	background: url(gfx/h1.png) left center no-repeat;
+	min-height:18px;
+	border-bottom:2px solid #ccc;
+	color: #258;
+}
+
+h2 {
+	font-size: 15px;
+	margin-left:5px;
+}
+h3 {
+	font-size: 14px;
+	margin-left: 10px;
+}
+h4 {
+	font-size: 12px;
+	font-weight: bold;
+	margin-left:20px;
+}
+h5 {
+	font-size: 1.0em;
+	font-weight: bold;
+}
+h6 {
+	font-size: 0.8em;
+	font-weight: bold;
+}
+ol, ul, li {
+	margin-bottom: 0.1em;
+}
+p {
+	margin: 1.2em 0em 1.2em 0em;
+}
+li > p {
+	margin-top: 0.2em;
+}
+dt, dd {
+	font-size: 1.0em;
+	line-height: 1.8em;
+	margin-top: 0.2em;
+	margin-bottom: 0.1em; 
+}
+pre, code {
+	font-family: Consolas,monospace;
+	font-size: 12px;
+	line-height:100%;
+	padding:5px;
+}
+
+acronym, cite {
+	border-bottom: 1px dotted rgb(153,153,153);
+	cursor: help;
+	margin: 0;
+	padding: 0 0 0.4px 0;
+	white-space:normal;
+}
+strong, b {
+	font-weight: bold;
+}
+
+/* LAYOUT*/
+
+div#wiki-wrap {
+	margin:0 auto;
+	padding:0;
+	border:0;
+}
+div#wiki-head {
+	margin:0;
+	padding:0;
+	min-height:75px;
+	max-height:75px;
+	background: #00000a url(gfx/moon.jpg) no-repeat;
+	font-weight:bold;
+}
+td#wiki-page {
+	margin:0;
+	width:100%;
+	vertical-align:top;
+}
+div#wiki-foot {
+	margin:0;
+	padding:0;
+}
+
+/* SKIN */
+
+div#wiki-wrap {
+	margin: 0;
+	background-color:#d9dee1;
+	padding-left:40px;
+	padding-right:40px;
+}
+
+div#container {
+    min-width:600px;
+    max-width:1180px;
+    width:auto;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:#e5e5e5;
+    padding:10px 10px;
+    margin-top:10px;
+    box-shadow: 0px 1px 4px 1px #aaa;
+}
+
+table.content_table {
+    width:100%;
+    table-layout: fixed; 
+    border: 0;
+    border-spacing: 0;
+    padding:0;
+    margin:0;
+}
+div#wiki-top  {
+	padding:2px;
+	border:0;
+	height:0.9em;
+	color: #fff;
+	background-color:  transparent;
+	font-size:10px;
+	float:right;
+}
+	div#top-left {
+		float:left;
+		color: #fff;
+		background:transparent;
+		
+	}
+	div#top-right {
+		float:right;
+		color: #fff;
+		background:transparent;
+	}
+	div#wiki-top  ul, div#wiki-top  div ul {
+		list-style-type: none;
+		list-style-position: inside;
+		margin: 0;
+		padding:0;
+		border:0;
+		white-space: normal;	
+	}
+	div#wiki-top ul li, div#wiki-top  div ul li {
+		display:inline;
+		margin: 0;
+		padding: 0 0.2em 0 0.4em;
+		border:0;
+		border-left:0.1em solid white;
+	}
+	div#wiki-top ul li.noborder, div#wiki-top  div ul li.noborder {
+		border:0;
+	}
+	div#wiki-top a:link, div#wiki-top a:visited, div#wiki-top a:active {
+		color: #fff;
+		background-color:transparent;
+		text-decoration:none;
+	}
+	div#wiki-top a:hover {
+		color: #fff;
+		background-color:transparent;
+		text-decoration:underline;
+	}
+
+div#wiki-head {
+	padding:0;
+	margin:0;
+	border:0;
+	text-align:right;
+	height:4.7em;
+	color: #132E0B;
+}
+	div#wiki-head h1 {
+		border:0;
+		margin:0;
+		padding:0.1em;
+		padding-left: 0.4em;
+		float:left;
+		font-size:3.3em;
+		color: #fff;
+		background-color: transparent;
+	}
+	div#wiki-head form{
+		padding:0;
+		margin:0.8em 0 0 0;
+	}
+
+div#wiki-info {
+	border:0;
+	color:#444;
+	background:#d9dEe1 url(images/sprite.png) repeat-x;
+	background-position:0 -170px;
+	border-top: 1px solid #ccc;
+	font-size:11px;
+	padding:5px;
+	border-bottom:2px solid #888;
+	text-shadow: 1px 1px #eee;
+}
+	div#wiki-info a {
+		font-size:11px;
+		color: #777;
+		background-color:transparent;
+		margin:0;
+		padding: 4px;
+		border:0;
+		display:inline;
+		text-decoration:none;
+		font-weight:bold;
+	}
+	div#wiki-info p{
+		margin:0;
+		padding:0;
+	}
+	div#info-left {
+		float:left;
+	}
+	div#info-right {
+		float:right;
+		white-space:nowrap;
+		min-width:400px;
+		text-align:right;
+	}
+	div#wiki-info  a:hover {
+		color:#348191;
+		background-color:#ddd;
+	}
+	div#wiki-info  ul, div#wiki-info  div ul {
+		list-style-type: none;
+		list-style-position: inside;
+		margin: 0;
+		padding:0;
+		border:0;
+		white-space: normal;	
+	}
+	div#wiki-info ul li, div#wiki-info  div ul li {
+		display:inline;
+		margin: 0;
+		padding: 0 0 0 0.4em;
+		border:0;
+	}
+	div#wiki-info ul li.browse, div#wiki-info  div ul li.browse {
+		border:0;
+	}
+	div#wiki-info ul li.noborder, div#wiki-info  div ul li.noborder {
+		border:0;
+	}
+
+td#wiki-left {
+	margin:5px;
+	margin-top:0;
+	border:0;
+	padding:0;
+	width:250px;
+	max-width:250px;
+	color: #444;
+	font-size:11px;
+}
+	td#wiki-left ul{
+		list-style-type: none;
+		list-style-position: inside;
+		padding: 0 5px;
+		white-space: normal;
+
+	}
+	td#wiki-left li {
+		margin: 0;
+		padding: 0.0ex 0;
+		border:0;
+	}
+	td#wiki-left a{
+		border:0;
+		color: #258;
+		background-color: transparent;
+		text-decoration: none;
+		margin: 0;
+		padding: 2px;
+		display: block;
+	}
+	
+	td#wiki-left a:hover{
+		border:0;
+		text-decoration: underline;
+	}
+	td#wiki-left p.sidehead {
+		font-weight:bold;
+		/*background: #485B7D url(images/graph.png) repeat-x;*/
+		background:#eaeaea url(images/sprite.png) 0 -170px repeat-x;
+		/*border:1px solid #ccc;*/
+		border-top-left-radius:2px;
+		border-top-right-radius:2px;
+		padding:3px 6px !important;
+		margin-bottom:0 !important;
+		font-variant:small-caps;
+		font-size:11pt;
+		text-shadow:1px 1px #fff;
+		color:#666;
+	}
+	td#wiki-left p.sidehead a {
+		font-weight:bold;
+		color:#666;
+		font-size:11pt;
+	}
+	td#wiki-left p.sidehead a:hover{
+		text-decoration: underline;
+	}
+	
+td#wiki-page {
+	margin:0;
+	border:0;
+}
+#wiki-page p, #wiki-page li { text-align:justify;}
+
+	h2#page-title {
+		margin:0;
+		padding:0;
+		border:0;
+		border-bottom:1px solid #ccc;
+		font-size:1em;
+		font-weight:bold;
+		color:#258;
+		background-color: transparent;
+		float:right;
+	}
+	p#page-info {
+		margin:0;
+		margin-bottom:0.5em;
+		padding:0;
+		border:0;
+		font-size:1em;
+		color:#ccc;
+		background-color: transparent;
+	}
+	p#page-info:hover {
+		color:#444;
+		background-color: transparent;
+	}
+	
+	#wiki-page ul {
+	    list-style-image: url(gfx/arrow.png);
+	    list-style-position:outside;
+	    margin-left:0px;
+	}
+	#wiki-page li {
+	    display:list-item;
+	}
+
+div#wiki-foot {
+	padding:0.6em 0.6em 0.6em 0.6em;
+	margin:0;
+	border:0;
+	color: #222;
+	font-size:10px;
+	background-color: #224;
+}
+		div#foot-left {
+			float:left;
+			color: #222;
+			background:transparent;
+			
+		}
+		div#foot-right {
+			float:right;
+			text-align:right;
+			color: #222;
+			background:transparent;
+		}
+	div#wiki-foot  ul, div#wiki-foot  div ul {
+		list-style-type: none;
+		list-style-position: inside;
+		margin: 0;
+		padding:0;
+		border:0;
+		white-space: normal;	
+	}
+	div#wiki-foot  li, div#wiki-foot  div ul li {
+		display:inline;
+		margin: 0;
+		padding: 0 0.2em 0 0.4em;
+		border:0;
+	}
+	div#wiki-foot ul li.noborder, div#wiki-foot  div ul li.noborder {
+		border:0;
+	}
+	div#wiki-foot a:link, div#wiki-foot a:visited, div#wiki-foot a:active {
+		color: #88b;
+		background-color:transparent;
+		text-decoration:none;
+	}
+	div#wiki-foot a:hover {
+		color: #258;
+		background-color:transparent;
+		text-decoration:underline;
+	}
+	div#wiki-foot p {
+		margin:0;
+		padding:0;
+	}
+	div#wiki-top ul li.noborder, div#wiki-top  div ul li.noborder {
+		border:0;
+	}
+
+
+#skipto {
+	display:none;
+}
+
+.vspace {
+    margin:0 !important;
+    padding:0 !important;
+    margin-bottom:10px !important;
+}
+
+div.breadcrumb {
+    display:inline;
+    color:#225;
+}
+
+.wikitrail {
+    float:right;
+}
+
+.colheader {
+	background:#eaeaea url(images/sprite.png) 0 -108px repeat-x;
+    border-bottom: 2px solid yellow;
+    font-weight:bold;
+    padding-left:10px;
+    margin-left:-5px;
+    margin-right:-5px;
+    padding-bottom:3px;
+    margin-bottom:3px;
+}
+.tbottom {
+    border-bottom:1px solid #ccc;
+}
+
+.tborder {
+    border:1px solid #aaa;
+}
+
+.box {
+    background-color:#eaeaea;
+    padding:5px;
+    padding-top:0;
+}
+
+#wikiedit textarea { height:450px !important;}
+
+.button {
+        text-decoration:none;
+        padding:1px 5px;
+        background:#D5E396;
+        border-top:1px solid #D5E396;
+        border-right:1px solid #B5C98F;
+        border-bottom:1px solid #B5C98F;
+        border-left:1px solid #D5E396;
+        color:#84985D;
+}
+.button:hover {
+        text-decoration:none;
+        background:#C8DE9D;
+        border-top:1px solid #B5C98F;
+        border-right:1px solid #D5E396;
+        border-bottom:1px solid #D5E396;
+        border-left:1px solid #B5C98F;
+        color:#60743A;
+}
+
+td.thumbtd {text-align:center;vertical-align:top;}
+#fontinc {background:transparent url(images/sprite.png) 0 -43px no-repeat;padding: 5px 8px;cursor:pointer;}
+#fontdec {background:transparent url(images/sprite.png) 0 -15px no-repeat;padding: 5px 8px;cursor:pointer;}
+#fonttoggle {background:transparent url(images/sprite.png) 0 -70px no-repeat;padding: 5px 8px;cursor:pointer;}
+
+/*
+    ColorBox Core Style:
+    The following CSS is consistent between example themes and should not be altered.
+*/
+#colorbox, #cboxOverlay, #cboxWrapper{position:absolute; top:0; left:0; z-index:9999; overflow:hidden;}
+#cboxOverlay{position:fixed; width:100%; height:100%;}
+#cboxMiddleLeft, #cboxBottomLeft{clear:left;}
+#cboxContent{position:relative;}
+#cboxLoadedContent{overflow:auto;}
+#cboxTitle{margin:0;}
+#cboxLoadingOverlay, #cboxLoadingGraphic{position:absolute; top:0; left:0; width:100%;}
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow{cursor:pointer;}
+.cboxPhoto{float:left; margin:auto; border:0; display:block;}
+.cboxIframe{width:100%; height:100%; display:block; border:0;}
+
+/* 
+    User Style:
+    Change the following styles to modify the appearance of ColorBox.  They are
+    ordered & tabbed in a way that represents the nesting of the generated HTML.
+*/
+#cboxOverlay{background:#000;}
+#colorbox{}
+
+#cboxTopLeft{width:14px; height:14px; background:url(images/controls.png) no-repeat 0 0;}
+#cboxTopCenter{height:14px; background:url(images/border.png) repeat-x top left;}
+#cboxTopRight{width:14px; height:14px; background:url(images/controls.png) no-repeat -36px 0;}
+#cboxBottomLeft{width:14px; height:43px; background:url(images/controls.png) no-repeat 0 -32px;}
+#cboxBottomCenter{height:43px; background:url(images/border.png) repeat-x bottom left;}
+#cboxBottomRight{width:14px; height:43px; background:url(images/controls.png) no-repeat -36px -32px;}
+#cboxMiddleLeft{width:14px; background:url(images/controls.png) repeat-y -175px 0;}
+#cboxMiddleRight{width:14px; background:url(images/controls.png) repeat-y -211px 0;}
+#cboxContent{background:#fff; overflow:visible;}
+#cboxLoadedContent{margin-bottom:5px;}
+#cboxLoadingOverlay{background:url(images/loading_background.png) no-repeat center center;}
+#cboxLoadingGraphic{background:url(images/loading.gif) no-repeat center center;}
+#cboxTitle{position:absolute; bottom:-25px; left:0; text-align:center; width:100%; font-weight:bold; color:#7C7C7C;}
+#cboxCurrent{position:absolute; bottom:-25px; left:58px; font-weight:bold; color:#7C7C7C;}
+        
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow{position:absolute; bottom:-29px; background:url(images/controls.png) no-repeat 0px 0px; width:23px; height:23px; text-indent:-9999px;}
+#cboxPrevious{left:0px; background-position: -51px -25px;}
+#cboxPrevious.hover{background-position:-51px 0px;}
+#cboxNext{left:27px; background-position:-75px -25px;}
+#cboxNext.hover{background-position:-75px 0px;}
+#cboxClose{right:0; background-position:-100px -25px;}
+#cboxClose.hover{background-position:-100px 0px;}
+        
+.cboxSlideshow_on #cboxSlideshow{background-position:-125px 0px; right:27px;}
+.cboxSlideshow_on #cboxSlideshow.hover{background-position:-150px 0px;}
+.cboxSlideshow_off #cboxSlideshow{background-position:-150px -25px; right:27px;}
+.cboxSlideshow_off #cboxSlideshow.hover{background-position:-125px 0px;}
+
+
+#wikiedit textarea {width:98%;margin:0;padding:0}
+
+a:link.createlinktext, a:visited.createlinktext, a:active.createlinktext { text-decoration:none;border-bottom:none}
+a:hover.createlinktext { text-decoration:underline}
+a:link.createlink, a:visited.createlink, a:active.createlink { font-weight: normal;font-size:80%;border-bottom:none;text-decoration:none}
+a:hover.createlink { text-decoration:underline}
+
+.indent { margin:0.2em;margin-left:40px; }
+.outdent { margin:0.2em;margin-left:40px; text-indent:-40px; }
+
+.diffbox {width:98%}
+.difftime {font-size:1em;}
+.difftype {clear:none}
+.diffauthor {font-size:1em;}
+.diffrestore {font-size:1em;clear:none}
+
+div.sectionedit { clear:none}
+.wikimessage {margin-top:4px; margin-bottom:4px;font-style:italic}
+
+table.markup { border:0;border-top:2px solid #bbb; border-bottom:2px solid #bbb; width:90%; }
+td.markup1, td.markup2 { padding-left:10px; padding-right:10px; }
+table.vert td.markup1 { border-bottom:2px solid #bbb; }
+table.horiz td.markup1 { width:23em; border-right:1px solid #bbb; }
+table.markup caption { text-align:left; }
+
+/**
+ * SyntaxHighlighter
+ * http://alexgorbatchev.com/SyntaxHighlighter
+ *
+ * SyntaxHighlighter is donationware. If you are using it, please donate.
+ * http://alexgorbatchev.com/SyntaxHighlighter/donate.html
+ *
+ * @version
+ * 3.0.83 (July 02 2010)
+ * 
+ * @copyright
+ * Copyright (C) 2004-2010 Alex Gorbatchev.
+ *
+ * @license
+ * Dual licensed under the MIT and GPL licenses.
+ * shCore.css and shThemeDefault.css combined
+ */
+.syntaxhighlighter a,
+.syntaxhighlighter div,
+.syntaxhighlighter code,
+.syntaxhighlighter table,
+.syntaxhighlighter table td,
+.syntaxhighlighter table tr,
+.syntaxhighlighter table tbody,
+.syntaxhighlighter table thead,
+.syntaxhighlighter table caption,
+.syntaxhighlighter textarea {
+  background: none !important;
+  border: 0 !important;
+  bottom: auto !important;
+  float: none !important;
+  height: auto !important;
+  left: auto !important;
+  line-height: 1.1em !important;
+  margin: 0 !important;
+  outline: 0 !important;
+  overflow: visible !important;
+  padding: 0 !important;
+  position: static !important;
+  right: auto !important;
+  text-align: left !important;
+  top: auto !important;
+  vertical-align: baseline !important;
+  width: auto !important;
+  box-sizing: content-box !important;
+  font-family: "Consolas", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace !important;
+  font-weight: normal !important;
+  font-style: normal !important;
+  font-size: 1em !important;
+  min-height: inherit !important;
+  /* min-height: auto !important; */
+}
+
+.syntaxhighlighter {
+  width: 100% !important;
+  margin: 1em 0 1em 0 !important;
+  position: relative !important;
+  overflow: auto !important;
+  font-size: 1em !important;
+}
+.syntaxhighlighter.source {
+  overflow: hidden !important;
+}
+.syntaxhighlighter .bold {
+  font-weight: bold !important;
+}
+.syntaxhighlighter .italic {
+  font-style: italic !important;
+}
+.syntaxhighlighter .line {
+  white-space: pre !important;
+}
+.syntaxhighlighter table {
+  width: 100% !important;
+}
+.syntaxhighlighter table caption {
+  text-align: left !important;
+  padding: .5em 0 0.5em 1em !important;
+}
+.syntaxhighlighter table td.code {
+  width: 100% !important;
+}
+.syntaxhighlighter table td.code .container {
+  position: relative !important;
+}
+.syntaxhighlighter table td.code .container textarea {
+  box-sizing: border-box !important;
+  position: absolute !important;
+  left: 0 !important;
+  top: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  border: none !important;
+  background: white !important;
+  padding-left: 1em !important;
+  overflow: hidden !important;
+  white-space: pre !important;
+}
+.syntaxhighlighter table td.gutter .line {
+  text-align: right !important;
+  padding: 0 0.5em 0 1em !important;
+}
+.syntaxhighlighter table td.code .line {
+  padding: 0 1em !important;
+}
+.syntaxhighlighter.nogutter td.code .container textarea, .syntaxhighlighter.nogutter td.code .line {
+  padding-left: 0em !important;
+}
+.syntaxhighlighter.show {
+  display: block !important;
+}
+.syntaxhighlighter.collapsed table {
+  display: none !important;
+}
+.syntaxhighlighter.collapsed .toolbar {
+  padding: 0.1em 0.8em 0em 0.8em !important;
+  font-size: 1em !important;
+  position: static !important;
+  width: auto !important;
+  height: auto !important;
+}
+.syntaxhighlighter.collapsed .toolbar span {
+  display: inline !important;
+  margin-right: 1em !important;
+}
+.syntaxhighlighter.collapsed .toolbar span a {
+  padding: 0 !important;
+  display: none !important;
+}
+.syntaxhighlighter.collapsed .toolbar span a.expandSource {
+  display: inline !important;
+}
+.syntaxhighlighter .toolbar {
+  position: absolute !important;
+  right: 1px !important;
+  top: 1px !important;
+  width: 11px !important;
+  height: 11px !important;
+  font-size: 10px !important;
+  z-index: 10 !important;
+}
+.syntaxhighlighter .toolbar span.title {
+  display: inline !important;
+}
+.syntaxhighlighter .toolbar a {
+  display: block !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  padding-top: 1px !important;
+}
+.syntaxhighlighter .toolbar a.expandSource {
+  display: none !important;
+}
+.syntaxhighlighter.ie {
+  font-size: .9em !important;
+  padding: 1px 0 1px 0 !important;
+}
+.syntaxhighlighter.ie .toolbar {
+  line-height: 8px !important;
+}
+.syntaxhighlighter.ie .toolbar a {
+  padding-top: 0px !important;
+}
+.syntaxhighlighter.printing .line.alt1 .content,
+.syntaxhighlighter.printing .line.alt2 .content,
+.syntaxhighlighter.printing .line.highlighted .number,
+.syntaxhighlighter.printing .line.highlighted.alt1 .content,
+.syntaxhighlighter.printing .line.highlighted.alt2 .content {
+  background: none !important;
+}
+.syntaxhighlighter.printing .line .number {
+  color: #bbbbbb !important;
+}
+.syntaxhighlighter.printing .line .content {
+  color: black !important;
+}
+.syntaxhighlighter.printing .toolbar {
+  display: none !important;
+}
+.syntaxhighlighter.printing a {
+  text-decoration: none !important;
+}
+.syntaxhighlighter.printing .plain, .syntaxhighlighter.printing .plain a {
+  color: black !important;
+}
+.syntaxhighlighter.printing .comments, .syntaxhighlighter.printing .comments a {
+  color: #008200 !important;
+}
+.syntaxhighlighter.printing .string, .syntaxhighlighter.printing .string a {
+  color: blue !important;
+}
+.syntaxhighlighter.printing .keyword {
+  color: #006699 !important;
+  font-weight: bold !important;
+}
+.syntaxhighlighter.printing .preprocessor {
+  color: gray !important;
+}
+.syntaxhighlighter.printing .variable {
+  color: #aa7700 !important;
+}
+.syntaxhighlighter.printing .value {
+  color: #009900 !important;
+}
+.syntaxhighlighter.printing .functions {
+  color: #ff1493 !important;
+}
+.syntaxhighlighter.printing .constants {
+  color: #0066cc !important;
+}
+.syntaxhighlighter.printing .script {
+  font-weight: bold !important;
+}
+.syntaxhighlighter.printing .color1, .syntaxhighlighter.printing .color1 a {
+  color: gray !important;
+}
+.syntaxhighlighter.printing .color2, .syntaxhighlighter.printing .color2 a {
+  color: #ff1493 !important;
+}
+.syntaxhighlighter.printing .color3, .syntaxhighlighter.printing .color3 a {
+  color: red !important;
+}
+.syntaxhighlighter.printing .break, .syntaxhighlighter.printing .break a {
+  color: black !important;
+}
+
+/**
+ * shThemeDefault.css included
+ */
+.syntaxhighlighter {
+  background-color: transparent !important;
+  overflow-y:hidden !important;
+  border:1px dotted #aaa !important;
+  padding: 1px !important;
+}
+.syntaxhighlighter table td {
+  line-height:130% !important;
+}
+.syntaxhighlighter .line.alt1 {
+  background-color: #eef !important;
+}
+.syntaxhighlighter .line.alt2 {
+  background-color: white !important;
+}
+.syntaxhighlighter .line.highlighted.alt1, .syntaxhighlighter .line.highlighted.alt2 {
+  background-color: #e0e0e0 !important;
+}
+.syntaxhighlighter .line.highlighted.number {
+  color: black !important;
+}
+.syntaxhighlighter table caption {
+  color: black !important;
+}
+.syntaxhighlighter .gutter {
+  color: #afafaf !important;
+}
+.syntaxhighlighter .gutter .line {
+  border-right: 3px solid #6ce26c !important;
+}
+.syntaxhighlighter .gutter .line.highlighted {
+  background-color: #6ce26c !important;
+  color: white !important;
+}
+.syntaxhighlighter.printing .line .content {
+  border: none !important;
+}
+.syntaxhighlighter.collapsed {
+  overflow: visible !important;
+}
+.syntaxhighlighter.collapsed .toolbar {
+  color: blue !important;
+  background: white !important;
+  border: 1px solid #6ce26c !important;
+}
+.syntaxhighlighter.collapsed .toolbar a {
+  color: blue !important;
+}
+.syntaxhighlighter.collapsed .toolbar a:hover {
+  color: red !important;
+}
+.syntaxhighlighter .toolbar {
+  color: white !important;
+  background: #6ce26c !important;
+  border: none !important;
+}
+.syntaxhighlighter .toolbar a {
+  color: white !important;
+}
+.syntaxhighlighter .toolbar a:hover {
+  color: black !important;
+}
+.syntaxhighlighter .plain, .syntaxhighlighter .plain a {
+  color: black !important;
+}
+.syntaxhighlighter .comments, .syntaxhighlighter .comments a {
+  color: #008200 !important;
+}
+.syntaxhighlighter .string, .syntaxhighlighter .string a {
+  color: blue !important;
+}
+.syntaxhighlighter .keyword {
+  color: #006699 !important;
+}
+.syntaxhighlighter .preprocessor {
+  color: gray !important;
+}
+.syntaxhighlighter .variable {
+  color: #aa7700 !important;
+}
+.syntaxhighlighter .value {
+  color: #009900 !important;
+}
+.syntaxhighlighter .functions {
+  color: #ff1493 !important;
+}
+.syntaxhighlighter .constants {
+  color: #0066cc !important;
+}
+.syntaxhighlighter .script {
+  font-weight: bold !important;
+  color: #006699 !important;
+  background-color: transparent !important;
+}
+.syntaxhighlighter .color1, .syntaxhighlighter .color1 a {
+  color: gray !important;
+}
+.syntaxhighlighter .color2, .syntaxhighlighter .color2 a {
+  color: #ff1493 !important;
+}
+.syntaxhighlighter .color3, .syntaxhighlighter .color3 a {
+  color: red !important;
+}
+
+.syntaxhighlighter .keyword {
+  font-weight: bold !important;
+}

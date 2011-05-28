@@ -1,0 +1,36 @@
+version=pmwiki-2.2.14 ordered=1 urlencoded=1
+agent=Opera/9.80 (X11; Linux i686; U; en) Presto/2.2.15 Version/10.10
+author=mkonrad
+charset=ISO-8859-1
+csum=
+ctime=1273420046
+host=127.0.0.1
+name=Site.XLPage-Mailform4-de
+rev=8
+targets=
+text=### Mailform4 translations%0a'Your email address' => 'Ihre Email Adresse',%0a'Your message' => 'Ihre Nachricht',%0a'Your name' => 'Ihr Name',%0a'Enter CAPTCHA value' => 'Bitte den CAPTCHA-Code eingeben',%0a'Send message' => 'Nachricht versenden'%0a
+time=1273519361
+author:1273519361=mkonrad
+diff:1273519361:1273519125:=5c5%0a%3c 'Enter CAPTCHA value' => 'Bitte den CAPTCHA-Code eingeben',%0a---%0a> 'Enter CAPTCHA value' => 'Bitten den CAPTCHA-Code eingeben',%0a
+host:1273519361=127.0.0.1
+author:1273519125=mkonrad
+diff:1273519125:1273519108:=4c4%0a%3c 'Your name' => 'Ihr Name',%0a---%0a> 'Your Name' => 'Ihr Name',%0a
+host:1273519125=127.0.0.1
+author:1273519108=mkonrad
+diff:1273519108:1273420508:=4d3%0a%3c 'Your Name' => 'Ihr Name',%0a
+host:1273519108=127.0.0.1
+author:1273420508=mkonrad
+diff:1273420508:1273420484:=2c2%0a%3c 'Your email address' => 'Ihre Email Adresse',%0a---%0a> 'Your email adress' => 'Ihre Email Adresse',%0a
+host:1273420508=127.0.0.1
+author:1273420484=mkonrad
+diff:1273420484:1273420117:=2,5c2,5%0a%3c 'Your email adress' => 'Ihre Email Adresse',%0a%3c 'Your message' => 'Ihre Nachricht',%0a%3c 'Enter CAPTCHA value' => 'Bitten den CAPTCHA-Code eingeben',%0a%3c 'Send message' => 'Nachricht versenden'%0a---%0a> 'Your email adress' => '',%0a> 'Your message' => '',%0a> 'Enter CAPTCHA value' => '',%0a> 'Send message' => ''%0a
+host:1273420484=127.0.0.1
+author:1273420117=mkonrad
+diff:1273420117:1273420082:=5c5%0a%3c 'Send message' => ''%0a---%0a> 'Send message' => '',%0a
+host:1273420117=127.0.0.1
+author:1273420082=mkonrad
+diff:1273420082:1273420046:=1d0%0a%3c ### Mailform4 translations%0a
+host:1273420082=127.0.0.1
+author:1273420046=mkonrad
+diff:1273420046:1273420046:=1,4d0%0a%3c 'Your email adress' => '',%0a%3c 'Your message' => '',%0a%3c 'Enter CAPTCHA value' => '',%0a%3c 'Send message' => '',%0a
+host:1273420046=127.0.0.1

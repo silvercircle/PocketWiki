@@ -1,0 +1,15 @@
+version=pmwiki-2.2.18 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:2.0b8pre) Gecko/20101020 Firefox/4.0b8pre Firefox/4.0b8pre
+author=admin
+charset=UTF-8
+csum=
+ctime=1287808355
+host=81.217.70.206
+name=Profiles.Admin
+rev=7
+targets=
+text=My Profile
+time=1287808763
+author:1287808355=admin
+diff:1287808355:1287808355:=1d0%0a%3c My Profile%0a\ No newline at end of file%0a
+host:1287808355=81.217.70.206

@@ -1,0 +1,25 @@
+
+#wikiedit textarea {width:98%;margin:0;padding:0}
+
+a:link.createlinktext, a:visited.createlinktext, a:active.createlinktext { text-decoration:none;border-bottom:none}
+a:hover.createlinktext { text-decoration:underline}
+a:link.createlink, a:visited.createlink, a:active.createlink { font-weight: normal;font-size:80%;border-bottom:none;text-decoration:none}
+a:hover.createlink { text-decoration:underline}
+
+.indent { margin:0.2em;margin-left:40px; }
+.outdent { margin:0.2em;margin-left:40px; text-indent:-40px; }
+
+.diffbox {width:98%}
+.difftime {font-size:1em;}
+.difftype {clear:none}
+.diffauthor {font-size:1em;}
+.diffrestore {font-size:1em;clear:none}
+
+div.sectionedit { clear:none}
+.wikimessage {margin-top:4px; margin-bottom:4px;font-style:italic}
+
+table.markup { border:0;border-top:2px solid #bbb; border-bottom:2px solid #bbb; width:90%; }
+td.markup1, td.markup2 { padding-left:10px; padding-right:10px; }
+table.vert td.markup1 { border-bottom:2px solid #bbb; }
+table.horiz td.markup1 { width:23em; border-right:1px solid #bbb; }
+table.markup caption { text-align:left; }

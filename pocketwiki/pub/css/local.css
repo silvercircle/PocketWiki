@@ -1,0 +1,71 @@
+.menu {
+ font-weight:bold;
+ color: #855;
+}
+.key {
+ font-family: monospaced;
+ border:1px solid #aaa;
+ padding-left: 4px;
+ padding-right:4px;
+ padding-top:0px;
+ padding-bottom:0px;
+}
+.option {
+  font-weight:bold;
+  font-style: italic;
+  color: #585;
+}
+
+.img-right {
+    border:1px solid #ccc;
+    margin-left:10px;
+    float:right;
+}
+
+div.tabsrmm_header {
+    background:#ccc url(/pub/skins/green/gfx/n.gif) repeat-x;
+    border-bottom: 3px solid #aac;
+    padding:3px;
+    padding-top:2px;
+    margin-bottom:4px;
+    font-variant:small-caps;
+}
+
+div.twocols {
+    -moz-column-count:2;
+    -webkit-column-count:2;
+    column-count:2;
+    -o-column-count:2;
+}
+
+div.cboxright {
+    float:right;
+    margin-left:10px;
+    padding:5px;
+    padding-top:2px;
+}
+
+.tborder {
+    border:1px solid #ccc;
+}
+.lightback {
+    background-color:#eee;
+}
+
+.codeblocktext pre {
+    position:relative;
+    overflow:scroll;
+    width:auto;
+    max-width:99%;
+    width:99%;
+    border:1px solid red;
+}
+
+#wikitext a.external {
+  background: url(external.png) center right no-repeat;
+  padding-right: 15px;
+  color: #2f6fab;
+}
+#wikitext a.external:visited {color: #006699;}
+
+.rsslink .wikilink { min-height:16px;font-size:10px;padding-right:16px;background: url(feed.png) center right no-repeat; }

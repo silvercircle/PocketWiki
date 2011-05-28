@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+ 
+<html xmlns='http://www.w3.org/1999/xhtml' xml:lang='en' lang='en'>
+
+<head>
+
+<title>MyWiki : Plugins / Smileyadd : browse</title>
+
+<meta http-equiv='content-type' content='text/html; charset=UTF-8' />
+<meta name='author' content='PmWiki' />
+<meta name='generator' content="2.2" />
+
+<link rel='stylesheet' type='text/css' media='screen, projection' href='http://localhost/pub/skins/green/green.css' />
+
+<!--[if gt IE 6]>
+<link rel='stylesheet' type='text/css'
+	href='http://localhost/pub/skins/green/ie70.css' />
+<![endif]-->
+
+<!--HTMLHeader--><style type='text/css'><!--
+  ul, ol, pre, dl, p { margin-top:0px; margin-bottom:0px; }
+  code.escaped { white-space: nowrap; }
+  .vspace { margin-top:1.33em; }
+  .indent { margin-left:40px; }
+  .outdent { margin-left:40px; text-indent:-40px; }
+  a.createlinktext { text-decoration:none; border-bottom:1px dotted gray; }
+  a.createlink { text-decoration:none; position:relative; top:-0.5em;
+    font-weight:bold; font-size:smaller; border-bottom:none; }
+  img { border:0px; }
+  
+  div.sm-topnav { margin-bottom:1em; }
+  div.sm-topnav li { margin:0px; padding:4px 2px 2px 2px; font-size:11pt; font-weight:bold; }
+  div.sm-topnav li li { padding:0 0 0 6px; font-size:9.4pt; font-weight:normal; }
+  div.sm-nav ul { list-style:none; padding:0px; margin:0px; }
+  div.sm-nav li { margin:0px; padding:0 1em; }
+  div.sm-topnav li li.active, div.sm-nav li li.active { font-weight:bold; }
+  div.sm-nav a { text-decoration:none; color:black; }
+  div.sm-nav a:hover { text-decoration:underline; color:blue; }
+  div.sm-nav { float: right; clear: right; border:1px solid #cccccc; margin-top: 1em; padding:4px; background-color:#f9f9f9; }
+
+p.question { margin-top: 2.0em; }
+p.question:first-letter {
+    float: left;
+    font-family: Old English, Georgia, serif;
+    color: #777777;
+    font-size: 200%;
+    line-height: 1.0em;
+    margin-right: 0.2em;
+}.editconflict { color:green; 
+  font-style:italic; margin-top:1.33em; margin-bottom:1.33em; }
+
+  table.markup { border:2px dotted #ccf; width:90%; }
+  td.markup1, td.markup2 { padding-left:10px; padding-right:10px; }
+  table.vert td.markup1 { border-bottom:1px solid #ccf; }
+  table.horiz td.markup1 { width:23em; border-right:1px solid #ccf; }
+  table.markup caption { text-align:left; }
+  div.faq p, div.faq pre { margin-left:2em; }
+  div.faq p.question { margin:1em 0 0.75em 0; font-weight:bold; }
+  div.faqtoc div.faq * { display:none; }
+  div.faqtoc div.faq p.question 
+    { display:block; font-weight:normal; margin:0.5em 0 0.5em 20px; line-height:normal; }
+  div.faqtoc div.faq p.question * { display:inline; }
+   
+    .frame 
+      { border:1px solid #cccccc; padding:4px; background-color:#f9f9f9; }
+    .lfloat { float:left; margin-right:0.5em; }
+    .rfloat { float:right; margin-left:0.5em; }
+a.varlink { text-decoration:none; }
+
+--></style><meta http-equiv='Content-Type' content='text/html; charset=utf-8' /><link rel='stylesheet' href='http://localhost/pub/css/markup.css' type='text/css' />
+  <meta name='robots' content='index,follow' />
+<link rel='stylesheet' type='text/css' href='http://localhost/pub/css/local.css' />
+
+
+<link rel='icon' type='image/ico' href='http://localhost/pub/skins/green/gfx/favicon.ico' />
+<link rel='shortcut icon' type='image/ico' href='http://localhost/pub/skins/green/gfx/favicon.ico' />
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js?ver=1.3.2"></script>
+<script type="text/javascript" src="http://localhost/pub/skins/green/support.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+
+var wp_privacy = parseInt(readCookie('wp_privacy'));
+var menu_active = false;
+var $d;
+
+var textSizeUnit = 'pt';
+var textSizeStep = 1;
+var textSizeMax = 16;
+var textSizeMin = 8;
+var textSizeDefault = 10;
+
+var cookie = readCookie("pm_textsizestyle");
+var textsize = cookie ? parseInt(cookie) : textSizeDefault;
+
+var cookie_toggle = readCookie("pm_textstyle");
+var textstyle = cookie_toggle ? cookie_toggle : 'serif';
+
+if(textsize < textSizeMin || textsize > textSizeMax) {
+    textsize = textSizeDefault;
+}
+setInitialFontSize(textsize, textstyle);
+//]]>
+</script>
+</head>
+
+<body>
+
+<!--PageHeadFmt-->
+<div id='wiki-head' class='wiki-head'>
+	<div style="float:right;">
+	<form  style="margin:0;background-color:white;" action='http://localhost/' method='get'>
+	<fieldset style="border:0;margin:0;padding:5px;">
+		<input type='text' name='q' value='Search' size='17' onfocus="if(this.value=='Search')value=''" onblur="if(this.value=='')value='Search';" />
+		<input type='hidden' name='action' value='search' />
+		<input type='hidden' name='n' value='Site.Search' />
+		<input type='submit' value='Search' class="button" />
+	</fieldset>
+	</form>
+	<a style="color:white;font-size:8pt;font-weight:bold;margin-right:4px;" href="?action=search">Advanced search</a>
+	</div>	
+	<!--PageTopFmt-->
+	<div id='wiki-top' class='wiki-top'>
+	    <div  id='top-left' > 
+<ul><li class='sitechanges noborder'><a rel='nofollow'  class='wikilink' href='http://localhost//Site/AllRecentChanges'>Site Changes</a>
+</li><li class='groupchanges'><a rel='nofollow'  class='wikilink' href='http://localhost//Site/RecentChanges'>Group Changes</a>
+</li></ul></div>
+<div  id='top-right' > 
+<ul><li class='rss noborder'><a rel='nofollow'  class='wikilink' href='http://localhost//Site/AllRecentChanges?action=rss'>RSS</a>
+</li><li class='atom'><a rel='nofollow'  class='wikilink' href='http://localhost//Site/AllRecentChanges?action=atom'>ATOM</a>
+</li><li class='dc'><a rel='nofollow'  class='wikilink' href='http://localhost//Site/AllRecentChanges?action=dc'>DC</a>
+</li><li class='rdf'><a rel='nofollow'  class='wikilink' href='http://localhost//Site/AllRecentChanges?action=rdf'>RDF</a>
+</li></ul></div>
+<p><br style='clear:both;' />
+</p>
+
+	</div>
+	<!--/PageTopFmt-->
+	<a href="/"><img style="float:left;margin:10px 30px;" src="http://localhost/pub/skins/green/images/bloglogo.png" alt="logo" title="logo" /></a>
+</div>
+<!--/PageHeadFmt-->
+
+<!--PageInfoFmt-->
+<div id='wiki-info' class='wiki-info'>
+	&gt;<strong>You are here: </strong><div class="breadcrumb"><a href='http://localhost/'>Home</a> &raquo; <a class='wikilink' href='http://localhost//Plugins/Plugins'>Plugins</a> &raquo; Smileyadd</div>
+		<div style="float:right;">
+		<span title="Increase content text size" id="fontinc">&nbsp;</span>
+		<span title="Decrease content text size" id="fontdec">&nbsp;</span>
+		<span title="Toggle serif or sans serif font" id="fonttoggle">&nbsp;</span>
+		<span class="greedlink" id="fontsize">&nbsp;&nbsp;&nbsp;</span>
+		</div>
+	<div  id='info-right' > 
+<ul><li class='browse'>      <a accesskey=''  rel='nofollow'  class='selflink' href='http://localhost//Plugins/Smileyadd'>View</a>
+</li><li class='edit'>      <a accesskey='e'  rel='nofollow'  class='wikilink' href='http://localhost//Plugins/Smileyadd?action=edit'>Edit</a>
+</li><li class='diff'>   <a accesskey='h'  rel='nofollow'  class='wikilink' href='http://localhost//Plugins/Smileyadd?action=diff'>History</a>
+</li><li class='print'>     <a accesskey=''  rel='nofollow'  class='wikilink' href='http://localhost//Plugins/Smileyadd?action=print'>Print</a>
+</li></ul></div><br style='clear:both;' />
+
+</div>
+<!--/PageInfoFmt-->
+
+<div id='wiki-wrap' class='wiki-wrap'>
+<div id="container">
+<table class="content_table">
+<tr>
+<!--PageLeftFmt-->
+<td id="wiki-left" style="width:250px;vertical-align:top;">
+	<div class='sidebar_container' >
+<p class='sidehead'> Site
+</p><ul><li><a class='wikilink' href='http://localhost//Main/Sitemap'>Site map</a>
+</li><li><a class='wikilink' href='http://localhost//Main/HelpContents'>Site help</a>
+</li><li><a class='external' href='http://blog.miranda.or.at' rel='nofollow'>Blog</a>
+</li><li><a class='external' href='http://forum.miranda.or.at' rel='nofollow'>Forum</a>
+</li><li><a class='wikilink' href='http://localhost//Main/SVNRepositories'>Code</a>
+</li><li><a class='wikilink' href='http://localhost//Main/ReportingBugs'>Bugs</a>
+</li><li><a class='wikilink' href='http://localhost//Site/Contact'>Contact form</a>
+</li></ul><p class='vspace sidehead'> Main categories
+</p><ul><li><a class='wikilink' href='http://localhost//TabSRMM/TabSRMM'>TabSRMM</a>
+</li><li><a class='wikilink' href='http://localhost//Firefox/Firefox'>Mozilla Firefox</a>
+</li><li><a class='wikilink' href='http://localhost//Eclipse/Eclipse'>Eclipse</a>
+</li></ul><p class='vspace sidehead'> External
+</p><ul><li><a class='external' href='http://www.miranda-im.org' rel='nofollow'>Miranda home</a>
+</li><li><a class='external' href='http://forums.miranda-im.org/' rel='nofollow'>Official miranda forum</a>
+</li><li><a class='external' href='http://code.google.com/p/miranda/issues/list' rel='nofollow'>Miranda bug tracker</a>
+</li><li><a class='external' href='http://www.miranda-im.org/download/' rel='nofollow'>Miranda downloads</a>
+</li><li><a class='external' href='http://code.google.com/p/silvercircle/' rel='nofollow'>My googlecode site</a>
+</li></ul><p class='vspace sidehead'> <a class='wikilink' href='http://localhost//PmWiki/PmWiki'>PmWiki</a>
+</p><ul><li><a class='wikilink' href='http://localhost//PmWiki/BasicEditing'>Editing Help</a>
+</li><li><a class='wikilink' href='http://localhost//PmWiki/DocumentationIndex'>Documentation Index</a>
+</li><li><a class='wikilink' href='http://localhost//PmWiki/FAQ'>PmWiki FAQ</a>
+</li><li><a class='wikilink' href='http://localhost//PmWiki/PmWikiPhilosophy'>PmWikiPhilosophy</a>
+</li><li><a class='wikilink' href='http://localhost//PmWiki/ReleaseNotes'>Release Notes</a>
+</li><li><a class='wikilink' href='http://localhost//PmWiki/ChangeLog'>ChangeLog</a>
+</li></ul><p class='vspace sidehead'> <a class='external' href='http://www.pmwiki.org' rel='nofollow'>pmwiki.org</a>
+</p><ul><li><a class='external' href='http://www.pmwiki.org/wiki/Cookbook/CookbookBasics' rel='nofollow'>Cookbook (addons)</a>
+</li><li><a class='external' href='http://www.pmwiki.org/wiki/Cookbook/Skins' rel='nofollow'>Skins (themes)</a>
+</li><li><a class='external' href='http://www.pmwiki.org/PITS/PITS' rel='nofollow'>PITS (issue tracking)</a>
+</li><li><a class='wikilink' href='http://localhost//PmWiki/MailingLists'>Mailing Lists</a>
+</li></ul><div class='vspace'></div></div>
+
+</td>
+<!--/PageLeftFmt-->
+<td id="wiki-page" style="width:100%;">
+	<!--PageText-->
+<div id='wikitext'>
+<div class='tabsrmm_header' > 
+<p><span class='rfloat' style='margin-top: -3px;'>(:quicktoc:)</span>
+Plugin documentation
+</p></div>
+<p><span class='wikitrail'>&lsaquo; <a class='wikilink' href='http://localhost//Plugins/Popups'>Popups for notifications</a> | <a class='wikilink' href='http://localhost//Plugins/Plugins#begin#end'>Other plugins index</a> | <a class='wikilink' href='http://localhost//Plugins/Folders'>Custom profile folders</a> &rsaquo;</span>
+</p><h1>Using graphical emoticons in the message window</h1>
+<p class='vspace'><a id='rimage'></a>
+</p><div  style='float: right; border: 1px solid #ccc; margin-left: 10px;' > 
+<!-- TL2-20100315 --><table class='cbox'><tr class='thumbtr'><td class='thumbtd'><div class='img'  style='padding:2px 2px;'><a href='http://localhost/uploads/Plugins/Emoticon_selector.png' class='thumblink' title='Emoticon_selector.png'  ><img class="thumbs" src="http://localhost/uploads/Plugins/th70---ffffff--Emoticon_selector.png.jpg" title="Emoticon_selector.png: 560x131, 48k (October 21, 2010, at 11:32 PM)" alt="Emoticon_selector.png: 560x131, 48k (October 21, 2010, at 11:32 PM)" width='300' height='70' /></a> </div><span class="caption">The smiley selection window in tabSRMM</span></td></tr></table>
+</div>
+<p class='vspace'>By default, Miranda and its various message window plugins do not support this. It is an optional feature, but nobody is forced to use graphical smileys, because some people think they are not required.<br /><br />To add this feature, the user must install a plugin which adds the ability to display graphical emoticons in the message history. The plugin acts as a service provider for Miranda and other plugins and implements the required functionality to convert simple "smiley codes" like :) into graphical emoticons.
+</p>
+<p class='vspace'>When such a plugin has been installed, the following things are added to tabSRMM:
+</p>
+<div class='vspace'></div><ul><li>on the toolbar, a new button with an emoticon symbol is added. Clicking it will open a emoticon selection window. It can be used to select a graphical emoticon and copy it to the message input area. When you have disabled the tool bar, you can use the keyboard shortcut <span class='key'>Alt-E</span> to invoke the selection window.
+<div class='vspace'></div></li><li>in the <a class='wikilink' href='http://localhost//TabSRMM/History'>message history</a>, emoticons will be visible as small images. For example, the text :) will be converted to a small (usually not bigger than 20x20 pixels) image showing a smiling face.
+</li></ul><div class='vspace'></div><h2>Available plugins to add this feature</h2>
+<p class='vspace'>There are two possible solutions to add this functionality to Miranda. Basically, they offer similar features, but follow different approaches to configure them. Basically, since Miranda is a multiprotocol messenger, it must be able to allow different emoticon packs for different protocols, because "smiley codes" are not standardized in any way and, for example, ICQ uses completely different codes than MSN.
+</p>
+<p class='vspace'><strong>One important thing to know about emoticons</strong> is the fact that, on most protocols, they are client-sided. When you send or receive a message which contains one or more emoticons, the images are NOT transferred with that message. The message only contains plain text representations of the emoticons (e.g. the smiley code like <strong>:-)</strong>) and it's completely up to the client which image it uses to replace this text. An exception to this generic rule is the <strong>custom emoticon feature</strong> in the MSN protocol. It allows users to send their own smiley images together with a message
+</p>
+<div class='vspace'></div><h3>1. The SmileyAdd plugin</h3>
+<p class='vspace'><a class='external' href='http://forums.miranda-im.org/showthread.php?t=1095' rel='nofollow'>The forum thread about SmileyAdd</a> on the official Miranda forum.
+This plugin is available for quite some time and is currently actively maintained and developed. It has many features and can be considered a stable plugin. It supports:
+</p>
+<div class='vspace'></div><ul><li>smiley packs per protocol
+</li><li>smiley packs per transport (gateway between protocols)
+</li><li>smiley packs per contact (optional)
+</li><li>replacing emoticons in tabSRMM and all other message plugins
+</li><li>replacing emoticons when using <a class='createlinktext' rel='nofollow' 
+    href='http://localhost//Plugins/PluginIEView?action=edit'>IEView</a><a rel='nofollow' 
+    class='createlink' href='http://localhost//Plugins/PluginIEView?action=edit'>?</a>
+</li><li>replacing emoticons in the <a class='createlinktext' rel='nofollow' 
+    href='http://localhost//Plugins/PluginHistoryPP?action=edit'>History++</a><a rel='nofollow' 
+    class='createlink' href='http://localhost//Plugins/PluginHistoryPP?action=edit'>?</a> plugin.
+</li><li>use animated emoticons (in log area, input area, smiley selector, history)
+</li><li>graphical emoticons in the message input area, thus it will allow you to see these images while you are typing a message
+</li><li>MSN custom emoticons<br /><br />
+</li></ul><h3>2. The 'Emoticons' plugin</h3>
+<p class='vspace'>This is a <a class='external' href='http://forums.miranda-im.org/showthread.php?t=17210' rel='nofollow'>forum thread about emoticons</a> which is an alternative to smileyadd. It follows a different approach to configure smiley packs, but most other features are present in both plugins though Smileyadd has more features and should be considered much more stable.<br /><br />A smiley pack is a collection of images and associated smiley codes. It determines how certain character sequences (smiley codes) will be converted to images. It also supports graphical emoticons in the message input area, thus it will allow you to see these images while you are typing a message.<br /><br />
+</p><hr />
+<p><span  style='float: right; color: #888; font-size: small;'>Author: admin</span>
+<span  style='text-align: left; color: #888; font-size: small;'>Last modified: Friday, October 22, 2010 at 22:47 CET</span>
+</p><hr />
+<p>Category: <a class='wikilink' href='http://localhost//Plugins/Plugins'>Plugins</a>
+</p>
+</div>
+
+</td>
+</tr>
+</table>
+</div>
+<!--PageFootFmt-->
+<div id='wiki-foot' class='wiki-foot'>
+	<ul><li class='home noborder'><a class='external' href='http://localhost/?n=Main.HomePage' rel='nofollow'>Home</a>
+</li><li class='login'><a rel='nofollow'  class='wikilink' href='http://localhost//Plugins/Smileyadd?action=login'>Login</a>
+</li><li class='search'><a rel='nofollow'  class='wikilink' href='http://localhost//Site/Search'>Search</a>
+</li><li class='browse'>      <a accesskey=''  rel='nofollow'  class='selflink' href='http://localhost//Plugins/Smileyadd'>View</a>
+</li><li class='edit'>      <a accesskey='e'  rel='nofollow'  class='wikilink' href='http://localhost//Plugins/Smileyadd?action=edit'>Edit</a>
+</li><li class='diff'>   <a accesskey='h'  rel='nofollow'  class='wikilink' href='http://localhost//Plugins/Smileyadd?action=diff'>History</a>
+</li><li class='print'>     <a accesskey=''  rel='nofollow'  class='wikilink' href='http://localhost//Plugins/Smileyadd?action=print'>Print</a>
+</li></ul><p><span  style='float: right;'>&nbsp;<a class='external' href='http://www.pmwiki.org' rel='nofollow'>Powered by PmWiki</a>&nbsp; | &nbsp; <a class='external' href='http://validator.w3.org/check?uri=referer' rel='nofollow'>HTML 5</a></span>
+</p>
+<div class='vspace'></div>
+
+</div>
+<!--/PageFootFmt-->
+</div>
+
+<!--HTMLFooter-->
+	<script type="text/javascript" src="http://localhost/pub/skins/green/shlt/scripts/shAll.js"></script>
+	<script type="text/javascript">
+   	// <![CDATA[
+   	
+    	var anchor = document.getElementsByTagName('SCRIPT')[0];
+		var t2 = document.createElement('SCRIPT');
+		t2.type = "text/javascript";
+		t2.async = true;
+		t2.src = "http://localhost/pub/skins/green/support_footer.js?ver=1.1.0";
+		anchor.parentNode.insertBefore(t2, anchor);
+   	
+		function toggleObj(obj, tog, show, hide, swap, set, cname, button) {
+			var e = document.getElementById(obj);
+			if (hide && swap!='') var e2 = document.getElementById(swap);
+			var text    = document.getElementById(obj + "-tog");
+			if (set=='1') document.cookie=cname+'='+tog+'; path=/';
+			if (tog=='show') {
+				e.style.display = 'block';
+				if(swap!='') e2.style.display = 'none';
+				var label = hide;
+				tog='hide';				
+			}
+			else {
+				e.style.display = 'none';
+				if(swap!='') e2.style.display = 'block';
+				var label = show;
+				tog='show';
+			}
+
+         var act = '"javascript:toggleObj(\''+obj+'\',\''+tog+'\',\''+show+'\',\''+hide+'\',\''+swap+'\',\''+set+'\',\''+cname+'\',\''+button+'\');"';
+         if (button==1)
+         	copy = '<input type="button" class="inputbutton togglebutton" value="'+label+'" onclick='+act+' />';
+         else
+         	var copy = '<a class="togglelink" href='+act+'>'+label+'</a>'; 
+         text.innerHTML = copy;   	 
+      	}
+      	
+  		SyntaxHighlighter.autoloader(
+      'bash shell             http://localhost/pub/skins/green/shlt/scripts/shBrushBash.js',
+      'cpp c                  http://localhost/pub/skins/green/shlt/scripts/shBrushCpp.js',
+      'c# c-sharp csharp      http://localhost/pub/skins/green/shlt/scripts/shBrushCSharp.js',
+      'css                    http://localhost/pub/skins/green/shlt/scripts/shBrushCss.js',
+      'delphi pascal          http://localhost/pub/skins/green/shlt/scripts/shBrushDelphi.js',
+      'groovy                 http://localhost/pub/skins/green/shlt/scripts/shBrushGroovy.js',
+      'java                   http://localhost/pub/skins/green/shlt/scripts/shBrushJava.js',
+      'jfx javafx             http://localhost/pub/skins/green/shlt/scripts/shBrushJavaFX.js',
+      'js jscript javascript  http://localhost/pub/skins/green/shlt/scripts/shBrushJScript.js',
+      'perl pl                http://localhost/pub/skins/green/shlt/scripts/shBrushPerl.js',
+      'php                    http://localhost/pub/skins/green/shlt/scripts/shBrushPhp.js',
+      'text plain             http://localhost/pub/skins/green/shlt/scripts/shBrushPlain.js',
+      'py python              http://localhost/pub/skins/green/shlt/scripts/shBrushPython.js',
+      'ruby rails ror rb      http://localhost/pub/skins/green/shlt/scripts/shBrushRuby.js',
+      'sql                    http://localhost/pub/skins/green/shlt/scripts/shBrushSql.js',
+      'xml xhtml xslt html    http://localhost/pub/skins/green/shlt/scripts/shBrushXml.js'
+       );
+	SyntaxHighlighter.all();	      	
+	// ]]>
+	</script> 
+</body>
+
+</html>

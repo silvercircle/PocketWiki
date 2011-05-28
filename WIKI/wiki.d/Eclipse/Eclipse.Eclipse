@@ -1,0 +1,30 @@
+version=pmwiki-2.2.18 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:2.0b8pre) Gecko/20101031 Firefox/4.0b8pre Firefox/4.0b8pre
+author=admin
+charset=UTF-8
+csum=
+ctime=1288687873
+host=81.217.70.206
+name=Eclipse.Eclipse
+rev=6
+targets=Eclipse.InstallCPP,Eclipse.EclipseMSC
+text== Eclipse stuff =%0a%0a(:div class="box tborder" style="float:right;width:200px;margin-left:10px;":)%0a(:div2 class="colheader" style="padding-top:5px;":)%0aResources%0a(:div2end:)%0a[[http://download.eclipse.org/eclipse/downloads/|Eclipse downloads]]\\%0a[[http://www.eclipse.org/subversive/downloads.php|Subversive downloads]]\\%0a[[http://www.eclipse.org/cdt/downloads.php|CDT downloads]]\\%0a%0a----%0a%0a[[http://andrei.gmxhome.de/skins/index.html|Extended VS presentation]]\\%0a%0a(:divend:)%0a->'''The following pages are by no means intended to be an official documentation. This is just some stuff I wrote for myself.'''\\\%0a%0aFor the curious: This is about [[http://www.eclipse.org|Eclipse]], the famous multi-platform, multi-language open source development platform written in Java.%0a%0a===It covers===%0a%0a* Installation%0a* Using Eclipse with the MS SDK and the SDK build tools (vcbuild.exe and msbuild.exe).\\\%0a%0a== Pages Index ==%0a[[#index]]%0a* [[InstallCPP|+]]%0a* [[EclipseMSC|+]]%0a[[#endindex]]%0a%0a== Sample '''eclipse.ini'''==%0a%0a(:codestart cpp:)%0a-startup%0aplugins/org.eclipse.equinox.launcher_1.2.0.v20100824b.jar%0a--launcher.library%0aplugins/org.eclipse.equinox.launcher.win32.win32.x86_1.1.100.v20101004%0a-showsplash%0aorg.eclipse.platform%0a--launcher.XXMaxPermSize%0a256m%0a--launcher.defaultAction%0aopenFile%0a-vmargs%0a-Xms80m%0a-Xmx512m%0a(:codeend:)
+time=1288695224
+author:1288695224=admin
+diff:1288695224:1288695208:=3c3%0a%3c (:div class="box tborder" style="float:right;width:200px;margin-left:10px;":)%0a---%0a> (:div class="box tborder" style="float:right;width:300px;margin-left:10px;":)%0a
+host:1288695224=81.217.70.206
+author:1288695208=admin
+diff:1288695208:1288695107:=16c16%0a%3c ->'''The following pages are by no means intended to be an official documentation. This is just some stuff I wrote for myself.'''\\\%0a---%0a> The following pages are by no means intended to be an official documentation. This is just some stuff I wrote for myself.\\\%0a
+host:1288695208=81.217.70.206
+author:1288695107=admin
+diff:1288695107:1288694994:=1,2c1,2%0a%3c = Eclipse stuff =%0a%3c %0a---%0a> = Home =%0a> %0a18,20c18%0a%3c For the curious: This is about [[http://www.eclipse.org|Eclipse]], the famous multi-platform, multi-language open source development platform written in Java.%0a%3c %0a%3c ===It covers===%0a---%0a> ====It covers====%0a
+host:1288695107=81.217.70.206
+author:1288694994=admin
+diff:1288694994:1288694412:=3,45c3%0a%3c (:div class="box tborder" style="float:right;width:300px;margin-left:10px;":)%0a%3c (:div2 class="colheader" style="padding-top:5px;":)%0a%3c Resources%0a%3c (:div2end:)%0a%3c [[http://download.eclipse.org/eclipse/downloads/|Eclipse downloads]]\\%0a%3c [[http://www.eclipse.org/subversive/downloads.php|Subversive downloads]]\\%0a%3c [[http://www.eclipse.org/cdt/downloads.php|CDT downloads]]\\%0a%3c %0a%3c ----%0a%3c %0a%3c [[http://andrei.gmxhome.de/skins/index.html|Extended VS presentation]]\\%0a%3c %0a%3c (:divend:)%0a%3c The following pages are by no means intended to be an official documentation. This is just some stuff I wrote for myself.\\\%0a%3c %0a%3c ====It covers====%0a%3c %0a%3c * Installation%0a%3c * Using Eclipse with the MS SDK and the SDK build tools (vcbuild.exe and msbuild.exe).\\\%0a%3c %0a%3c == Pages Index ==%0a%3c [[#index]]%0a%3c * [[InstallCPP|+]]%0a%3c * [[EclipseMSC|+]]%0a%3c [[#endindex]]%0a%3c %0a%3c == Sample '''eclipse.ini'''==%0a%3c %0a%3c (:codestart cpp:)%0a%3c -startup%0a%3c plugins/org.eclipse.equinox.launcher_1.2.0.v20100824b.jar%0a%3c --launcher.library%0a%3c plugins/org.eclipse.equinox.launcher.win32.win32.x86_1.1.100.v20101004%0a%3c -showsplash%0a%3c org.eclipse.platform%0a%3c --launcher.XXMaxPermSize%0a%3c 256m%0a%3c --launcher.defaultAction%0a%3c openFile%0a%3c -vmargs%0a%3c -Xms80m%0a%3c -Xmx512m%0a%3c (:codeend:)%0a\ No newline at end of file%0a---%0a> [[InstallCPP|+]]%0a\ No newline at end of file%0a
+host:1288694994=81.217.70.206
+author:1288694412=admin
+diff:1288694412:1288687873:=1,3c1%0a%3c = Home =%0a%3c %0a%3c [[InstallCPP|+]]%0a\ No newline at end of file%0a---%0a> = Home =%0a\ No newline at end of file%0a
+host:1288694412=81.217.70.206
+author:1288687873=admin
+diff:1288687873:1288687873:=1d0%0a%3c = Home =%0a\ No newline at end of file%0a
+host:1288687873=81.217.70.206
